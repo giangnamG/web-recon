@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Mon Mar 17 22:35:31 2025 as: /usr/lib/nmap/nmap -&#45;privileged -&#45;script=http-title,http-server-header -F -oX output.xml -q nic.gov.vn -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -&#45;script=http-title,http-server-header -F -oX output.xml -q nic.gov.vn" start="1742225731" startstr="Mon Mar 17 22:35:31 2025" version="7.94SVN" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="100" services="7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="103.237.145.57" addrtype="ipv4"/>
+<hostnames>
+<hostname name="nic.gov.vn" type="user"/>
+</hostnames>
+</hosthint>
+<host starttime="1742225731" endtime="1742225733"><status state="up" reason="syn-ack" reason_ttl="118"/>
+<address addr="103.237.145.57" addrtype="ipv4"/>
+<hostnames>
+<hostname name="nic.gov.vn" type="user"/>
+</hostnames>
+<ports><extraports state="filtered" count="96">
+<extrareasons reason="no-response" count="96" proto="tcp" ports="7,9,13,21-23,25-26,37,53,79,81,88,106,110-111,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="118"/><service name="http" product="Microsoft-HTTPAPI/2.0" method="probed" conf="10"/><script id="http-server-header" output="&#xa;  Microsoft-HTTPAPI/2.0&#xa;  Microsoft-IIS/8.5"><elem>Microsoft-HTTPAPI/2.0</elem>
+<elem>Microsoft-IIS/8.5</elem>
+</script><script id="http-title" output="Did not follow redirect to https://nic.gov.vn/"><elem key="redirect_url">https://nic.gov.vn/</elem>
+</script></port>
+<port protocol="tcp" portid="113"><state state="closed" reason="reset" reason_ttl="55"/><service name="ident" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="118"/><service name="https" product="Microsoft-HTTPAPI/2.0" method="probed" conf="10"/><script id="http-server-header" output="&#xa;  Microsoft-HTTPAPI/2.0&#xa;  Microsoft-IIS/8.5"><elem>Microsoft-HTTPAPI/2.0</elem>
+<elem>Microsoft-IIS/8.5</elem>
+</script><script id="http-title" output="Trung t\xC3\xA2m \xC4\x90\xE1\xBB\x95i m\xE1\xBB\x9Bi s\xC3\xA1ng t\xE1\xBA\xA1o Qu\xE1\xBB\x91c gia | Vietnam Natio..."><elem key="title">Trung t\xC3\xA2m \xC4\x90\xE1\xBB\x95i m\xE1\xBB\x9Bi s\xC3\xA1ng t\xE1\xBA\xA1o Qu\xE1\xBB\x91c gia | Vietnam National Innovation Center</elem>
+</script></port>
+<port protocol="tcp" portid="3306"><state state="open" reason="syn-ack" reason_ttl="118"/><service name="mysql" method="table" conf="3"/></port>
+</ports>
+<times srtt="4697" rttvar="2108" to="100000"/>
+</host>
+<runstats><finished time="1742225733" timestr="Mon Mar 17 22:35:33 2025" summary="Nmap done at Mon Mar 17 22:35:33 2025; 1 IP address (1 host up) scanned in 2.27 seconds" elapsed="2.27" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

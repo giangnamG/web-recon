@@ -1,0 +1,1182 @@
+[
+  {
+    "file": ".bash_history",
+    "status": 200,
+    "url": "https://nic.gov.vn/.bash_history"
+  },
+  {
+    "file": ".bashrc",
+    "status": 200,
+    "url": "https://nic.gov.vn/.bashrc"
+  },
+  {
+    "file": ".cache",
+    "status": 200,
+    "url": "https://nic.gov.vn/.cache"
+  },
+  {
+    "file": ".config",
+    "status": 200,
+    "url": "https://nic.gov.vn/.config"
+  },
+  {
+    "file": ".cvs",
+    "status": 200,
+    "url": "https://nic.gov.vn/.cvs"
+  },
+  {
+    "file": ".cvsignore",
+    "status": 200,
+    "url": "https://nic.gov.vn/.cvsignore"
+  },
+  {
+    "file": ".env",
+    "status": 200,
+    "url": "https://nic.gov.vn/.env"
+  },
+  {
+    "file": ".forward",
+    "status": 200,
+    "url": "https://nic.gov.vn/.forward"
+  },
+  {
+    "file": ".git",
+    "status": 200,
+    "url": "https://nic.gov.vn/.git"
+  },
+  {
+    "file": ".git-rewrite",
+    "status": 200,
+    "url": "https://nic.gov.vn/.git-rewrite"
+  },
+  {
+    "file": ".git/HEAD",
+    "status": 200,
+    "url": "https://nic.gov.vn/.git/HEAD"
+  },
+  {
+    "file": ".git/config",
+    "status": 200,
+    "url": "https://nic.gov.vn/.git/config"
+  },
+  {
+    "file": ".git/index",
+    "status": 200,
+    "url": "https://nic.gov.vn/.git/index"
+  },
+  {
+    "file": ".git/logs/",
+    "status": 200,
+    "url": "https://nic.gov.vn/.git/logs/"
+  },
+  {
+    "file": ".git_release",
+    "status": 200,
+    "url": "https://nic.gov.vn/.git_release"
+  },
+  {
+    "file": ".gitattributes",
+    "status": 200,
+    "url": "https://nic.gov.vn/.gitattributes"
+  },
+  {
+    "file": ".gitconfig",
+    "status": 200,
+    "url": "https://nic.gov.vn/.gitconfig"
+  },
+  {
+    "file": ".gitignore",
+    "status": 200,
+    "url": "https://nic.gov.vn/.gitignore"
+  },
+  {
+    "file": ".gitk",
+    "status": 200,
+    "url": "https://nic.gov.vn/.gitk"
+  },
+  {
+    "file": ".gitkeep",
+    "status": 200,
+    "url": "https://nic.gov.vn/.gitkeep"
+  },
+  {
+    "file": ".gitmodules",
+    "status": 200,
+    "url": "https://nic.gov.vn/.gitmodules"
+  },
+  {
+    "file": ".gitreview",
+    "status": 200,
+    "url": "https://nic.gov.vn/.gitreview"
+  },
+  {
+    "file": ".history",
+    "status": 200,
+    "url": "https://nic.gov.vn/.history"
+  },
+  {
+    "file": ".hta",
+    "status": 200,
+    "url": "https://nic.gov.vn/.hta"
+  },
+  {
+    "file": ".htaccess",
+    "status": 200,
+    "url": "https://nic.gov.vn/.htaccess"
+  },
+  {
+    "file": ".htpasswd",
+    "status": 200,
+    "url": "https://nic.gov.vn/.htpasswd"
+  },
+  {
+    "file": ".listing",
+    "status": 200,
+    "url": "https://nic.gov.vn/.listing"
+  },
+  {
+    "file": ".listings",
+    "status": 200,
+    "url": "https://nic.gov.vn/.listings"
+  },
+  {
+    "file": ".mysql_history",
+    "status": 200,
+    "url": "https://nic.gov.vn/.mysql_history"
+  },
+  {
+    "file": ".passwd",
+    "status": 200,
+    "url": "https://nic.gov.vn/.passwd"
+  },
+  {
+    "file": ".perf",
+    "status": 200,
+    "url": "https://nic.gov.vn/.perf"
+  },
+  {
+    "file": ".profile",
+    "status": 200,
+    "url": "https://nic.gov.vn/.profile"
+  },
+  {
+    "file": ".rhosts",
+    "status": 200,
+    "url": "https://nic.gov.vn/.rhosts"
+  },
+  {
+    "file": ".sh_history",
+    "status": 200,
+    "url": "https://nic.gov.vn/.sh_history"
+  },
+  {
+    "file": ".ssh",
+    "status": 200,
+    "url": "https://nic.gov.vn/.ssh"
+  },
+  {
+    "file": ".subversion",
+    "status": 200,
+    "url": "https://nic.gov.vn/.subversion"
+  },
+  {
+    "file": ".svn",
+    "status": 200,
+    "url": "https://nic.gov.vn/.svn"
+  },
+  {
+    "file": ".svn/entries",
+    "status": 200,
+    "url": "https://nic.gov.vn/.svn/entries"
+  },
+  {
+    "file": ".svnignore",
+    "status": 200,
+    "url": "https://nic.gov.vn/.svnignore"
+  },
+  {
+    "file": ".swf",
+    "status": 200,
+    "url": "https://nic.gov.vn/.swf"
+  },
+  {
+    "file": ".web",
+    "status": 200,
+    "url": "https://nic.gov.vn/.web"
+  },
+  {
+    "file": ".well-known/acme-challenge",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/acme-challenge"
+  },
+  {
+    "file": ".well-known/apple-app-site-association",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/apple-app-site-association"
+  },
+  {
+    "file": ".well-known/apple-developer-merchantid-domain-association",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/apple-developer-merchantid-domain-association"
+  },
+  {
+    "file": ".well-known/ashrae",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/ashrae"
+  },
+  {
+    "file": ".well-known/assetlinks.json",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/assetlinks.json"
+  },
+  {
+    "file": ".well-known/autoconfig/mail",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/autoconfig/mail"
+  },
+  {
+    "file": ".well-known/browserid",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/browserid"
+  },
+  {
+    "file": ".well-known/caldav",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/caldav"
+  },
+  {
+    "file": ".well-known/carddav",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/carddav"
+  },
+  {
+    "file": ".well-known/change-password",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/change-password"
+  },
+  {
+    "file": ".well-known/coap",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/coap"
+  },
+  {
+    "file": ".well-known/core",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/core"
+  },
+  {
+    "file": ".well-known/csvm",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/csvm"
+  },
+  {
+    "file": ".well-known/dnt",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/dnt"
+  },
+  {
+    "file": ".well-known/dnt-policy.txt",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/dnt-policy.txt"
+  },
+  {
+    "file": ".well-known/dots",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/dots"
+  },
+  {
+    "file": ".well-known/ecips",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/ecips"
+  },
+  {
+    "file": ".well-known/enterprise-transport-security",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/enterprise-transport-security"
+  },
+  {
+    "file": ".well-known/est",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/est"
+  },
+  {
+    "file": ".well-known/genid",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/genid"
+  },
+  {
+    "file": ".well-known/hoba",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/hoba"
+  },
+  {
+    "file": ".well-known/host-meta",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/host-meta"
+  },
+  {
+    "file": ".well-known/host-meta.json",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/host-meta.json"
+  },
+  {
+    "file": ".well-known/http-opportunistic",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/http-opportunistic"
+  },
+  {
+    "file": ".well-known/idp-proxy",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/idp-proxy"
+  },
+  {
+    "file": ".well-known/jmap",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/jmap"
+  },
+  {
+    "file": ".well-known/jwks.json",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/jwks.json"
+  },
+  {
+    "file": ".well-known/keybase.txt",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/keybase.txt"
+  },
+  {
+    "file": ".well-known/looking-glass",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/looking-glass"
+  },
+  {
+    "file": ".well-known/matrix",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/matrix"
+  },
+  {
+    "file": ".well-known/mercure",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/mercure"
+  },
+  {
+    "file": ".well-known/mta-sts.txt",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/mta-sts.txt"
+  },
+  {
+    "file": ".well-known/mud",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/mud"
+  },
+  {
+    "file": ".well-known/nfv-oauth-server-configuration",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/nfv-oauth-server-configuration"
+  },
+  {
+    "file": ".well-known/ni",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/ni"
+  },
+  {
+    "file": ".well-known/nodeinfo",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/nodeinfo"
+  },
+  {
+    "file": ".well-known/oauth-authorization-server",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/oauth-authorization-server"
+  },
+  {
+    "file": ".well-known/openid-configuration",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/openid-configuration"
+  },
+  {
+    "file": ".well-known/openid-federation",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/openid-federation"
+  },
+  {
+    "file": ".well-known/openorg",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/openorg"
+  },
+  {
+    "file": ".well-known/openpgpkey",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/openpgpkey"
+  },
+  {
+    "file": ".well-known/pki-validation",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/pki-validation"
+  },
+  {
+    "file": ".well-known/posh",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/posh"
+  },
+  {
+    "file": ".well-known/pvd",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/pvd"
+  },
+  {
+    "file": ".well-known/reload-config",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/reload-config"
+  },
+  {
+    "file": ".well-known/repute-template",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/repute-template"
+  },
+  {
+    "file": ".well-known/resourcesync",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/resourcesync"
+  },
+  {
+    "file": ".well-known/security.txt",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/security.txt"
+  },
+  {
+    "file": ".well-known/humans.txt",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/humans.txt"
+  },
+  {
+    "file": ".well-known/stun-key",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/stun-key"
+  },
+  {
+    "file": ".well-known/thread",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/thread"
+  },
+  {
+    "file": ".well-known/time",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/time"
+  },
+  {
+    "file": ".well-known/timezone",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/timezone"
+  },
+  {
+    "file": ".well-known/uma2-configuration",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/uma2-configuration"
+  },
+  {
+    "file": ".well-known/void",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/void"
+  },
+  {
+    "file": ".well-known/webfinger",
+    "status": 200,
+    "url": "https://nic.gov.vn/.well-known/webfinger"
+  },
+  {
+    "file": "0",
+    "status": 200,
+    "url": "https://nic.gov.vn/0"
+  },
+  {
+    "file": "00",
+    "status": 200,
+    "url": "https://nic.gov.vn/00"
+  },
+  {
+    "file": "01",
+    "status": 200,
+    "url": "https://nic.gov.vn/01"
+  },
+  {
+    "file": "02",
+    "status": 200,
+    "url": "https://nic.gov.vn/02"
+  },
+  {
+    "file": "03",
+    "status": 200,
+    "url": "https://nic.gov.vn/03"
+  },
+  {
+    "file": "04",
+    "status": 200,
+    "url": "https://nic.gov.vn/04"
+  },
+  {
+    "file": "05",
+    "status": 200,
+    "url": "https://nic.gov.vn/05"
+  },
+  {
+    "file": "06",
+    "status": 200,
+    "url": "https://nic.gov.vn/06"
+  },
+  {
+    "file": "07",
+    "status": 200,
+    "url": "https://nic.gov.vn/07"
+  },
+  {
+    "file": "08",
+    "status": 200,
+    "url": "https://nic.gov.vn/08"
+  },
+  {
+    "file": "09",
+    "status": 200,
+    "url": "https://nic.gov.vn/09"
+  },
+  {
+    "file": "1",
+    "status": 200,
+    "url": "https://nic.gov.vn/1"
+  },
+  {
+    "file": "10",
+    "status": 200,
+    "url": "https://nic.gov.vn/10"
+  },
+  {
+    "file": "100",
+    "status": 200,
+    "url": "https://nic.gov.vn/100"
+  },
+  {
+    "file": "1000",
+    "status": 200,
+    "url": "https://nic.gov.vn/1000"
+  },
+  {
+    "file": "1001",
+    "status": 200,
+    "url": "https://nic.gov.vn/1001"
+  },
+  {
+    "file": "101",
+    "status": 200,
+    "url": "https://nic.gov.vn/101"
+  },
+  {
+    "file": "102",
+    "status": 200,
+    "url": "https://nic.gov.vn/102"
+  },
+  {
+    "file": "103",
+    "status": 200,
+    "url": "https://nic.gov.vn/103"
+  },
+  {
+    "file": "11",
+    "status": 200,
+    "url": "https://nic.gov.vn/11"
+  },
+  {
+    "file": "12",
+    "status": 200,
+    "url": "https://nic.gov.vn/12"
+  },
+  {
+    "file": "123",
+    "status": 200,
+    "url": "https://nic.gov.vn/123"
+  },
+  {
+    "file": "13",
+    "status": 200,
+    "url": "https://nic.gov.vn/13"
+  },
+  {
+    "file": "14",
+    "status": 200,
+    "url": "https://nic.gov.vn/14"
+  },
+  {
+    "file": "15",
+    "status": 200,
+    "url": "https://nic.gov.vn/15"
+  },
+  {
+    "file": "1990",
+    "status": 200,
+    "url": "https://nic.gov.vn/1990"
+  },
+  {
+    "file": "1991",
+    "status": 200,
+    "url": "https://nic.gov.vn/1991"
+  },
+  {
+    "file": "1992",
+    "status": 200,
+    "url": "https://nic.gov.vn/1992"
+  },
+  {
+    "file": "1993",
+    "status": 200,
+    "url": "https://nic.gov.vn/1993"
+  },
+  {
+    "file": "1994",
+    "status": 200,
+    "url": "https://nic.gov.vn/1994"
+  },
+  {
+    "file": "1995",
+    "status": 200,
+    "url": "https://nic.gov.vn/1995"
+  },
+  {
+    "file": "1996",
+    "status": 200,
+    "url": "https://nic.gov.vn/1996"
+  },
+  {
+    "file": "1997",
+    "status": 200,
+    "url": "https://nic.gov.vn/1997"
+  },
+  {
+    "file": "1998",
+    "status": 200,
+    "url": "https://nic.gov.vn/1998"
+  },
+  {
+    "file": "1999",
+    "status": 200,
+    "url": "https://nic.gov.vn/1999"
+  },
+  {
+    "file": "1x1",
+    "status": 200,
+    "url": "https://nic.gov.vn/1x1"
+  },
+  {
+    "file": "2",
+    "status": 200,
+    "url": "https://nic.gov.vn/2"
+  },
+  {
+    "file": "20",
+    "status": 200,
+    "url": "https://nic.gov.vn/20"
+  },
+  {
+    "file": "200",
+    "status": 200,
+    "url": "https://nic.gov.vn/200"
+  },
+  {
+    "file": "2000",
+    "status": 200,
+    "url": "https://nic.gov.vn/2000"
+  },
+  {
+    "file": "2001",
+    "status": 200,
+    "url": "https://nic.gov.vn/2001"
+  },
+  {
+    "file": "2002",
+    "status": 200,
+    "url": "https://nic.gov.vn/2002"
+  },
+  {
+    "file": "2003",
+    "status": 200,
+    "url": "https://nic.gov.vn/2003"
+  },
+  {
+    "file": "2004",
+    "status": 200,
+    "url": "https://nic.gov.vn/2004"
+  },
+  {
+    "file": "2005",
+    "status": 200,
+    "url": "https://nic.gov.vn/2005"
+  },
+  {
+    "file": "2006",
+    "status": 200,
+    "url": "https://nic.gov.vn/2006"
+  },
+  {
+    "file": "2007",
+    "status": 200,
+    "url": "https://nic.gov.vn/2007"
+  },
+  {
+    "file": "2008",
+    "status": 200,
+    "url": "https://nic.gov.vn/2008"
+  },
+  {
+    "file": "2009",
+    "status": 200,
+    "url": "https://nic.gov.vn/2009"
+  },
+  {
+    "file": "2010",
+    "status": 200,
+    "url": "https://nic.gov.vn/2010"
+  },
+  {
+    "file": "2011",
+    "status": 200,
+    "url": "https://nic.gov.vn/2011"
+  },
+  {
+    "file": "2012",
+    "status": 200,
+    "url": "https://nic.gov.vn/2012"
+  },
+  {
+    "file": "2013",
+    "status": 200,
+    "url": "https://nic.gov.vn/2013"
+  },
+  {
+    "file": "2014",
+    "status": 200,
+    "url": "https://nic.gov.vn/2014"
+  },
+  {
+    "file": "2015",
+    "status": 200,
+    "url": "https://nic.gov.vn/2015"
+  },
+  {
+    "file": "2016",
+    "status": 200,
+    "url": "https://nic.gov.vn/2016"
+  },
+  {
+    "file": "2017",
+    "status": 200,
+    "url": "https://nic.gov.vn/2017"
+  },
+  {
+    "file": "2018",
+    "status": 200,
+    "url": "https://nic.gov.vn/2018"
+  },
+  {
+    "file": "2019",
+    "status": 200,
+    "url": "https://nic.gov.vn/2019"
+  },
+  {
+    "file": "2020",
+    "status": 200,
+    "url": "https://nic.gov.vn/2020"
+  },
+  {
+    "file": "2021",
+    "status": 200,
+    "url": "https://nic.gov.vn/2021"
+  },
+  {
+    "file": "2022",
+    "status": 200,
+    "url": "https://nic.gov.vn/2022"
+  },
+  {
+    "file": "21",
+    "status": 200,
+    "url": "https://nic.gov.vn/21"
+  },
+  {
+    "file": "22",
+    "status": 200,
+    "url": "https://nic.gov.vn/22"
+  },
+  {
+    "file": "2257",
+    "status": 200,
+    "url": "https://nic.gov.vn/2257"
+  },
+  {
+    "file": "23",
+    "status": 200,
+    "url": "https://nic.gov.vn/23"
+  },
+  {
+    "file": "24",
+    "status": 200,
+    "url": "https://nic.gov.vn/24"
+  },
+  {
+    "file": "25",
+    "status": 200,
+    "url": "https://nic.gov.vn/25"
+  },
+  {
+    "file": "2g",
+    "status": 200,
+    "url": "https://nic.gov.vn/2g"
+  },
+  {
+    "file": "3",
+    "status": 200,
+    "url": "https://nic.gov.vn/3"
+  },
+  {
+    "file": "30",
+    "status": 200,
+    "url": "https://nic.gov.vn/30"
+  },
+  {
+    "file": "300",
+    "status": 200,
+    "url": "https://nic.gov.vn/300"
+  },
+  {
+    "file": "32",
+    "status": 200,
+    "url": "https://nic.gov.vn/32"
+  },
+  {
+    "file": "3g",
+    "status": 200,
+    "url": "https://nic.gov.vn/3g"
+  },
+  {
+    "file": "3rdparty",
+    "status": 200,
+    "url": "https://nic.gov.vn/3rdparty"
+  },
+  {
+    "file": "4",
+    "status": 200,
+    "url": "https://nic.gov.vn/4"
+  },
+  {
+    "file": "400",
+    "status": 200,
+    "url": "https://nic.gov.vn/400"
+  },
+  {
+    "file": "401",
+    "status": 200,
+    "url": "https://nic.gov.vn/401"
+  },
+  {
+    "file": "403",
+    "status": 200,
+    "url": "https://nic.gov.vn/403"
+  },
+  {
+    "file": "404",
+    "status": 200,
+    "url": "https://nic.gov.vn/404"
+  },
+  {
+    "file": "42",
+    "status": 200,
+    "url": "https://nic.gov.vn/42"
+  },
+  {
+    "file": "4DWEBTEST",
+    "status": 200,
+    "url": "https://nic.gov.vn/4DWEBTEST"
+  },
+  {
+    "file": "4DSTATS",
+    "status": 200,
+    "url": "https://nic.gov.vn/4DSTATS"
+  },
+  {
+    "file": "4DHTMLSTATS",
+    "status": 200,
+    "url": "https://nic.gov.vn/4DHTMLSTATS"
+  },
+  {
+    "file": "5",
+    "status": 200,
+    "url": "https://nic.gov.vn/5"
+  },
+  {
+    "file": "50",
+    "status": 200,
+    "url": "https://nic.gov.vn/50"
+  },
+  {
+    "file": "500",
+    "status": 200,
+    "url": "https://nic.gov.vn/500"
+  },
+  {
+    "file": "51",
+    "status": 200,
+    "url": "https://nic.gov.vn/51"
+  },
+  {
+    "file": "6",
+    "status": 200,
+    "url": "https://nic.gov.vn/6"
+  },
+  {
+    "file": "64",
+    "status": 200,
+    "url": "https://nic.gov.vn/64"
+  },
+  {
+    "file": "7",
+    "status": 200,
+    "url": "https://nic.gov.vn/7"
+  },
+  {
+    "file": "7z",
+    "status": 200,
+    "url": "https://nic.gov.vn/7z"
+  },
+  {
+    "file": "8",
+    "status": 200,
+    "url": "https://nic.gov.vn/8"
+  },
+  {
+    "file": "9",
+    "status": 200,
+    "url": "https://nic.gov.vn/9"
+  },
+  {
+    "file": "96",
+    "status": 200,
+    "url": "https://nic.gov.vn/96"
+  },
+  {
+    "file": "@",
+    "status": 200,
+    "url": "https://nic.gov.vn/@"
+  },
+  {
+    "file": "A",
+    "status": 200,
+    "url": "https://nic.gov.vn/A"
+  },
+  {
+    "file": "ADM",
+    "status": 200,
+    "url": "https://nic.gov.vn/ADM"
+  },
+  {
+    "file": "ADMIN",
+    "status": 200,
+    "url": "https://nic.gov.vn/ADMIN"
+  },
+  {
+    "file": "ADMON",
+    "status": 200,
+    "url": "https://nic.gov.vn/ADMON"
+  },
+  {
+    "file": "AT-admin.cgi",
+    "status": 200,
+    "url": "https://nic.gov.vn/AT-admin.cgi"
+  },
+  {
+    "file": "About",
+    "status": 200,
+    "url": "https://nic.gov.vn/About"
+  },
+  {
+    "file": "AboutUs",
+    "status": 200,
+    "url": "https://nic.gov.vn/AboutUs"
+  },
+  {
+    "file": "Admin",
+    "status": 200,
+    "url": "https://nic.gov.vn/Admin"
+  },
+  {
+    "file": "AdminService",
+    "status": 200,
+    "url": "https://nic.gov.vn/AdminService"
+  },
+  {
+    "file": "AdminTools",
+    "status": 200,
+    "url": "https://nic.gov.vn/AdminTools"
+  },
+  {
+    "file": "Administration",
+    "status": 200,
+    "url": "https://nic.gov.vn/Administration"
+  },
+  {
+    "file": "AggreSpy",
+    "status": 200,
+    "url": "https://nic.gov.vn/AggreSpy"
+  },
+  {
+    "file": "AppsLocalLogin",
+    "status": 200,
+    "url": "https://nic.gov.vn/AppsLocalLogin"
+  },
+  {
+    "file": "AppsLogin",
+    "status": 200,
+    "url": "https://nic.gov.vn/AppsLogin"
+  },
+  {
+    "file": "Archive",
+    "status": 200,
+    "url": "https://nic.gov.vn/Archive"
+  },
+  {
+    "file": "Articles",
+    "status": 200,
+    "url": "https://nic.gov.vn/Articles"
+  },
+  {
+    "file": "B",
+    "status": 200,
+    "url": "https://nic.gov.vn/B"
+  },
+  {
+    "file": "BUILD",
+    "status": 200,
+    "url": "https://nic.gov.vn/BUILD"
+  },
+  {
+    "file": "BackOffice",
+    "status": 200,
+    "url": "https://nic.gov.vn/BackOffice"
+  },
+  {
+    "file": "Base",
+    "status": 200,
+    "url": "https://nic.gov.vn/Base"
+  },
+  {
+    "file": "Blog",
+    "status": 200,
+    "url": "https://nic.gov.vn/Blog"
+  },
+  {
+    "file": "Books",
+    "status": 200,
+    "url": "https://nic.gov.vn/Books"
+  },
+  {
+    "file": "Browser",
+    "status": 200,
+    "url": "https://nic.gov.vn/Browser"
+  },
+  {
+    "file": "Business",
+    "status": 200,
+    "url": "https://nic.gov.vn/Business"
+  },
+  {
+    "file": "C",
+    "status": 200,
+    "url": "https://nic.gov.vn/C"
+  },
+  {
+    "file": "CMS",
+    "status": 200,
+    "url": "https://nic.gov.vn/CMS"
+  },
+  {
+    "file": "CPAN",
+    "status": 200,
+    "url": "https://nic.gov.vn/CPAN"
+  },
+  {
+    "file": "CVS",
+    "status": 200,
+    "url": "https://nic.gov.vn/CVS"
+  },
+  {
+    "file": "CVS/Entries",
+    "status": 200,
+    "url": "https://nic.gov.vn/CVS/Entries"
+  },
+  {
+    "file": "CVS/Repository",
+    "status": 200,
+    "url": "https://nic.gov.vn/CVS/Repository"
+  },
+  {
+    "file": "CVS/Root",
+    "status": 200,
+    "url": "https://nic.gov.vn/CVS/Root"
+  },
+  {
+    "file": "CYBERDOCS",
+    "status": 200,
+    "url": "https://nic.gov.vn/CYBERDOCS"
+  },
+  {
+    "file": "CYBERDOCS25",
+    "status": 200,
+    "url": "https://nic.gov.vn/CYBERDOCS25"
+  },
+  {
+    "file": "CYBERDOCS31",
+    "status": 200,
+    "url": "https://nic.gov.vn/CYBERDOCS31"
+  },
+  {
+    "file": "ChangeLog",
+    "status": 200,
+    "url": "https://nic.gov.vn/ChangeLog"
+  },
+  {
+    "file": "Computers",
+    "status": 200,
+    "url": "https://nic.gov.vn/Computers"
+  },
+  {
+    "file": "Contact",
+    "status": 200,
+    "url": "https://nic.gov.vn/Contact"
+  },
+  {
+    "file": "ContactUs",
+    "status": 200,
+    "url": "https://nic.gov.vn/ContactUs"
+  },
+  {
+    "file": "Content",
+    "status": 200,
+    "url": "https://nic.gov.vn/Content"
+  },
+  {
+    "file": "Creatives",
+    "status": 200,
+    "url": "https://nic.gov.vn/Creatives"
+  },
+  {
+    "file": "D",
+    "status": 200,
+    "url": "https://nic.gov.vn/D"
+  },
+  {
+    "file": "DB",
+    "status": 200,
+    "url": "https://nic.gov.vn/DB"
+  },
+  {
+    "file": "DMSDump",
+    "status": 200,
+    "url": "https://nic.gov.vn/DMSDump"
+  }
+]
