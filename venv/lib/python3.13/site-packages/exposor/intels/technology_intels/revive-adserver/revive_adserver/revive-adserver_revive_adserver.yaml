@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:revive-adserver:revive_adserver:*:*:*:*:*:*:*:*
+  description: Detection of revive-adserver revive_adserver
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:106844876
+  - services.http.response.html_title:"revive adserver"
+  fofa:
+  - http.title="revive adserver"
+  - icon_hash=106844876
+  shodan:
+  - http.favicon.hash:106844876
+  - http.title:"revive adserver"
+  zoomeye:
+  - title:"revive adserver"
+  - iconhash:106844876

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*
+  description: Detection of jenkins jenkins
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:81586312
+  - services.software.product:"jenkins"
+  fofa:
+  - app="jenkins"
+  - icon_hash=81586312
+  shodan:
+  - product:"jenkins"
+  - http.favicon.hash:81586312
+  zoomeye:
+  - iconhash:81586312
+  - app:"jenkins"

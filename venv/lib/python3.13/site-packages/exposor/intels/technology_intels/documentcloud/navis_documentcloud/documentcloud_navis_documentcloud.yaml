@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:documentcloud:navis_documentcloud:*:*:*:*:*:wordpress:*:*
+  description: Detection of documentcloud navis_documentcloud
+  version: '1.0'
+queries: {}

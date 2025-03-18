@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:openbsd:openssh:*:*:*:*:*:*:*:*
+  description: Detection of openbsd openssh
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"OpenSSH"
+  - services.software.product:"openssh"
+  fofa:
+  - app="openssh"
+  - app="OpenSSH"
+  shodan:
+  - product:"openssh"
+  - product:"OpenSSH"
+  zoomeye:
+  - app:"openssh"
+  - app:"OpenSSH"

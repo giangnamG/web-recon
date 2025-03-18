@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:layerslider:layerslider:*:*:*:*:*:wordpress:*:*
+  description: Detection of layerslider layerslider
+  version: '1.0'
+queries: {}

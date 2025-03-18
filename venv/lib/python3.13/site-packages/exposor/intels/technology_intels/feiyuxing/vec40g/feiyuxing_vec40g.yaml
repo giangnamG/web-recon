@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:feiyuxing:vec40g:*:*:*:*:*:*:*:*
+  description: Detection of feiyuxing vec40g
+  version: '1.0'
+queries: {}

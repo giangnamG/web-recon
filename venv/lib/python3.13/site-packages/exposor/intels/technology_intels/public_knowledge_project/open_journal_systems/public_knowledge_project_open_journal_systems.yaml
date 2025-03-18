@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:public_knowledge_project:open_journal_systems:*:*:*:*:*:*:*:*
+  description: Detection of public_knowledge_project open_journal_systems
+  version: '1.0'
+queries: {}

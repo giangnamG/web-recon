@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zohocorp:manageengine_admanager_plus:*:*:*:*:*:*:*:*
+  description: Detection of zohocorp manageengine_admanager_plus
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"ManageEngine"
+  fofa:
+  - http.title="ManageEngine"
+  shodan:
+  - title:"ManageEngine"
+  zoomeye:
+  - title:"ManageEngine"

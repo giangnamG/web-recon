@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:analytify:analytify_-_google_analytics_dashboard:*:*:*:*:wordpress:*:*:*
+  description: Detection of analytify analytify_-_google_analytics_dashboard
+  version: '1.0'
+queries: {}

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:progress:whatsup_gold:*:*:*:*:*:*:*:*
+  description: Detection of progress whatsup_gold
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"WhatsUp Gold"
+  fofa:
+  - banner="WhatsUp Gold"
+  shodan:
+  - html:"WhatsUp Gold"
+  zoomeye:
+  - banner:"WhatsUp Gold"

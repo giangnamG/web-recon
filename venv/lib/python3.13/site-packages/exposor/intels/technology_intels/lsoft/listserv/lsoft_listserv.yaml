@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:lsoft:listserv:*:*:*:*:*:*:*:*
+  description: Detection of lsoft listserv
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"LISTSERV"
+  - services.http.response.body:"listserv"
+  - services.banner:"listserv"
+  fofa:
+  - banner="listserv"
+  - banner="LISTSERV"
+  - body="listserv"
+  shodan:
+  - http.html:"LISTSERV"
+  - http.html:"listserv"
+  zoomeye:
+  - banner:"listserv"
+  - banner:"LISTSERV"

@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:void:aurall_rec_monitor:*:*:*:*:*:*:*:*
+  description: Detection of void aurall_rec_monitor
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"AURALL"
+  - services.banner:"aurall"
+  - services.http.response.body:"aurall"
+  fofa:
+  - banner="aurall"
+  - banner="AURALL"
+  - body="aurall"
+  shodan:
+  - html:"AURALL"
+  - http.html:"aurall"
+  zoomeye:
+  - banner:"AURALL"
+  - banner:"aurall"

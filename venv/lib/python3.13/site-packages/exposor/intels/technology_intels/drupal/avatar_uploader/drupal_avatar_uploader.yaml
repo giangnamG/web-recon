@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:drupal:avatar_uploader:*:*:*:*:*:*:*:*
+  description: Detection of drupal avatar_uploader
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"drupal"
+  fofa:
+  - banner="drupal"
+  shodan:
+  - http.component:"drupal"
+  zoomeye:
+  - banner:"drupal"

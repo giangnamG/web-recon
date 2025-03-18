@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:myeventon:eventon:*:*:*:*:*:wordpress:*:*
+  description: Detection of myeventon eventon
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/eventon/
+  - services.banner:/wp-content/plugins/eventon/
+  - services.banner:/wp-content/plugins/eventon-lite/
+  - services.http.response.body:/wp-content/plugins/eventon-lite/
+  fofa:
+  - banner=/wp-content/plugins/eventon-lite/
+  - body=/wp-content/plugins/eventon/
+  - body=/wp-content/plugins/eventon-lite/
+  - banner=/wp-content/plugins/eventon/
+  shodan:
+  - http.html:/wp-content/plugins/eventon-lite/
+  - http.html:/wp-content/plugins/eventon/
+  zoomeye:
+  - banner:/wp-content/plugins/eventon/
+  - banner:/wp-content/plugins/eventon-lite/

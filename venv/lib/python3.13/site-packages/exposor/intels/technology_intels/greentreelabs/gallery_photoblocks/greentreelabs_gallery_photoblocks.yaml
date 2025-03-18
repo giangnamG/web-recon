@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:greentreelabs:gallery_photoblocks:*:*:*:*:*:wordpress:*:*
+  description: Detection of greentreelabs gallery_photoblocks
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/photoblocks-grid-gallery/
+  - services.http.response.body:/wp-content/plugins/photoblocks-grid-gallery/
+  fofa:
+  - body=/wp-content/plugins/photoblocks-grid-gallery/
+  - banner=/wp-content/plugins/photoblocks-grid-gallery/
+  shodan:
+  - http.html:/wp-content/plugins/photoblocks-grid-gallery/
+  zoomeye:
+  - banner:/wp-content/plugins/photoblocks-grid-gallery/

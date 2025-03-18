@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:chevereto:chevereto:*:*:*:*:*:*:*:*
+  description: Detection of chevereto chevereto
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Centreon"
+  fofa:
+  - http.title="Centreon"
+  shodan:
+  - http.title:"Centreon"
+  zoomeye:
+  - title:"Centreon"

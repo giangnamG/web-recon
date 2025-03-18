@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:oscommerce:oscommerce:*:*:*:*:*:*:*:*
+  description: Detection of oscommerce oscommerce
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"osCommerce"
+  fofa:
+  - banner="osCommerce"
+  shodan:
+  - html:"osCommerce"
+  zoomeye:
+  - banner:"osCommerce"

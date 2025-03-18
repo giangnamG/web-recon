@@ -1,0 +1,24 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:fortra:goanywhere_managed_file_transfer:*:*:*:*:*:*:*:*
+  description: Detection of fortra goanywhere_managed_file_transfer
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:1484947000
+  - services.software.product:"goanywhere-mft"
+  - services.software.product:"fortra goanywhere-mft"
+  fofa:
+  - icon_hash=1484947000,1828756398,1170495932
+  - icon_hash=1484947000
+  - app="fortra goanywhere-mft"
+  - app="goanywhere-mft"
+  shodan:
+  - http.favicon.hash:1484947000
+  - product:"goanywhere-mft"
+  - http.favicon.hash:1484947000,1828756398,1170495932
+  - product:"fortra goanywhere-mft"
+  zoomeye:
+  - iconhash:1484947000
+  - app:"goanywhere-mft"
+  - app:"fortra goanywhere-mft"

@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:microfocus:filr:*:*:*:*:*:*:*:*
+  description: Detection of microfocus filr
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"micro focus filr"
+  - services.banner:"Micro Focus Filr"
+  - services.http.response.body:"micro focus filr"
+  fofa:
+  - body="micro focus filr"
+  - banner="Micro Focus Filr"
+  - banner="micro focus filr"
+  shodan:
+  - http.html:"micro focus filr"
+  - http.html:"Micro Focus Filr"
+  zoomeye:
+  - banner:"micro focus filr"
+  - banner:"Micro Focus Filr"

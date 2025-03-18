@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:filestash:filestash:*:*:*:*:*:*:*:*
+  description: Detection of filestash filestash
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"
+  fofa:
+  - banner="
+  shodan:
+  - html:"<title>Admin Console</title>"
+  zoomeye:
+  - banner:"

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:mi:xiaomi_router_ax3200:*:*:*:*:*:*:*:*
+  description: Detection of mi xiaomi_router_ax3200
+  version: '1.0'
+queries:
+  censys:
+  - "services.http.response.html_title:'\u5C0F\u7C73\u8DEF\u7531\u5668'"
+  - "services.http.response.html_title:\"\u5C0F\u7C73\u8DEF\u7531\u5668\""
+  fofa:
+  - "http.title='\u5C0F\u7C73\u8DEF\u7531\u5668'"
+  - "http.title=\"\u5C0F\u7C73\u8DEF\u7531\u5668\""
+  shodan:
+  - "http.title:\"\u5C0F\u7C73\u8DEF\u7531\u5668\""
+  - "http.title:'\u5C0F\u7C73\u8DEF\u7531\u5668'"
+  zoomeye:
+  - "title:\"\u5C0F\u7C73\u8DEF\u7531\u5668\""
+  - "title:'\u5C0F\u7C73\u8DEF\u7531\u5668'"

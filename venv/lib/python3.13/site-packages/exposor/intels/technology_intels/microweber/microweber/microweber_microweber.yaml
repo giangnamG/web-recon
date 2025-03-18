@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:microweber:microweber:*:*:*:*:*:*:*:*
+  description: Detection of microweber microweber
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:780351152
+  - services.banner:"microweber"
+  - services.http.response.body:"microweber"
+  fofa:
+  - banner="microweber"
+  - icon_hash=780351152
+  - body="microweber"
+  shodan:
+  - http.html:"microweber"
+  - http.favicon.hash:780351152
+  zoomeye:
+  - banner:"microweber"
+  - iconhash:780351152

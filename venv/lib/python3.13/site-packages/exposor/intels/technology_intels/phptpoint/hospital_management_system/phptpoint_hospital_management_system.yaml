@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:phptpoint:hospital_management_system:*:*:*:*:*:*:*:*
+  description: Detection of phptpoint hospital_management_system
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Hospital Management System"
+  fofa:
+  - banner="Hospital Management System"
+  shodan:
+  - http.html:"Hospital Management System"
+  zoomeye:
+  - banner:"Hospital Management System"

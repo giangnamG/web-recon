@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:phpgurukul:art_gallery_management_system:*:*:*:*:*:*:*:*
+  description: Detection of phpgurukul art_gallery_management_system
+  version: '1.0'
+queries: {}

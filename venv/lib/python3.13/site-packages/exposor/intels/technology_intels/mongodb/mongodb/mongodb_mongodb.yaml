@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mongodb:mongodb:*:*:*:*:*:*:*:*
+  description: Detection of mongodb mongodb
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"mongod"
+  fofa:
+  - banner="mongod"
+  shodan:
+  - html:"mongod"
+  zoomeye:
+  - banner:"mongod"

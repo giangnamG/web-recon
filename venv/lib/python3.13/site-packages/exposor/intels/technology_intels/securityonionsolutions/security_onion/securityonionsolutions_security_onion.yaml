@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:securityonionsolutions:security_onion:*:*:*:*:*:*:*:*
+  description: Detection of securityonionsolutions security_onion
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"security onion"
+  - services.http.response.html_title:"Security Onion"
+  fofa:
+  - http.title="Security Onion"
+  - http.title="security onion"
+  shodan:
+  - http.title:"security onion"
+  - title:"Security Onion"
+  zoomeye:
+  - title:"Security Onion"
+  - title:"security onion"

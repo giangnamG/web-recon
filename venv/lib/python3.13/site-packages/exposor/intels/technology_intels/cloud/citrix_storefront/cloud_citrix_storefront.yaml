@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cloud:citrix_storefront:*:*:*:*:ltsr:*:*:*
+  description: Detection of cloud citrix_storefront
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"/Citrix/StoreWeb"
+  - services.banner:"/citrix/storeweb"
+  - services.http.response.body:"/citrix/storeweb"
+  fofa:
+  - body="/citrix/storeweb"
+  - banner="/citrix/storeweb"
+  - banner="/Citrix/StoreWeb"
+  shodan:
+  - html:"/Citrix/StoreWeb"
+  - http.html:"/citrix/storeweb"
+  zoomeye:
+  - banner:"/citrix/storeweb"
+  - banner:"/Citrix/StoreWeb"

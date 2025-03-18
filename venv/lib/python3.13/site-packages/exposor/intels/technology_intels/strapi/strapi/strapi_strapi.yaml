@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:strapi:strapi:*:*:*:*:*:*:*:*
+  description: Detection of strapi strapi
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Welcome to your Strapi app"
+  fofa:
+  - banner="Welcome to your Strapi app"
+  shodan:
+  - html:"Welcome to your Strapi app"
+  zoomeye:
+  - banner:"Welcome to your Strapi app"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:generex:cs141:*:*:*:*:*:*:*:*
+  description: Detection of generex cs141
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"CS141"
+  fofa:
+  - banner="CS141"
+  shodan:
+  - http.html:"CS141"
+  zoomeye:
+  - banner:"CS141"

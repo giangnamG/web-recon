@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zoneminder:zoneminder:*:*:*:*:*:*:*:*
+  description: Detection of zoneminder zoneminder
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"zm - login"
+  - services.banner:"ZM - Login"
+  - services.banner:"zm - login"
+  fofa:
+  - body="zm - login"
+  - banner="ZM - Login"
+  - banner="zm - login"
+  shodan:
+  - html:"ZM - Login"
+  - http.html:"zm - login"
+  zoomeye:
+  - banner:"zm - login"
+  - banner:"ZM - Login"

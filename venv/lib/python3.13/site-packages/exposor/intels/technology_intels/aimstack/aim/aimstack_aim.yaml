@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:aimstack:aim:*:*:*:*:*:*:*:*
+  description: Detection of aimstack aim
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:"-1047157256"
+  fofa:
+  - icon_hash="-1047157256"
+  shodan:
+  - http.favicon.hash:"-1047157256"
+  zoomeye:
+  - iconhash:"-1047157256"

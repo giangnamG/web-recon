@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:linuxfoundation:harbor:*:*:*:*:*:*:*:*
+  description: Detection of linuxfoundation harbor
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:657337228
+  fofa:
+  - icon_hash=657337228
+  shodan:
+  - http.favicon.hash:657337228
+  zoomeye:
+  - iconhash:657337228

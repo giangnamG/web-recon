@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:zeppelin:*:*:*:*:*:*:*:*
+  description: Detection of apache zeppelin
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"APACHE-Zeppelin"
+  fofa:
+  - app="APACHE-Zeppelin"
+  shodan:
+  - product:"APACHE-Zeppelin"
+  zoomeye:
+  - app:"APACHE-Zeppelin"

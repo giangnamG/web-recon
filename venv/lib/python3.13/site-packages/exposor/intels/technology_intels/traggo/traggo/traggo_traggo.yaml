@@ -1,0 +1,17 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:traggo:traggo:*:*:*:*:*:*:*:*
+  description: Detection of traggo traggo
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"traggo"
+  - services.banner:"traggo"
+  fofa:
+  - body="traggo"
+  - banner="traggo"
+  shodan:
+  - http.html:"traggo"
+  - html:"traggo"
+  zoomeye:
+  - banner:"traggo"

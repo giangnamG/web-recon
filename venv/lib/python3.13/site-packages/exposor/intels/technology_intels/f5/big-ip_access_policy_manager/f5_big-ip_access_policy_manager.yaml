@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:f5:big-ip_access_policy_manager:*:*:*:*:*:*:*:*
+  description: Detection of f5 big-ip_access_policy_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"BIG-IP APM"
+  fofa:
+  - banner="BIG-IP APM"
+  shodan:
+  - html:"BIG-IP APM"
+  zoomeye:
+  - banner:"BIG-IP APM"

@@ -1,0 +1,24 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:redhat:keycloak:*:*:*:*:*:*:*:*
+  description: Detection of redhat keycloak
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"keycloak"
+  - services.http.response.favicons.shodan_hash:-1105083093
+  - services.banner:"keycloak"
+  - services.http.response.html_title:"keycloak"
+  fofa:
+  - icon_hash=-1105083093
+  - body="keycloak"
+  - http.title="keycloak"
+  - banner="keycloak"
+  shodan:
+  - http.favicon.hash:-1105083093
+  - http.html:"keycloak"
+  - http.title:"keycloak"
+  zoomeye:
+  - banner:"keycloak"
+  - iconhash:-1105083093
+  - title:"keycloak"

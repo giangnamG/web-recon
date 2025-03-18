@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:wavlink:wn530h4_firmware:*:*:*:*:*:*:*:*
+  description: Detection of wavlink wn530h4_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"wavlink"
+  - services.http.response.body:"wavlink"
+  fofa:
+  - banner="wavlink"
+  - body="wavlink"
+  shodan:
+  - http.html:"wavlink"
+  zoomeye:
+  - banner:"wavlink"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:flarum:flarum:*:*:*:*:*:*:*:*
+  description: Detection of flarum flarum
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Install Flarum"
+  fofa:
+  - banner="Install Flarum"
+  shodan:
+  - html:"Install Flarum"
+  zoomeye:
+  - banner:"Install Flarum"

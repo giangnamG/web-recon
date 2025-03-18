@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wprealize:extensive_vc_addons_for_wpbakery_page_builder:*:*:*:*:*:wordpress:*:*
+  description: Detection of wprealize extensive_vc_addons_for_wpbakery_page_builder
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/extensive-vc-addon/
+  - services.http.response.body:/wp-content/plugins/extensive-vc-addon/
+  fofa:
+  - body=/wp-content/plugins/extensive-vc-addon/
+  - banner=/wp-content/plugins/extensive-vc-addon/
+  shodan:
+  - http.html:/wp-content/plugins/extensive-vc-addon/
+  zoomeye:
+  - banner:/wp-content/plugins/extensive-vc-addon/

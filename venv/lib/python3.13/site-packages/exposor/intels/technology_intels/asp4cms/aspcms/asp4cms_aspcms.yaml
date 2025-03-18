@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:asp4cms:aspcms:*:*:*:*:*:*:*:*
+  description: Detection of asp4cms aspcms
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"ASPCMS"
+  fofa:
+  - app="ASPCMS"
+  shodan:
+  - product:"ASPCMS"
+  zoomeye:
+  - app:"ASPCMS"

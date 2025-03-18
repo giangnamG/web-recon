@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:se_html5_album_audio_player_project:se_html5_album_audio_player:*:*:*:*:*:wordpress:*:*
+  description: Detection of se_html5_album_audio_player_project se_html5_album_audio_player
+  version: '1.0'
+queries: {}

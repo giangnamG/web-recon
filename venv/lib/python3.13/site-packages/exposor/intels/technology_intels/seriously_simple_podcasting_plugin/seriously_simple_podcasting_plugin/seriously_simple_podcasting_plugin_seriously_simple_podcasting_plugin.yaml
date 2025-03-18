@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:*.3:a:seriously_simple_podcasting_plugin:seriously_simple_podcasting_plugin:*:*:*:*:*:*:*:*
+  description: Detection of seriously_simple_podcasting_plugin seriously_simple_podcasting_plugin
+  version: '1.0'
+queries: {}

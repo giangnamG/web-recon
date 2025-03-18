@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zzzcms:zzzcms:*:*:*:*:*:*:*:*
+  description: Detection of zzzcms zzzcms
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"ZzzCMS"
+  fofa:
+  - banner="ZzzCMS"
+  shodan:
+  - html:"ZzzCMS"
+  zoomeye:
+  - banner:"ZzzCMS"

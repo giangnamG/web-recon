@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:atlassian:crowd:*:*:*:*:*:*:*:*
+  description: Detection of atlassian crowd
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"atlassian jira"
+  fofa:
+  - banner="atlassian jira"
+  shodan:
+  - http.component:"atlassian jira"
+  zoomeye:
+  - banner:"atlassian jira"

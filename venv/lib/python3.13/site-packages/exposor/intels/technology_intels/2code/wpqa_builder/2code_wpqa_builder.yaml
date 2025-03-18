@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:2code:wpqa_builder:*:*:*:*:*:wordpress:*:*
+  description: Detection of 2code wpqa_builder
+  version: '1.0'
+queries: {}

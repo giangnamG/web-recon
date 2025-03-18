@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:tera_charts_plugin_project:tera-charts:*:*:*:*:*:wordpress:*:*
+  description: Detection of tera_charts_plugin_project tera-charts
+  version: '1.0'
+queries: {}

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:openmediavault:openmediavault:*:*:*:*:*:*:*:*
+  description: Detection of openmediavault openmediavault
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"OpenMediaVault"
+  fofa:
+  - http.title="OpenMediaVault"
+  shodan:
+  - title:"OpenMediaVault"
+  zoomeye:
+  - title:"OpenMediaVault"

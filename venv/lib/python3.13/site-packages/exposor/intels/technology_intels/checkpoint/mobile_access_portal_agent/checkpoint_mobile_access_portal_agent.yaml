@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:checkpoint:mobile_access_portal_agent:*:*:*:*:*:*:*:*
+  description: Detection of checkpoint mobile_access_portal_agent
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Check Point Mobile"
+  fofa:
+  - banner="Check Point Mobile"
+  shodan:
+  - http.html:"Check Point Mobile"
+  zoomeye:
+  - banner:"Check Point Mobile"

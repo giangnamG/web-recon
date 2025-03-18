@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:incsub:forminator:*:*:*:*:*:wordpress:*:*
+  description: Detection of incsub forminator
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/forminator
+  - services.http.response.body:/wp-content/plugins/forminator
+  fofa:
+  - banner=/wp-content/plugins/forminator
+  - body=/wp-content/plugins/forminator
+  shodan:
+  - http.html:/wp-content/plugins/forminator
+  zoomeye:
+  - banner:/wp-content/plugins/forminator

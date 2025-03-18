@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:tastyigniter:tastyigniter:*:*:*:*:*:*:*:*
+  description: Detection of tastyigniter tastyigniter
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"TastyIgniter - Setup - License agreement"
+  fofa:
+  - body="TastyIgniter - Setup - License agreement"
+  shodan:
+  - http.html:"TastyIgniter - Setup - License agreement"
+  zoomeye:
+  - banner:"TastyIgniter - Setup - License agreement"

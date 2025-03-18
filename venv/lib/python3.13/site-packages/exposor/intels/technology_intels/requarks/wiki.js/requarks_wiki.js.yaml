@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:requarks:wiki.js:*:*:*:*:*:*:*:*
+  description: Detection of requarks wiki.js
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Wiki.js Setup"
+  fofa:
+  - http.title="Wiki.js Setup"
+  shodan:
+  - title:"Wiki.js Setup"
+  zoomeye:
+  - title:"Wiki.js Setup"

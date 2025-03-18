@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:angularjs:angular:*:*:*:*:node.js:*:*:*
+  description: Detection of angularjs angular
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"angular-cli.json"
+  - services.banner:"angular.json"
+  fofa:
+  - banner="angular-cli.json"
+  - banner="angular.json"
+  shodan:
+  - html:"angular-cli.json"
+  - html:"angular.json"
+  zoomeye:
+  - banner:"angular.json"
+  - banner:"angular-cli.json"

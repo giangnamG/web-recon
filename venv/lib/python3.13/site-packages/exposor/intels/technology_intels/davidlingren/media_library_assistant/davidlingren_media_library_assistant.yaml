@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:davidlingren:media_library_assistant:*:*:*:*:*:wordpress:*:*
+  description: Detection of davidlingren media_library_assistant
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:wp-content/plugins/media-library-assistant
+  - services.http.response.body:wp-content/plugins/media-library-assistant
+  fofa:
+  - banner=wp-content/plugins/media-library-assistant
+  - body=wp-content/plugins/media-library-assistant
+  shodan:
+  - http.html:wp-content/plugins/media-library-assistant
+  zoomeye:
+  - banner:wp-content/plugins/media-library-assistant

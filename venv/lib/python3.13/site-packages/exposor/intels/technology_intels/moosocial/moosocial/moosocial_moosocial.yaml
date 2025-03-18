@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:moosocial:moosocial:*:*:*:*:*:*:*:*
+  description: Detection of moosocial moosocial
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:"702863115"
+  - services.http.response.favicons.shodan_hash:702863115clear
+  fofa:
+  - icon_hash="702863115"
+  - icon_hash=702863115clear
+  shodan:
+  - http.favicon.hash:"702863115"
+  - http.favicon.hash:702863115clear
+  zoomeye:
+  - iconhash:702863115clear
+  - iconhash:"702863115"

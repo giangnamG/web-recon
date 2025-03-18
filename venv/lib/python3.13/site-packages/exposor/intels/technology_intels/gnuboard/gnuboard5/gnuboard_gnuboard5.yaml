@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:gnuboard:gnuboard5:*:*:*:*:*:*:*:*
+  description: Detection of gnuboard gnuboard5
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Gnuboard"
+  fofa:
+  - banner="Gnuboard"
+  shodan:
+  - http.html:"Gnuboard"
+  zoomeye:
+  - banner:"Gnuboard"

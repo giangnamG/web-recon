@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mitel:cmg_suite:*:*:*:*:*:*:*:*
+  description: Detection of mitel cmg_suite
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"mitel networks"
+  - services.banner:"Mitel Networks"
+  - services.banner:"mitel networks"
+  fofa:
+  - body="mitel networks"
+  - banner="mitel networks"
+  - banner="Mitel Networks"
+  shodan:
+  - http.html:"Mitel Networks"
+  - http.html:"mitel networks"
+  zoomeye:
+  - banner:"Mitel Networks"
+  - banner:"mitel networks"

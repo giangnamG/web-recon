@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:appspace:appspace:*:*:*:*:*:*:*:*
+  description: Detection of appspace appspace
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Appspace"
+  - services.software.product:"appspace"
+  - services.http.response.html_title:"appspace"
+  fofa:
+  - title="appspace"
+  - http.title="appspace"
+  - http.title="Appspace"
+  shodan:
+  - title:"Appspace"
+  - http.title:"appspace"
+  - product:"appspace"
+  zoomeye:
+  - title:"Appspace"
+  - app:"appspace"
+  - title:"appspace"

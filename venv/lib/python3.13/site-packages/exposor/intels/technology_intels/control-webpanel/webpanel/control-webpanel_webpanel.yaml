@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:control-webpanel:webpanel:*:*:*:*:*:*:*:*
+  description: Detection of control-webpanel webpanel
+  version: '1.0'
+queries:
+  censys:
+  - 'services.http.response.html_title:"login '
+  fofa:
+  - 'http.title="login '
+  shodan:
+  - http.title:"login | control webpanel"
+  zoomeye:
+  - 'title:"login '

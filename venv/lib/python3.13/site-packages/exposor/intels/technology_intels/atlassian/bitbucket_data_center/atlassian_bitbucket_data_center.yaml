@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:atlassian:bitbucket_data_center:*:*:*:*:*:*:*:*
+  description: Detection of atlassian bitbucket_data_center
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Log in - Bitbucket"
+  fofa:
+  - http.title="Log in - Bitbucket"
+  shodan:
+  - title:"Log in - Bitbucket"
+  zoomeye:
+  - title:"Log in - Bitbucket"

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:lfprojects:mlflow:*:*:*:*:*:*:*:*
+  description: Detection of lfprojects mlflow
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"mlflow"
+  - services.http.response.html_title:"mlflow"
+  fofa:
+  - app="mlflow"
+  - http.title="mlflow"
+  shodan:
+  - http.title:"mlflow"
+  - product:"mlflow"
+  zoomeye:
+  - app:"mlflow"
+  - title:"mlflow"

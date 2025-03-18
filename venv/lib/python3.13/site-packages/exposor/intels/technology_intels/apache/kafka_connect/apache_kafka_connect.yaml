@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:kafka_connect:*:*:*:*:*:*:*:*
+  description: Detection of apache kafka_connect
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Apache Druid"
+  - services.http.response.body:"apache druid"
+  - services.banner:"apache druid"
+  fofa:
+  - banner="Apache Druid"
+  - body="apache druid"
+  - banner="apache druid"
+  shodan:
+  - html:"Apache Druid"
+  - http.html:"apache druid"
+  zoomeye:
+  - banner:"apache druid"
+  - banner:"Apache Druid"

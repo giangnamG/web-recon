@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:jeedom:jeedom:*:*:*:*:*:*:*:*
+  description: Detection of jeedom jeedom
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"jeedom"
+  fofa:
+  - http.title="jeedom"
+  shodan:
+  - http.title:"jeedom"
+  zoomeye:
+  - title:"jeedom"

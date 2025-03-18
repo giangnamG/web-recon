@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:caucho:resin:*:*:*:*:*:*:*:*
+  description: Detection of caucho resin
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"resin"
+  - services.banner:"Resin"
+  - services.http.response.body:"resin"
+  fofa:
+  - body="resin"
+  - banner="Resin"
+  - banner="resin"
+  shodan:
+  - http.html:"resin"
+  - html:"Resin"
+  zoomeye:
+  - banner:"resin"
+  - banner:"Resin"

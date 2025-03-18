@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:proftpd:proftpd:*:*:*:*:*:*:*:*
+  description: Detection of proftpd proftpd
+  version: '1.0'
+queries: {}

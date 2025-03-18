@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:kubernetes:dashboard:*:*:*:*:*:*:*:*
+  description: Detection of kubernetes dashboard
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"kubernetes"
+  - services.software.product:"Kubernetes"
+  fofa:
+  - app="Kubernetes"
+  - app="kubernetes"
+  shodan:
+  - product:"kubernetes"
+  - product:"Kubernetes"
+  zoomeye:
+  - app:"Kubernetes"
+  - app:"kubernetes"

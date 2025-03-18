@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:microfocus:enterprise_server:*:*:*:*:*:*:*:*
+  description: Detection of microfocus enterprise_server
+  version: '1.0'
+queries: {}

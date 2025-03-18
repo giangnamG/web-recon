@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apple:cups:*:*:*:*:*:*:*:*
+  description: Detection of apple cups
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Home - CUPS"
+  fofa:
+  - banner="Home - CUPS"
+  shodan:
+  - html:"Home - CUPS"
+  zoomeye:
+  - banner:"Home - CUPS"

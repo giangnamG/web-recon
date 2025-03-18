@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:elegant_themes:divi:*:*:*:*:*:wordpress:*:*
+  description: Detection of elegant_themes divi
+  version: '1.0'
+queries: {}

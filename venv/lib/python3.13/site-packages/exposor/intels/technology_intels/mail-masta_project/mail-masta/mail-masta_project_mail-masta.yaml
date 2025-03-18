@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mail-masta_project:mail-masta:*:*:*:*:*:wordpress:*:*
+  description: Detection of mail-masta_project mail-masta
+  version: '1.0'
+queries: {}

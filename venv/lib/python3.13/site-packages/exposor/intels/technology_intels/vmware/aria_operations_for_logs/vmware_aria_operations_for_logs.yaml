@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:vmware:aria_operations_for_logs:*:*:*:*:*:*:*:*
+  description: Detection of vmware aria_operations_for_logs
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"vrealize log insight"
+  - services.http.response.html_title:"vRealize Log Insight"
+  fofa:
+  - http.title="vrealize log insight"
+  - http.title="vRealize Log Insight"
+  shodan:
+  - title:"vRealize Log Insight"
+  - http.title:"vrealize log insight"
+  zoomeye:
+  - title:"vRealize Log Insight"
+  - title:"vrealize log insight"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mercurial:mercurial:*:*:*:*:*:*:*:*
+  description: Detection of mercurial mercurial
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"hgignore"
+  fofa:
+  - banner="hgignore"
+  shodan:
+  - html:"hgignore"
+  zoomeye:
+  - banner:"hgignore"

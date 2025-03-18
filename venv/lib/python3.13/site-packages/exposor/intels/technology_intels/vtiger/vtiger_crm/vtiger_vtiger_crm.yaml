@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:vtiger:vtiger_crm:*:*:*:*:*:*:*:*
+  description: Detection of vtiger vtiger_crm
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Welcome to Vtiger CRM"
+  fofa:
+  - banner="Welcome to Vtiger CRM"
+  shodan:
+  - html:"Welcome to Vtiger CRM"
+  zoomeye:
+  - banner:"Welcome to Vtiger CRM"

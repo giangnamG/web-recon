@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ivanti:endpoint_manager_mobile:*:*:*:*:*:*:*:*
+  description: Detection of ivanti endpoint_manager_mobile
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:"362091310"
+  - services.http.response.favicons.shodan_hash:362091310
+  fofa:
+  - icon_hash="362091310"
+  - icon_hash=362091310
+  shodan:
+  - http.favicon.hash:"362091310"
+  - http.favicon.hash:362091310
+  zoomeye:
+  - iconhash:362091310
+  - iconhash:"362091310"

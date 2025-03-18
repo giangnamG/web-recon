@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:promobar:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft promobar
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/promobar/
+  - services.banner:/wp-content/plugins/promobar/
+  fofa:
+  - body=/wp-content/plugins/promobar/
+  - banner=/wp-content/plugins/promobar/
+  shodan:
+  - http.html:/wp-content/plugins/promobar/
+  zoomeye:
+  - banner:/wp-content/plugins/promobar/

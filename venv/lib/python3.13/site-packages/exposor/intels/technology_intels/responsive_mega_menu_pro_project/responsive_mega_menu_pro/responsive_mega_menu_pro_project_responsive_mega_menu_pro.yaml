@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:responsive_mega_menu_pro_project:responsive_mega_menu_pro:*:*:*:*:*:prestashop:*:*
+  description: Detection of responsive_mega_menu_pro_project responsive_mega_menu_pro
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"prestashop"
+  fofa:
+  - banner="prestashop"
+  shodan:
+  - http.component:"prestashop"
+  zoomeye:
+  - banner:"prestashop"

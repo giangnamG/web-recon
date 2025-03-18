@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:nodered:node-red:*:*:*:*:*:*:*:*
+  description: Detection of nodered node-red
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:321591353
+  fofa:
+  - icon_hash=321591353
+  shodan:
+  - http.favicon.hash:321591353
+  zoomeye:
+  - iconhash:321591353

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:atlassian:bamboo:*:*:*:*:*:*:*:*
+  description: Detection of atlassian bamboo
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Build Dashboard - Atlassian Bamboo"
+  fofa:
+  - http.title="Build Dashboard - Atlassian Bamboo"
+  shodan:
+  - title:"Build Dashboard - Atlassian Bamboo"
+  zoomeye:
+  - title:"Build Dashboard - Atlassian Bamboo"

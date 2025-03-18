@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:daylightstudio:fuel_cms:*:*:*:*:*:*:*:*
+  description: Detection of daylightstudio fuel_cms
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"fuel cms"
+  fofa:
+  - http.title="fuel cms"
+  shodan:
+  - http.title:"fuel cms"
+  zoomeye:
+  - title:"fuel cms"

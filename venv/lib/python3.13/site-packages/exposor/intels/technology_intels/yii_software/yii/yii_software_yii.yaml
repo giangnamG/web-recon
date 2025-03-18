@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:yii_software:yii:*:*:*:*:*:*:*:*
+  description: Detection of yii_software yii
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Yii Debugger"
+  fofa:
+  - http.title="Yii Debugger"
+  shodan:
+  - title:"Yii Debugger"
+  zoomeye:
+  - title:"Yii Debugger"

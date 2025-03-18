@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:pivotal_software:concourse:*:*:*:*:*:*:*:*
+  description: Detection of pivotal_software concourse
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Concourse"
+  fofa:
+  - http.title="Concourse"
+  shodan:
+  - title:"Concourse"
+  zoomeye:
+  - title:"Concourse"

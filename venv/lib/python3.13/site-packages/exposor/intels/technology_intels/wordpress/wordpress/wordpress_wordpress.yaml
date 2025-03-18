@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wordpress:wordpress:*:*:*:*:*:*:*:*
+  description: Detection of wordpress wordpress
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"wordpress"
+  fofa:
+  - banner="wordpress"
+  shodan:
+  - http.component:"wordpress"
+  zoomeye:
+  - banner:"wordpress"

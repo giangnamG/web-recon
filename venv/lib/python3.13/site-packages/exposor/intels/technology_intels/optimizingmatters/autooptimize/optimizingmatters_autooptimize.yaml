@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:optimizingmatters:autooptimize:*:*:*:*:*:wordpress:*:*
+  description: Detection of optimizingmatters autooptimize
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/autoptimize
+  - services.http.response.body:/wp-content/plugins/autoptimize
+  fofa:
+  - banner=/wp-content/plugins/autoptimize
+  - body=/wp-content/plugins/autoptimize
+  shodan:
+  - http.html:/wp-content/plugins/autoptimize
+  zoomeye:
+  - banner:/wp-content/plugins/autoptimize

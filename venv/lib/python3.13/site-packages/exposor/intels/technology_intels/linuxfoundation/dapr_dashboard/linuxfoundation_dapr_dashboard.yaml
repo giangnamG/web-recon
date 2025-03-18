@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:linuxfoundation:dapr_dashboard:*:*:*:*:*:*:*:*
+  description: Detection of linuxfoundation dapr_dashboard
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Dapr Dashboard"
+  - services.http.response.html_title:"dapr dashboard"
+  fofa:
+  - http.title="dapr dashboard"
+  - http.title="Dapr Dashboard"
+  shodan:
+  - http.title:"Dapr Dashboard"
+  - http.title:"dapr dashboard"
+  zoomeye:
+  - title:"Dapr Dashboard"
+  - title:"dapr dashboard"

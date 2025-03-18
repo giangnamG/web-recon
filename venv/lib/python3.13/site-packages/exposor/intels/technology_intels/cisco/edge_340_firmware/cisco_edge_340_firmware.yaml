@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:cisco:edge_340_firmware:*:*:*:*:*:*:*:*
+  description: Detection of cisco edge_340_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"cisco edge 340"
+  - services.http.response.html_title:"Cisco Edge 340"
+  fofa:
+  - http.title="Cisco Edge 340"
+  - http.title="cisco edge 340"
+  shodan:
+  - http.title:"Cisco Edge 340"
+  - http.title:"cisco edge 340"
+  zoomeye:
+  - title:"cisco edge 340"
+  - title:"Cisco Edge 340"

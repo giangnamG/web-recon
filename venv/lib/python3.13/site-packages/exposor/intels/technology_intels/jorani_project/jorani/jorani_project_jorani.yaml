@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:jorani_project:jorani:*:*:*:*:*:*:*:*
+  description: Detection of jorani_project jorani
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Login - Jorani"
+  - services.http.response.favicons.shodan_hash:-2032163853
+  fofa:
+  - http.title="Login - Jorani"
+  - icon_hash=-2032163853
+  shodan:
+  - http.favicon.hash:-2032163853
+  - title:"Login - Jorani"
+  zoomeye:
+  - title:"Login - Jorani"
+  - iconhash:-2032163853

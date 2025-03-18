@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:aerocms_project:aerocms:*:*:*:*:*:*:*:*
+  description: Detection of aerocms_project aerocms
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"AeroCMS"
+  fofa:
+  - http.title="AeroCMS"
+  shodan:
+  - title:"AeroCMS"
+  zoomeye:
+  - title:"AeroCMS"

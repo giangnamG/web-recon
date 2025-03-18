@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:caddyserver:caddy:*:*:*:*:*:*:*:*
+  description: Detection of caddyserver caddy
+  version: '1.0'
+queries: {}

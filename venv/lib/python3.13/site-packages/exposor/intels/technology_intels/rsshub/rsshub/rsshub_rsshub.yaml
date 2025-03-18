@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:rsshub:rsshub:*:*:*:*:*:*:*:*
+  description: Detection of rsshub rsshub
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-1893514038
+  fofa:
+  - icon_hash=-1893514038
+  shodan:
+  - http.favicon.hash:-1893514038
+  zoomeye:
+  - iconhash:-1893514038

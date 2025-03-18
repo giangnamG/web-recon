@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cubecoders:amp:*:*:*:*:*:*:*:*
+  description: Detection of cubecoders amp
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"AMP - Application Management Panel"
+  - services.http.response.html_title:"amp - application management panel"
+  - services.software.product:"amp - application management panel"
+  fofa:
+  - http.title="AMP - Application Management Panel"
+  - title="amp - application management panel"
+  - http.title="amp - application management panel"
+  shodan:
+  - http.title:"amp - application management panel"
+  - product:"amp - application management panel"
+  - title:"AMP - Application Management Panel"
+  zoomeye:
+  - title:"amp - application management panel"
+  - app:"amp - application management panel"
+  - title:"AMP - Application Management Panel"

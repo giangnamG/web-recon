@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:h3c:magic_r300-2100m_firmware:*:*:*:*:*:*:*:*
+  description: Detection of h3c magic_r300-2100m_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"H3C-Ent-Router"
+  - services.software.product:"h3c-ent-router"
+  fofa:
+  - app="H3C-Ent-Router"
+  - app="h3c-ent-router"
+  shodan:
+  - product:"H3C-Ent-Router"
+  - product:"h3c-ent-router"
+  zoomeye:
+  - app:"h3c-ent-router"
+  - app:"H3C-Ent-Router"

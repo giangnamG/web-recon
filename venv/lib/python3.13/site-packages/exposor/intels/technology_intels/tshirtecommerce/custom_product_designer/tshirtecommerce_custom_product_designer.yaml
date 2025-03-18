@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:tshirtecommerce:custom_product_designer:*:*:*:*:*:prestashop:*:*
+  description: Detection of tshirtecommerce custom_product_designer
+  version: '1.0'
+queries: {}

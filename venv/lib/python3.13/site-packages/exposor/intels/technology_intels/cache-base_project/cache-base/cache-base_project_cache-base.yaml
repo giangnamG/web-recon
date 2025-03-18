@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cache-base_project:cache-base:*:*:*:*:node.js:*:*:*
+  description: Detection of cache-base_project cache-base
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"PCDN Cache Node Dataset"
+  fofa:
+  - http.title="PCDN Cache Node Dataset"
+  shodan:
+  - title:"PCDN Cache Node Dataset"
+  zoomeye:
+  - title:"PCDN Cache Node Dataset"

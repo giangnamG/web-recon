@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:tongda2000:office_anywhere_2017:*:*:*:*:*:*:*:*
+  description: Detection of tongda2000 office_anywhere_2017
+  version: '1.0'
+queries:
+  censys:
+  - "services.software.product:\"TDXK-\u901A\u8FBEOA\""
+  fofa:
+  - "app=\"TDXK-\u901A\u8FBEOA\""
+  shodan:
+  - "product:\"TDXK-\u901A\u8FBEOA\""
+  zoomeye:
+  - "app:\"TDXK-\u901A\u8FBEOA\""

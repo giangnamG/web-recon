@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:seafile:seafile:*:*:*:*:*:*:*:*
+  description: Detection of seafile seafile
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"seafile"
+  fofa:
+  - banner="seafile"
+  shodan:
+  - http.html:"seafile"
+  zoomeye:
+  - banner:"seafile"

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:phpcollab:phpcollab:*:*:*:*:*:*:*:*
+  description: Detection of phpcollab phpcollab
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"phpcollab"
+  - services.http.response.html_title:"PhpCollab"
+  fofa:
+  - http.title="PhpCollab"
+  - http.title="phpcollab"
+  shodan:
+  - http.title:"PhpCollab"
+  - http.title:"phpcollab"
+  zoomeye:
+  - title:"PhpCollab"
+  - title:"phpcollab"

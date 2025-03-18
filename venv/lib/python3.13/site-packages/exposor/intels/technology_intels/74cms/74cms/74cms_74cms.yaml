@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:74cms:74cms:*:*:*:*:*:*:*:*
+  description: Detection of 74cms 74cms
+  version: '1.0'
+queries:
+  censys:
+  - "services.software.product:\"\u9A91\u58EB-74CMS\""
+  fofa:
+  - "app=\"\u9A91\u58EB-74CMS\""
+  shodan:
+  - "product:\"\u9A91\u58EB-74CMS\""
+  zoomeye:
+  - "app:\"\u9A91\u58EB-74CMS\""

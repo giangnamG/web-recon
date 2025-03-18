@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sap:netweaver_development_infrastructure:*:*:*:*:*:*:*:*
+  description: Detection of sap netweaver_development_infrastructure
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"SAP NetWeaver"
+  - services.http.response.body:"sap netweaver"
+  - services.banner:"sap netweaver"
+  fofa:
+  - banner="SAP NetWeaver"
+  - banner="sap netweaver"
+  - body="sap netweaver"
+  shodan:
+  - html:"SAP NetWeaver"
+  - http.html:"sap netweaver"
+  zoomeye:
+  - banner:"SAP NetWeaver"
+  - banner:"sap netweaver"

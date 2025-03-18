@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wpchill:gallery_photoblocks:*:*:*:*:wordpress:*:*:*
+  description: Detection of wpchill gallery_photoblocks
+  version: '1.0'
+queries: {}

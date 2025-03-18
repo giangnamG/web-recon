@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:ixsystems:truenas:*:*:*:*:*:*:*:*
+  description: Detection of ixsystems truenas
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"TrueNAS"
+  - services.banner:"truenas"
+  - services.http.response.body:"truenas"
+  fofa:
+  - banner="TrueNAS"
+  - body="truenas"
+  - banner="truenas"
+  shodan:
+  - http.html:"truenas"
+  - html:"TrueNAS"
+  zoomeye:
+  - banner:"TrueNAS"
+  - banner:"truenas"

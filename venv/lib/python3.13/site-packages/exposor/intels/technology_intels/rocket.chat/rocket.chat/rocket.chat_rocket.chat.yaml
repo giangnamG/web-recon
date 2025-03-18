@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:rocket.chat:rocket.chat:*:*:*:*:*:*:*:*
+  description: Detection of rocket.chat rocket.chat
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"rocket.chat"
+  fofa:
+  - http.title="rocket.chat"
+  shodan:
+  - http.title:"rocket.chat"
+  zoomeye:
+  - title:"rocket.chat"

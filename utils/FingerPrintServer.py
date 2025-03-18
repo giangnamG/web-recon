@@ -79,44 +79,15 @@ class FingerPrintServer:
             self.console.print(f"[bold red]⚠️ Lỗi xử lý XML: {e}[/bold red]")
             return None
 
-    def WhoIsScan(self):
-        """Lấy thông tin WHOIS"""
-        return self.run_command(f"whois {self.url}", "📄 Đang lấy thông tin WHOIS")
-
     def WhatWebScan(self):
         """Dùng WhatWeb để phát hiện công nghệ web"""
         return self.run_command(f"whatweb -a 3 {self.url}", "🛠 Đang phân tích công nghệ web (WhatWeb)")
 
-    def DigScan(self):
-        """Lấy thông tin DNS bằng dig với DNS server khác và nhiều loại bản ghi"""
-        dns_server = "8.8.8.8"  # Google DNS để tránh lỗi từ DNS cục bộ
-        dig_cmd = (
-            f"dig @{dns_server} {self.url} A AAAA MX NS TXT CNAME SOA +trace +multiline +nocmd +nocomments"
-        )
-        return self.run_command(dig_cmd, "📡 Đang thu thập thông tin DNS chi tiết")
+    def WhoIsScan(self):
+        """Lấy thông tin WHOIS"""
+        return self.run_command(f"whois {self.url}", "📄 Đang lấy thông tin WHOIS")
 
-    def TraceRouteScan(self):
-        """Chạy traceroute để xem đường đi của gói tin"""
-        raw_output = self.run_command(f"traceroute -n {self.url}", "🛤 Đang kiểm tra đường đi của gói tin (Traceroute)")
-        return self.parse_traceroute_output(raw_output)
-
-    def parse_traceroute_output(self, output):
-        """Xử lý output của Traceroute để loại bỏ dòng `* * *` nhưng giữ nguyên format"""
-        lines = output.split("\n")
-        parsed_data = []
-
-        for line in lines:
-            # Bỏ qua các dòng chỉ có dấu `* * *` (timeout)
-            if re.match(r"^\s*\d+\s+\*\s+\*\s+\*$", line):
-                continue
-            
-            # Giữ nguyên các dòng hợp lệ
-            parsed_data.append(line)
-
-        return "\n".join(parsed_data) if parsed_data else "[red]Không thể thu thập thông tin traceroute[/red]"
-
-
-    def display_report(self, nmap_results, whois_data, whatweb_data, dig_data, traceroute_data):
+    def display_report(self, nmap_results, whois_data, whatweb_data):
         """Hiển thị báo cáo chi tiết trên terminal"""
         self.console.print(Panel(f"📌 [bold cyan]Báo cáo Fingerprint Server: {self.url} ({self.ip_address})[/bold cyan]", expand=False))
 
@@ -137,8 +108,6 @@ class FingerPrintServer:
         # Hiển thị dữ liệu khác
         self.console.print(Panel(f"[bold yellow]🌍 WHOIS Information:[/bold yellow]\n{whois_data}", expand=False))
         self.console.print(Panel(f"[bold magenta]🛠 WhatWeb Scan:[/bold magenta]\n{whatweb_data}", expand=False))
-        self.console.print(Panel(f"[bold blue]📡 DNS Info (Dig):[/bold blue]\n{dig_data}", expand=False))
-        self.console.print(Panel(f"[bold green]🛤 Traceroute Info:[/bold green]\n{traceroute_data}", expand=False))
 
     def run(self):
         """Chạy tất cả các công cụ và hiển thị báo cáo"""
@@ -148,11 +117,9 @@ class FingerPrintServer:
         nmap_results = self.NMapScan()
         whois_data = self.WhoIsScan()
         whatweb_data = self.WhatWebScan()
-        dig_data = self.DigScan()
-        traceroute_data = self.TraceRouteScan()
 
         # Hiển thị báo cáo
         if nmap_results:
-            self.display_report(nmap_results, whois_data, whatweb_data, dig_data, traceroute_data)
+            self.display_report(nmap_results, whois_data, whatweb_data)
         else:
             self.console.print("[bold red]⚠️ Không thể thu thập dữ liệu Nmap.[/bold red]")

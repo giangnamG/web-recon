@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:minio:minio:*:*:*:*:*:*:*:*
+  description: Detection of minio minio
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"minio console"
+  - services.http.response.html_title:"minio browser"
+  - services.software.product:"minio"
+  fofa:
+  - app="minio"
+  - http.title="minio browser"
+  - http.title="minio console"
+  shodan:
+  - http.title:"minio browser"
+  - http.title:"minio console"
+  - product:"minio"
+  zoomeye:
+  - title:"minio browser"
+  - title:"minio console"
+  - app:"minio"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:activecollab:activecollab:*:*:*:*:*:*:*:*
+  description: Detection of activecollab activecollab
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"ActiveCollab"
+  fofa:
+  - app="ActiveCollab"
+  shodan:
+  - product:"ActiveCollab"
+  zoomeye:
+  - app:"ActiveCollab"

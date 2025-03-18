@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:jupyter:jupyterhub:*:*:*:*:*:*:*:*
+  description: Detection of jupyter jupyterhub
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"JupyterHub"
+  fofa:
+  - http.title="JupyterHub"
+  shodan:
+  - http.title:"JupyterHub"
+  zoomeye:
+  - title:"JupyterHub"

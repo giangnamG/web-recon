@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:novnc:novnc:*:*:*:*:*:*:*:*
+  description: Detection of novnc novnc
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"noVNC"
+  fofa:
+  - http.title="noVNC"
+  shodan:
+  - http.title:"noVNC"
+  zoomeye:
+  - title:"noVNC"

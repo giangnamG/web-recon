@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:webgrind_project:webgrind:*:*:*:*:*:*:*:*
+  description: Detection of webgrind_project webgrind
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"webgrind"
+  - services.software.product:"Webgrind"
+  fofa:
+  - app="webgrind"
+  - app="Webgrind"
+  shodan:
+  - product:"webgrind"
+  - product:"Webgrind"
+  zoomeye:
+  - app:"Webgrind"
+  - app:"webgrind"

@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:motioneye_project:motioneye:*:*:*:*:*:*:*:*
+  description: Detection of motioneye_project motioneye
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"motioneye"
+  - services.banner:"motioneye"
+  - services.banner:"MotionEye"
+  fofa:
+  - banner="MotionEye"
+  - banner="motioneye"
+  - body="motioneye"
+  shodan:
+  - http.html:"motioneye"
+  - html:"MotionEye"
+  zoomeye:
+  - banner:"MotionEye"
+  - banner:"motioneye"

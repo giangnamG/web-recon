@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:jmeter:*:*:*:*:*:*:*:*
+  description: Detection of apache jmeter
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Apache JMeter Dashboard"
+  - services.http.response.html_title:"apache jmeter dashboard"
+  fofa:
+  - http.title="Apache JMeter Dashboard"
+  - http.title="apache jmeter dashboard"
+  shodan:
+  - http.title:"apache jmeter dashboard"
+  - title:"Apache JMeter Dashboard"
+  zoomeye:
+  - title:"Apache JMeter Dashboard"
+  - title:"apache jmeter dashboard"

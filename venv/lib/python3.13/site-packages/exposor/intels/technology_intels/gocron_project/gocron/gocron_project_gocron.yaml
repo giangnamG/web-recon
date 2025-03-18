@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:gocron_project:gocron:*:*:*:*:*:*:*:*
+  description: Detection of gocron_project gocron
+  version: '1.0'
+queries:
+  censys:
+  - "services.software.product:\"gocron-\u5B9A\u65F6\u4EFB\u52A1\u7CFB\u7EDF\""
+  fofa:
+  - "app=\"gocron-\u5B9A\u65F6\u4EFB\u52A1\u7CFB\u7EDF\""
+  shodan:
+  - "product:\"gocron-\u5B9A\u65F6\u4EFB\u52A1\u7CFB\u7EDF\""
+  zoomeye:
+  - "app:\"gocron-\u5B9A\u65F6\u4EFB\u52A1\u7CFB\u7EDF\""

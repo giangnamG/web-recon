@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:reqlogic:reqlogic:*:*:*:*:*:*:*:*
+  description: Detection of reqlogic reqlogic
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"ReQlogic"
+  - services.banner:"reqlogic"
+  - services.http.response.body:"reqlogic"
+  fofa:
+  - body="reqlogic"
+  - banner="reqlogic"
+  - banner="ReQlogic"
+  shodan:
+  - http.html:"ReQlogic"
+  - http.html:"reqlogic"
+  zoomeye:
+  - banner:"ReQlogic"
+  - banner:"reqlogic"

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:cocoon:*:*:*:*:*:*:*:*
+  description: Detection of apache cocoon
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"APACHE-Cocoon"
+  - services.banner:"Apache Cocoon"
+  fofa:
+  - banner="Apache Cocoon"
+  - app="APACHE-Cocoon"
+  shodan:
+  - http.html:"Apache Cocoon"
+  - product:"APACHE-Cocoon"
+  zoomeye:
+  - banner:"Apache Cocoon"
+  - app:"APACHE-Cocoon"

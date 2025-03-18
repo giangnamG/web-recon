@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:phpunit_project:phpunit:*:*:*:*:*:*:*:*
+  description: Detection of phpunit_project phpunit
+  version: '1.0'
+queries: {}

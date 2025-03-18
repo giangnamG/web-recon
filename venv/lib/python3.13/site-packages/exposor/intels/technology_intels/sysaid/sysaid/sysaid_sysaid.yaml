@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sysaid:sysaid:*:*:*:*:*:*:*:*
+  description: Detection of sysaid sysaid
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:1540720428
+  fofa:
+  - icon_hash=1540720428
+  shodan:
+  - http.favicon.hash:1540720428
+  zoomeye:
+  - iconhash:1540720428

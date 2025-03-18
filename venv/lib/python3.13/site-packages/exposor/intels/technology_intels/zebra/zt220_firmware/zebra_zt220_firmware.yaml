@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:zebra:zt220_firmware:*:*:*:*:*:*:*:*
+  description: Detection of zebra zt220_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Zebra Technologies"
+  fofa:
+  - banner="Zebra Technologies"
+  shodan:
+  - html:"Zebra Technologies"
+  zoomeye:
+  - banner:"Zebra Technologies"

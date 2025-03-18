@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:python:python:*:*:*:*:*:*:*:*
+  description: Detection of python python
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"python_gc_objects_collected_total"
+  fofa:
+  - banner="python_gc_objects_collected_total"
+  shodan:
+  - html:"python_gc_objects_collected_total"
+  zoomeye:
+  - banner:"python_gc_objects_collected_total"

@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:boka:siteengine:*:*:*:*:*:*:*:*
+  description: Detection of boka siteengine
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"SiteEngine"
+  - services.http.response.body:"siteengine"
+  - services.banner:"siteengine"
+  fofa:
+  - banner="siteengine"
+  - banner="SiteEngine"
+  - body="siteengine"
+  shodan:
+  - html:"SiteEngine"
+  - http.html:"siteengine"
+  zoomeye:
+  - banner:"siteengine"
+  - banner:"SiteEngine"

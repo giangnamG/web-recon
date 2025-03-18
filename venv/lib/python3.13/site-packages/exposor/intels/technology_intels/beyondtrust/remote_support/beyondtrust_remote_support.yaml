@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:beyondtrust:remote_support:*:*:*:*:*:*:*:*
+  description: Detection of beyondtrust remote_support
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"BeyondTrust"
+  fofa:
+  - banner="BeyondTrust"
+  shodan:
+  - html:"BeyondTrust"
+  zoomeye:
+  - banner:"BeyondTrust"

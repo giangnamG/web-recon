@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:yeswiki:cercopitheque:*:*:*:*:*:*:*:*
+  description: Detection of yeswiki cercopitheque
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"yeswiki"
+  fofa:
+  - banner="yeswiki"
+  shodan:
+  - http.html:"yeswiki"
+  zoomeye:
+  - banner:"yeswiki"

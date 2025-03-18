@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:hikvision:intercom_broadcast_system:*:*:*:*:*:*:*:*
+  description: Detection of hikvision intercom_broadcast_system
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:"-1830859634"
+  fofa:
+  - icon_hash="-1830859634"
+  shodan:
+  - http.favicon.hash:"-1830859634"
+  zoomeye:
+  - iconhash:"-1830859634"

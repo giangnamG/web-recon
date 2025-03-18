@@ -1,0 +1,27 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:eclipse:mojarra:*:*:*:*:*:*:*:*
+  description: Detection of eclipse mojarra
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"javax.faces.viewstate"
+  - services.http.response.body:"javax.faces.resource"
+  - services.banner:"javax.faces.resource"
+  - services.banner:"javax.faces.viewstate"
+  - services.http.response.body:"javax.faces.ViewState"
+  fofa:
+  - body="javax.faces.ViewState"
+  - banner="javax.faces.resource"
+  - banner="javax.faces.viewstate"
+  - body="javax.faces.viewstate"
+  - body="javax.faces.resource"
+  shodan:
+  - html:"javax.faces.resource"
+  - http.html:"javax.faces.viewstate"
+  - http.html:"javax.faces.ViewState"
+  - http.html:"javax.faces.resource"
+  zoomeye:
+  - banner:"javax.faces.ViewState"
+  - banner:"javax.faces.viewstate"
+  - banner:"javax.faces.resource"

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:dotcms:dotcms:*:*:*:*:*:*:*:*
+  description: Detection of dotcms dotcms
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"dotCMS"
+  - services.http.response.html_title:"dotcms"
+  fofa:
+  - http.title="dotCMS"
+  - http.title="dotcms"
+  shodan:
+  - http.title:"dotcms"
+  - http.title:"dotCMS"
+  zoomeye:
+  - title:"dotCMS"
+  - title:"dotcms"

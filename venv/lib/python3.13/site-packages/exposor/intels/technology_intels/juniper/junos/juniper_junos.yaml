@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:juniper:junos:*:*:*:*:*:*:*:*
+  description: Detection of juniper junos
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"juniper web device manager"
+  - services.http.response.html_title:"Juniper Web Device Manager"
+  fofa:
+  - http.title="Juniper Web Device Manager"
+  - http.title="juniper web device manager"
+  shodan:
+  - title:"Juniper Web Device Manager"
+  - http.title:"juniper web device manager"
+  zoomeye:
+  - title:"Juniper Web Device Manager"
+  - title:"juniper web device manager"

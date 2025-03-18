@@ -1,0 +1,17 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:automatedlogic:webctrl:*:*:*:*:*:*:*:*
+  description: Detection of automatedlogic webctrl
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"/_common/lvl5/dologin.jsp"
+  - services.banner:"/_common/lvl5/dologin.jsp"
+  fofa:
+  - body="/_common/lvl5/dologin.jsp"
+  - banner="/_common/lvl5/dologin.jsp"
+  shodan:
+  - html:"/_common/lvl5/dologin.jsp"
+  - http.html:"/_common/lvl5/dologin.jsp"
+  zoomeye:
+  - banner:"/_common/lvl5/dologin.jsp"

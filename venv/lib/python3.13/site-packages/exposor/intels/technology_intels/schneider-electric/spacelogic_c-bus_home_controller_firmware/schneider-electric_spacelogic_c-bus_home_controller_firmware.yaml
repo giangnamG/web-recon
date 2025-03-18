@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:schneider-electric:spacelogic_c-bus_home_controller_firmware:*:*:*:*:*:*:*:*
+  description: Detection of schneider-electric spacelogic_c-bus_home_controller_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"spacelogic c-bus"
+  - services.http.response.body:"spacelogic c-bus"
+  - services.banner:"SpaceLogic C-Bus"
+  fofa:
+  - body="spacelogic c-bus"
+  - banner="spacelogic c-bus"
+  - banner="SpaceLogic C-Bus"
+  shodan:
+  - html:"SpaceLogic C-Bus"
+  - http.html:"spacelogic c-bus"
+  zoomeye:
+  - banner:"SpaceLogic C-Bus"
+  - banner:"spacelogic c-bus"

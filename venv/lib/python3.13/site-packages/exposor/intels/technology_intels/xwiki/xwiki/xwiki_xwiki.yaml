@@ -1,0 +1,17 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:xwiki:xwiki:*:*:*:*:*:*:*:*
+  description: Detection of xwiki xwiki
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"data-xwiki-reference"
+  - services.banner:"data-xwiki-reference"
+  fofa:
+  - body="data-xwiki-reference"
+  - banner="data-xwiki-reference"
+  shodan:
+  - html:"data-xwiki-reference"
+  - http.html:"data-xwiki-reference"
+  zoomeye:
+  - banner:"data-xwiki-reference"

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:superwebmailer:superwebmailer:*:*:*:*:*:*:*:*
+  description: Detection of superwebmailer superwebmailer
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"SuperWebMailer"
+  - services.http.response.html_title:"superwebmailer"
+  fofa:
+  - http.title="superwebmailer"
+  - http.title="SuperWebMailer"
+  shodan:
+  - title:"SuperWebMailer"
+  - http.title:"superwebmailer"
+  zoomeye:
+  - title:"SuperWebMailer"
+  - title:"superwebmailer"

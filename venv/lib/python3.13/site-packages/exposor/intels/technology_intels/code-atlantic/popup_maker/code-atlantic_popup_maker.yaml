@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:code-atlantic:popup_maker:*:*:*:*:*:wordpress:*:*
+  description: Detection of code-atlantic popup_maker
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/popup-maker/
+  - services.banner:/wp-content/plugins/popup-maker/
+  fofa:
+  - body=/wp-content/plugins/popup-maker/
+  - banner=/wp-content/plugins/popup-maker/
+  shodan:
+  - http.html:/wp-content/plugins/popup-maker/
+  zoomeye:
+  - banner:/wp-content/plugins/popup-maker/

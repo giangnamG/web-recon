@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:tamronos:tamronos:*:*:*:*:*:*:*:*
+  description: Detection of tamronos tamronos
+  version: '1.0'
+queries:
+  censys:
+  - "services.http.response.html_title:\"TamronOS IPTV\u7CFB\u7EDF\""
+  fofa:
+  - "http.title=\"TamronOS IPTV\u7CFB\u7EDF\""
+  shodan:
+  - "title:\"TamronOS IPTV\u7CFB\u7EDF\""
+  zoomeye:
+  - "title:\"TamronOS IPTV\u7CFB\u7EDF\""

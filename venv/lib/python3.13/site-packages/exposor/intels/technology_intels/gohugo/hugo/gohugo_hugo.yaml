@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:gohugo:hugo:*:*:*:*:*:*:*:*
+  description: Detection of gohugo hugo
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:'Hugo'
+  fofa:
+  - banner='Hugo'
+  shodan:
+  - http.html:'Hugo'
+  zoomeye:
+  - banner:'Hugo'

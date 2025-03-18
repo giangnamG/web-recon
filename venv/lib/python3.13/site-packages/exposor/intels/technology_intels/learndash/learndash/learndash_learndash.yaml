@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:learndash:learndash:*:*:*:*:*:wordpress:*:*
+  description: Detection of learndash learndash
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/sfwd-lms
+  - services.http.response.body:/wp-content/plugins/sfwd-lms
+  fofa:
+  - body=/wp-content/plugins/sfwd-lms
+  - banner=/wp-content/plugins/sfwd-lms
+  shodan:
+  - http.html:/wp-content/plugins/sfwd-lms
+  zoomeye:
+  - banner:/wp-content/plugins/sfwd-lms

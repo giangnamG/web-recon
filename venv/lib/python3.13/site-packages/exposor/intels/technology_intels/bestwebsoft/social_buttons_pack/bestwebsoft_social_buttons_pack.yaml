@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:social_buttons_pack:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft social_buttons_pack
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/social-buttons-pack/
+  - services.banner:/wp-content/plugins/social-buttons-pack/
+  fofa:
+  - banner=/wp-content/plugins/social-buttons-pack/
+  - body=/wp-content/plugins/social-buttons-pack/
+  shodan:
+  - http.html:/wp-content/plugins/social-buttons-pack/
+  zoomeye:
+  - banner:/wp-content/plugins/social-buttons-pack/

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zh_baidumap_project:zh_baidumap:*:*:*:*:*:joomla\!:*:*
+  description: Detection of zh_baidumap_project zh_baidumap
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"joomla
+  - services.software.product:"Joomla
+  fofa:
+  - "app=\"joomla!-\u7F51\u7AD9\u5B89\u88C5\""
+  - "app=\"Joomla!-\u7F51\u7AD9\u5B89\u88C5\""
+  shodan:
+  - product:"joomla
+  - product:"Joomla
+  zoomeye:
+  - app:"Joomla
+  - app:"joomla

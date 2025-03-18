@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:samsung:printer_firmware:*:*:*:*:*:*:*:*
+  description: Detection of samsung printer_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"samsung-printer"
+  - services.software.product:"SAMSUNG-Printer"
+  fofa:
+  - app="SAMSUNG-Printer"
+  - app="samsung-printer"
+  shodan:
+  - product:"SAMSUNG-Printer"
+  - product:"samsung-printer"
+  zoomeye:
+  - app:"SAMSUNG-Printer"
+  - app:"samsung-printer"

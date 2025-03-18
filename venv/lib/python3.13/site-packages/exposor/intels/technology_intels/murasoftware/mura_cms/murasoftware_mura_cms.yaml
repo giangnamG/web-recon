@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:murasoftware:mura_cms:*:*:*:*:*:*:*:*
+  description: Detection of murasoftware mura_cms
+  version: '1.0'
+queries: {}

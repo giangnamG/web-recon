@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ultimatemember:ultimate_member:*:*:*:*:*:wordpress:*:*
+  description: Detection of ultimatemember ultimate_member
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/ultimate-member
+  - services.banner:/wp-content/plugins/ultimate-member
+  fofa:
+  - body=/wp-content/plugins/ultimate-member
+  - banner=/wp-content/plugins/ultimate-member
+  shodan:
+  - http.html:/wp-content/plugins/ultimate-member
+  zoomeye:
+  - banner:/wp-content/plugins/ultimate-member

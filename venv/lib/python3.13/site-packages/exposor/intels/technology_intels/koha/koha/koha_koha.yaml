@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:koha:koha:*:*:*:*:*:*:*:*
+  description: Detection of koha koha
+  version: '1.0'
+queries: {}

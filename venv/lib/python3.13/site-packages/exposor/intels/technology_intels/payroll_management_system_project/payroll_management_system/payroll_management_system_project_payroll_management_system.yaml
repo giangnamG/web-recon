@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:payroll_management_system_project:payroll_management_system:*:*:*:*:*:*:*:*
+  description: Detection of payroll_management_system_project payroll_management_system
+  version: '1.0'
+queries:
+  censys:
+  - 'services.http.response.html_title:"Admin '
+  fofa:
+  - 'http.title="Admin '
+  shodan:
+  - http.title:"Admin | Employee's Payroll Management System"
+  zoomeye:
+  - 'title:"Admin '

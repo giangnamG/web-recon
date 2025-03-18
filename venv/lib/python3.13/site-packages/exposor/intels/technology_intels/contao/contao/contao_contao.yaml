@@ -1,0 +1,24 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:contao:contao:*:*:*:*:*:*:*:*
+  description: Detection of contao contao
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Contao Open Source CMS"
+  - services.banner:"contao open source cms"
+  - services.http.response.html_title:"contao"
+  - services.http.response.body:"contao open source cms"
+  fofa:
+  - banner="Contao Open Source CMS"
+  - http.title="contao"
+  - banner="contao open source cms"
+  - body="contao open source cms"
+  shodan:
+  - http.title:"contao"
+  - http.html:"Contao Open Source CMS"
+  - http.html:"contao open source cms"
+  zoomeye:
+  - banner:"contao open source cms"
+  - title:"contao"
+  - banner:"Contao Open Source CMS"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:verizon:fios_actiontec_mi424wr-gen31_router_firmware:*:*:*:*:*:*:*:*
+  description: Detection of verizon fios_actiontec_mi424wr-gen31_router_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Verizon Router"
+  fofa:
+  - http.title="Verizon Router"
+  shodan:
+  - http.title:"Verizon Router"
+  zoomeye:
+  - title:"Verizon Router"

@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:plugins-market:wp_visitor_statistics:*:*:*:*:*:wordpress:*:*
+  description: Detection of plugins-market wp_visitor_statistics
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"wp-stats-manager"
+  - services.http.response.body:"wp-stats-manager"
+  fofa:
+  - banner="wp-stats-manager"
+  - body="wp-stats-manager"
+  shodan:
+  - http.html:"wp-stats-manager"
+  zoomeye:
+  - banner:"wp-stats-manager"

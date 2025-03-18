@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:3cx:3cx:*:*:*:*:*:*:*:*
+  description: Detection of 3cx 3cx
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"3CX Phone System Management Console"
+  fofa:
+  - title="3CX Phone System Management Console"
+  shodan:
+  - http.title:"3CX Phone System Management Console"
+  zoomeye:
+  - title:"3CX Phone System Management Console"

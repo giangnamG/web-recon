@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:yourls:yourls:*:*:*:*:*:*:*:*
+  description: Detection of yourls yourls
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Your Own URL Shortener"
+  fofa:
+  - http.title="Your Own URL Shortener"
+  shodan:
+  - title:"Your Own URL Shortener"
+  zoomeye:
+  - title:"Your Own URL Shortener"

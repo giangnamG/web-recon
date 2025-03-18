@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:vmware:vrealize_network_insight:*:*:*:*:*:*:*:*
+  description: Detection of vmware vrealize_network_insight
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"vmware vrealize network insight"
+  - services.http.response.html_title:"vmware aria operations"
+  - services.http.response.html_title:"VMware vRealize Network Insight"
+  fofa:
+  - http.title="VMware vRealize Network Insight"
+  - http.title="vmware vrealize network insight"
+  - http.title="vmware aria operations"
+  shodan:
+  - http.title:"vmware aria operations"
+  - http.title:"vmware vrealize network insight"
+  - title:"VMware vRealize Network Insight"
+  zoomeye:
+  - title:"vmware vrealize network insight"
+  - title:"vmware aria operations"
+  - title:"VMware vRealize Network Insight"

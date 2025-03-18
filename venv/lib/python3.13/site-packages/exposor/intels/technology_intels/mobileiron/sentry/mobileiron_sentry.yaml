@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mobileiron:sentry:*:*:*:*:*:*:*:*
+  description: Detection of mobileiron sentry
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:967636089
+  fofa:
+  - icon_hash=967636089
+  shodan:
+  - http.favicon.hash:967636089
+  zoomeye:
+  - iconhash:967636089

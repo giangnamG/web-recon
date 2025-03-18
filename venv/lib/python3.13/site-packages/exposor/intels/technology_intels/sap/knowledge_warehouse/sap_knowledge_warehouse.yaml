@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sap:knowledge_warehouse:*:*:*:*:*:*:*:*
+  description: Detection of sap knowledge_warehouse
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"SAP NetWeaver Application Server httpd
+  - services.software.product:"sap netweaver application server httpd
+  - services.http.response.favicons.shodan_hash:-266008933
+  fofa:
+  - icon_hash=-266008933
+  - app="SAP NetWeaver Application Server httpd
+  - app="sap netweaver application server httpd
+  shodan:
+  - product:"SAP NetWeaver Application Server httpd
+  - http.favicon.hash:-266008933
+  - product:"sap netweaver application server httpd
+  zoomeye:
+  - iconhash:-266008933
+  - +app:"sap netweaver application server httpd
+  - +app:"SAP NetWeaver Application Server httpd

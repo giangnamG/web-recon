@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:thinkphp:thinkphp:*:*:*:*:*:*:*:*
+  description: Detection of thinkphp thinkphp
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"think_lang"
+  - services.http.response.html_title:"thinkphp"
+  - services.http.response.html_title:"ThinkPHP"
+  fofa:
+  - http.title="ThinkPHP"
+  - http.title="thinkphp"
+  - header="think_lang"
+  shodan:
+  - http.html:"think_lang"
+  - title:"ThinkPHP"
+  - http.title:"thinkphp"
+  zoomeye:
+  - title:"thinkphp"
+  - headers:"think_lang"
+  - title:"ThinkPHP"

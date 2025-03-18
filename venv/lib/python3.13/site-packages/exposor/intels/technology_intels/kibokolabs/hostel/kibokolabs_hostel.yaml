@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:kibokolabs:hostel:*:*:*:*:wordpress:*:*:*
+  description: Detection of kibokolabs hostel
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"/wp-content/plugins/hostel/"
+  - services.http.response.body:"/wp-content/plugins/hostel"
+  fofa:
+  - banner="/wp-content/plugins/hostel/"
+  - body="/wp-content/plugins/hostel"
+  shodan:
+  - http.html:"/wp-content/plugins/hostel/"
+  - http.html:"/wp-content/plugins/hostel"
+  zoomeye:
+  - banner:"/wp-content/plugins/hostel"
+  - banner:"/wp-content/plugins/hostel/"

@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:carel:pcoweb_card_firmware:*:*:*:*:*:*:*:*
+  description: Detection of carel pcoweb_card_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"pcoweb"
+  - services.banner:"pcoweb"
+  - services.banner:"pCOWeb"
+  fofa:
+  - body="pcoweb"
+  - banner="pCOWeb"
+  - banner="pcoweb"
+  shodan:
+  - http.html:"pCOWeb"
+  - http.html:"pcoweb"
+  zoomeye:
+  - banner:"pCOWeb"
+  - banner:"pcoweb"

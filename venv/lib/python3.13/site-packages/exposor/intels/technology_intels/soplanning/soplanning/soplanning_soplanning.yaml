@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:soplanning:soplanning:*:*:*:*:*:*:*:*
+  description: Detection of soplanning soplanning
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"soplanning"
+  - services.banner:"soplanning"
+  fofa:
+  - banner="soplanning"
+  - body="soplanning"
+  shodan:
+  - http.html:"soplanning"
+  zoomeye:
+  - banner:"soplanning"

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:arangodb:arangodb:*:*:*:*:*:*:*:*
+  description: Detection of arangodb arangodb
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"ArangoDB Web Interface"
+  - services.http.response.html_title:"arangodb web interface"
+  fofa:
+  - http.title="arangodb web interface"
+  - http.title="ArangoDB Web Interface"
+  shodan:
+  - http.title:"arangodb web interface"
+  - http.title:"ArangoDB Web Interface"
+  zoomeye:
+  - title:"ArangoDB Web Interface"
+  - title:"arangodb web interface"

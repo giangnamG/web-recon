@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:qdpm:qdpm:*:*:*:*:*:*:*:*
+  description: Detection of qdpm qdpm
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:762074255
+  fofa:
+  - icon_hash=762074255
+  shodan:
+  - http.favicon.hash:762074255
+  zoomeye:
+  - iconhash:762074255

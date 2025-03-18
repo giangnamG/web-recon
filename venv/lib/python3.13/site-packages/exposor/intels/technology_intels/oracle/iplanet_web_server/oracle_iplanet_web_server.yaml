@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:oracle:iplanet_web_server:*:*:*:*:*:*:*:*
+  description: Detection of oracle iplanet_web_server
+  version: '1.0'
+queries: {}

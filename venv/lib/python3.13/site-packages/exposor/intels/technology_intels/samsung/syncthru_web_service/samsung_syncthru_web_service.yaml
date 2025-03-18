@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:samsung:syncthru_web_service:*:*:*:*:*:*:*:*
+  description: Detection of samsung syncthru_web_service
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"SyncThru Web Service"
+  - services.http.response.html_title:"syncthru web service"
+  fofa:
+  - http.title="SyncThru Web Service"
+  - http.title="syncthru web service"
+  shodan:
+  - http.title:"syncthru web service"
+  - title:"SyncThru Web Service"
+  zoomeye:
+  - title:"syncthru web service"
+  - title:"SyncThru Web Service"

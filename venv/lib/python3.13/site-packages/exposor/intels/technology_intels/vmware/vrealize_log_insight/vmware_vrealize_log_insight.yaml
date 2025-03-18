@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:vmware:vrealize_log_insight:*:*:*:*:*:*:*:*
+  description: Detection of vmware vrealize_log_insight
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"vrealize log insight"
+  - services.http.response.html_title:"vRealize Log insight"
+  fofa:
+  - http.title="vrealize log insight"
+  - http.title="vRealize Log insight"
+  shodan:
+  - title:"vRealize Log insight"
+  - http.title:"vrealize log insight"
+  zoomeye:
+  - title:"vRealize Log insight"
+  - title:"vrealize log insight"

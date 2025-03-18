@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:speed_test_project:speed_test:*:*:*:*:*:*:*:*
+  description: Detection of speed_test_project speed_test
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Speedtest Tracker"
+  fofa:
+  - http.title="Speedtest Tracker"
+  shodan:
+  - title:"Speedtest Tracker"
+  zoomeye:
+  - title:"Speedtest Tracker"

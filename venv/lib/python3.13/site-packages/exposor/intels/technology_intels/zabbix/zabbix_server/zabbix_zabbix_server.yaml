@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zabbix:zabbix_server:*:*:*:*:*:*:*:*
+  description: Detection of zabbix zabbix_server
+  version: '1.0'
+queries:
+  censys:
+  - 'services.http.response.html_title:"Warning '
+  fofa:
+  - 'http.title="Warning '
+  shodan:
+  - http.title:"Warning [refreshed every 30 sec.]"
+  zoomeye:
+  - 'title:"Warning '

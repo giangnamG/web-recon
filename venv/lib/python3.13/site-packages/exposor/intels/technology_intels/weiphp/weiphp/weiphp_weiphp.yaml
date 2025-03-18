@@ -1,0 +1,26 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:weiphp:weiphp:*:*:*:*:*:*:*:*
+  description: Detection of weiphp weiphp
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"weiphp5.0"
+  - services.banner:"weiphp5.0"
+  - services.http.response.body:"weiphp"
+  - services.banner:"weiphp"
+  - services.banner:"WeiPHP5.0"
+  fofa:
+  - banner="weiphp5.0"
+  - banner="weiphp"
+  - body="weiphp"
+  - body="weiphp5.0"
+  - banner="WeiPHP5.0"
+  shodan:
+  - http.html:"WeiPHP5.0"
+  - http.html:"weiphp5.0"
+  - http.html:"weiphp"
+  zoomeye:
+  - banner:"weiphp5.0"
+  - banner:"WeiPHP5.0"
+  - banner:"weiphp"

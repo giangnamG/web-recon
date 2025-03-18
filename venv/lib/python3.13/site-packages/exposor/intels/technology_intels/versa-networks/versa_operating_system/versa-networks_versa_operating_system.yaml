@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:versa-networks:versa_operating_system:*:*:*:*:*:*:*:*
+  description: Detection of versa-networks versa_operating_system
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Flex VNF Web-UI"
+  fofa:
+  - http.title="Flex VNF Web-UI"
+  shodan:
+  - title:"Flex VNF Web-UI"
+  zoomeye:
+  - title:"Flex VNF Web-UI"

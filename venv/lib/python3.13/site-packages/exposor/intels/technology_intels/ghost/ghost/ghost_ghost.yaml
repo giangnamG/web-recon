@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ghost:ghost:*:*:*:*:*:node.js:*:*
+  description: Detection of ghost ghost
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"ghost"
+  fofa:
+  - banner="ghost"
+  shodan:
+  - http.component:"ghost"
+  zoomeye:
+  - banner:"ghost"

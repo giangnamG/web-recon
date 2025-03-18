@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:oracle:glassfish_server:*:*:*:*:open_source:*:*:*
+  description: Detection of oracle glassfish_server
+  version: '1.0'
+queries: {}

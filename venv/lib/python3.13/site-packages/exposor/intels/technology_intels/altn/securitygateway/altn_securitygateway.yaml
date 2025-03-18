@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:altn:securitygateway:*:*:*:*:*:*:*:*
+  description: Detection of altn securitygateway
+  version: '1.0'
+queries: {}

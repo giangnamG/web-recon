@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cmseasy:cmseasy:*:*:*:*:*:*:*:*
+  description: Detection of cmseasy cmseasy
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"CmsEasy"
+  fofa:
+  - app="CmsEasy"
+  shodan:
+  - product:"CmsEasy"
+  zoomeye:
+  - app:"CmsEasy"

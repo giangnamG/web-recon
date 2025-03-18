@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ossrs:simple_realtime_server:*:*:*:*:*:*:*:*
+  description: Detection of ossrs simple_realtime_server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:1386054408
+  fofa:
+  - icon_hash=1386054408
+  shodan:
+  - http.favicon.hash:1386054408
+  zoomeye:
+  - iconhash:1386054408

@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:inspireui:mstore_api:*:*:*:*:*:wordpress:*:*
+  description: Detection of inspireui mstore_api
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/mstore-api/
+  - services.banner:/wp-content/plugins/mstore-api/
+  fofa:
+  - banner=/wp-content/plugins/mstore-api/
+  - body=/wp-content/plugins/mstore-api/
+  shodan:
+  - http.html:/wp-content/plugins/mstore-api/
+  zoomeye:
+  - banner:/wp-content/plugins/mstore-api/

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:webpack.js:webpack:*:*:*:*:node.js:*:*:*
+  description: Detection of webpack.js webpack
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"webpack.config.js"
+  fofa:
+  - banner="webpack.config.js"
+  shodan:
+  - html:"webpack.config.js"
+  zoomeye:
+  - banner:"webpack.config.js"

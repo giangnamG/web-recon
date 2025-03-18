@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:appcms:appcms:*:*:*:*:*:*:*:*
+  description: Detection of appcms appcms
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Powerd by AppCMS"
+  fofa:
+  - banner="Powerd by AppCMS"
+  shodan:
+  - http.html:"Powerd by AppCMS"
+  zoomeye:
+  - banner:"Powerd by AppCMS"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:progress:telerik_report_server:*:*:*:*:*:*:*:*
+  description: Detection of progress telerik_report_server
+  version: '1.0'
+queries:
+  censys:
+  - 'services.http.response.html_title:"Log in '
+  fofa:
+  - 'http.title="Log in '
+  shodan:
+  - title:"Log in | Telerik Report Server"
+  zoomeye:
+  - 'title:"Log in '

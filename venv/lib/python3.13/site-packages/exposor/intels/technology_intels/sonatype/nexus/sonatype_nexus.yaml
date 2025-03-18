@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sonatype:nexus:*:*:*:*:*:*:*:*
+  description: Detection of sonatype nexus
+  version: '1.0'
+queries: {}

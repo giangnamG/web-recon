@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:microfocus:vibe:*:*:*:*:*:*:*:*
+  description: Detection of microfocus vibe
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"micro focus vibe"
+  - services.http.response.body:"micro focus vibe"
+  - services.banner:"Micro Focus Vibe"
+  fofa:
+  - banner="micro focus vibe"
+  - body="micro focus vibe"
+  - banner="Micro Focus Vibe"
+  shodan:
+  - http.html:"micro focus vibe"
+  - http.html:"Micro Focus Vibe"
+  zoomeye:
+  - banner:"Micro Focus Vibe"
+  - banner:"micro focus vibe"

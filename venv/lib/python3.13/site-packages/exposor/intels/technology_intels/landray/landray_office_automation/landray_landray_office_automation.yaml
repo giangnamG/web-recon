@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:landray:landray_office_automation:*:*:*:*:*:*:*:*
+  description: Detection of landray landray_office_automation
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"Landray OA system"
+  fofa:
+  - app="Landray OA system"
+  shodan:
+  - product:"Landray OA system"
+  zoomeye:
+  - app:"Landray OA system"

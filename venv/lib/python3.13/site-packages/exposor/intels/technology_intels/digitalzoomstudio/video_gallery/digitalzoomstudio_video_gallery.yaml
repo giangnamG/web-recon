@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:digitalzoomstudio:video_gallery:*:*:*:*:*:wordpress:*:*
+  description: Detection of digitalzoomstudio video_gallery
+  version: '1.0'
+queries: {}

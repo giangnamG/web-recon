@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:acme:mini-httpd:*:*:*:*:*:*:*:*
+  description: Detection of acme mini-httpd
+  version: '1.0'
+queries: {}

@@ -1,0 +1,28 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ektron:ektron_content_management_system:*:*:*:*:*:*:*:*
+  description: Detection of ektron ektron_content_management_system
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"ektron"
+  - services.software.product:"Ektron-CMS"
+  - services.banner:"Ektron"
+  - services.software.product:"ektron-cms"
+  - services.http.response.body:"ektron"
+  fofa:
+  - app="Ektron-CMS"
+  - banner="ektron"
+  - banner="Ektron"
+  - app="ektron-cms"
+  - body="ektron"
+  shodan:
+  - product:"Ektron-CMS"
+  - http.html:"Ektron"
+  - http.html:"ektron"
+  - product:"ektron-cms"
+  zoomeye:
+  - app:"ektron-cms"
+  - banner:"ektron"
+  - app:"Ektron-CMS"
+  - banner:"Ektron"

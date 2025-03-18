@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:selenium:selenium:*:*:*:*:*:*:*:*
+  description: Detection of selenium selenium
+  version: '1.0'
+queries: {}

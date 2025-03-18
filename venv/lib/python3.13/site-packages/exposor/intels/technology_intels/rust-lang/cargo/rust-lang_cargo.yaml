@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:rust-lang:cargo:*:*:*:*:rust:*:*:*
+  description: Detection of rust-lang cargo
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Cargo.toml"
+  fofa:
+  - banner="Cargo.toml"
+  shodan:
+  - html:"Cargo.toml"
+  zoomeye:
+  - banner:"Cargo.toml"

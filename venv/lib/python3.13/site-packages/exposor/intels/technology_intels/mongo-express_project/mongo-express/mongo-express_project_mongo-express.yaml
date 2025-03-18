@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mongo-express_project:mongo-express:*:*:*:*:*:node.js:*:*
+  description: Detection of mongo-express_project mongo-express
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"mongo express"
+  - services.http.response.html_title:"Mongo Express"
+  fofa:
+  - http.title="mongo express"
+  - http.title="Mongo Express"
+  shodan:
+  - http.title:"Mongo Express"
+  - http.title:"mongo express"
+  zoomeye:
+  - title:"Mongo Express"
+  - title:"mongo express"

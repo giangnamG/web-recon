@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:teampass:teampass:*:*:*:*:*:*:*:*
+  description: Detection of teampass teampass
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"teampass"
+  - services.http.response.body:"teampass"
+  fofa:
+  - body="teampass"
+  - banner="teampass"
+  shodan:
+  - http.html:"teampass"
+  zoomeye:
+  - banner:"teampass"

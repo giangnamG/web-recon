@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ctrip:apollo:*:*:*:*:*:*:*:*
+  description: Detection of ctrip apollo
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"apollo-adminservice"
+  fofa:
+  - banner="apollo-adminservice"
+  shodan:
+  - http.html:"apollo-adminservice"
+  zoomeye:
+  - banner:"apollo-adminservice"

@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:contest_gallery:contest_gallery:*:*:*:*:*:wordpress:*:*
+  description: Detection of contest_gallery contest_gallery
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/contest-gallery/
+  - services.http.response.body:/wp-content/plugins/contest-gallery/
+  fofa:
+  - banner=/wp-content/plugins/contest-gallery/
+  - body=/wp-content/plugins/contest-gallery/
+  shodan:
+  - http.html:/wp-content/plugins/contest-gallery/
+  zoomeye:
+  - banner:/wp-content/plugins/contest-gallery/

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:xnat:xnat:*:*:*:*:*:*:*:*
+  description: Detection of xnat xnat
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"XNAT"
+  fofa:
+  - http.title="XNAT"
+  shodan:
+  - http.title:"XNAT"
+  zoomeye:
+  - title:"XNAT"

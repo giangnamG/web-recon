@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:couchbase:sync_gateway:*:*:*:*:*:*:*:*
+  description: Detection of couchbase sync_gateway
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Couchbase Sync Gateway"
+  fofa:
+  - banner="Couchbase Sync Gateway"
+  shodan:
+  - html:"Couchbase Sync Gateway"
+  zoomeye:
+  - banner:"Couchbase Sync Gateway"

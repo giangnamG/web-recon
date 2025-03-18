@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ibm:tivoli_common_reporting:*:*:*:*:*:*:*:*
+  description: Detection of ibm tivoli_common_reporting
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"ibm websphere portal"
+  - services.banner:"IBM WebSphere Portal"
+  - services.http.response.body:"ibm websphere portal"
+  fofa:
+  - banner="IBM WebSphere Portal"
+  - body="ibm websphere portal"
+  - banner="ibm websphere portal"
+  shodan:
+  - http.html:"IBM WebSphere Portal"
+  - http.html:"ibm websphere portal"
+  zoomeye:
+  - banner:"ibm websphere portal"
+  - banner:"IBM WebSphere Portal"

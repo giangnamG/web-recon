@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ray_project:ray:*:*:*:*:*:*:*:*
+  description: Detection of ray_project ray
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"ray dashboard"
+  - services.http.response.body:"ray dashboard"
+  - services.http.response.favicons.shodan_hash:463802404
+  fofa:
+  - banner="ray dashboard"
+  - icon_hash=463802404
+  - body="ray dashboard"
+  shodan:
+  - http.favicon.hash:463802404
+  - http.html:"ray dashboard"
+  zoomeye:
+  - banner:"ray dashboard"
+  - iconhash:463802404

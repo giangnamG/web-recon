@@ -1,0 +1,17 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sabnzbd:sabnzbd:*:*:*:*:*:*:*:*
+  description: Detection of sabnzbd sabnzbd
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"SABnzbd Quick-Start Wizard"
+  - services.banner:"SABnzbd Quick-Start Wizard"
+  fofa:
+  - banner="SABnzbd Quick-Start Wizard"
+  - body="SABnzbd Quick-Start Wizard"
+  shodan:
+  - http.html:"SABnzbd Quick-Start Wizard"
+  - html:"SABnzbd Quick-Start Wizard"
+  zoomeye:
+  - banner:"SABnzbd Quick-Start Wizard"

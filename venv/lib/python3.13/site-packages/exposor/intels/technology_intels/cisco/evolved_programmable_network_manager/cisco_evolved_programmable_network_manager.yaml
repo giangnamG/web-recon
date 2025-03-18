@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cisco:evolved_programmable_network_manager:*:*:*:*:*:*:*:*
+  description: Detection of cisco evolved_programmable_network_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"prime infrastructure"
+  fofa:
+  - http.title="prime infrastructure"
+  shodan:
+  - http.title:"prime infrastructure"
+  zoomeye:
+  - title:"prime infrastructure"

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:hydra_project:hydra:*:*:*:*:*:*:*:*
+  description: Detection of hydra_project hydra
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Hydra Router Dashboard"
+  - services.http.response.html_title:"hydra router dashboard"
+  fofa:
+  - http.title="Hydra Router Dashboard"
+  - http.title="hydra router dashboard"
+  shodan:
+  - title:"Hydra Router Dashboard"
+  - http.title:"hydra router dashboard"
+  zoomeye:
+  - title:"Hydra Router Dashboard"
+  - title:"hydra router dashboard"

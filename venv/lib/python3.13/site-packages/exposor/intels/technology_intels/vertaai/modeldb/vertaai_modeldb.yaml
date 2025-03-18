@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:vertaai:modeldb:*:*:*:*:*:*:*:*
+  description: Detection of vertaai modeldb
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-2097033750
+  - services.http.response.html_title:"Verta AI"
+  - services.http.response.html_title:"verta ai"
+  fofa:
+  - icon_hash=-2097033750
+  - http.title="verta ai"
+  - http.title="Verta AI"
+  shodan:
+  - http.title:"verta ai"
+  - http.favicon.hash:-2097033750
+  - http.title:"Verta AI"
+  zoomeye:
+  - title:"verta ai"
+  - title:"Verta AI"
+  - iconhash:-2097033750

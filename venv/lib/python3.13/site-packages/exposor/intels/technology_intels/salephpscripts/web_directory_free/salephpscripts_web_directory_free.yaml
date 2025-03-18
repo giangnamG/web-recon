@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:salephpscripts:web_directory_free:*:*:*:*:wordpress:*:*:*
+  description: Detection of salephpscripts web_directory_free
+  version: '1.0'
+queries: {}

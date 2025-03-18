@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:misp:misp:*:*:*:*:*:*:*:*
+  description: Detection of misp misp
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"users - misp"
+  - services.http.response.html_title:"Users - MISP"
+  fofa:
+  - http.title="users - misp"
+  - http.title="Users - MISP"
+  shodan:
+  - http.title:"users - misp"
+  - http.title:"Users - MISP"
+  zoomeye:
+  - title:"Users - MISP"
+  - title:"users - misp"

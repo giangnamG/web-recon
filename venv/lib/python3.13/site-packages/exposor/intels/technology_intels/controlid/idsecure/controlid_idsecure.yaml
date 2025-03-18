@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:controlid:idsecure:*:*:*:*:*:*:*:*
+  description: Detection of controlid idsecure
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"iDSecure"
+  fofa:
+  - body="iDSecure"
+  shodan:
+  - http.html:"iDSecure"
+  zoomeye:
+  - banner:"iDSecure"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:pytorch:torchserve:*:*:*:*:*:*:*:*
+  description: Detection of pytorch torchserve
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"Requested method is not allowed
+  fofa:
+  - body="Requested method is not allowed, please refer to API document"
+  shodan:
+  - http.html:"Requested method is not allowed
+  zoomeye:
+  - banner:"Requested method is not allowed

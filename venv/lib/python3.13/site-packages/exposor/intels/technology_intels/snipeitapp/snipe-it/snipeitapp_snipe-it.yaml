@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:snipeitapp:snipe-it:*:*:*:*:*:*:*:*
+  description: Detection of snipeitapp snipe-it
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Snipe-IT Setup"
+  fofa:
+  - banner="Snipe-IT Setup"
+  shodan:
+  - html:"Snipe-IT Setup"
+  zoomeye:
+  - banner:"Snipe-IT Setup"

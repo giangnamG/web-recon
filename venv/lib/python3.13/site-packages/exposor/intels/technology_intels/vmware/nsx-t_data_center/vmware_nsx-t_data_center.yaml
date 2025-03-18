@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:vmware:nsx-t_data_center:*:*:*:*:*:*:*:*
+  description: Detection of vmware nsx-t_data_center
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"vmw_nsx_logo-black-triangle-500w.png"
+  fofa:
+  - banner="vmw_nsx_logo-black-triangle-500w.png"
+  shodan:
+  - html:"vmw_nsx_logo-black-triangle-500w.png"
+  zoomeye:
+  - banner:"vmw_nsx_logo-black-triangle-500w.png"

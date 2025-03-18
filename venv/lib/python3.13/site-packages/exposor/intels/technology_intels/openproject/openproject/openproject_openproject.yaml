@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:openproject:openproject:*:*:*:*:*:*:*:*
+  description: Detection of openproject openproject
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"openproject"
+  fofa:
+  - http.title="openproject"
+  shodan:
+  - title:"openproject"
+  zoomeye:
+  - title:"openproject"

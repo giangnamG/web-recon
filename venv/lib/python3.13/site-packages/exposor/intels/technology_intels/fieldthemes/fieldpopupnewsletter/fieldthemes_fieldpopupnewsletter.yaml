@@ -1,0 +1,17 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:fieldthemes:fieldpopupnewsletter:*:*:*:*:*:prestashop:*:*
+  description: Detection of fieldthemes fieldpopupnewsletter
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"fieldpopupnewsletter"
+  - services.http.response.body:"fieldpopupnewsletter"
+  fofa:
+  - banner="fieldpopupnewsletter"
+  - body="fieldpopupnewsletter"
+  shodan:
+  - html:"fieldpopupnewsletter"
+  - http.html:"fieldpopupnewsletter"
+  zoomeye:
+  - banner:"fieldpopupnewsletter"

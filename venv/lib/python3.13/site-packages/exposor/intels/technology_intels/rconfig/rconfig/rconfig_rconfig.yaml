@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:rconfig:rconfig:*:*:*:*:*:*:*:*
+  description: Detection of rconfig rconfig
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"rconfig"
+  fofa:
+  - http.title="rconfig"
+  shodan:
+  - http.title:"rconfig"
+  zoomeye:
+  - title:"rconfig"

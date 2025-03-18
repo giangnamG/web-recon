@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:inspur:clusterengine:*:*:*:*:*:*:*:*
+  description: Detection of inspur clusterengine
+  version: '1.0'
+queries: {}

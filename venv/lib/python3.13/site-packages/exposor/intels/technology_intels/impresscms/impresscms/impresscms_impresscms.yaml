@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:impresscms:impresscms:*:*:*:*:*:*:*:*
+  description: Detection of impresscms impresscms
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"impresscms"
+  - services.http.response.body:"impresscms"
+  - services.banner:"ImpressCMS"
+  fofa:
+  - banner="impresscms"
+  - banner="ImpressCMS"
+  - body="impresscms"
+  shodan:
+  - http.html:"impresscms"
+  - http.html:"ImpressCMS"
+  zoomeye:
+  - banner:"ImpressCMS"
+  - banner:"impresscms"

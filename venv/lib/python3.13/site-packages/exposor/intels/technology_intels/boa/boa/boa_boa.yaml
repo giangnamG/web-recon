@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:boa:boa:*:*:*:*:*:*:*:*
+  description: Detection of boa boa
+  version: '1.0'
+queries: {}

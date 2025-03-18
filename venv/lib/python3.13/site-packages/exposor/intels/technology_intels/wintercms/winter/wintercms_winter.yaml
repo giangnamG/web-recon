@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wintercms:winter:*:*:*:*:*:*:*:*
+  description: Detection of wintercms winter
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"winter cms"
+  - services.http.response.html_title:"Winter CMS"
+  fofa:
+  - http.title="Winter CMS"
+  - http.title="winter cms"
+  shodan:
+  - http.title:"winter cms"
+  - title:"Winter CMS"
+  zoomeye:
+  - title:"winter cms"
+  - title:"Winter CMS"

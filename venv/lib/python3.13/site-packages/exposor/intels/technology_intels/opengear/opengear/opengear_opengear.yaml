@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:opengear:opengear:*:*:*:*:*:*:*:*
+  description: Detection of opengear opengear
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"opengear-Management-Console"
+  fofa:
+  - app="opengear-Management-Console"
+  shodan:
+  - product:"opengear-Management-Console"
+  zoomeye:
+  - app:"opengear-Management-Console"

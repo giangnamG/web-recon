@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:alibaba:nacos:*:*:*:*:*:*:*:*
+  description: Detection of alibaba nacos
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"NACOS"
+  fofa:
+  - app="NACOS"
+  shodan:
+  - product:"NACOS"
+  zoomeye:
+  - app:"NACOS"

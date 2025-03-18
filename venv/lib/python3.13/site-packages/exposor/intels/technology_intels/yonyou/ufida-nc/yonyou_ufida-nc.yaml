@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:yonyou:ufida-nc:*:*:*:*:*:*:*:*
+  description: Detection of yonyou ufida-nc
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:"1085941792"
+  fofa:
+  - icon_hash="1085941792"
+  shodan:
+  - http.favicon.hash:"1085941792"
+  zoomeye:
+  - iconhash:"1085941792"

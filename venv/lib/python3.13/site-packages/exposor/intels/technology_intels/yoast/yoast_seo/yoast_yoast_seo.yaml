@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:yoast:yoast_seo:*:*:*:*:wordpress:*:*:*
+  description: Detection of yoast yoast_seo
+  version: '1.0'
+queries: {}

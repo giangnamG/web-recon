@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:samsung:dvr:*:*:*:*:*:*:*:*
+  description: Detection of samsung dvr
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"web viewer for samsung dvr"
+  - services.http.response.html_title:"Web Viewer for Samsung DVR"
+  fofa:
+  - http.title="Web Viewer for Samsung DVR"
+  - http.title="web viewer for samsung dvr"
+  shodan:
+  - title:"Web Viewer for Samsung DVR"
+  - http.title:"web viewer for samsung dvr"
+  zoomeye:
+  - title:"Web Viewer for Samsung DVR"
+  - title:"web viewer for samsung dvr"

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:forgerock:openam:*:*:*:*:*:*:*:*
+  description: Detection of forgerock openam
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"OpenAM"
+  - services.http.response.html_title:"openam"
+  fofa:
+  - http.title="openam"
+  - http.title="OpenAM"
+  shodan:
+  - http.title:"openam"
+  - http.title:"OpenAM"
+  zoomeye:
+  - title:"OpenAM"
+  - title:"openam"

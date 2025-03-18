@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:axigen:axigen_mobile_webmail:*:*:*:*:*:*:*:*
+  description: Detection of axigen axigen_mobile_webmail
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-1247684400
+  fofa:
+  - icon_hash=-1247684400
+  shodan:
+  - http.favicon.hash:-1247684400
+  zoomeye:
+  - iconhash:-1247684400

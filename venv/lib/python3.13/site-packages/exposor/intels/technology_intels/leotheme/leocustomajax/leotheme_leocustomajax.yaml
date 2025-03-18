@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:leotheme:leocustomajax:*:*:*:*:*:prestashop:*:*
+  description: Detection of leotheme leocustomajax
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Prestashop"
+  - services.banner:"prestashop"
+  fofa:
+  - banner="Prestashop"
+  - banner="prestashop"
+  shodan:
+  - http.component:"Prestashop"
+  - http.component:"prestashop"
+  zoomeye:
+  - banner:"Prestashop"
+  - banner:"prestashop"

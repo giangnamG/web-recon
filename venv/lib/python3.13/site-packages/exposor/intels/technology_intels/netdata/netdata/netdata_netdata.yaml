@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:netdata:netdata:*:*:*:*:*:*:*:*
+  description: Detection of netdata netdata
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"netdata dashboard"
+  fofa:
+  - http.title="netdata dashboard"
+  shodan:
+  - http.title:"netdata dashboard"
+  zoomeye:
+  - title:"netdata dashboard"

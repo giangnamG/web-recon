@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:fullworksplugins:quick_event_manager:*:*:*:*:*:wordpress:*:*
+  description: Detection of fullworksplugins quick_event_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/quick-event-manager
+  - services.banner:/wp-content/plugins/quick-event-manager
+  fofa:
+  - banner=/wp-content/plugins/quick-event-manager
+  - body=/wp-content/plugins/quick-event-manager
+  shodan:
+  - http.html:/wp-content/plugins/quick-event-manager
+  zoomeye:
+  - banner:/wp-content/plugins/quick-event-manager

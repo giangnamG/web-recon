@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ansible-semaphore:ansible_semaphore:*:*:*:*:ansible:*:*:*
+  description: Detection of ansible-semaphore ansible_semaphore
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Semaphore
+  fofa:
+  - banner="Semaphore
+  shodan:
+  - http.html:"Semaphore</title>"
+  zoomeye:
+  - banner:"Semaphore

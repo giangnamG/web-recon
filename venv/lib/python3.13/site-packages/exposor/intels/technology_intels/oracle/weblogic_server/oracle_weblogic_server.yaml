@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:oracle:weblogic_server:*:*:*:*:*:*:*:*
+  description: Detection of oracle weblogic_server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"oracle peoplesoft sign-in"
+  - services.software.product:"oracle weblogic"
+  fofa:
+  - http.title="oracle peoplesoft sign-in"
+  - app="oracle weblogic"
+  shodan:
+  - product:"oracle weblogic"
+  - http.title:"oracle peoplesoft sign-in"
+  zoomeye:
+  - title:"oracle peoplesoft sign-in"
+  - app:"oracle weblogic"

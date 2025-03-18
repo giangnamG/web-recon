@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:kubernetes:kubernetes:*:*:*:*:*:*:*:*
+  description: Detection of kubernetes kubernetes
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"kubernetes-enterprise-manager"
+  - services.http.response.html_title:"kubernetes web view"
+  fofa:
+  - app="kubernetes-enterprise-manager"
+  - http.title="kubernetes web view"
+  shodan:
+  - http.title:"kubernetes web view"
+  - product:"kubernetes-enterprise-manager"
+  zoomeye:
+  - app:"kubernetes-enterprise-manager"
+  - title:"kubernetes web view"

@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:hdw-tube_project:hdw-tube:*:*:*:*:*:wordpress:*:*
+  description: Detection of hdw-tube_project hdw-tube
+  version: '1.0'
+queries: {}

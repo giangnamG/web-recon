@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:h2o:h2o:*:*:*:*:*:*:*:*
+  description: Detection of h2o h2o
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"H2O Flow"
+  - services.http.response.html_title:"h2o flow"
+  fofa:
+  - http.title="h2o flow"
+  - http.title="H2O Flow"
+  shodan:
+  - title:"H2O Flow"
+  - http.title:"h2o flow"
+  zoomeye:
+  - title:"h2o flow"
+  - title:"H2O Flow"

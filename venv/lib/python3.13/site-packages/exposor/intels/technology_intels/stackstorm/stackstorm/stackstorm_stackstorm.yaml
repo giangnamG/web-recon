@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:stackstorm:stackstorm:*:*:*:*:*:*:*:*
+  description: Detection of stackstorm stackstorm
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"stackstorm"
+  fofa:
+  - app="stackstorm"
+  shodan:
+  - product:"stackstorm"
+  zoomeye:
+  - app:"stackstorm"

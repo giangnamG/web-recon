@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wpdevart:pricing_table_builder:*:*:*:*:*:wordpress:*:*
+  description: Detection of wpdevart pricing_table_builder
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:wp-content/plugins/ap-pricing-tables-lite
+  - services.http.response.body:wp-content/plugins/ap-pricing-tables-lite
+  fofa:
+  - body=wp-content/plugins/ap-pricing-tables-lite
+  - banner=wp-content/plugins/ap-pricing-tables-lite
+  shodan:
+  - http.html:wp-content/plugins/ap-pricing-tables-lite
+  zoomeye:
+  - banner:wp-content/plugins/ap-pricing-tables-lite

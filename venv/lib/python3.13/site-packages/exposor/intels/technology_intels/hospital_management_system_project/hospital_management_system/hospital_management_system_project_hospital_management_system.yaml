@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:hospital_management_system_project:hospital_management_system:*:*:*:*:*:*:*:*
+  description: Detection of hospital_management_system_project hospital_management_system
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"hospital management system"
+  - services.banner:"hospital management system"
+  - services.banner:"Hospital Management System"
+  fofa:
+  - banner="hospital management system"
+  - banner="Hospital Management System"
+  - body="hospital management system"
+  shodan:
+  - http.html:"hospital management system"
+  - http.html:"Hospital Management System"
+  zoomeye:
+  - banner:"hospital management system"
+  - banner:"Hospital Management System"

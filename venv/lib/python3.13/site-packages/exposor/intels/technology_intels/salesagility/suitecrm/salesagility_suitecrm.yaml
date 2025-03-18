@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:salesagility:suitecrm:*:*:*:*:*:*:*:*
+  description: Detection of salesagility suitecrm
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"SuiteCRM"
+  - services.http.response.html_title:"suitecrm"
+  fofa:
+  - http.title="suitecrm"
+  - http.title="SuiteCRM"
+  shodan:
+  - http.title:"suitecrm"
+  - title:"SuiteCRM"
+  zoomeye:
+  - title:"SuiteCRM"
+  - title:"suitecrm"

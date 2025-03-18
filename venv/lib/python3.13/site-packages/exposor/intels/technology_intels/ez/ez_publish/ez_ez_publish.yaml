@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ez:ez_publish:*:*:*:*:*:*:*:*
+  description: Detection of ez ez_publish
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"eZ Publish"
+  fofa:
+  - banner="eZ Publish"
+  shodan:
+  - http.html:"eZ Publish"
+  zoomeye:
+  - banner:"eZ Publish"

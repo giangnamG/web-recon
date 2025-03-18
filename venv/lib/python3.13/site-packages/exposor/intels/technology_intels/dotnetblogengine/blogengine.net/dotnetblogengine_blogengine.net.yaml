@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:dotnetblogengine:blogengine.net:*:*:*:*:*:*:*:*
+  description: Detection of dotnetblogengine blogengine.net
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"blogengine.net"
+  - services.banner:"Blogengine.net"
+  - services.banner:"blogengine.net"
+  fofa:
+  - body="blogengine.net"
+  - banner="blogengine.net"
+  - banner="Blogengine.net"
+  shodan:
+  - http.html:"blogengine.net"
+  - http.html:"Blogengine.net"
+  zoomeye:
+  - banner:"Blogengine.net"
+  - banner:"blogengine.net"

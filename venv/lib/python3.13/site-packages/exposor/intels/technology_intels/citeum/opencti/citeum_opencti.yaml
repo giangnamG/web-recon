@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:citeum:opencti:*:*:*:*:*:*:*:*
+  description: Detection of citeum opencti
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"OpenCTI"
+  fofa:
+  - banner="OpenCTI"
+  shodan:
+  - http.html:"OpenCTI"
+  zoomeye:
+  - banner:"OpenCTI"

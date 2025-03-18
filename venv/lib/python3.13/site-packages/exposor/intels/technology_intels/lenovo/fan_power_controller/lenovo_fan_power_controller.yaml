@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:lenovo:fan_power_controller:*:*:*:*:*:*:*:*
+  description: Detection of lenovo fan_power_controller
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Fan and Power Controller"
+  - services.http.response.body:"fan and power controller"
+  - services.banner:"fan and power controller"
+  fofa:
+  - body="fan and power controller"
+  - banner="Fan and Power Controller"
+  - banner="fan and power controller"
+  shodan:
+  - http.html:"fan and power controller"
+  - http.html:"Fan and Power Controller"
+  zoomeye:
+  - banner:"fan and power controller"
+  - banner:"Fan and Power Controller"

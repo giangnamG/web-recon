@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:argoproj:argo_cd:*:*:*:*:*:*:*:*
+  description: Detection of argoproj argo_cd
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Argo CD"
+  fofa:
+  - http.title="Argo CD"
+  shodan:
+  - http.title:"Argo CD"
+  zoomeye:
+  - title:"Argo CD"

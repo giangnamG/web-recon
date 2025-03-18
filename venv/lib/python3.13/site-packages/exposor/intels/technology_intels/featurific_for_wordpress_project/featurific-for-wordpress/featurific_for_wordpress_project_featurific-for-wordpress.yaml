@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:featurific_for_wordpress_project:featurific-for-wordpress:*:*:*:*:*:*:*:*
+  description: Detection of featurific_for_wordpress_project featurific-for-wordpress
+  version: '1.0'
+queries: {}

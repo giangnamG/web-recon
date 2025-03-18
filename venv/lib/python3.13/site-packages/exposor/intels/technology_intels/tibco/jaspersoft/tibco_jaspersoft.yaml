@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:tibco:jaspersoft:*:*:*:*:aws_with_multi-tenancy:*:*:*
+  description: Detection of tibco jaspersoft
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Jaspersoft"
+  - services.http.response.html_title:"jaspersoft"
+  fofa:
+  - http.title="jaspersoft"
+  - http.title="Jaspersoft"
+  shodan:
+  - http.title:"jaspersoft"
+  - http.title:"Jaspersoft"
+  zoomeye:
+  - title:"Jaspersoft"
+  - title:"jaspersoft"

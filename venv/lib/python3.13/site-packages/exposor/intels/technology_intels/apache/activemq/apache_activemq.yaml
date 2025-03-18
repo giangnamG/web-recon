@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:activemq:*:*:*:*:*:*:*:*
+  description: Detection of apache activemq
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Apache ActiveMQ"
+  - services.software.product:"activemq openwire transport"
+  fofa:
+  - app="activemq openwire transport"
+  - http.title="Apache ActiveMQ"
+  shodan:
+  - http.title:"Apache ActiveMQ"
+  - product:"activemq openwire transport"
+  zoomeye:
+  - app:"activemq openwire transport"
+  - title:"Apache ActiveMQ"

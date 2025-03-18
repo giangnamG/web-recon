@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:weaver:e-office:*:*:*:*:*:*:*:*
+  description: Detection of weaver e-office
+  version: '1.0'
+queries:
+  censys:
+  - "services.software.product:\"\u6CDB\u5FAE-\u534F\u540C\u529E\u516COA\""
+  fofa:
+  - "app=\"\u6CDB\u5FAE-\u534F\u540C\u529E\u516COA\""
+  shodan:
+  - "product:\"\u6CDB\u5FAE-\u534F\u540C\u529E\u516COA\""
+  zoomeye:
+  - "app:\"\u6CDB\u5FAE-\u534F\u540C\u529E\u516COA\""

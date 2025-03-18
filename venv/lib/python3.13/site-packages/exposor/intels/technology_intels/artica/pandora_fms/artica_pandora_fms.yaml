@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:artica:pandora_fms:*:*:*:*:*:*:*:*
+  description: Detection of artica pandora_fms
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"pandora fms"
+  fofa:
+  - http.title="pandora fms"
+  shodan:
+  - http.title:"pandora fms"
+  zoomeye:
+  - title:"pandora fms"

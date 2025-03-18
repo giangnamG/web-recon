@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:checkpoint:quantum_security_gateway:*:*:*:*:*:*:*:*
+  description: Detection of checkpoint quantum_security_gateway
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Check Point SSL Network"
+  - services.http.response.body:"check point ssl network"
+  - services.banner:"check point ssl network"
+  fofa:
+  - banner="check point ssl network"
+  - body="check point ssl network"
+  - banner="Check Point SSL Network"
+  shodan:
+  - http.html:"check point ssl network"
+  - html:"Check Point SSL Network"
+  zoomeye:
+  - banner:"Check Point SSL Network"
+  - banner:"check point ssl network"

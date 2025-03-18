@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:rpcms:rpcms:*:*:*:*:*:*:*:*
+  description: Detection of rpcms rpcms
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"rpcms"
+  - services.banner:"RPCMS"
+  - services.banner:"rpcms"
+  fofa:
+  - body="rpcms"
+  - banner="rpcms"
+  - banner="RPCMS"
+  shodan:
+  - http.html:"rpcms"
+  - http.html:"RPCMS"
+  zoomeye:
+  - banner:"RPCMS"
+  - banner:"rpcms"

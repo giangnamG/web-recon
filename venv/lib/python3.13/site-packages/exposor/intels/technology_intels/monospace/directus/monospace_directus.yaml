@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:monospace:directus:*:*:*:*:*:*:*:*
+  description: Detection of monospace directus
+  version: '1.0'
+queries: {}

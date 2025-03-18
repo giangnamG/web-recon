@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:e-search_project:esearch:*:*:*:*:*:wordpress:*:*
+  description: Detection of e-search_project esearch
+  version: '1.0'
+queries: {}

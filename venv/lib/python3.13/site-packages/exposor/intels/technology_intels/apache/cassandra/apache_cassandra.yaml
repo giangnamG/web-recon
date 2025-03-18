@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:cassandra:*:*:*:*:*:*:*:*
+  description: Detection of apache cassandra
+  version: '1.0'
+queries: {}

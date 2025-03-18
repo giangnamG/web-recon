@@ -1,0 +1,28 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:dedecms:dedecms:*:*:*:*:*:*:*:*
+  description: Detection of dedecms dedecms
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"dedecms"
+  - services.banner:"DedeCms"
+  - services.software.product:"DedeCMS"
+  - services.software.product:"dedecms"
+  - services.http.response.body:"dedecms"
+  fofa:
+  - banner="DedeCms"
+  - app="dedecms"
+  - banner="dedecms"
+  - app="DedeCMS"
+  - body="dedecms"
+  shodan:
+  - product:"dedecms"
+  - http.html:"dedecms"
+  - http.html:"DedeCms"
+  - product:"DedeCMS"
+  zoomeye:
+  - app:"DedeCMS"
+  - banner:"dedecms"
+  - app:"dedecms"
+  - banner:"DedeCms"

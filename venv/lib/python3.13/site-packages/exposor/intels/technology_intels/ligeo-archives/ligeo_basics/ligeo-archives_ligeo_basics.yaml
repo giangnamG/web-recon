@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ligeo-archives:ligeo_basics:*:*:*:*:*:*:*:*
+  description: Detection of ligeo-archives ligeo_basics
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"ligeo"
+  - services.http.response.html_title:"Ligeo"
+  fofa:
+  - http.title="ligeo"
+  - http.title="Ligeo"
+  shodan:
+  - title:"Ligeo"
+  - http.title:"ligeo"
+  zoomeye:
+  - title:"Ligeo"
+  - title:"ligeo"

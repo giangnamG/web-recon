@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:car_rental_management_system_project:car_rental_management_system:*:*:*:*:*:*:*:*
+  description: Detection of car_rental_management_system_project car_rental_management_system
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Car Rental Management System"
+  fofa:
+  - banner="Car Rental Management System"
+  shodan:
+  - http.html:"Car Rental Management System"
+  zoomeye:
+  - banner:"Car Rental Management System"

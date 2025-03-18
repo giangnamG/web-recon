@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:lylme:lylme_spage:*:*:*:*:*:*:*:*
+  description: Detection of lylme lylme_spage
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:"-282504889"
+  fofa:
+  - icon_hash="-282504889"
+  shodan:
+  - http.favicon.hash:"-282504889"
+  zoomeye:
+  - iconhash:"-282504889"

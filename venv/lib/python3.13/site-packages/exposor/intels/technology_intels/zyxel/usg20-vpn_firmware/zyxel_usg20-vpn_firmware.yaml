@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:zyxel:usg20-vpn_firmware:*:*:*:*:*:*:*:*
+  description: Detection of zyxel usg20-vpn_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"USG FLEX 100"
+  - services.http.response.html_title:"usg flex 100"
+  fofa:
+  - http.title="usg flex 100"
+  - http.title="USG FLEX 100"
+  shodan:
+  - title:"USG FLEX 100"
+  - http.title:"usg flex 100"
+  zoomeye:
+  - title:"USG FLEX 100"
+  - title:"usg flex 100"

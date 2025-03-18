@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:vidyo:vidyo:*:*:*:*:*:*:*:*
+  description: Detection of vidyo vidyo
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-1970367401
+  fofa:
+  - icon_hash=-1970367401
+  shodan:
+  - http.favicon.hash:-1970367401
+  zoomeye:
+  - iconhash:-1970367401

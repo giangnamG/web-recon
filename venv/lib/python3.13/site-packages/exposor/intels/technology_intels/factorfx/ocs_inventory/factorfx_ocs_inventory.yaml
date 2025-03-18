@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:factorfx:ocs_inventory:*:*:*:*:*:*:*:*
+  description: Detection of factorfx ocs_inventory
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"OCS Inventory"
+  fofa:
+  - http.title="OCS Inventory"
+  shodan:
+  - title:"OCS Inventory"
+  zoomeye:
+  - title:"OCS Inventory"

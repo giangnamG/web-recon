@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:flexera:flexnet_publisher:*:*:*:*:*:*:*:*
+  description: Detection of flexera flexnet_publisher
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Flexnet"
+  fofa:
+  - http.title="Flexnet"
+  shodan:
+  - title:"Flexnet"
+  zoomeye:
+  - title:"Flexnet"

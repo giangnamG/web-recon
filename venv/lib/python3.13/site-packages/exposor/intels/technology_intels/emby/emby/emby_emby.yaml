@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:emby:emby:*:*:*:*:*:*:*:*
+  description: Detection of emby emby
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"emby"
+  fofa:
+  - http.title="emby"
+  shodan:
+  - http.title:"emby"
+  zoomeye:
+  - title:"emby"

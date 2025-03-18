@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:opencart:opencart:*:*:*:*:*:*:*:*
+  description: Detection of opencart opencart
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:"-1443008128"
+  - services.http.response.html_title:"OpenCart"
+  fofa:
+  - http.title="OpenCart"
+  - icon_hash="-1443008128"
+  shodan:
+  - title:"OpenCart"
+  - http.favicon.hash:"-1443008128"
+  zoomeye:
+  - iconhash:"-1443008128"
+  - title:"OpenCart"

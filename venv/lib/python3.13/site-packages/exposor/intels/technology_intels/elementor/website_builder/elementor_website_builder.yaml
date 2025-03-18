@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:elementor:website_builder:*:*:*:*:wordpress:*:*:*
+  description: Detection of elementor website_builder
+  version: '1.0'
+queries: {}

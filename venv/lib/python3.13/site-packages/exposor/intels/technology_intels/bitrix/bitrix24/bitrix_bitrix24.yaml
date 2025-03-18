@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bitrix:bitrix24:*:*:*:*:*:*:*:*
+  description: Detection of bitrix bitrix24
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"/bitrix/"
+  - services.banner:"/bitrix/"
+  fofa:
+  - body="/bitrix/"
+  - banner="/bitrix/"
+  shodan:
+  - http.html:"/bitrix/"
+  zoomeye:
+  - banner:"/bitrix/"

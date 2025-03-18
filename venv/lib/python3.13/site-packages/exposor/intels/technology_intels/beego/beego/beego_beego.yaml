@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:beego:beego:*:*:*:*:*:*:*:*
+  description: Detection of beego beego
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"beego admin dashboard"
+  - services.banner:"Beego Admin Dashboard"
+  - services.banner:"beego admin dashboard"
+  fofa:
+  - banner="beego admin dashboard"
+  - banner="Beego Admin Dashboard"
+  - body="beego admin dashboard"
+  shodan:
+  - html:"Beego Admin Dashboard"
+  - http.html:"beego admin dashboard"
+  zoomeye:
+  - banner:"beego admin dashboard"
+  - banner:"Beego Admin Dashboard"

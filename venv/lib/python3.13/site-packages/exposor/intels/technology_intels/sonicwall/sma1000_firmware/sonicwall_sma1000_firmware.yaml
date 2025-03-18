@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:sonicwall:sma1000_firmware:*:*:*:*:*:*:*:*
+  description: Detection of sonicwall sma1000_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Appliance Management Console Login"
+  - services.software.product:"appliance management console login"
+  - services.http.response.html_title:"appliance management console login"
+  fofa:
+  - http.title="Appliance Management Console Login"
+  - title="appliance management console login"
+  - http.title="appliance management console login"
+  shodan:
+  - title:"Appliance Management Console Login"
+  - product:"appliance management console login"
+  - http.title:"appliance management console login"
+  zoomeye:
+  - app:"appliance management console login"
+  - title:"appliance management console login"
+  - title:"Appliance Management Console Login"

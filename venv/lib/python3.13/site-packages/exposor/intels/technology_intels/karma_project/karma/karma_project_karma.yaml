@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:karma_project:karma:*:*:*:*:node.js:*:*:*
+  description: Detection of karma_project karma
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"karma.conf.js"
+  fofa:
+  - banner="karma.conf.js"
+  shodan:
+  - html:"karma.conf.js"
+  zoomeye:
+  - banner:"karma.conf.js"

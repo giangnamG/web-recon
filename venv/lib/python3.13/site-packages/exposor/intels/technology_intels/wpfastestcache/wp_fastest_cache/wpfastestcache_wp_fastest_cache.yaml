@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wpfastestcache:wp_fastest_cache:*:*:*:*:*:wordpress:*:*
+  description: Detection of wpfastestcache wp_fastest_cache
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/wp-fastest-cache/
+  - services.http.response.body:/wp-content/plugins/wp-fastest-cache/
+  fofa:
+  - banner=/wp-content/plugins/wp-fastest-cache/
+  - body=/wp-content/plugins/wp-fastest-cache/
+  shodan:
+  - http.html:/wp-content/plugins/wp-fastest-cache/
+  zoomeye:
+  - banner:/wp-content/plugins/wp-fastest-cache/

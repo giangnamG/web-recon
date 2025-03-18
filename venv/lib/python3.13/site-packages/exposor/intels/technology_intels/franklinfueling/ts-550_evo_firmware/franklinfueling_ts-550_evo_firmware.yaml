@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:franklinfueling:ts-550_evo_firmware:*:*:*:*:*:*:*:*
+  description: Detection of franklinfueling ts-550_evo_firmware
+  version: '1.0'
+queries: {}

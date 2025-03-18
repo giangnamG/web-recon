@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:runatlantis:atlantis:*:*:*:*:*:*:*:*
+  description: Detection of runatlantis atlantis
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-1706783005
+  fofa:
+  - icon_hash=-1706783005
+  shodan:
+  - http.favicon.hash:-1706783005
+  zoomeye:
+  - iconhash:-1706783005

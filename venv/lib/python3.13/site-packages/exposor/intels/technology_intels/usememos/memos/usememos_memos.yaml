@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:usememos:memos:*:*:*:*:*:*:*:*
+  description: Detection of usememos memos
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"memos"
+  - services.http.response.html_title:"Memos"
+  fofa:
+  - http.title="memos"
+  - http.title="Memos"
+  shodan:
+  - title:"Memos"
+  - http.title:"memos"
+  zoomeye:
+  - title:"memos"
+  - title:"Memos"

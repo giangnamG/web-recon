@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:tibco:spotfire_server:*:*:*:*:*:*:*:*
+  description: Detection of tibco spotfire_server
+  version: '1.0'
+queries: {}

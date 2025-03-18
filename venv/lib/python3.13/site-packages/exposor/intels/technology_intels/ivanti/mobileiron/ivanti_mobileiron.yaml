@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ivanti:mobileiron:*:*:*:*:*:*:*:*
+  description: Detection of ivanti mobileiron
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"MobileIron"
+  fofa:
+  - banner="MobileIron"
+  shodan:
+  - http.html:"MobileIron"
+  zoomeye:
+  - banner:"MobileIron"

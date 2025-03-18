@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wp-cli:wp-cli:*:*:*:*:*:*:*:*
+  description: Detection of wp-cli wp-cli
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"wp-cli.yml"
+  fofa:
+  - banner="wp-cli.yml"
+  shodan:
+  - html:"wp-cli.yml"
+  zoomeye:
+  - banner:"wp-cli.yml"

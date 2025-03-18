@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:connectwise:control:*:*:*:*:*:*:*:*
+  description: Detection of connectwise control
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"ConnectWise Control Remote Support Software"
+  fofa:
+  - http.title="ConnectWise Control Remote Support Software"
+  shodan:
+  - title="ConnectWise Control Remote Support Software"
+  zoomeye:
+  - title:"ConnectWise Control Remote Support Software"

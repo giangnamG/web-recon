@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:user_role:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft user_role
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/user-role/
+  - services.http.response.body:/wp-content/plugins/user-role/
+  fofa:
+  - banner=/wp-content/plugins/user-role/
+  - body=/wp-content/plugins/user-role/
+  shodan:
+  - http.html:/wp-content/plugins/user-role/
+  zoomeye:
+  - banner:/wp-content/plugins/user-role/

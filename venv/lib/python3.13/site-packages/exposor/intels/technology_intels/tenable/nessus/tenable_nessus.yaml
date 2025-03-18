@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:tenable:nessus:*:*:*:*:*:*:*:*
+  description: Detection of tenable nessus
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"nessus"
+  - services.http.response.html_title:"Nessus"
+  fofa:
+  - http.title="nessus"
+  - http.title="Nessus"
+  shodan:
+  - title:"Nessus"
+  - http.title:"nessus"
+  zoomeye:
+  - title:"Nessus"
+  - title:"nessus"

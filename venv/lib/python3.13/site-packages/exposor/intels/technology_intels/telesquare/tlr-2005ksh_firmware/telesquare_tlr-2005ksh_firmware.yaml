@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:telesquare:tlr-2005ksh_firmware:*:*:*:*:*:*:*:*
+  description: Detection of telesquare tlr-2005ksh_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"tlr-2005ksh"
+  - services.banner:"TLR-2005KSH"
+  - services.banner:"tlr-2005ksh"
+  fofa:
+  - banner="tlr-2005ksh"
+  - banner="TLR-2005KSH"
+  - body="tlr-2005ksh"
+  shodan:
+  - http.html:"tlr-2005ksh"
+  - http.html:"TLR-2005KSH"
+  zoomeye:
+  - banner:"TLR-2005KSH"
+  - banner:"tlr-2005ksh"

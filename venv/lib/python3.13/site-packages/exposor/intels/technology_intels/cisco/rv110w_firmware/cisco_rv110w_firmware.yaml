@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:cisco:rv110w_firmware:*:*:*:*:*:*:*:*
+  description: Detection of cisco rv110w_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:"-646322113"
+  fofa:
+  - icon_hash="-646322113"
+  shodan:
+  - http.favicon.hash:"-646322113"
+  zoomeye:
+  - iconhash:"-646322113"

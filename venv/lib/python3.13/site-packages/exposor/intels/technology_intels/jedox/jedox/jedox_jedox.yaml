@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:jedox:jedox:*:*:*:*:*:*:*:*
+  description: Detection of jedox jedox
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"jedox web - login"
+  - services.http.response.html_title:"jedox web login"
+  - services.http.response.html_title:"Jedox Web - Login"
+  fofa:
+  - http.title="Jedox Web - Login"
+  - http.title="jedox web login"
+  - http.title="jedox web - login"
+  shodan:
+  - http.title:"jedox web - login"
+  - http.title:"jedox web login"
+  - title:"Jedox Web - Login"
+  zoomeye:
+  - title:"Jedox Web - Login"
+  - title:"jedox web - login"
+  - title:"jedox web login"

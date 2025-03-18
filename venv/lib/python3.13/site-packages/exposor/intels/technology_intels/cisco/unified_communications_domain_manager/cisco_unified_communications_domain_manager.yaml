@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cisco:unified_communications_domain_manager:*:*:*:*:*:*:*:*
+  description: Detection of cisco unified_communications_domain_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Cisco Unified"
+  fofa:
+  - http.title="Cisco Unified"
+  shodan:
+  - title:"Cisco Unified"
+  zoomeye:
+  - title:"Cisco Unified"

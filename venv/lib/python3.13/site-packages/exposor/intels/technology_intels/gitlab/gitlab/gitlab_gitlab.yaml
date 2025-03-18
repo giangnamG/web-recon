@@ -1,0 +1,17 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*
+  description: Detection of gitlab gitlab
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"GitLab Enterprise Edition"
+  - services.http.response.body:"GitLab Enterprise Edition"
+  fofa:
+  - body="GitLab Enterprise Edition"
+  - banner="GitLab Enterprise Edition"
+  shodan:
+  - http.html:"GitLab Enterprise Edition"
+  - html:"GitLab Enterprise Edition"
+  zoomeye:
+  - banner:"GitLab Enterprise Edition"

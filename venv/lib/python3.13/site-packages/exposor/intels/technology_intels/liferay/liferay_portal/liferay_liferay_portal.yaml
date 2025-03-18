@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:liferay:liferay_portal:*:*:*:*:community:*:*:*
+  description: Detection of liferay liferay_portal
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:129457226
+  fofa:
+  - icon_hash=129457226
+  shodan:
+  - http.favicon.hash:129457226
+  zoomeye:
+  - iconhash:129457226

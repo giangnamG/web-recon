@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:heat-trackr_project:heat-trackr:*:*:*:*:*:wordpress:*:*
+  description: Detection of heat-trackr_project heat-trackr
+  version: '1.0'
+queries: {}

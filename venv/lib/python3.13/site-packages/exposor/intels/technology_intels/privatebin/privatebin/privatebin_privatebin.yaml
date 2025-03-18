@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:privatebin:privatebin:*:*:*:*:*:*:*:*
+  description: Detection of privatebin privatebin
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"PrivateBin"
+  fofa:
+  - http.title="PrivateBin"
+  shodan:
+  - title:"PrivateBin"
+  zoomeye:
+  - title:"PrivateBin"

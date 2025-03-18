@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sophos:unified_threat_management:*:*:*:*:*:*:*:*
+  description: Detection of sophos unified_threat_management
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"securepoint utm"
+  fofa:
+  - http.title="securepoint utm"
+  shodan:
+  - http.title:"securepoint utm"
+  zoomeye:
+  - title:"securepoint utm"

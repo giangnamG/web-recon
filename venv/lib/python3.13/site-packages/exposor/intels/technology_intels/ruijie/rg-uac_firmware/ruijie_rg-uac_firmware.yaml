@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:ruijie:rg-uac_firmware:*:*:*:*:*:*:*:*
+  description: Detection of ruijie rg-uac_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Get_Verify_Info"
+  - services.http.response.body:"get_verify_info"
+  - services.banner:"get_verify_info"
+  fofa:
+  - banner="get_verify_info"
+  - body="get_verify_info"
+  - banner="Get_Verify_Info"
+  shodan:
+  - http.html:"Get_Verify_Info"
+  - http.html:"get_verify_info"
+  zoomeye:
+  - banner:"Get_Verify_Info"
+  - banner:"get_verify_info"

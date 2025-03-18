@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:doris:*:*:*:*:*:*:*:*
+  description: Detection of apache doris
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:24048806
+  fofa:
+  - icon_hash=24048806
+  shodan:
+  - http.favicon.hash:24048806
+  zoomeye:
+  - iconhash:24048806

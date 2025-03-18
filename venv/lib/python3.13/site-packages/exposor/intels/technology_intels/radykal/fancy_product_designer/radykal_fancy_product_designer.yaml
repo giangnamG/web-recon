@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:radykal:fancy_product_designer:*:*:*:*:*:wordpress:*:*
+  description: Detection of radykal fancy_product_designer
+  version: '1.0'
+queries: {}

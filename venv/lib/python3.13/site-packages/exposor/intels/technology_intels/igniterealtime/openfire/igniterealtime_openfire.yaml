@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:igniterealtime:openfire:*:*:*:*:*:*:*:*
+  description: Detection of igniterealtime openfire
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"openfire admin console"
+  - services.http.response.html_title:"openfire"
+  fofa:
+  - http.title="openfire admin console"
+  - http.title="openfire"
+  shodan:
+  - http.title:"openfire"
+  - http.title:"openfire admin console"
+  zoomeye:
+  - title:"openfire"
+  - title:"openfire admin console"

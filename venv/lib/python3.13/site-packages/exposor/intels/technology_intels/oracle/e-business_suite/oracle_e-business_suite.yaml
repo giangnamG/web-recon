@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:oracle:e-business_suite:*:*:*:*:*:*:*:*
+  description: Detection of oracle e-business_suite
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Login" "X-ORACLE-DMS-ECID" 200
+  - services.http.response.html_title:"login" "x-oracle-dms-ecid" 200
+  fofa:
+  - http.title="Login" "X-ORACLE-DMS-ECID" 200
+  - http.title="login" "x-oracle-dms-ecid" 200
+  shodan:
+  - http.title:"Login" "X-ORACLE-DMS-ECID" 200
+  - http.title:"login" "x-oracle-dms-ecid" 200
+  zoomeye:
+  - title:"login" "x-oracle-dms-ecid" 200
+  - title:"Login" "X-ORACLE-DMS-ECID" 200

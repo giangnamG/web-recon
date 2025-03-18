@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:gurock:testrail:*:*:*:*:*:*:*:*
+  description: Detection of gurock testrail
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"testrail"
+  - services.banner:"TestRail"
+  - services.banner:"testrail"
+  fofa:
+  - banner="testrail"
+  - banner="TestRail"
+  - body="testrail"
+  shodan:
+  - http.html:"TestRail"
+  - http.html:"testrail"
+  zoomeye:
+  - banner:"testrail"
+  - banner:"TestRail"

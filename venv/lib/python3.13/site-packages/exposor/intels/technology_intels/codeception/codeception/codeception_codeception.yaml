@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:codeception:codeception:*:*:*:*:*:*:*:*
+  description: Detection of codeception codeception
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"codeception.yml"
+  fofa:
+  - banner="codeception.yml"
+  shodan:
+  - html:"codeception.yml"
+  zoomeye:
+  - banner:"codeception.yml"

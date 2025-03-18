@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:veeam:one_reporter:*:*:*:*:*:*:*:*
+  description: Detection of veeam one_reporter
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-633512412
+  fofa:
+  - icon_hash=-633512412
+  shodan:
+  - http.favicon.hash:-633512412
+  zoomeye:
+  - iconhash:-633512412

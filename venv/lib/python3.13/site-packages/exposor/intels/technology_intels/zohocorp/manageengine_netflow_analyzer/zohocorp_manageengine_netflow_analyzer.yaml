@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zohocorp:manageengine_netflow_analyzer:*:*:*:*:*:*:*:*
+  description: Detection of zohocorp manageengine_netflow_analyzer
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Login - Netflow Analyzer"
+  fofa:
+  - banner="Login - Netflow Analyzer"
+  shodan:
+  - html:"Login - Netflow Analyzer"
+  zoomeye:
+  - banner:"Login - Netflow Analyzer"

@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:czepol:wp-planet:*:*:*:*:*:wordpress:*:*
+  description: Detection of czepol wp-planet
+  version: '1.0'
+queries: {}

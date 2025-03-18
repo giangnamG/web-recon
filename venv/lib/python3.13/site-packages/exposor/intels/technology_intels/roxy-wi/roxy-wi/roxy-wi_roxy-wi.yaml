@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:roxy-wi:roxy-wi:*:*:*:*:*:*:*:*
+  description: Detection of roxy-wi roxy-wi
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Roxy-WI"
+  - services.http.response.body:"roxy-wi"
+  - services.banner:"roxy-wi"
+  fofa:
+  - body="roxy-wi"
+  - banner="roxy-wi"
+  - banner="Roxy-WI"
+  shodan:
+  - http.html:"Roxy-WI"
+  - http.html:"roxy-wi"
+  zoomeye:
+  - banner:"Roxy-WI"
+  - banner:"roxy-wi"

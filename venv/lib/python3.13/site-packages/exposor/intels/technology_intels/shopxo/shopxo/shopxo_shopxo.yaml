@@ -1,0 +1,24 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:shopxo:shopxo:*:*:*:*:*:*:*:*
+  description: Detection of shopxo shopxo
+  version: '1.0'
+queries:
+  censys:
+  - "services.software.product:\"ShopXO\u4F01\u4E1A\u7EA7B2C\u7535\u5546\u7CFB\u7EDF\
+    \u63D0\u4F9B\u5546\""
+  - "services.http.response.html_title:\"ShopXO\u4F01\u4E1A\u7EA7B2C\u7535\u5546\u7CFB\
+    \u7EDF\u63D0\u4F9B\u5546\""
+  fofa:
+  - "http.title=\"ShopXO\u4F01\u4E1A\u7EA7B2C\u7535\u5546\u7CFB\u7EDF\u63D0\u4F9B\u5546\
+    \""
+  - "app=\"ShopXO\u4F01\u4E1A\u7EA7B2C\u7535\u5546\u7CFB\u7EDF\u63D0\u4F9B\u5546\""
+  shodan:
+  - "product:\"ShopXO\u4F01\u4E1A\u7EA7B2C\u7535\u5546\u7CFB\u7EDF\u63D0\u4F9B\u5546\
+    \""
+  - "title:\"ShopXO\u4F01\u4E1A\u7EA7B2C\u7535\u5546\u7CFB\u7EDF\u63D0\u4F9B\u5546\
+    \""
+  zoomeye:
+  - "title:\"ShopXO\u4F01\u4E1A\u7EA7B2C\u7535\u5546\u7CFB\u7EDF\u63D0\u4F9B\u5546\
+    \""
+  - "app:\"ShopXO\u4F01\u4E1A\u7EA7B2C\u7535\u5546\u7CFB\u7EDF\u63D0\u4F9B\u5546\""

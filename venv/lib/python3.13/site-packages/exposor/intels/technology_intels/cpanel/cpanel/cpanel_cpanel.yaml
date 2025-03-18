@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cpanel:cpanel:*:*:*:*:*:*:*:*
+  description: Detection of cpanel cpanel
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"cpanel"
+  - services.http.response.html_title:"CPanel - API Codes"
+  - services.http.response.html_title:"cpanel - api codes"
+  fofa:
+  - http.title="cpanel - api codes"
+  - http.title="cpanel"
+  - http.title="CPanel - API Codes"
+  shodan:
+  - http.title:"cpanel"
+  - http.title:"cpanel - api codes"
+  - title:"CPanel - API Codes"
+  zoomeye:
+  - title:"cpanel"
+  - title:"CPanel - API Codes"
+  - title:"cpanel - api codes"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*
+  description: Detection of linux linux_kernel
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Aspera Faspex"
+  fofa:
+  - banner="Aspera Faspex"
+  shodan:
+  - html:"Aspera Faspex"
+  zoomeye:
+  - banner:"Aspera Faspex"

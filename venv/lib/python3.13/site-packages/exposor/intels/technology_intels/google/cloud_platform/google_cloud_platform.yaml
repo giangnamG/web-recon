@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:google:cloud_platform:*:*:*:*:*:*:*:*
+  description: Detection of google cloud_platform
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"access_tokens.db"
+  fofa:
+  - banner="access_tokens.db"
+  shodan:
+  - html:"access_tokens.db"
+  zoomeye:
+  - banner:"access_tokens.db"

@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:searchwp:searchwp_live_ajax_search:*:*:*:*:*:wordpress:*:*
+  description: Detection of searchwp searchwp_live_ajax_search
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/searchwp-live-ajax-search/
+  - services.banner:/wp-content/plugins/searchwp-live-ajax-search/
+  fofa:
+  - body=/wp-content/plugins/searchwp-live-ajax-search/
+  - banner=/wp-content/plugins/searchwp-live-ajax-search/
+  shodan:
+  - http.html:/wp-content/plugins/searchwp-live-ajax-search/
+  zoomeye:
+  - banner:/wp-content/plugins/searchwp-live-ajax-search/

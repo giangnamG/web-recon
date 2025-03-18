@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:microsoft:iis:*:*:*:*:*:*:*:*
+  description: Detection of microsoft iis
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"IIS7"
+  fofa:
+  - http.title="IIS7"
+  shodan:
+  - http.title:"IIS7"
+  zoomeye:
+  - title:"IIS7"

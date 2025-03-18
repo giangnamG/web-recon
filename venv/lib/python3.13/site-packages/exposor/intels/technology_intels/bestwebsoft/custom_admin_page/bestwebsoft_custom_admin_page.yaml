@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:custom_admin_page:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft custom_admin_page
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/custom-admin-page/
+  - services.banner:/wp-content/plugins/custom-admin-page/
+  fofa:
+  - banner=/wp-content/plugins/custom-admin-page/
+  - body=/wp-content/plugins/custom-admin-page/
+  shodan:
+  - http.html:/wp-content/plugins/custom-admin-page/
+  zoomeye:
+  - banner:/wp-content/plugins/custom-admin-page/

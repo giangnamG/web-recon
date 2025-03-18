@@ -1,0 +1,24 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sugarcrm:sugarcrm:*:*:*:*:*:*:*:*
+  description: Detection of sugarcrm sugarcrm
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"sugarcrm inc. all rights reserved"
+  - services.banner:"SugarCRM Inc. All Rights Reserved"
+  - services.http.response.body:"sugarcrm inc. all rights reserved"
+  - services.http.response.html_title:sugarcrm
+  fofa:
+  - banner="SugarCRM Inc. All Rights Reserved"
+  - banner="sugarcrm inc. all rights reserved"
+  - http.title=sugarcrm
+  - body="sugarcrm inc. all rights reserved"
+  shodan:
+  - http.title:sugarcrm
+  - http.html:"sugarcrm inc. all rights reserved"
+  - http.html:"SugarCRM Inc. All Rights Reserved"
+  zoomeye:
+  - banner:"sugarcrm inc. all rights reserved"
+  - title:sugarcrm
+  - banner:"SugarCRM Inc. All Rights Reserved"

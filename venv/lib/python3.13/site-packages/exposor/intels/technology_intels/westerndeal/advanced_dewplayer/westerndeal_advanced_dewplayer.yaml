@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:westerndeal:advanced_dewplayer:*:*:*:*:*:*:*:*
+  description: Detection of westerndeal advanced_dewplayer
+  version: '1.0'
+queries: {}

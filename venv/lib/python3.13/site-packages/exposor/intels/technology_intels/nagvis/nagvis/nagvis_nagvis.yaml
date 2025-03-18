@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:nagvis:nagvis:*:*:*:*:nagios_xi:*:*:*
+  description: Detection of nagvis nagvis
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"nagvis"
+  - services.banner:"NagVis"
+  - services.http.response.body:"nagvis"
+  fofa:
+  - body="nagvis"
+  - banner="nagvis"
+  - banner="NagVis"
+  shodan:
+  - http.html:"NagVis"
+  - http.html:"nagvis"
+  zoomeye:
+  - banner:"NagVis"
+  - banner:"nagvis"

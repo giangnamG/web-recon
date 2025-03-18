@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:n8n:n8n:*:*:*:*:node.js:*:*:*
+  description: Detection of n8n n8n
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-831756631
+  fofa:
+  - icon_hash=-831756631
+  shodan:
+  - http.favicon.hash:-831756631
+  zoomeye:
+  - iconhash:-831756631

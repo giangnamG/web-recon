@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:graylog:graylog:*:*:*:*:*:*:*:*
+  description: Detection of graylog graylog
+  version: '1.0'
+queries: {}

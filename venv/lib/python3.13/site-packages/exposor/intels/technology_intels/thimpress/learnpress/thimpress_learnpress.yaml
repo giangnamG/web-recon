@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:thimpress:learnpress:*:*:*:*:*:wordpress:*:*
+  description: Detection of thimpress learnpress
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/learnpress
+  - services.http.response.body:/wp-content/plugins/learnpress
+  fofa:
+  - body=/wp-content/plugins/learnpress
+  - banner=/wp-content/plugins/learnpress
+  shodan:
+  - http.html:/wp-content/plugins/learnpress
+  zoomeye:
+  - banner:/wp-content/plugins/learnpress

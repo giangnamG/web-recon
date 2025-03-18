@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:landesk:landesk_management_suite:*:*:*:*:*:*:*:*
+  description: Detection of landesk landesk_management_suite
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"LANDESK
+  fofa:
+  - banner="LANDESK
+  shodan:
+  - http.html:"LANDESK(R)"
+  zoomeye:
+  - banner:"LANDESK

@@ -1,0 +1,26 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:reprisesoftware:reprise_license_manager:*:*:*:*:*:*:*:*
+  description: Detection of reprisesoftware reprise_license_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"reprise license"
+  - services.http.response.body:"reprise license manager"
+  - services.banner:"Reprise License Manager"
+  - services.banner:"reprise license manager"
+  - services.banner:"reprise license"
+  fofa:
+  - banner="reprise license manager"
+  - banner="reprise license"
+  - banner="Reprise License Manager"
+  - body="reprise license manager"
+  - body="reprise license"
+  shodan:
+  - http.html:"reprise license manager"
+  - http.html:"reprise license"
+  - http.html:"Reprise License Manager"
+  zoomeye:
+  - banner:"reprise license manager"
+  - banner:"reprise license"
+  - banner:"Reprise License Manager"

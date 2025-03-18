@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:jamf:self_service:*:*:*:*:*:*:*:*
+  description: Detection of jamf self_service
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"JamF"
+  fofa:
+  - banner="JamF"
+  shodan:
+  - http.html:"JamF"
+  zoomeye:
+  - banner:"JamF"

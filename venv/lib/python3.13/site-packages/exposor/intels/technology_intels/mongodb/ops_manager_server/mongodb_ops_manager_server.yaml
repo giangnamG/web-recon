@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mongodb:ops_manager_server:*:*:*:*:*:*:*:*
+  description: Detection of mongodb ops_manager_server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"MongoDB Ops Manager"
+  fofa:
+  - http.title="MongoDB Ops Manager"
+  shodan:
+  - http.title:"MongoDB Ops Manager"
+  zoomeye:
+  - title:"MongoDB Ops Manager"

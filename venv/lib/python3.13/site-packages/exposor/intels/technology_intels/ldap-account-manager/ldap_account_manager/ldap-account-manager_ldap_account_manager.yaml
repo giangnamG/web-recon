@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ldap-account-manager:ldap_account_manager:*:*:*:*:*:*:*:*
+  description: Detection of ldap-account-manager ldap_account_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"LDAP Account Manager"
+  fofa:
+  - http.title="LDAP Account Manager"
+  shodan:
+  - title:"LDAP Account Manager"
+  zoomeye:
+  - title:"LDAP Account Manager"

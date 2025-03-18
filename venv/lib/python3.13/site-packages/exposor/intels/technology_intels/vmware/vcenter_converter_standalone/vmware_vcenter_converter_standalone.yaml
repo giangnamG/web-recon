@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:vmware:vcenter_converter_standalone:*:*:*:*:*:*:*:*
+  description: Detection of vmware vcenter_converter_standalone
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"vmware vcenter converter standalone"
+  - services.http.response.html_title:"VMware vCenter Converter Standalone"
+  fofa:
+  - http.title="vmware vcenter converter standalone"
+  - http.title="VMware vCenter Converter Standalone"
+  shodan:
+  - http.title:"vmware vcenter converter standalone"
+  - title:"VMware vCenter Converter Standalone"
+  zoomeye:
+  - title:"VMware vCenter Converter Standalone"
+  - title:"vmware vcenter converter standalone"

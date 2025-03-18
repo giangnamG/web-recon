@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wftpserver:wing_ftp_server:*:*:*:*:*:*:*:*
+  description: Detection of wftpserver wing_ftp_server
+  version: '1.0'
+queries: {}

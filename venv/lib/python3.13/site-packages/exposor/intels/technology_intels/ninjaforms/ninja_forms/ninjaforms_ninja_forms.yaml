@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ninjaforms:ninja_forms:*:*:*:*:*:wordpress:*:*
+  description: Detection of ninjaforms ninja_forms
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/ninja-forms/
+  - services.banner:/wp-content/plugins/ninja-forms/
+  fofa:
+  - body=/wp-content/plugins/ninja-forms/
+  - banner=/wp-content/plugins/ninja-forms/
+  shodan:
+  - http.html:/wp-content/plugins/ninja-forms/
+  zoomeye:
+  - banner:/wp-content/plugins/ninja-forms/

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:urbackup:urbackup:*:*:*:*:*:*:*:*
+  description: Detection of urbackup urbackup
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"UrBackup - Keeps your data safe"
+  fofa:
+  - banner="UrBackup - Keeps your data safe"
+  shodan:
+  - html:"UrBackup - Keeps your data safe"
+  zoomeye:
+  - banner:"UrBackup - Keeps your data safe"

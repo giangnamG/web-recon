@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wuzhicms:wuzhicms:*:*:*:*:*:*:*:*
+  description: Detection of wuzhicms wuzhicms
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Wuzhicms"
+  fofa:
+  - banner="Wuzhicms"
+  shodan:
+  - http.html:"Wuzhicms"
+  zoomeye:
+  - banner:"Wuzhicms"

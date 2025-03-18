@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zimbra:collaboration:*:*:*:*:*:*:*:*
+  description: Detection of zimbra collaboration
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:"475145467"
+  - services.http.response.favicons.shodan_hash:"1624375939"
+  - "services.software.product:\"zimbra-\u90AE\u4EF6\u7CFB\u7EDF\""
+  fofa:
+  - icon_hash="1624375939"
+  - "app=\"zimbra-\u90AE\u4EF6\u7CFB\u7EDF\""
+  - icon_hash="475145467"
+  shodan:
+  - "product:\"zimbra-\u90AE\u4EF6\u7CFB\u7EDF\""
+  - http.favicon.hash:"475145467"
+  - http.favicon.hash:"1624375939"
+  zoomeye:
+  - iconhash:"475145467"
+  - "app:\"zimbra-\u90AE\u4EF6\u7CFB\u7EDF\""
+  - iconhash:"1624375939"

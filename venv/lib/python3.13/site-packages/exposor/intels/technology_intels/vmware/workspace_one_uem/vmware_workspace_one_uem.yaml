@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:vmware:workspace_one_uem:*:*:*:*:*:*:*:*
+  description: Detection of vmware workspace_one_uem
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"ssp loginscreen"
+  - services.banner:"Self-Service Portal"
+  - services.http.response.favicons.shodan_hash:"321909464"
+  fofa:
+  - body="ssp loginscreen"
+  - banner="Self-Service Portal"
+  - icon_hash="321909464"
+  shodan:
+  - http.favicon.hash:"321909464"
+  - http.html:"Self-Service Portal"
+  - http.html:"ssp loginscreen"
+  zoomeye:
+  - banner:"ssp loginscreen"
+  - banner:"Self-Service Portal"
+  - iconhash:"321909464"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:nopcommerce:nopcommerce:*:*:*:*:*:*:*:*
+  description: Detection of nopcommerce nopcommerce
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"nopCommerce Installation"
+  fofa:
+  - banner="nopCommerce Installation"
+  shodan:
+  - html:"nopCommerce Installation"
+  zoomeye:
+  - banner:"nopCommerce Installation"

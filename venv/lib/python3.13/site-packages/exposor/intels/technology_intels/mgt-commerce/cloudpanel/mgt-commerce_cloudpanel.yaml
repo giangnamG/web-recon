@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mgt-commerce:cloudpanel:*:*:*:*:*:*:*:*
+  description: Detection of mgt-commerce cloudpanel
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:"151132309"
+  - services.http.response.favicons.shodan_hash:151132309
+  - services.http.response.html_title:"cloudpanel"
+  fofa:
+  - http.title="cloudpanel"
+  - icon_hash=151132309
+  - icon_hash="151132309"
+  shodan:
+  - http.title:"cloudpanel"
+  - http.favicon.hash:151132309
+  - http.favicon.hash:"151132309"
+  zoomeye:
+  - iconhash:151132309
+  - title:"cloudpanel"
+  - iconhash:"151132309"

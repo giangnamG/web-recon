@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ibm:maximo_asset_management:*:*:*:*:*:*:*:*
+  description: Detection of ibm maximo_asset_management
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-399298961
+  fofa:
+  - icon_hash=-399298961
+  shodan:
+  - http.favicon.hash:-399298961
+  zoomeye:
+  - iconhash:-399298961

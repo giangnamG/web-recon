@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:exrick:xmall:*:*:*:*:*:*:*:*
+  description: Detection of exrick xmall
+  version: '1.0'
+queries:
+  censys:
+  - "services.software.product:\"XMall-\u540E\u53F0\u7BA1\u7406\u7CFB\u7EDF\""
+  fofa:
+  - "app=\"XMall-\u540E\u53F0\u7BA1\u7406\u7CFB\u7EDF\""
+  shodan:
+  - "product:\"XMall-\u540E\u53F0\u7BA1\u7406\u7CFB\u7EDF\""
+  zoomeye:
+  - "app:\"XMall-\u540E\u53F0\u7BA1\u7406\u7CFB\u7EDF\""

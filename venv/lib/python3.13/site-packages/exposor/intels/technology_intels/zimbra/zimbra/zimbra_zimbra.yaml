@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zimbra:zimbra:*:*:*:*:*:*:*:*
+  description: Detection of zimbra zimbra
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:"475145467"
+  - services.http.response.favicons.shodan_hash:475145467
+  fofa:
+  - icon_hash="475145467"
+  - icon_hash=475145467
+  shodan:
+  - http.favicon.hash:475145467
+  - http.favicon.hash:"475145467"
+  zoomeye:
+  - iconhash:"475145467"
+  - iconhash:475145467

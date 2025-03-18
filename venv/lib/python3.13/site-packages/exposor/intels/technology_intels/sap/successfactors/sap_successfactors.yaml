@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sap:successfactors:*:*:*:*:*:*:*:*
+  description: Detection of sap successfactors
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"login - sap successfactors"
+  - services.http.response.html_title:"Login - SAP SuccessFactors"
+  fofa:
+  - http.title="login - sap successfactors"
+  - http.title="Login - SAP SuccessFactors"
+  shodan:
+  - http.title:"login - sap successfactors"
+  - title:"Login - SAP SuccessFactors"
+  zoomeye:
+  - title:"login - sap successfactors"
+  - title:"Login - SAP SuccessFactors"

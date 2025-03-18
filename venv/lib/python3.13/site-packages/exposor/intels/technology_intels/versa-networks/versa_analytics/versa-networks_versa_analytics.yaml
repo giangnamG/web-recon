@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:versa-networks:versa_analytics:*:*:*:*:*:*:*:*
+  description: Detection of versa-networks versa_analytics
+  version: '1.0'
+queries: {}

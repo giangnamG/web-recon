@@ -1,0 +1,17 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:talelin:lin-cms-spring-boot:*:*:*:*:*:*:*:*
+  description: Detection of talelin lin-cms-spring-boot
+  version: '1.0'
+queries:
+  censys:
+  - "services.banner:\"\u5FC3\u4E0A\u65E0\u57A2"
+  - "services.http.response.body:\"\u5FC3\u4E0A\u65E0\u57A2"
+  fofa:
+  - "banner=\"\u5FC3\u4E0A\u65E0\u57A2"
+  - "body=\"\u5FC3\u4E0A\u65E0\u57A2\uFF0C\u6797\u95F4\u6709\u98CE\""
+  shodan:
+  - "http.html:\"\u5FC3\u4E0A\u65E0\u57A2"
+  - "http.html:\"\u5FC3\u4E0A\u65E0\u57A2\uFF0C\u6797\u95F4\u6709\u98CE\""
+  zoomeye:
+  - "banner:\"\u5FC3\u4E0A\u65E0\u57A2"

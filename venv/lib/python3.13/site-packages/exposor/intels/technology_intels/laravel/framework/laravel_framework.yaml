@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:laravel:framework:*:*:*:*:*:*:*:*
+  description: Detection of laravel framework
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"Laravel-Framework"
+  fofa:
+  - app="Laravel-Framework"
+  shodan:
+  - product:"Laravel-Framework"
+  zoomeye:
+  - app:"Laravel-Framework"

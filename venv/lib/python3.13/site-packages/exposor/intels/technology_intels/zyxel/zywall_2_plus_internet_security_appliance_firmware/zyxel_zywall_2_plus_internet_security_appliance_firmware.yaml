@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:zyxel:zywall_2_plus_internet_security_appliance_firmware:*:*:*:*:*:*:*:*
+  description: Detection of zyxel zywall_2_plus_internet_security_appliance_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Zywall2Plus"
+  - services.http.response.html_title:"zywall2plus"
+  fofa:
+  - http.title="zywall2plus"
+  - http.title="Zywall2Plus"
+  shodan:
+  - http.title:"Zywall2Plus"
+  - http.title:"zywall2plus"
+  zoomeye:
+  - title:"zywall2plus"
+  - title:"Zywall2Plus"

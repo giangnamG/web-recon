@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:tendacn:g0:*:*:*:*:*:*:*:*
+  description: Detection of tendacn g0
+  version: '1.0'
+queries: {}

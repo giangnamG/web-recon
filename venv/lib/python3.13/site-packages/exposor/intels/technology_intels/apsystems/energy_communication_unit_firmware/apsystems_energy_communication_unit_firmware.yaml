@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:apsystems:energy_communication_unit_firmware:*:*:*:*:*:*:*:*
+  description: Detection of apsystems energy_communication_unit_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Altenergy Power Control Software"
+  - services.http.response.html_title:"altenergy power control software"
+  fofa:
+  - http.title="altenergy power control software"
+  - http.title="Altenergy Power Control Software"
+  shodan:
+  - http.title:"altenergy power control software"
+  - title:"Altenergy Power Control Software"
+  zoomeye:
+  - title:"Altenergy Power Control Software"
+  - title:"altenergy power control software"

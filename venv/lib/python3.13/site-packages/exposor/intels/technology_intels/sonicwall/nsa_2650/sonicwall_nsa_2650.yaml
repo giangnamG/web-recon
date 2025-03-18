@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:sonicwall:nsa_2650:*:*:*:*:*:*:*:*
+  description: Detection of sonicwall nsa_2650
+  version: '1.0'
+queries: {}

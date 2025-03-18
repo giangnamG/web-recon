@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cisco:sd-wan:*:*:*:*:*:*:*:*
+  description: Detection of cisco sd-wan
+  version: '1.0'
+queries: {}

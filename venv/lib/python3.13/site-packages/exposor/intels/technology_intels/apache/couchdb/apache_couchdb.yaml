@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:couchdb:*:*:*:*:*:*:*:*
+  description: Detection of apache couchdb
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"APACHE-CouchDB"
+  fofa:
+  - app="APACHE-CouchDB"
+  shodan:
+  - product:"APACHE-CouchDB"
+  zoomeye:
+  - app:"APACHE-CouchDB"

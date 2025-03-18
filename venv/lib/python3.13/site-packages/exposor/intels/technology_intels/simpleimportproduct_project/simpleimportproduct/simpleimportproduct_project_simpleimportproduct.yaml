@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:simpleimportproduct_project:simpleimportproduct:*:*:*:*:*:prestashop:*:*
+  description: Detection of simpleimportproduct_project simpleimportproduct
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"PrestaShop"
+  - services.banner:"prestashop"
+  fofa:
+  - banner="PrestaShop"
+  - banner="prestashop"
+  shodan:
+  - http.component:"PrestaShop"
+  - http.component:"prestashop"
+  zoomeye:
+  - banner:"prestashop"
+  - banner:"PrestaShop"

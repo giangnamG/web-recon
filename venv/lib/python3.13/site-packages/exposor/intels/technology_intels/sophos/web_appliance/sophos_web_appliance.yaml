@@ -1,0 +1,26 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sophos:web_appliance:*:*:*:*:*:*:*:*
+  description: Detection of sophos web_appliance
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"sophos web appliance"
+  - services.http.response.html_title:"sophos web appliance"
+  - services.http.response.favicons.shodan_hash:-893681401
+  - services.http.response.html_title:"Sophos Web Appliance"
+  fofa:
+  - title="sophos web appliance"
+  - http.title="Sophos Web Appliance"
+  - icon_hash=-893681401
+  - http.title="sophos web appliance"
+  shodan:
+  - http.title:"sophos web appliance"
+  - title:"Sophos Web Appliance"
+  - http.favicon.hash:-893681401
+  - product:"sophos web appliance"
+  zoomeye:
+  - app:"sophos web appliance"
+  - title:"Sophos Web Appliance"
+  - title:"sophos web appliance"
+  - iconhash:-893681401

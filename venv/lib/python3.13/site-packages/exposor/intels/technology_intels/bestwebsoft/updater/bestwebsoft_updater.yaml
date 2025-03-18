@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:updater:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft updater
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/updater/
+  - services.banner:/wp-content/plugins/updater/
+  fofa:
+  - body=/wp-content/plugins/updater/
+  - banner=/wp-content/plugins/updater/
+  shodan:
+  - http.html:/wp-content/plugins/updater/
+  zoomeye:
+  - banner:/wp-content/plugins/updater/

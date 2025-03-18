@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:calibre-ebook:calibre:*:*:*:*:*:*:*:*
+  description: Detection of calibre-ebook calibre
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Calibre"
+  fofa:
+  - banner="Calibre"
+  shodan:
+  - html:"Calibre"
+  zoomeye:
+  - banner:"Calibre"

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bludit:bludit:*:*:*:*:*:*:*:*
+  description: Detection of bludit bludit
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"bludit"
+  - services.http.response.html_title:"Bludit"
+  fofa:
+  - http.title="Bludit"
+  - http.title="bludit"
+  shodan:
+  - title:"Bludit"
+  - http.title:"bludit"
+  zoomeye:
+  - title:"Bludit"
+  - title:"bludit"

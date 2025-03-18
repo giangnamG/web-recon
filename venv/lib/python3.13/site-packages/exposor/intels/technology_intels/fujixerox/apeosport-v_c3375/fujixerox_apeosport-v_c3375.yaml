@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:fujixerox:apeosport-v_c3375:*:*:*:*:*:*:*:*
+  description: Detection of fujixerox apeosport-v_c3375
+  version: '1.0'
+queries: {}

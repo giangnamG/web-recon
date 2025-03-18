@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sjhoo:woo_inquiry:*:*:*:*:*:*:*:*
+  description: Detection of sjhoo woo_inquiry
+  version: '1.0'
+queries: {}

@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:microsoft:office_web_apps_server:*:*:*:*:*:*:*:*
+  description: Detection of microsoft office_web_apps_server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"provide a link that opens word"
+  - services.banner:"provide a link that opens word"
+  - services.banner:"Provide a link that opens Word"
+  fofa:
+  - banner="provide a link that opens word"
+  - banner="Provide a link that opens Word"
+  - body="provide a link that opens word"
+  shodan:
+  - http.html:"provide a link that opens word"
+  - html:"Provide a link that opens Word"
+  zoomeye:
+  - banner:"provide a link that opens word"
+  - banner:"Provide a link that opens Word"

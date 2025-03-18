@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:elastic:kibana:*:*:*:*:*:*:*:*
+  description: Detection of elastic kibana
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"kibana"
+  fofa:
+  - http.title="kibana"
+  shodan:
+  - http.title:"kibana"
+  zoomeye:
+  - title:"kibana"

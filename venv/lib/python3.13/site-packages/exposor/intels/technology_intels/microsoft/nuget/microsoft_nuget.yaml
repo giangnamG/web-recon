@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:microsoft:nuget:*:*:*:*:*:*:*:*
+  description: Detection of microsoft nuget
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"packages.config"
+  fofa:
+  - banner="packages.config"
+  shodan:
+  - html:"packages.config"
+  zoomeye:
+  - banner:"packages.config"

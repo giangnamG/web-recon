@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ui:unifi_network_application:*:*:*:*:*:*:*:*
+  description: Detection of ui unifi_network_application
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"UniFi Network"
+  fofa:
+  - http.title="UniFi Network"
+  shodan:
+  - http.title:"UniFi Network"
+  zoomeye:
+  - title:"UniFi Network"

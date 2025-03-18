@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wp3dprinting:3dprint_lite:*:*:*:*:*:wordpress:*:*
+  description: Detection of wp3dprinting 3dprint_lite
+  version: '1.0'
+queries: {}

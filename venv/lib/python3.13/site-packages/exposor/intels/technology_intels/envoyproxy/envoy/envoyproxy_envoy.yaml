@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:envoyproxy:envoy:*:*:*:*:*:*:*:*
+  description: Detection of envoyproxy envoy
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Envoy Admin"
+  fofa:
+  - http.title="Envoy Admin"
+  shodan:
+  - title:"Envoy Admin"
+  zoomeye:
+  - title:"Envoy Admin"

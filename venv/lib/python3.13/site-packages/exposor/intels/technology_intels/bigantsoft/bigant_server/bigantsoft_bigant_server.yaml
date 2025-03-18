@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bigantsoft:bigant_server:*:*:*:*:*:*:*:*
+  description: Detection of bigantsoft bigant_server
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"bigant"
+  - services.http.response.body:"bigant"
+  - services.banner:"BigAnt"
+  fofa:
+  - banner="bigant"
+  - body="bigant"
+  - banner="BigAnt"
+  shodan:
+  - http.html:"BigAnt"
+  - http.html:"bigant"
+  zoomeye:
+  - banner:"BigAnt"
+  - banner:"bigant"

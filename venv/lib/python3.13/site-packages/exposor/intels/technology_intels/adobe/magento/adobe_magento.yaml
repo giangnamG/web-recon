@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:adobe:magento:*:*:*:*:*:*:*:*
+  description: Detection of adobe magento
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"Adobe-Magento"
+  fofa:
+  - app="Adobe-Magento"
+  shodan:
+  - product:"Adobe-Magento"
+  zoomeye:
+  - app:"Adobe-Magento"

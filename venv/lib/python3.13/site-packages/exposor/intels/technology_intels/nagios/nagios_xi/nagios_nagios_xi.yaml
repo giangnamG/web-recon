@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:nagios:nagios_xi:*:*:*:*:*:*:*:*
+  description: Detection of nagios nagios_xi
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"nagios-xi"
+  - services.software.product:"Nagios-XI"
+  - services.http.response.html_title:"nagios xi"
+  fofa:
+  - app="Nagios-XI"
+  - http.title="nagios xi"
+  - app="nagios-xi"
+  shodan:
+  - product:"Nagios-XI"
+  - product:"nagios-xi"
+  - http.title:"nagios xi"
+  zoomeye:
+  - app:"Nagios-XI"
+  - title:"nagios xi"
+  - app:"nagios-xi"

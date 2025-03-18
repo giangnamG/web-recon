@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:owasp:defectdojo:*:*:*:*:*:*:*:*
+  description: Detection of owasp defectdojo
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"DefectDojo Logo"
+  fofa:
+  - banner="DefectDojo Logo"
+  shodan:
+  - html:"DefectDojo Logo"
+  zoomeye:
+  - banner:"DefectDojo Logo"

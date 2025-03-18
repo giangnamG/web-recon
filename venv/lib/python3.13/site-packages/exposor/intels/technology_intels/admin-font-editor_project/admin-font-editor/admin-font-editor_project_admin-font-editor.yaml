@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:admin-font-editor_project:admin-font-editor:*:*:*:*:*:wordpress:*:*
+  description: Detection of admin-font-editor_project admin-font-editor
+  version: '1.0'
+queries: {}

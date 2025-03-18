@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wpdeveloper:notificationx:*:*:*:*:wordpress:*:*:*
+  description: Detection of wpdeveloper notificationx
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"/wp-content/plugins/notificationx"
+  fofa:
+  - body="/wp-content/plugins/notificationx"
+  shodan:
+  - http.html:"/wp-content/plugins/notificationx"
+  zoomeye:
+  - banner:"/wp-content/plugins/notificationx"

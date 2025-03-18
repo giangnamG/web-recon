@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:page-layout-builder_project:page-layout-builder:*:*:*:*:*:wordpress:*:*
+  description: Detection of page-layout-builder_project page-layout-builder
+  version: '1.0'
+queries: {}

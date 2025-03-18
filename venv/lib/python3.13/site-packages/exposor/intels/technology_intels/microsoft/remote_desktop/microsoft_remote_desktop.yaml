@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:microsoft:remote_desktop:*:*:*:*:android:*:*:*
+  description: Detection of microsoft remote_desktop
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"rd web access"
+  - services.http.response.body:"rd web access"
+  - services.banner:"RD Web Access"
+  fofa:
+  - banner="rd web access"
+  - body="rd web access"
+  - banner="RD Web Access"
+  shodan:
+  - html:"RD Web Access"
+  - http.html:"rd web access"
+  zoomeye:
+  - banner:"RD Web Access"
+  - banner:"rd web access"

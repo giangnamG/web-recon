@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ppfeufer:2-click-social-media-buttons:*:*:*:*:*:*:*:*
+  description: Detection of ppfeufer 2-click-social-media-buttons
+  version: '1.0'
+queries: {}

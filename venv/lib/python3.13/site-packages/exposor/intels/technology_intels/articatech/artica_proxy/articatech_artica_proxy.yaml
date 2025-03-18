@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:articatech:artica_proxy:*:*:*:*:community:*:*:*
+  description: Detection of articatech artica_proxy
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"artica"
+  - services.banner:"artica"
+  fofa:
+  - body="artica"
+  - banner="artica"
+  shodan:
+  - http.html:"artica"
+  zoomeye:
+  - banner:"artica"

@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:magnussolution:magnusbilling:*:*:*:*:*:*:*:*
+  description: Detection of magnussolution magnusbilling
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"magnusbilling"
+  - services.http.response.body:"magnusbilling"
+  fofa:
+  - banner="magnusbilling"
+  - body="magnusbilling"
+  shodan:
+  - http.html:"magnusbilling"
+  zoomeye:
+  - banner:"magnusbilling"

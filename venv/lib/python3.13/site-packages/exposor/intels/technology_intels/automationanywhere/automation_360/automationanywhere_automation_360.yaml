@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:automationanywhere:automation_360:*:*:*:*:*:*:*:*
+  description: Detection of automationanywhere automation_360
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:"-1005691603"
+  - services.http.response.favicons.shodan_hash:-1005691603
+  fofa:
+  - icon_hash="-1005691603"
+  - icon_hash=-1005691603
+  shodan:
+  - http.favicon.hash:-1005691603
+  - http.favicon.hash:"-1005691603"
+  zoomeye:
+  - iconhash:"-1005691603"
+  - iconhash:-1005691603

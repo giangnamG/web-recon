@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:orchardproject:orchard:*:*:*:*:*:*:*:*
+  description: Detection of orchardproject orchard
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Orchard Setup - Get Started"
+  fofa:
+  - banner="Orchard Setup - Get Started"
+  shodan:
+  - html:"Orchard Setup - Get Started"
+  zoomeye:
+  - banner:"Orchard Setup - Get Started"

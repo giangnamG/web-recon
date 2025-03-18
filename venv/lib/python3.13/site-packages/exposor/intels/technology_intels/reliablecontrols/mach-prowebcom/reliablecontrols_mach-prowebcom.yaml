@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:reliablecontrols:mach-prowebcom:*:*:*:*:*:*:*:*
+  description: Detection of reliablecontrols mach-prowebcom
+  version: '1.0'
+queries: {}

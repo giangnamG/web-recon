@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wpb_show_core_project:wpb_show_core:*:*:*:*:*:wordpress:*:*
+  description: Detection of wpb_show_core_project wpb_show_core
+  version: '1.0'
+queries: {}

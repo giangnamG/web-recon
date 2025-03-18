@@ -1,0 +1,17 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:creativeitem:academy_learning_management_system:*:*:*:*:*:*:*:*
+  description: Detection of creativeitem academy_learning_management_system
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"study any topic
+  - services.http.response.body:"study any topic
+  fofa:
+  - body="study any topic, anytime"
+  - banner="study any topic
+  shodan:
+  - http.html:"study any topic
+  - http.html:"study any topic, anytime"
+  zoomeye:
+  - banner:"study any topic

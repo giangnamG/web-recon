@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:asus:rt-n16:*:*:*:*:*:*:*:*
+  description: Detection of asus rt-n16
+  version: '1.0'
+queries: {}

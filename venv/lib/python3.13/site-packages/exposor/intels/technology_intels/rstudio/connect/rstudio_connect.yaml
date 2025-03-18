@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:rstudio:connect:*:*:*:*:*:*:*:*
+  description: Detection of rstudio connect
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"RStudio-Connect"
+  - services.http.response.html_title:"openvpn connect"
+  - services.http.response.favicons.shodan_hash:217119619
+  fofa:
+  - app="RStudio-Connect"
+  - http.title="openvpn connect"
+  - icon_hash=217119619
+  shodan:
+  - product:"RStudio-Connect"
+  - http.title:"openvpn connect"
+  - http.favicon.hash:217119619
+  zoomeye:
+  - title:"openvpn connect"
+  - iconhash:217119619
+  - app:"RStudio-Connect"

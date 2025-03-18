@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:geosolutionsgroup:jai-ext:*:*:*:*:*:*:*:*
+  description: Detection of geosolutionsgroup jai-ext
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"GeoServer"
+  - services.software.product:"geoserver"
+  fofa:
+  - app="GeoServer"
+  - app="geoserver"
+  shodan:
+  - product:"geoserver"
+  - product:"GeoServer"
+  zoomeye:
+  - app:"GeoServer"
+  - app:"geoserver"

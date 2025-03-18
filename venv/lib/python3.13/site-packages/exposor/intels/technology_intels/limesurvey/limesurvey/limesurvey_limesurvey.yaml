@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:limesurvey:limesurvey:*:*:*:*:*:*:*:*
+  description: Detection of limesurvey limesurvey
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:1781653957
+  fofa:
+  - icon_hash=1781653957
+  shodan:
+  - http.favicon.hash:1781653957
+  zoomeye:
+  - iconhash:1781653957

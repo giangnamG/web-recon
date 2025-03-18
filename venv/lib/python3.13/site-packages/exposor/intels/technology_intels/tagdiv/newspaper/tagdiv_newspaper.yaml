@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:tagdiv:newspaper:*:*:*:*:*:wordpress:*:*
+  description: Detection of tagdiv newspaper
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/themes/newspaper
+  - services.http.response.body:/wp-content/themes/newspaper
+  fofa:
+  - body=/wp-content/themes/newspaper
+  - banner=/wp-content/themes/newspaper
+  shodan:
+  - http.html:/wp-content/themes/newspaper
+  zoomeye:
+  - banner:/wp-content/themes/newspaper

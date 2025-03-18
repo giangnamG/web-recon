@@ -1,2 +1,5 @@
+openai
 xmltodict
 requests
+python-dotenv
+bs4

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:redhat:satellite:*:*:*:*:*:*:*:*
+  description: Detection of redhat satellite
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"redhat" "Satellite"
+  fofa:
+  - banner="redhat" "Satellite"
+  shodan:
+  - http.html:"redhat" "Satellite"
+  zoomeye:
+  - banner:"redhat" "Satellite"

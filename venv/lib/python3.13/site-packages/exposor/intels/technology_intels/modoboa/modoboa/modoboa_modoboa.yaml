@@ -1,0 +1,27 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:modoboa:modoboa:*:*:*:*:*:*:*:*
+  description: Detection of modoboa modoboa
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"Modoboa"
+  - services.http.response.favicons.shodan_hash:1949005079
+  - services.banner:"modoboa"
+  - services.banner:"Modoboa"
+  - services.http.response.body:"modoboa"
+  fofa:
+  - body="modoboa"
+  - icon_hash=1949005079
+  - banner="modoboa"
+  - banner="Modoboa"
+  - body="Modoboa"
+  shodan:
+  - http.favicon.hash:1949005079
+  - html:"Modoboa"
+  - http.html:"modoboa"
+  - http.html:"Modoboa"
+  zoomeye:
+  - iconhash:1949005079
+  - banner:"modoboa"
+  - banner:"Modoboa"

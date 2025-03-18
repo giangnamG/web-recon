@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:codexonics:prime_mover:*:*:*:*:*:wordpress:*:*
+  description: Detection of codexonics prime_mover
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"/wp-content/plugins/prime-mover"
+  fofa:
+  - body="/wp-content/plugins/prime-mover"
+  shodan:
+  - http.html:"/wp-content/plugins/prime-mover"
+  zoomeye:
+  - banner:"/wp-content/plugins/prime-mover"

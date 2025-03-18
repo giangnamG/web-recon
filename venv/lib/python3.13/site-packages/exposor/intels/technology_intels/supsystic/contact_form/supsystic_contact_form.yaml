@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:supsystic:contact_form:*:*:*:*:*:wordpress:*:*
+  description: Detection of supsystic contact_form
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/contact-form-plugin/
+  - services.banner:/wp-content/plugins/contact-form-plugin/
+  fofa:
+  - banner=/wp-content/plugins/contact-form-plugin/
+  - body=/wp-content/plugins/contact-form-plugin/
+  shodan:
+  - http.html:/wp-content/plugins/contact-form-plugin/
+  zoomeye:
+  - banner:/wp-content/plugins/contact-form-plugin/

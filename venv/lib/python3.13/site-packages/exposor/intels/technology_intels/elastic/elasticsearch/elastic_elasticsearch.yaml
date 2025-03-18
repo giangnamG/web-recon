@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*
+  description: Detection of elastic elasticsearch
+  version: '1.0'
+queries: {}

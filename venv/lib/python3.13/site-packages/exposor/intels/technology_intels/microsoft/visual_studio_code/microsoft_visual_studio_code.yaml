@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:microsoft:visual_studio_code:*:*:*:*:*:*:*:*
+  description: Detection of microsoft visual_studio_code
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"sftp.json"
+  fofa:
+  - banner="sftp.json"
+  shodan:
+  - html:"sftp.json"
+  zoomeye:
+  - banner:"sftp.json"

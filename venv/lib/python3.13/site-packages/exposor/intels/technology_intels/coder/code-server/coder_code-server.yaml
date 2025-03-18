@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:coder:code-server:*:*:*:*:*:*:*:*
+  description: Detection of coder code-server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"code-server login"
+  fofa:
+  - http.title="code-server login"
+  shodan:
+  - http.title:"code-server login"
+  zoomeye:
+  - title:"code-server login"

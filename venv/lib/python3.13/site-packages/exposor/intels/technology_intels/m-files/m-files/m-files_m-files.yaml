@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:m-files:m-files:*:*:*:*:*:*:*:*
+  description: Detection of m-files m-files
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"m-files web"
+  - services.banner:"M-Files Web"
+  - services.http.response.body:"m-files web"
+  fofa:
+  - banner="M-Files Web"
+  - body="m-files web"
+  - banner="m-files web"
+  shodan:
+  - http.html:"M-Files Web"
+  - http.html:"m-files web"
+  zoomeye:
+  - banner:"M-Files Web"
+  - banner:"m-files web"

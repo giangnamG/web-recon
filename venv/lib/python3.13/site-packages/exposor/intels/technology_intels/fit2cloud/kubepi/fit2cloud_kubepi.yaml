@@ -1,0 +1,17 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:fit2cloud:kubepi:*:*:*:*:*:*:*:*
+  description: Detection of fit2cloud kubepi
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"kubepi"
+  - services.http.response.body:"kubepi"
+  fofa:
+  - body="kubepi"
+  - banner="kubepi"
+  shodan:
+  - http.html:"kubepi"
+  - html:"kubepi"
+  zoomeye:
+  - banner:"kubepi"

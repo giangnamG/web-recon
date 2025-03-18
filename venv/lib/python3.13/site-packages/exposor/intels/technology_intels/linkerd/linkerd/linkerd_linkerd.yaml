@@ -1,0 +1,17 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:linkerd:linkerd:*:*:*:*:kubernetes:*:*:*
+  description: Detection of linkerd linkerd
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"data-controller-namespace"
+  - services.http.response.body:"data-controller-namespace"
+  fofa:
+  - banner="data-controller-namespace"
+  - body="data-controller-namespace"
+  shodan:
+  - http.html:"data-controller-namespace"
+  - html:"data-controller-namespace"
+  zoomeye:
+  - banner:"data-controller-namespace"

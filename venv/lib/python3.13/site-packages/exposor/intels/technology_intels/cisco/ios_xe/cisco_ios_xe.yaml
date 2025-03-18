@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:cisco:ios_xe:*:*:*:*:*:*:*:*
+  description: Detection of cisco ios_xe
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:1076109428
+  fofa:
+  - banner=1076109428
+  shodan:
+  - http.html_hash:1076109428
+  zoomeye:
+  - banner:1076109428

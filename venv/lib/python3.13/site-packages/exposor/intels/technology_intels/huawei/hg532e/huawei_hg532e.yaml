@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:huawei:hg532e:*:*:*:*:*:*:*:*
+  description: Detection of huawei hg532e
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"HG532e"
+  fofa:
+  - banner="HG532e"
+  shodan:
+  - http.html:"HG532e"
+  zoomeye:
+  - banner:"HG532e"

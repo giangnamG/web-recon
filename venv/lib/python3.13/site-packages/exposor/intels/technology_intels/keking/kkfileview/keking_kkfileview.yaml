@@ -1,0 +1,24 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:keking:kkfileview:*:*:*:*:*:*:*:*
+  description: Detection of keking kkfileview
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"kkfileview"
+  - services.http.response.body:"kkfileview"
+  - services.banner:"kkFileView"
+  - services.banner:"kkfileview"
+  fofa:
+  - banner="kkfileview"
+  - app="kkfileview"
+  - body="kkfileview"
+  - banner="kkFileView"
+  shodan:
+  - http.html:"kkFileView"
+  - product:"kkfileview"
+  - http.html:"kkfileview"
+  zoomeye:
+  - app:"kkfileview"
+  - banner:"kkFileView"
+  - banner:"kkfileview"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sqlbuddy:sql_buddy:*:*:*:*:*:*:*:*
+  description: Detection of sqlbuddy sql_buddy
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"SQL Buddy"
+  fofa:
+  - http.title="SQL Buddy"
+  shodan:
+  - http.title:"SQL Buddy"
+  zoomeye:
+  - title:"SQL Buddy"

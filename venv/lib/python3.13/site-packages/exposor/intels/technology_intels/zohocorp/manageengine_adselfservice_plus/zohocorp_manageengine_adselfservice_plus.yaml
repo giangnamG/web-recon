@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:*:*:*:*:*:*:*:*
+  description: Detection of zohocorp manageengine_adselfservice_plus
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"ManageEngine"
+  - services.http.response.html_title:"manageengine"
+  - services.http.response.html_title:"adselfservice plus"
+  fofa:
+  - http.title="adselfservice plus"
+  - http.title="ManageEngine"
+  - http.title="manageengine"
+  shodan:
+  - http.title:"ManageEngine"
+  - http.title:"manageengine"
+  - http.title:"adselfservice plus"
+  zoomeye:
+  - title:"ManageEngine"
+  - title:"adselfservice plus"
+  - title:"manageengine"

@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:gtranslate:translate_wordpress_with_gtranslate:*:*:*:*:*:wordpress:*:*
+  description: Detection of gtranslate translate_wordpress_with_gtranslate
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/gtranslate
+  - services.http.response.body:/wp-content/plugins/gtranslate
+  fofa:
+  - banner=/wp-content/plugins/gtranslate
+  - body=/wp-content/plugins/gtranslate
+  shodan:
+  - http.html:/wp-content/plugins/gtranslate
+  zoomeye:
+  - banner:/wp-content/plugins/gtranslate

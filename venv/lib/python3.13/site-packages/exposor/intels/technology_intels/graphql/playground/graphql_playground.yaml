@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:graphql:playground:*:*:*:*:node.js:*:*:*
+  description: Detection of graphql playground
+  version: '1.0'
+queries: {}

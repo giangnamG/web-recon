@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zip_attachments_project:zip_attachments:*:*:*:*:*:wordpress:*:*
+  description: Detection of zip_attachments_project zip_attachments
+  version: '1.0'
+queries: {}

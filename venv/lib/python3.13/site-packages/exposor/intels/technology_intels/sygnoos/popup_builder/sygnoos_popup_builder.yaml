@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sygnoos:popup_builder:*:*:*:*:*:wordpress:*:*
+  description: Detection of sygnoos popup_builder
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/popup-builder/
+  - services.banner:/wp-content/plugins/popup-builder/
+  fofa:
+  - body=/wp-content/plugins/popup-builder/
+  - banner=/wp-content/plugins/popup-builder/
+  shodan:
+  - http.html:/wp-content/plugins/popup-builder/
+  zoomeye:
+  - banner:/wp-content/plugins/popup-builder/

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:transmissionbt:transmission:*:*:*:*:*:*:*:*
+  description: Detection of transmissionbt transmission
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Transmission Web Interface"
+  fofa:
+  - http.title="Transmission Web Interface"
+  shodan:
+  - http.title:"Transmission Web Interface"
+  zoomeye:
+  - title:"Transmission Web Interface"

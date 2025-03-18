@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:haproxy:haproxy:*:*:*:*:*:*:*:*
+  description: Detection of haproxy haproxy
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"haproxy exporter"
+  fofa:
+  - http.title="haproxy exporter"
+  shodan:
+  - title:"haproxy exporter"
+  zoomeye:
+  - title:"haproxy exporter"

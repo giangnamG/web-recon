@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:untangle:ng_firewall:*:*:*:*:*:*:*:*
+  description: Detection of untangle ng_firewall
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"untangle administrator login"
+  - services.http.response.html_title:"Untangle Administrator Login"
+  fofa:
+  - http.title="Untangle Administrator Login"
+  - http.title="untangle administrator login"
+  shodan:
+  - http.title:"untangle administrator login"
+  - title:"Untangle Administrator Login"
+  zoomeye:
+  - title:"Untangle Administrator Login"
+  - title:"untangle administrator login"

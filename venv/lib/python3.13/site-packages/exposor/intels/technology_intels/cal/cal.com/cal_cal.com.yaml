@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cal:cal.com:*:*:*:*:*:*:*:*
+  description: Detection of cal cal.com
+  version: '1.0'
+queries:
+  censys:
+  - 'services.http.response.body:"Setup | Cal.com"'
+  fofa:
+  - body="Setup | Cal.com"
+  shodan:
+  - 'http.html:"Setup | Cal.com"'
+  zoomeye:
+  - 'banner:"Setup | Cal.com"'

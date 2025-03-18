@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:webdesi9:file_manager:*:*:*:*:wordpress:*:*:*
+  description: Detection of webdesi9 file_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Web File Manager"
+  fofa:
+  - http.title="Web File Manager"
+  shodan:
+  - title:"Web File Manager"
+  zoomeye:
+  - title:"Web File Manager"

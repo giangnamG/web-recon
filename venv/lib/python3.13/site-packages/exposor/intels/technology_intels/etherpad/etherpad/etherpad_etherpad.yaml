@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:etherpad:etherpad:*:*:*:*:*:*:*:*
+  description: Detection of etherpad etherpad
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"index.createOpenPad"
+  fofa:
+  - banner="index.createOpenPad"
+  shodan:
+  - http.html:"index.createOpenPad"
+  zoomeye:
+  - banner:"index.createOpenPad"

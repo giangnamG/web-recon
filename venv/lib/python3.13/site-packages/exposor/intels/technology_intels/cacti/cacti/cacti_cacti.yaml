@@ -1,0 +1,26 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cacti:cacti:*:*:*:*:*:*:*:*
+  description: Detection of cacti cacti
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"cacti"
+  - services.http.response.html_title:"login to cacti"
+  - services.http.response.favicons.shodan_hash:"-1797138069"
+  - services.http.response.favicons.shodan_hash:-1797138069
+  fofa:
+  - http.title="cacti"
+  - http.title="login to cacti"
+  - icon_hash=-1797138069
+  - icon_hash="-1797138069"
+  shodan:
+  - http.favicon.hash:-1797138069
+  - http.title:"login to cacti"
+  - http.favicon.hash:"-1797138069"
+  - http.title:"cacti"
+  zoomeye:
+  - iconhash:"-1797138069"
+  - title:"login to cacti"
+  - iconhash:-1797138069
+  - title:"cacti"

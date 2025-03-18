@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:atutor:atutor:*:*:*:*:*:*:*:*
+  description: Detection of atutor atutor
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"atutor"
+  - services.banner:"atutor"
+  - services.banner:"Atutor"
+  fofa:
+  - banner="Atutor"
+  - body="atutor"
+  - banner="atutor"
+  shodan:
+  - http.html:"Atutor"
+  - http.html:"atutor"
+  zoomeye:
+  - banner:"Atutor"
+  - banner:"atutor"

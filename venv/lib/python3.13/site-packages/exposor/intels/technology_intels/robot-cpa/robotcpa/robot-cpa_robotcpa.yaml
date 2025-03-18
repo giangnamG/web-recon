@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:robot-cpa:robotcpa:*:*:*:*:*:wordpress:*:*
+  description: Detection of robot-cpa robotcpa
+  version: '1.0'
+queries: {}

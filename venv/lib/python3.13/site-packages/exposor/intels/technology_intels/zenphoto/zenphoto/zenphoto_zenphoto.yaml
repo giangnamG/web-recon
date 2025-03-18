@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zenphoto:zenphoto:*:*:*:*:*:*:*:*
+  description: Detection of zenphoto zenphoto
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Zenphoto install"
+  fofa:
+  - http.title="Zenphoto install"
+  shodan:
+  - title:"Zenphoto install"
+  zoomeye:
+  - title:"Zenphoto install"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:wavlink:wl-wn530h4_firmware:*:*:*:*:*:*:*:*
+  description: Detection of wavlink wl-wn530h4_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-1350437236
+  fofa:
+  - icon_hash=-1350437236
+  shodan:
+  - http.favicon.hash:-1350437236
+  zoomeye:
+  - iconhash:-1350437236

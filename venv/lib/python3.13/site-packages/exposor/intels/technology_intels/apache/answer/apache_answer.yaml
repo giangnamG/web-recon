@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:answer:*:*:*:*:*:*:*:*
+  description: Detection of apache answer
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:523757057
+  - services.http.response.favicons.shodan_hash:"523757057"
+  fofa:
+  - icon_hash="523757057"
+  - icon_hash=523757057
+  shodan:
+  - http.favicon.hash:523757057
+  - http.favicon.hash:"523757057"
+  zoomeye:
+  - iconhash:523757057
+  - iconhash:"523757057"

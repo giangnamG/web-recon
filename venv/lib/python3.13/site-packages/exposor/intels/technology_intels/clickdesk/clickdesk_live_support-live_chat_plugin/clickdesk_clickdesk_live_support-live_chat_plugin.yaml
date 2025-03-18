@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:clickdesk:clickdesk_live_support-live_chat_plugin:*:*:*:*:*:*:*:*
+  description: Detection of clickdesk clickdesk_live_support-live_chat_plugin
+  version: '1.0'
+queries: {}

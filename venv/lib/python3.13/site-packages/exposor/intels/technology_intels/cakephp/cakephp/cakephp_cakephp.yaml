@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cakephp:cakephp:*:*:*:*:*:*:*:*
+  description: Detection of cakephp cakephp
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"phinx.yml"
+  fofa:
+  - banner="phinx.yml"
+  shodan:
+  - html:"phinx.yml"
+  zoomeye:
+  - banner:"phinx.yml"

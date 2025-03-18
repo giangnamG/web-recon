@@ -1,0 +1,15 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:smokeping:smokeping:*:*:*:*:*:*:*:*
+  description: Detection of smokeping smokeping
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"SmokePing Latency Page for Network Latency
+    Grapher"
+  fofa:
+  - http.title="SmokePing Latency Page for Network Latency Grapher"
+  shodan:
+  - title:"SmokePing Latency Page for Network Latency Grapher"
+  zoomeye:
+  - title:"SmokePing Latency Page for Network Latency Grapher"

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:phppgadmin:phppgadmin:*:*:*:*:*:*:*:*
+  description: Detection of phppgadmin phppgadmin
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"phpPgAdmin"
+  - services.http.response.html_title:phppgadmin
+  fofa:
+  - http.title=phppgadmin
+  - http.title="phpPgAdmin"
+  shodan:
+  - http.title:"phpPgAdmin"
+  - http.title:phppgadmin
+  zoomeye:
+  - title:"phpPgAdmin"
+  - title:phppgadmin

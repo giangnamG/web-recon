@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:torchbox:wagtail:*:*:*:*:*:*:*:*
+  description: Detection of torchbox wagtail
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"wagtail - sign in"
+  - services.http.response.html_title:"Wagtail - Sign in"
+  fofa:
+  - http.title="wagtail - sign in"
+  - http.title="Wagtail - Sign in"
+  shodan:
+  - title:"Wagtail - Sign in"
+  - http.title:"wagtail - sign in"
+  zoomeye:
+  - title:"Wagtail - Sign in"
+  - title:"wagtail - sign in"

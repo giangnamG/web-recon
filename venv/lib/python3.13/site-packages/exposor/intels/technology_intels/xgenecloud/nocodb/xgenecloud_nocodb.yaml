@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:xgenecloud:nocodb:*:*:*:*:*:*:*:*
+  description: Detection of xgenecloud nocodb
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:206985584
+  fofa:
+  - icon_hash=206985584
+  shodan:
+  - http.favicon.hash:206985584
+  zoomeye:
+  - iconhash:206985584

@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wptrafficanalyzer:trafficanalyzer:*:*:*:*:*:*:*:*
+  description: Detection of wptrafficanalyzer trafficanalyzer
+  version: '1.0'
+queries: {}

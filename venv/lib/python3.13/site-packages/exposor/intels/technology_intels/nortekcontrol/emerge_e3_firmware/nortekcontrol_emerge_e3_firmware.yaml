@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:nortekcontrol:emerge_e3_firmware:*:*:*:*:*:*:*:*
+  description: Detection of nortekcontrol emerge_e3_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"emerge"
+  - services.http.response.html_title:"Linear eMerge"
+  - services.http.response.html_title:"linear emerge"
+  fofa:
+  - http.title="Linear eMerge"
+  - http.title="emerge"
+  - http.title="linear emerge"
+  shodan:
+  - http.title:"Linear eMerge"
+  - http.title:"linear emerge"
+  - http.title:"emerge"
+  zoomeye:
+  - title:"linear emerge"
+  - title:"emerge"
+  - title:"Linear eMerge"

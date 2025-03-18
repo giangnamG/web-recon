@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:redhat:openshift_origin:*:*:*:*:*:*:*:*
+  description: Detection of redhat openshift_origin
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"OpenShift"
+  fofa:
+  - http.title="OpenShift"
+  shodan:
+  - title:"OpenShift"
+  zoomeye:
+  - title:"OpenShift"

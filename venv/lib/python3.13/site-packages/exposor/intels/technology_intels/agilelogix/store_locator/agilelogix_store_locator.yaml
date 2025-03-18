@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:agilelogix:store_locator:*:*:*:*:*:wordpress:*:*
+  description: Detection of agilelogix store_locator
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"/wp-content/plugins/agile-store-locator"
+  - services.banner:"/wp-content/plugins/agile-store-locator/"
+  fofa:
+  - body="/wp-content/plugins/agile-store-locator"
+  - banner="/wp-content/plugins/agile-store-locator/"
+  shodan:
+  - http.html:"/wp-content/plugins/agile-store-locator/"
+  - http.html:"/wp-content/plugins/agile-store-locator"
+  zoomeye:
+  - banner:"/wp-content/plugins/agile-store-locator/"
+  - banner:"/wp-content/plugins/agile-store-locator"

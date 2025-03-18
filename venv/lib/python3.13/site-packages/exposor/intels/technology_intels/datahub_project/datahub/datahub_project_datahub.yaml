@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:datahub_project:datahub:*:*:*:*:*:*:*:*
+  description: Detection of datahub_project datahub
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"DataHub"
+  fofa:
+  - http.title="DataHub"
+  shodan:
+  - http.title:"DataHub"
+  zoomeye:
+  - title:"DataHub"

@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:awstats:awstats:*:*:*:*:*:*:*:*
+  description: Detection of awstats awstats
+  version: '1.0'
+queries: {}

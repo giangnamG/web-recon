@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:dotclear:dotclear:*:*:*:*:*:*:*:*
+  description: Detection of dotclear dotclear
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Dotclear"
+  - services.http.response.html_title:"dotclear"
+  fofa:
+  - http.title="Dotclear"
+  - http.title="dotclear"
+  shodan:
+  - http.title:"Dotclear"
+  - http.title:"dotclear"
+  zoomeye:
+  - title:"Dotclear"
+  - title:"dotclear"

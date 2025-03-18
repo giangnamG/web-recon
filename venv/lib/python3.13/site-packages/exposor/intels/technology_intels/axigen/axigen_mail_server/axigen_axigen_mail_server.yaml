@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:axigen:axigen_mail_server:*:*:*:*:*:*:*:*
+  description: Detection of axigen axigen_mail_server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Axigen
+  fofa:
+  - http.title="Axigen
+  shodan:
+  - "http.title:\"Axigen\_WebAdmin\""
+  zoomeye:
+  - title:"Axigen

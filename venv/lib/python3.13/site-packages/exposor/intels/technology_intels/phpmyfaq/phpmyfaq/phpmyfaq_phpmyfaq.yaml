@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:phpmyfaq:phpmyfaq:*:*:*:*:*:*:*:*
+  description: Detection of phpmyfaq phpmyfaq
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"phpmyfaq"
+  - services.http.response.body:"phpmyfaq"
+  fofa:
+  - banner="phpmyfaq"
+  - body="phpmyfaq"
+  shodan:
+  - http.html:"phpmyfaq"
+  zoomeye:
+  - banner:"phpmyfaq"

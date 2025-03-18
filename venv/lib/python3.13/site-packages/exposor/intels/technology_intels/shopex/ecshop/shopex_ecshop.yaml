@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:shopex:ecshop:*:*:*:*:*:*:*:*
+  description: Detection of shopex ecshop
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"ECShop"
+  - services.software.product:"ecshop"
+  fofa:
+  - product="ecshop"
+  - product="ECShop"
+  shodan:
+  - product:"ECShop"
+  - product:"ecshop"
+  zoomeye:
+  - app:"ECShop"
+  - app:"ecshop"

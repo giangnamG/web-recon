@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:rbaskets:request_baskets:*:*:*:*:*:*:*:*
+  description: Detection of rbaskets request_baskets
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"request-baskets"
+  fofa:
+  - banner="request-baskets"
+  shodan:
+  - html:"request-baskets"
+  zoomeye:
+  - banner:"request-baskets"

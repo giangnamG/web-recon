@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:hashicorp:vault:*:*:*:*:*:*:*:*
+  description: Detection of hashicorp vault
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-919788577
+  fofa:
+  - icon_hash=-919788577
+  shodan:
+  - http.favicon.hash:-919788577
+  zoomeye:
+  - iconhash:-919788577

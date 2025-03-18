@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:deluge-torrent:deluge:*:*:*:*:*:*:*:*
+  description: Detection of deluge-torrent deluge
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Deluge WebUI"
+  - services.http.response.html_title:"deluge webui"
+  fofa:
+  - http.title="Deluge WebUI"
+  - http.title="deluge webui"
+  shodan:
+  - title:"Deluge WebUI"
+  - http.title:"deluge webui"
+  zoomeye:
+  - title:"Deluge WebUI"
+  - title:"deluge webui"

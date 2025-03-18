@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:emerson:dixell_xweb-500:*:*:*:*:*:*:*:*
+  description: Detection of emerson dixell_xweb-500
+  version: '1.0'
+queries: {}

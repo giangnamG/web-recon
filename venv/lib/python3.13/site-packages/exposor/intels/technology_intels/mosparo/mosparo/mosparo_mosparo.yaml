@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mosparo:mosparo:*:*:*:*:*:*:*:*
+  description: Detection of mosparo mosparo
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Setup - mosparo"
+  fofa:
+  - http.title="Setup - mosparo"
+  shodan:
+  - title:"Setup - mosparo"
+  zoomeye:
+  - title:"Setup - mosparo"

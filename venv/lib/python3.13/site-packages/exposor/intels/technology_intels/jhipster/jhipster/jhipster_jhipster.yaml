@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:jhipster:jhipster:*:*:*:*:*:*:*:*
+  description: Detection of jhipster jhipster
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"JHipster"
+  fofa:
+  - banner="JHipster"
+  shodan:
+  - http.html:"JHipster"
+  zoomeye:
+  - banner:"JHipster"

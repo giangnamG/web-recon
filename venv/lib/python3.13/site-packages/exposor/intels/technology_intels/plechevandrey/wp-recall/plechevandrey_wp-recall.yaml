@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:plechevandrey:wp-recall:*:*:*:*:wordpress:*:*:*
+  description: Detection of plechevandrey wp-recall
+  version: '1.0'
+queries: {}

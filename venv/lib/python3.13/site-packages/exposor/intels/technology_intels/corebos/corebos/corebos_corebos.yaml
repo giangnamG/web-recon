@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:corebos:corebos:*:*:*:*:*:*:*:*
+  description: Detection of corebos corebos
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"corebos"
+  - services.banner:"corebos"
+  fofa:
+  - body="corebos"
+  - banner="corebos"
+  shodan:
+  - http.html:"corebos"
+  zoomeye:
+  - banner:"corebos"

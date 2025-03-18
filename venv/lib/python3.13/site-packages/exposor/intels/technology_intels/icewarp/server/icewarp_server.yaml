@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:icewarp:server:*:*:*:*:*:*:*:*
+  description: Detection of icewarp server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"gotify"
+  - services.http.response.html_title:"icewarp"
+  fofa:
+  - http.title="icewarp"
+  - http.title="gotify"
+  shodan:
+  - http.title:"gotify"
+  - title:"icewarp"
+  zoomeye:
+  - title:"gotify"
+  - title:"icewarp"

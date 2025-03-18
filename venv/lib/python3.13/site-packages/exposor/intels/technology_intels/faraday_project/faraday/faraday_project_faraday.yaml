@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:faraday_project:faraday:*:*:*:*:*:*:*:*
+  description: Detection of faraday_project faraday
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"faradayApp"
+  fofa:
+  - banner="faradayApp"
+  shodan:
+  - html:"faradayApp"
+  zoomeye:
+  - banner:"faradayApp"

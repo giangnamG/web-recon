@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:yearning:yearning:*:*:*:*:*:*:*:*
+  description: Detection of yearning yearning
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"Yearning"
+  fofa:
+  - app="Yearning"
+  shodan:
+  - product:"Yearning"
+  zoomeye:
+  - app:"Yearning"

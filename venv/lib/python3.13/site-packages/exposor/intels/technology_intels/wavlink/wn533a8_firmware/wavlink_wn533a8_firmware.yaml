@@ -1,0 +1,28 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:wavlink:wn533a8_firmware:*:*:*:*:*:*:*:*
+  description: Detection of wavlink wn533a8_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Wi-Fi APP Login"
+  - services.http.response.body:"wavlink"
+  - services.software.product:"wi-fi app login"
+  - services.http.response.html_title:"wi-fi app login"
+  - services.banner:"wavlink"
+  fofa:
+  - http.title="wi-fi app login"
+  - title="wi-fi app login"
+  - body="wavlink"
+  - http.title="Wi-Fi APP Login"
+  - banner="wavlink"
+  shodan:
+  - product:"wi-fi app login"
+  - http.title:"Wi-Fi APP Login"
+  - http.title:"wi-fi app login"
+  - http.html:"wavlink"
+  zoomeye:
+  - banner:"wavlink"
+  - app:"wi-fi app login"
+  - title:"wi-fi app login"
+  - title:"Wi-Fi APP Login"

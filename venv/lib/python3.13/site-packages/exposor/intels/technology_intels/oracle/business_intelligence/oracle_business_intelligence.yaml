@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:oracle:business_intelligence:*:*:*:*:enterprise:*:*:*
+  description: Detection of oracle business_intelligence
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"oracle business intelligence sign in"
+  fofa:
+  - http.title="oracle business intelligence sign in"
+  shodan:
+  - http.title:"oracle business intelligence sign in"
+  zoomeye:
+  - title:"oracle business intelligence sign in"

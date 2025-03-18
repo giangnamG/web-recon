@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:versa-networks:versa_director:*:*:*:*:*:*:*:*
+  description: Detection of versa-networks versa_director
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Versa Networks"
+  fofa:
+  - banner="Versa Networks"
+  shodan:
+  - html:"Versa Networks"
+  zoomeye:
+  - banner:"Versa Networks"

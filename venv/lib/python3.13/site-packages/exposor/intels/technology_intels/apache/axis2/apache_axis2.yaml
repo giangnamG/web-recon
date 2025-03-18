@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:axis2:*:*:*:*:*:*:*:*
+  description: Detection of apache axis2
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Apache Axis"
+  - services.http.response.body:"apache axis"
+  - services.banner:"apache axis"
+  fofa:
+  - body="apache axis"
+  - banner="Apache Axis"
+  - banner="apache axis"
+  shodan:
+  - http.html:"apache axis"
+  - http.html:"Apache Axis"
+  zoomeye:
+  - banner:"Apache Axis"
+  - banner:"apache axis"

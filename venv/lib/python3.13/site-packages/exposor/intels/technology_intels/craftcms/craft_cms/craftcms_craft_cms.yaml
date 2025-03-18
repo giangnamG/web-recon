@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:craftcms:craft_cms:*:*:*:*:*:*:*:*
+  description: Detection of craftcms craft_cms
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:craftcms
+  - services.banner:craftcms
+  - services.http.response.favicons.shodan_hash:-47932290
+  fofa:
+  - icon_hash=-47932290
+  - body=craftcms
+  - banner=craftcms
+  shodan:
+  - http.html:craftcms
+  - http.favicon.hash:-47932290
+  zoomeye:
+  - iconhash:-47932290
+  - banner:craftcms

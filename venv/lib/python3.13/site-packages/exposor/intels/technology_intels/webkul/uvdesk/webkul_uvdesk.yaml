@@ -1,0 +1,15 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:webkul:uvdesk:*:*:*:*:*:*:*:*
+  description: Detection of webkul uvdesk
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"UVDesk Helpdesk Community Edition - Installation
+    Wizard"
+  fofa:
+  - http.title="UVDesk Helpdesk Community Edition - Installation Wizard"
+  shodan:
+  - title:"UVDesk Helpdesk Community Edition - Installation Wizard"
+  zoomeye:
+  - title:"UVDesk Helpdesk Community Edition - Installation Wizard"

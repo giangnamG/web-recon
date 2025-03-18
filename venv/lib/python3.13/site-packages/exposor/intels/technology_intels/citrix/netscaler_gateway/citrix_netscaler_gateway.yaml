@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:citrix:netscaler_gateway:*:*:*:*:*:*:*:*
+  description: Detection of citrix netscaler_gateway
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-1292923998
+  fofa:
+  - icon_hash=-1292923998
+  shodan:
+  - http.favicon.hash:-1292923998,-1166125415
+  zoomeye:
+  - iconhash:-1292923998

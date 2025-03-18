@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:opensolution:quick.cms:*:*:*:*:*:*:*:*
+  description: Detection of opensolution quick.cms
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"Quick.Cms v6.7"
+  fofa:
+  - body="Quick.Cms v6.7"
+  shodan:
+  - http.html:"Quick.Cms v6.7"
+  zoomeye:
+  - banner:"Quick.Cms v6.7"

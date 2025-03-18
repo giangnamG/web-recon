@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:git-scm:git:*:*:*:*:*:*:*:*
+  description: Detection of git-scm git
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:mailmap
+  fofa:
+  - banner=mailmap
+  shodan:
+  - html:mailmap
+  zoomeye:
+  - banner:mailmap

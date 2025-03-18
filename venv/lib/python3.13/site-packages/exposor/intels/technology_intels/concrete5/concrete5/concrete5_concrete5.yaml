@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:concrete5:concrete5:*:*:*:*:*:*:*:*
+  description: Detection of concrete5 concrete5
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Install concrete5"
+  - services.http.response.html_title:"install concrete5"
+  - services.http.response.html_title:"concrete5"
+  fofa:
+  - http.title="concrete5"
+  - http.title="Install concrete5"
+  - http.title="install concrete5"
+  shodan:
+  - http.title:"install concrete5"
+  - http.title:"Install concrete5"
+  - http.title:"concrete5"
+  zoomeye:
+  - title:"concrete5"
+  - title:"Install concrete5"
+  - title:"install concrete5"

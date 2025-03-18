@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:jwt_project:jwt:*:*:*:*:*:*:*:*
+  description: Detection of jwt_project jwt
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"jwks.json"
+  fofa:
+  - banner="jwks.json"
+  shodan:
+  - html:"jwks.json"
+  zoomeye:
+  - banner:"jwks.json"

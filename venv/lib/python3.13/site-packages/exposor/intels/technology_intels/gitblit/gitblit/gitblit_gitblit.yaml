@@ -1,0 +1,24 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:gitblit:gitblit:*:*:*:*:*:*:*:*
+  description: Detection of gitblit gitblit
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Gitblit"
+  - services.banner:"gitblit"
+  - services.http.response.body:"gitblit"
+  - services.http.response.html_title:"gitblit"
+  fofa:
+  - body="gitblit"
+  - banner="Gitblit"
+  - http.title="gitblit"
+  - banner="gitblit"
+  shodan:
+  - http.html:"gitblit"
+  - http.html:"Gitblit"
+  - http.title:"gitblit"
+  zoomeye:
+  - banner:"gitblit"
+  - banner:"Gitblit"
+  - title:"gitblit"

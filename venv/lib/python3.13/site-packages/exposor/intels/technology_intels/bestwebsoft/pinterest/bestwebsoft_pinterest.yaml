@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:pinterest:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft pinterest
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/bws-pinterest/
+  - services.banner:/wp-content/plugins/bws-pinterest/
+  fofa:
+  - body=/wp-content/plugins/bws-pinterest/
+  - banner=/wp-content/plugins/bws-pinterest/
+  shodan:
+  - http.html:/wp-content/plugins/bws-pinterest/
+  zoomeye:
+  - banner:/wp-content/plugins/bws-pinterest/

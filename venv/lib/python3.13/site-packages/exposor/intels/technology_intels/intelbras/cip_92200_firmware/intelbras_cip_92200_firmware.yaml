@@ -1,0 +1,26 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:intelbras:cip_92200_firmware:*:*:*:*:*:*:*:*
+  description: Detection of intelbras cip_92200_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"intelbras"
+  - services.software.product:"Intelbras"
+  - services.http.response.html_title:"Intelbras"
+  - services.http.response.html_title:"intelbras"
+  fofa:
+  - app="intelbras"
+  - app="Intelbras"
+  - http.title="intelbras"
+  - http.title="Intelbras"
+  shodan:
+  - product:"intelbras"
+  - http.title:"intelbras"
+  - http.title:"Intelbras"
+  - product:"Intelbras"
+  zoomeye:
+  - app:"intelbras"
+  - title:"Intelbras"
+  - title:"intelbras"
+  - app:"Intelbras"

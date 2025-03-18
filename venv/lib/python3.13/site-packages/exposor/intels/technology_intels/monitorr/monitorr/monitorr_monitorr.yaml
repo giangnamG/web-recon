@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:monitorr:monitorr:*:*:*:*:*:*:*:*
+  description: Detection of monitorr monitorr
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:"-211006074"
+  fofa:
+  - icon_hash="-211006074"
+  shodan:
+  - http.favicon.hash:"-211006074"
+  zoomeye:
+  - iconhash:"-211006074"

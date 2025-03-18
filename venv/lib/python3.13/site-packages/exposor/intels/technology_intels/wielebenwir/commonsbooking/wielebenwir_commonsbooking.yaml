@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wielebenwir:commonsbooking:*:*:*:*:*:wordpress:*:*
+  description: Detection of wielebenwir commonsbooking
+  version: '1.0'
+queries: {}

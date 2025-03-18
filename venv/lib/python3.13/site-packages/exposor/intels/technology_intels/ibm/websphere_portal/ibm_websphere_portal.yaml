@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ibm:websphere_portal:*:*:*:*:*:*:*:*
+  description: Detection of ibm websphere_portal
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"IBM WebSphere Portal"
+  fofa:
+  - banner="IBM WebSphere Portal"
+  shodan:
+  - http.html:"IBM WebSphere Portal"
+  zoomeye:
+  - banner:"IBM WebSphere Portal"

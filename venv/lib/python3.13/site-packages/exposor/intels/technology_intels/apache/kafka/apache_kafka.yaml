@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:kafka:*:*:*:*:*:*:*:*
+  description: Detection of apache kafka
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"kafka center"
+  - services.http.response.html_title:"Kafka Center"
+  - services.http.response.html_title:"kafka consumer offset monitor"
+  fofa:
+  - http.title="kafka consumer offset monitor"
+  - http.title="Kafka Center"
+  - http.title="kafka center"
+  shodan:
+  - http.title:"kafka consumer offset monitor"
+  - http.title:"Kafka Center"
+  - http.title:"kafka center"
+  zoomeye:
+  - title:"Kafka Center"
+  - title:"kafka center"
+  - title:"kafka consumer offset monitor"

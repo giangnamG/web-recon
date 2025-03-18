@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:yellowfinbi:yellowfin:*:*:*:*:*:*:*:*
+  description: Detection of yellowfinbi yellowfin
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Yellowfin Information Collaboration"
+  fofa:
+  - http.title="Yellowfin Information Collaboration"
+  shodan:
+  - title:"Yellowfin Information Collaboration"
+  zoomeye:
+  - title:"Yellowfin Information Collaboration"

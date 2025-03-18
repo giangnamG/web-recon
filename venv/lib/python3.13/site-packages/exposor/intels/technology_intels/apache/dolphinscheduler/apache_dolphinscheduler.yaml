@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:dolphinscheduler:*:*:*:*:*:*:*:*
+  description: Detection of apache dolphinscheduler
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"dolphinscheduler"
+  fofa:
+  - http.title="dolphinscheduler"
+  shodan:
+  - http.title:"dolphinscheduler"
+  zoomeye:
+  - title:"dolphinscheduler"

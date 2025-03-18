@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:google_adsense_project:google_adsense:*:*:*:*:*:wordpress:*:*
+  description: Detection of google_adsense_project google_adsense
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/adsense-plugin/
+  - services.http.response.body:/wp-content/plugins/adsense-plugin/
+  fofa:
+  - body=/wp-content/plugins/adsense-plugin/
+  - banner=/wp-content/plugins/adsense-plugin/
+  shodan:
+  - http.html:/wp-content/plugins/adsense-plugin/
+  zoomeye:
+  - banner:/wp-content/plugins/adsense-plugin/

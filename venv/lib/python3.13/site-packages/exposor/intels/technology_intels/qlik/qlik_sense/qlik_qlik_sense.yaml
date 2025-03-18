@@ -1,0 +1,32 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:qlik:qlik_sense:*:*:*:*:enterprise:windows:*:*
+  description: Detection of qlik qlik_sense
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"qlik"
+  - services.banner:"Qlik"
+  - services.software.product:"qlik-sense"
+  - services.banner:"qlik"
+  - services.http.response.html_title:"qlik-sense"
+  - services.http.response.favicons.shodan_hash:-74348711
+  fofa:
+  - body="qlik"
+  - app="qlik-sense"
+  - icon_hash=-74348711
+  - banner="qlik"
+  - banner="Qlik"
+  - http.title="qlik-sense"
+  shodan:
+  - http.title:"qlik-sense"
+  - http.favicon.hash:-74348711
+  - product:"qlik-sense"
+  - http.html:"qlik"
+  - html:"Qlik"
+  zoomeye:
+  - banner:"qlik"
+  - banner:"Qlik"
+  - title:"qlik-sense"
+  - app:"qlik-sense"
+  - iconhash:-74348711

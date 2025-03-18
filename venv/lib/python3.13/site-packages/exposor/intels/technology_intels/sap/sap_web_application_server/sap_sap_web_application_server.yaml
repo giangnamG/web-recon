@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sap:sap_web_application_server:*:*:*:*:*:*:*:*
+  description: Detection of sap sap_web_application_server
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"SAP Business Server Pages Team"
+  - services.banner:"sap business server pages team"
+  - services.http.response.body:"sap business server pages team"
+  fofa:
+  - banner="SAP Business Server Pages Team"
+  - banner="sap business server pages team"
+  - body="sap business server pages team"
+  shodan:
+  - http.html:"sap business server pages team"
+  - html:"SAP Business Server Pages Team"
+  zoomeye:
+  - banner:"SAP Business Server Pages Team"
+  - banner:"sap business server pages team"

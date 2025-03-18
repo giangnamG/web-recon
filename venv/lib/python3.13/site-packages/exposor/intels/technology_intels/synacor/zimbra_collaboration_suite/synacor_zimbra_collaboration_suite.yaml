@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:synacor:zimbra_collaboration_suite:*:*:*:*:*:*:*:*
+  description: Detection of synacor zimbra_collaboration_suite
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"zimbra web client sign in"
+  - services.http.response.html_title:"zimbra collaboration suite"
+  fofa:
+  - http.title="zimbra collaboration suite"
+  - http.title="zimbra web client sign in"
+  shodan:
+  - http.title:"zimbra collaboration suite"
+  - http.title:"zimbra web client sign in"
+  zoomeye:
+  - title:"zimbra collaboration suite"
+  - title:"zimbra web client sign in"

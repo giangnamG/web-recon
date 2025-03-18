@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:redhat:jbpm:*:*:*:*:*:*:*:*
+  description: Detection of redhat jbpm
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"jbossws"
+  - services.banner:"jbossws"
+  - services.banner:"JBossWS"
+  fofa:
+  - body="jbossws"
+  - banner="JBossWS"
+  - banner="jbossws"
+  shodan:
+  - html:"JBossWS"
+  - http.html:"jbossws"
+  zoomeye:
+  - banner:"jbossws"
+  - banner:"JBossWS"

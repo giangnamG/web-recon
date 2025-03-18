@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:modx:modx_revolution:*:*:*:*:*:*:*:*
+  description: Detection of modx modx_revolution
+  version: '1.0'
+queries: {}

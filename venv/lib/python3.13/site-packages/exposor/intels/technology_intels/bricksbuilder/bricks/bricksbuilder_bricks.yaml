@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bricksbuilder:bricks:*:*:*:*:wordpress:*:*:*
+  description: Detection of bricksbuilder bricks
+  version: '1.0'
+queries: {}

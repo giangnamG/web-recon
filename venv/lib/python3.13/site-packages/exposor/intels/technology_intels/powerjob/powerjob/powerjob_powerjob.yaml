@@ -1,0 +1,28 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:powerjob:powerjob:*:*:*:*:*:*:*:*
+  description: Detection of powerjob powerjob
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"powerjob"
+  - services.software.product:"PowerJob"
+  - services.banner:"PowerJob"
+  - services.banner:"powerjob"
+  - services.http.response.body:"powerjob"
+  fofa:
+  - app="powerjob"
+  - banner="powerjob"
+  - body="powerjob"
+  - banner="PowerJob"
+  - app="PowerJob"
+  shodan:
+  - html:"PowerJob"
+  - product:"PowerJob"
+  - http.html:"powerjob"
+  - product:"powerjob"
+  zoomeye:
+  - app:"powerjob"
+  - banner:"powerjob"
+  - banner:"PowerJob"
+  - app:"PowerJob"

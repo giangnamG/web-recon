@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:gnu:wget:*:*:*:*:*:*:*:*
+  description: Detection of gnu wget
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:".wgetrc"
+  fofa:
+  - banner=".wgetrc"
+  shodan:
+  - html:".wgetrc"
+  zoomeye:
+  - banner:".wgetrc"

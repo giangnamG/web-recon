@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:zeroshell:zeroshell:*:*:*:*:*:*:*:*
+  description: Detection of zeroshell zeroshell
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"zeroshell"
+  fofa:
+  - http.title="zeroshell"
+  shodan:
+  - http.title:"zeroshell"
+  zoomeye:
+  - title:"zeroshell"

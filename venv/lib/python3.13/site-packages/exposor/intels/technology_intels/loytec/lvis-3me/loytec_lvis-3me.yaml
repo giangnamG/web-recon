@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:loytec:lvis-3me:*:*:*:*:*:*:*:*
+  description: Detection of loytec lvis-3me
+  version: '1.0'
+queries: {}

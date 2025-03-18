@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:webedition:webedition_cms:*:*:*:*:*:*:*:*
+  description: Detection of webedition webedition_cms
+  version: '1.0'
+queries: {}

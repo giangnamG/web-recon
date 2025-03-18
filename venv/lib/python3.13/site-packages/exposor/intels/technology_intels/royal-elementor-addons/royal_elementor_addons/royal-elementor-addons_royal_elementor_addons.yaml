@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:royal-elementor-addons:royal_elementor_addons:*:*:*:*:*:wordpress:*:*
+  description: Detection of royal-elementor-addons royal_elementor_addons
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/plugins/royal-elementor-addons/
+  - services.banner:/plugins/royal-elementor-addons/
+  fofa:
+  - banner=/plugins/royal-elementor-addons/
+  - body=/plugins/royal-elementor-addons/
+  shodan:
+  - http.html:/plugins/royal-elementor-addons/
+  zoomeye:
+  - banner:/plugins/royal-elementor-addons/

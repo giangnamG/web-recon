@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:titool:printmonitor:*:*:*:*:*:*:*:*
+  description: Detection of titool printmonitor
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"printmonitor"
+  - services.http.response.html_title:"PrintMonitor"
+  fofa:
+  - http.title="printmonitor"
+  - http.title="PrintMonitor"
+  shodan:
+  - http.title:"printmonitor"
+  - title:"PrintMonitor"
+  zoomeye:
+  - title:"printmonitor"
+  - title:"PrintMonitor"

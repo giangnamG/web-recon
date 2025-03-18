@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ilias:ilias:*:*:*:*:*:*:*:*
+  description: Detection of ilias ilias
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"ilias"
+  - services.banner:"ILIAS"
+  - services.http.response.body:"ilias"
+  fofa:
+  - banner="ILIAS"
+  - banner="ilias"
+  - body="ilias"
+  shodan:
+  - http.html:"ilias"
+  - http.html:"ILIAS"
+  zoomeye:
+  - banner:"ILIAS"
+  - banner:"ilias"

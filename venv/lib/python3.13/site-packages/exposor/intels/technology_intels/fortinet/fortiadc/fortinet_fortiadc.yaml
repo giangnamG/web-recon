@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*
+  description: Detection of fortinet fortiadc
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"FortiADC"
+  - services.http.response.html_title:"fortiadc"
+  fofa:
+  - http.title="fortiadc"
+  - http.title="FortiADC"
+  shodan:
+  - http.title:"fortiadc"
+  - title:"FortiADC"
+  zoomeye:
+  - title:"fortiadc"
+  - title:"FortiADC"

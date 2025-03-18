@@ -1,0 +1,17 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:commscope:dg3450:*:*:*:*:*:*:*:*
+  description: Detection of commscope dg3450
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"phy.htm"
+  - services.http.response.body:"phy.htm"
+  fofa:
+  - banner="phy.htm"
+  - body="phy.htm"
+  shodan:
+  - html:"phy.htm"
+  - http.html:"phy.htm"
+  zoomeye:
+  - banner:"phy.htm"

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:symantec:endpoint_protection_manager:*:*:*:*:*:*:*:*
+  description: Detection of symantec endpoint_protection_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"symantec endpoint protection manager"
+  - services.http.response.html_title:"Symantec Endpoint Protection Manager"
+  fofa:
+  - http.title="symantec endpoint protection manager"
+  - http.title="Symantec Endpoint Protection Manager"
+  shodan:
+  - http.title:"Symantec Endpoint Protection Manager"
+  - http.title:"symantec endpoint protection manager"
+  zoomeye:
+  - title:"symantec endpoint protection manager"
+  - title:"Symantec Endpoint Protection Manager"

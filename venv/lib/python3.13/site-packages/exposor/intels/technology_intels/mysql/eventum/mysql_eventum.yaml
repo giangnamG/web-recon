@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mysql:eventum:*:*:*:*:*:*:*:*
+  description: Detection of mysql eventum
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:305412257
+  fofa:
+  - icon_hash=305412257
+  shodan:
+  - http.favicon.hash:305412257
+  zoomeye:
+  - iconhash:305412257

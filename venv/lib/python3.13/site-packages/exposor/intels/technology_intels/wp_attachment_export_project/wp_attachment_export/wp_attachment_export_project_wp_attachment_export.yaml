@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wp_attachment_export_project:wp_attachment_export:*:*:*:*:*:wordpress:*:*
+  description: Detection of wp_attachment_export_project wp_attachment_export
+  version: '1.0'
+queries: {}

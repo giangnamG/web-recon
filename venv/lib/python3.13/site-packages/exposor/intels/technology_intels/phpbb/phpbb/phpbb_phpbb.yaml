@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:phpbb:phpbb:*:*:*:*:*:*:*:*
+  description: Detection of phpbb phpbb
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Installation Panel"
+  fofa:
+  - banner="Installation Panel"
+  shodan:
+  - html:"Installation Panel"
+  zoomeye:
+  - banner:"Installation Panel"

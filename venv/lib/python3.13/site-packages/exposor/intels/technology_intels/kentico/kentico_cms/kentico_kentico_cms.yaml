@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:kentico:kentico_cms:*:*:*:*:*:*:*:*
+  description: Detection of kentico kentico_cms
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"kentico database setup"
+  fofa:
+  - http.title="kentico database setup"
+  shodan:
+  - http.title:"kentico database setup"
+  zoomeye:
+  - title:"kentico database setup"

@@ -1,0 +1,24 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:openvpn:openvpn:*:*:*:*:*:*:*:*
+  description: Detection of openvpn openvpn
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"router management - server openvpn"
+  - services.http.response.html_title:"OpenVPN-Admin"
+  - services.http.response.html_title:"openvpn-admin"
+  - services.http.response.body:"router management - server openvpn"
+  fofa:
+  - body="router management - server openvpn"
+  - http.title="OpenVPN-Admin"
+  - banner="router management - server openvpn"
+  - http.title="openvpn-admin"
+  shodan:
+  - http.title:"openvpn-admin"
+  - http.title:"OpenVPN-Admin"
+  - http.html:"router management - server openvpn"
+  zoomeye:
+  - title:"openvpn-admin"
+  - banner:"router management - server openvpn"
+  - title:"OpenVPN-Admin"

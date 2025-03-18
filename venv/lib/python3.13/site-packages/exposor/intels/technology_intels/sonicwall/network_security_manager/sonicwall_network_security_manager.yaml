@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sonicwall:network_security_manager:*:*:*:*:*:*:*:*
+  description: Detection of sonicwall network_security_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"SonicWall Network Security"
+  fofa:
+  - http.title="SonicWall Network Security"
+  shodan:
+  - title:"SonicWall Network Security"
+  zoomeye:
+  - title:"SonicWall Network Security"

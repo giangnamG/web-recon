@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:pfsense:pfsense:*:*:*:*:*:*:*:*
+  description: Detection of pfsense pfsense
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"pfsense - login"
+  fofa:
+  - http.title="pfsense - login"
+  shodan:
+  - http.title:"pfsense - login"
+  zoomeye:
+  - title:"pfsense - login"

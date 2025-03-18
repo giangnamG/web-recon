@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:nette:application:*:*:*:*:*:*:*:*
+  description: Detection of nette application
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"nette-framework"
+  - services.software.product:"nette-Framework"
+  fofa:
+  - app="nette-Framework"
+  - app="nette-framework"
+  shodan:
+  - product:"nette-framework"
+  - product:"nette-Framework"
+  zoomeye:
+  - app:"nette-framework"
+  - app:"nette-Framework"

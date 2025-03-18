@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:likeshop:likeshop:*:*:*:*:*:*:*:*
+  description: Detection of likeshop likeshop
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:874152924
+  fofa:
+  - icon_hash=874152924
+  shodan:
+  - http.favicon.hash:874152924
+  zoomeye:
+  - iconhash:874152924

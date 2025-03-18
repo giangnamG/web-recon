@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sendgrid:sendgrid:*:*:*:*:wordpress:*:*:*
+  description: Detection of sendgrid sendgrid
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"sendgrid.env"
+  fofa:
+  - banner="sendgrid.env"
+  shodan:
+  - html:"sendgrid.env"
+  zoomeye:
+  - banner:"sendgrid.env"

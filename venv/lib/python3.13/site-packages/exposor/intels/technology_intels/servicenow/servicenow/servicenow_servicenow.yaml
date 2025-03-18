@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:servicenow:servicenow:*:*:*:*:*:*:*:*
+  description: Detection of servicenow servicenow
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"servicenow"
+  - services.http.response.html_title:"ServiceNow"
+  - services.http.response.favicons.shodan_hash:1701804003
+  fofa:
+  - http.title="servicenow"
+  - http.title="ServiceNow"
+  - icon_hash=1701804003
+  shodan:
+  - http.title:"servicenow"
+  - http.title:"ServiceNow"
+  - http.favicon.hash:1701804003
+  zoomeye:
+  - title:"ServiceNow"
+  - title:"servicenow"
+  - iconhash:1701804003

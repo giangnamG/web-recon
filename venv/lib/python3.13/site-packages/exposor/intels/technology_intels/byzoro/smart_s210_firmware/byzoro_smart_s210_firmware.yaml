@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:byzoro:smart_s210_firmware:*:*:*:*:*:*:*:*
+  description: Detection of byzoro smart_s210_firmware
+  version: '1.0'
+queries:
+  censys:
+  - "services.http.response.body:\"Smart\u7BA1\u7406\u5E73\u53F0\""
+  fofa:
+  - "body=\"Smart\u7BA1\u7406\u5E73\u53F0\""
+  shodan:
+  - "http.html:\"Smart\u7BA1\u7406\u5E73\u53F0\""
+  zoomeye:
+  - "banner:\"Smart\u7BA1\u7406\u5E73\u53F0\""

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wibu:codemeter:*:*:*:*:*:*:*:*
+  description: Detection of wibu codemeter
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"CodeMeter"
+  fofa:
+  - banner="CodeMeter"
+  shodan:
+  - html:"CodeMeter"
+  zoomeye:
+  - banner:"CodeMeter"

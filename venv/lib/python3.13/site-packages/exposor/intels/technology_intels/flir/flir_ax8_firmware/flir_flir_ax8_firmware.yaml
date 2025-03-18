@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:flir:flir_ax8_firmware:*:*:*:*:*:*:*:*
+  description: Detection of flir flir_ax8_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"FLIR-FLIR-AX8"
+  fofa:
+  - app="FLIR-FLIR-AX8"
+  shodan:
+  - product:"FLIR-FLIR-AX8"
+  zoomeye:
+  - app:"FLIR-FLIR-AX8"

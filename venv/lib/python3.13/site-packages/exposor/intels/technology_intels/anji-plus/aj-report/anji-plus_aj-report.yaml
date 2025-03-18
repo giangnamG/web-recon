@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:anji-plus:aj-report:*:*:*:*:*:*:*:*
+  description: Detection of anji-plus aj-report
+  version: '1.0'
+queries: {}

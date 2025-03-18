@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:philips:vue_pacs:*:*:*:*:*:*:*:*
+  description: Detection of philips vue_pacs
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Vue PACS"
+  - services.http.response.html_title:"vue pacs"
+  fofa:
+  - http.title="vue pacs"
+  - http.title="Vue PACS"
+  shodan:
+  - http.title:"vue pacs"
+  - http.title:"Vue PACS"
+  zoomeye:
+  - title:"vue pacs"
+  - title:"Vue PACS"

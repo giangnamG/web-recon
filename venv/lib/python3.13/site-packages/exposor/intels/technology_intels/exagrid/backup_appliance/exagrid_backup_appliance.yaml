@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:exagrid:backup_appliance:*:*:*:*:*:*:*:*
+  description: Detection of exagrid backup_appliance
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"exagrid manager"
+  - services.http.response.html_title:"ExaGrid Manager"
+  fofa:
+  - http.title="exagrid manager"
+  - http.title="ExaGrid Manager"
+  shodan:
+  - http.title:"exagrid manager"
+  - title:"ExaGrid Manager"
+  zoomeye:
+  - title:"exagrid manager"
+  - title:"ExaGrid Manager"

@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:jetbrains:teamcity:*:*:*:*:*:*:*:*
+  description: Detection of jetbrains teamcity
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:teamcity
+  - services.banner:"teamcity"
+  - services.http.response.html_title:TeamCity
+  fofa:
+  - http.title=teamcity
+  - banner="teamcity"
+  - http.title=TeamCity
+  shodan:
+  - title:TeamCity
+  - http.component:"teamcity"
+  - http.title:teamcity
+  zoomeye:
+  - title:teamcity
+  - title:TeamCity
+  - banner:"teamcity"

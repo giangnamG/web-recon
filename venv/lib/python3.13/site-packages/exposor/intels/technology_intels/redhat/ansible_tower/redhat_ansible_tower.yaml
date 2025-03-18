@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:redhat:ansible_tower:*:*:*:*:*:*:*:*
+  description: Detection of redhat ansible_tower
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Ansible Tower"
+  - services.http.response.html_title:"ansible tower"
+  fofa:
+  - http.title="ansible tower"
+  - http.title="Ansible Tower"
+  shodan:
+  - title:"Ansible Tower"
+  - http.title:"ansible tower"
+  zoomeye:
+  - title:"Ansible Tower"
+  - title:"ansible tower"

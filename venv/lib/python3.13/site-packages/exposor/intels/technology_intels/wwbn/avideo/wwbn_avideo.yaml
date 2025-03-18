@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wwbn:avideo:*:*:*:*:*:*:*:*
+  description: Detection of wwbn avideo
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"AVideo"
+  fofa:
+  - http.title="AVideo"
+  shodan:
+  - http.title:"AVideo"
+  zoomeye:
+  - title:"AVideo"

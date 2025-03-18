@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:kodcloud:kodexplorer:*:*:*:*:*:*:*:*
+  description: Detection of kodcloud kodexplorer
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"Powered-by-KodExplorer"
+  fofa:
+  - app="Powered-by-KodExplorer"
+  shodan:
+  - product:"Powered-by-KodExplorer"
+  zoomeye:
+  - app:"Powered-by-KodExplorer"

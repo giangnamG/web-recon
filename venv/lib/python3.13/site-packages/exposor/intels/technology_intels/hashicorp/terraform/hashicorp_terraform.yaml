@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:hashicorp:terraform:*:*:*:*:*:*:*:*
+  description: Detection of hashicorp terraform
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"terraform enterprise"
+  - services.http.response.html_title:"Terraform Enterprise"
+  fofa:
+  - http.title="terraform enterprise"
+  - http.title="Terraform Enterprise"
+  shodan:
+  - title:"Terraform Enterprise"
+  - http.title:"terraform enterprise"
+  zoomeye:
+  - title:"Terraform Enterprise"
+  - title:"terraform enterprise"

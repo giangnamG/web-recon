@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:basixonline:nex-forms:*:*:*:*:*:wordpress:*:*
+  description: Detection of basixonline nex-forms
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/nex-forms-express-wp-form-builder/
+  - services.http.response.body:/wp-content/plugins/nex-forms-express-wp-form-builder/
+  fofa:
+  - banner=/wp-content/plugins/nex-forms-express-wp-form-builder/
+  - body=/wp-content/plugins/nex-forms-express-wp-form-builder/
+  shodan:
+  - http.html:/wp-content/plugins/nex-forms-express-wp-form-builder/
+  zoomeye:
+  - banner:/wp-content/plugins/nex-forms-express-wp-form-builder/

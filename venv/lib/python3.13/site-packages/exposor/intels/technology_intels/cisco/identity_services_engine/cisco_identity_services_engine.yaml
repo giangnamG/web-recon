@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cisco:identity_services_engine:*:*:*:*:*:*:*:*
+  description: Detection of cisco identity_services_engine
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Identity Services Engine"
+  - services.http.response.html_title:"identity services engine"
+  fofa:
+  - http.title="Identity Services Engine"
+  - http.title="identity services engine"
+  shodan:
+  - http.title:"Identity Services Engine"
+  - http.title:"identity services engine"
+  zoomeye:
+  - title:"Identity Services Engine"
+  - title:"identity services engine"

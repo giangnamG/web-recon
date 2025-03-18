@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:jishenghua:jsherp:*:*:*:*:*:*:*:*
+  description: Detection of jishenghua jsherp
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-1298131932
+  fofa:
+  - icon_hash=-1298131932
+  shodan:
+  - http.favicon.hash:-1298131932
+  zoomeye:
+  - iconhash:-1298131932

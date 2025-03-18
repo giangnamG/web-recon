@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:error_log_viewer:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft error_log_viewer
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/error-log-viewer/
+  - services.http.response.body:/wp-content/plugins/error-log-viewer/
+  fofa:
+  - body=/wp-content/plugins/error-log-viewer/
+  - banner=/wp-content/plugins/error-log-viewer/
+  shodan:
+  - http.html:/wp-content/plugins/error-log-viewer/
+  zoomeye:
+  - banner:/wp-content/plugins/error-log-viewer/

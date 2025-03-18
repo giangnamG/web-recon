@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:fsmlabs:timekeeper:*:*:*:*:*:*:*:*
+  description: Detection of fsmlabs timekeeper
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:2134367771
+  fofa:
+  - icon_hash=2134367771
+  shodan:
+  - http.favicon.hash:2134367771
+  zoomeye:
+  - iconhash:2134367771

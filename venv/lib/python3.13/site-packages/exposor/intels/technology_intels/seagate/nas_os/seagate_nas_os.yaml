@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:seagate:nas_os:*:*:*:*:*:*:*:*
+  description: Detection of seagate nas_os
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"seagate nas - seagate"
+  fofa:
+  - http.title="seagate nas - seagate"
+  shodan:
+  - http.title:"seagate nas - seagate"
+  zoomeye:
+  - title:"seagate nas - seagate"

@@ -1,0 +1,15 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:kavitareader:kavita:*:*:*:*:*:*:*:*
+  description: Detection of kavitareader kavita
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"kavita"
+  fofa:
+  - http.title="kavita"
+  shodan:
+  - http.title:"kavita"
+  - title:"kavita"
+  zoomeye:
+  - title:"kavita"

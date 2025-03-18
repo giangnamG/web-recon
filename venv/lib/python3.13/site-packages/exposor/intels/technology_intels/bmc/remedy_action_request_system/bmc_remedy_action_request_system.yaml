@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bmc:remedy_action_request_system:*:*:*:*:*:*:*:*
+  description: Detection of bmc remedy_action_request_system
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"BMC Remedy"
+  fofa:
+  - banner="BMC Remedy"
+  shodan:
+  - http.html:"BMC Remedy"
+  zoomeye:
+  - banner:"BMC Remedy"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:01generator:pireospay:*:*:*:*:*:prestashop:*:*
+  description: Detection of 01generator pireospay
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"prestashop"
+  fofa:
+  - banner="prestashop"
+  shodan:
+  - http.component:"prestashop"
+  zoomeye:
+  - banner:"prestashop"

@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:activehelper:activehelper_livehelp_live_chat:*:*:*:*:*:wordpress:*:*
+  description: Detection of activehelper activehelper_livehelp_live_chat
+  version: '1.0'
+queries: {}

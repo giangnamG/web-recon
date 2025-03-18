@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bitrix24:bitrix24:*:*:*:*:*:*:*:*
+  description: Detection of bitrix24 bitrix24
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-2115208104
+  fofa:
+  - icon_hash=-2115208104
+  shodan:
+  - http.favicon.hash:-2115208104
+  zoomeye:
+  - iconhash:-2115208104

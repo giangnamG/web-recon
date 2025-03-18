@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:websupporter:wp_amasin_-_the_amazon_affiliate_shop:*:*:*:*:*:wordpress:*:*
+  description: Detection of websupporter wp_amasin_-_the_amazon_affiliate_shop
+  version: '1.0'
+queries: {}

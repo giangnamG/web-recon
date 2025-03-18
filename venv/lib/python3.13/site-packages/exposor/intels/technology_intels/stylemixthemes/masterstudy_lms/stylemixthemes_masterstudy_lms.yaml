@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:stylemixthemes:masterstudy_lms:*:*:*:*:wordpress:*:*:*
+  description: Detection of stylemixthemes masterstudy_lms
+  version: '1.0'
+queries: {}

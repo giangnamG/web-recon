@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:dradisframework:dradis:*:*:*:*:*:*:*:*
+  description: Detection of dradisframework dradis
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Dradis Professional Edition"
+  fofa:
+  - http.title="Dradis Professional Edition"
+  shodan:
+  - title:"Dradis Professional Edition"
+  zoomeye:
+  - title:"Dradis Professional Edition"

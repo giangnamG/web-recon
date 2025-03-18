@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wpsymposiumpro:wp-symposium:*:*:*:*:*:wordpress:*:*
+  description: Detection of wpsymposiumpro wp-symposium
+  version: '1.0'
+queries: {}

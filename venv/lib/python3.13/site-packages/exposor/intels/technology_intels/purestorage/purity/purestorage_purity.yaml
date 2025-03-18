@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:purestorage:purity:*:*:*:*:*:*:*:*
+  description: Detection of purestorage purity
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"pure storage login"
+  - services.http.response.html_title:"Pure Storage Login"
+  fofa:
+  - http.title="pure storage login"
+  - http.title="Pure Storage Login"
+  shodan:
+  - http.title:"Pure Storage Login"
+  - http.title:"pure storage login"
+  zoomeye:
+  - title:"pure storage login"
+  - title:"Pure Storage Login"

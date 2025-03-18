@@ -1,0 +1,17 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:metersphere:metersphere:*:*:*:*:*:*:*:*
+  description: Detection of metersphere metersphere
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"metersphere"
+  - services.banner:"metersphere"
+  fofa:
+  - banner="metersphere"
+  - body="metersphere"
+  shodan:
+  - html:"metersphere"
+  - http.html:"metersphere"
+  zoomeye:
+  - banner:"metersphere"

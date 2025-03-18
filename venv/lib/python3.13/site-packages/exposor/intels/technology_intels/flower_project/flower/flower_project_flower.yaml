@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:flower_project:flower:*:*:*:*:*:*:*:*
+  description: Detection of flower_project flower
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-374133142
+  fofa:
+  - icon_hash=-374133142
+  shodan:
+  - http.favicon.hash:-374133142
+  zoomeye:
+  - iconhash:-374133142

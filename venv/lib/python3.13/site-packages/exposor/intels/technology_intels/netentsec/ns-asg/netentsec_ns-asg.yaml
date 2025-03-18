@@ -1,0 +1,15 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:netentsec:ns-asg:*:*:*:*:*:*:*:*
+  description: Detection of netentsec ns-asg
+  version: '1.0'
+queries:
+  censys:
+  - "services.software.product:\"\u7F51\u5EB7\u79D1\u6280-NS-ASG\u5B89\u5168\u7F51\
+    \u5173\""
+  fofa:
+  - "app=\"\u7F51\u5EB7\u79D1\u6280-NS-ASG\u5B89\u5168\u7F51\u5173\""
+  shodan:
+  - "product:\"\u7F51\u5EB7\u79D1\u6280-NS-ASG\u5B89\u5168\u7F51\u5173\""
+  zoomeye:
+  - "app:\"\u7F51\u5EB7\u79D1\u6280-NS-ASG\u5B89\u5168\u7F51\u5173\""

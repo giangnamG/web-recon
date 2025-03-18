@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:adobe:experience_manager_cloud_service:*:*:*:*:*:*:*:*
+  description: Detection of adobe experience_manager_cloud_service
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Adobe Experience Manager"
+  - services.http.response.html_title:"AEM Sign In"
+  fofa:
+  - banner="Adobe Experience Manager"
+  - http.title="AEM Sign In"
+  shodan:
+  - http.title:"AEM Sign In"
+  - http.component:"Adobe Experience Manager"
+  zoomeye:
+  - banner:"Adobe Experience Manager"
+  - title:"AEM Sign In"

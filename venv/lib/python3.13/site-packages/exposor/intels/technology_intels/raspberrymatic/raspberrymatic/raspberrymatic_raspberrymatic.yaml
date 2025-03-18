@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:raspberrymatic:raspberrymatic:*:*:*:*:*:*:*:*
+  description: Detection of raspberrymatic raspberrymatic
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-578216669
+  fofa:
+  - icon_hash=-578216669
+  shodan:
+  - http.favicon.hash:-578216669
+  zoomeye:
+  - iconhash:-578216669

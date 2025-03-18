@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:tencent:wechat:*:*:*:*:*:*:*:*
+  description: Detection of tencent wechat
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"wework_admin.normal_layout"
+  fofa:
+  - body="wework_admin.normal_layout"
+  shodan:
+  - http.html:"wework_admin.normal_layout"
+  zoomeye:
+  - banner:"wework_admin.normal_layout"

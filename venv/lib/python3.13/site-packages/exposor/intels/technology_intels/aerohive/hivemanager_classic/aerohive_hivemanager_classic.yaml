@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:aerohive:hivemanager_classic:*:*:*:*:*:*:*:*
+  description: Detection of aerohive hivemanager_classic
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:1604363273
+  fofa:
+  - icon_hash=1604363273
+  shodan:
+  - http.favicon.hash:1604363273
+  zoomeye:
+  - iconhash:1604363273

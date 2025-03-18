@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:proxmox:proxmox:*:*:*:*:*:*:*:*
+  description: Detection of proxmox proxmox
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:213144638
+  fofa:
+  - icon_hash=213144638
+  shodan:
+  - http.favicon.hash:213144638
+  zoomeye:
+  - iconhash:213144638

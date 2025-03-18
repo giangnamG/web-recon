@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:gotify:server:*:*:*:*:*:*:*:*
+  description: Detection of gotify server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Gotify"
+  - services.http.response.html_title:"gotify"
+  fofa:
+  - http.title="Gotify"
+  - http.title="gotify"
+  shodan:
+  - http.title:"gotify"
+  - http.title:"Gotify"
+  zoomeye:
+  - title:"gotify"
+  - title:"Gotify"

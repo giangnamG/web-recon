@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sangfor:next-gen_application_firewall:*:*:*:*:*:*:*:*
+  description: Detection of sangfor next-gen_application_firewall
+  version: '1.0'
+queries: {}

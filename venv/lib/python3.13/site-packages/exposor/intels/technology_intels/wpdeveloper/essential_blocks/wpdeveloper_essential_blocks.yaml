@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wpdeveloper:essential_blocks:*:*:*:*:*:wordpress:*:*
+  description: Detection of wpdeveloper essential_blocks
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/essential-blocks/
+  - services.http.response.body:/wp-content/plugins/essential-blocks/
+  fofa:
+  - banner=/wp-content/plugins/essential-blocks/
+  - body=/wp-content/plugins/essential-blocks/
+  shodan:
+  - http.html:/wp-content/plugins/essential-blocks/
+  zoomeye:
+  - banner:/wp-content/plugins/essential-blocks/

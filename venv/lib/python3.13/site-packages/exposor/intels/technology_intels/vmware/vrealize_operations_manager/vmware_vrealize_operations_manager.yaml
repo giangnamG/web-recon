@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:vmware:vrealize_operations_manager:*:*:*:*:*:*:*:*
+  description: Detection of vmware vrealize_operations_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"vRealize Operations Manager"
+  fofa:
+  - http.title="vRealize Operations Manager"
+  shodan:
+  - title:"vRealize Operations Manager"
+  zoomeye:
+  - title:"vRealize Operations Manager"

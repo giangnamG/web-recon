@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:trilium_project:trilium:*:*:*:*:*:*:*:*
+  description: Detection of trilium_project trilium
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Trilium Notes"
+  - services.http.response.html_title:"trilium notes"
+  fofa:
+  - http.title="trilium notes"
+  - http.title="Trilium Notes"
+  shodan:
+  - http.title:"trilium notes"
+  - title:"Trilium Notes"
+  zoomeye:
+  - title:"trilium notes"
+  - title:"Trilium Notes"

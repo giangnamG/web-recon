@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:telosalliance:omnia_mpx_node:*:*:*:*:*:*:*:*
+  description: Detection of telosalliance omnia_mpx_node
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Omnia MPX"
+  fofa:
+  - banner="Omnia MPX"
+  shodan:
+  - http.html:"Omnia MPX"
+  zoomeye:
+  - banner:"Omnia MPX"

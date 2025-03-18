@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:voyager_project:voyager:*:*:*:*:*:*:*:*
+  description: Detection of voyager_project voyager
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"voyager-assets"
+  fofa:
+  - banner="voyager-assets"
+  shodan:
+  - html:"voyager-assets"
+  zoomeye:
+  - banner:"voyager-assets"

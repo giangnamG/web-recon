@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:sonicwall:tz_350:*:*:*:*:*:*:*:*
+  description: Detection of sonicwall tz_350
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"sonicwall network security login"
+  - services.http.response.html_title:"SonicWall Network Security Login"
+  fofa:
+  - http.title="SonicWall Network Security Login"
+  - http.title="sonicwall network security login"
+  shodan:
+  - title:"SonicWall Network Security Login"
+  - http.title:"sonicwall network security login"
+  zoomeye:
+  - title:"sonicwall network security login"
+  - title:"SonicWall Network Security Login"

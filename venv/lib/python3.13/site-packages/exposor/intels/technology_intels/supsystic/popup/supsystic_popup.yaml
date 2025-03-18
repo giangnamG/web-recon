@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:supsystic:popup:*:*:*:*:*:wordpress:*:*
+  description: Detection of supsystic popup
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/popup-by-supsystic
+  - services.banner:/wp-content/plugins/popup-by-supsystic
+  fofa:
+  - banner=/wp-content/plugins/popup-by-supsystic
+  - body=/wp-content/plugins/popup-by-supsystic
+  shodan:
+  - http.html:/wp-content/plugins/popup-by-supsystic
+  zoomeye:
+  - banner:/wp-content/plugins/popup-by-supsystic

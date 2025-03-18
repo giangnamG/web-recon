@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sonatype:nexus_repository_manager:*:*:*:*:*:*:*:*
+  description: Detection of sonatype nexus_repository_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Nexus Repository Manager"
+  fofa:
+  - banner="Nexus Repository Manager"
+  shodan:
+  - http.html:"Nexus Repository Manager"
+  zoomeye:
+  - banner:"Nexus Repository Manager"

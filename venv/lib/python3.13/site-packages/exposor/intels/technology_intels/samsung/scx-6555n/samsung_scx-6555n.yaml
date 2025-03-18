@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:samsung:scx-6555n:*:*:*:*:*:*:*:*
+  description: Detection of samsung scx-6555n
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"SyncThru Web Service"
+  fofa:
+  - http.title="SyncThru Web Service"
+  shodan:
+  - title:"SyncThru Web Service"
+  zoomeye:
+  - title:"SyncThru Web Service"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:simplesamlphp:simplesamlphp:*:*:*:*:*:*:*:*
+  description: Detection of simplesamlphp simplesamlphp
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"SimpleSAMLphp installation page"
+  fofa:
+  - http.title="SimpleSAMLphp installation page"
+  shodan:
+  - http.title:"SimpleSAMLphp installation page"
+  zoomeye:
+  - title:"SimpleSAMLphp installation page"

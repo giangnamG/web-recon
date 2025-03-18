@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:rating:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft rating
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/rating-bws/
+  - services.http.response.body:/wp-content/plugins/rating-bws/
+  fofa:
+  - body=/wp-content/plugins/rating-bws/
+  - banner=/wp-content/plugins/rating-bws/
+  shodan:
+  - http.html:/wp-content/plugins/rating-bws/
+  zoomeye:
+  - banner:/wp-content/plugins/rating-bws/

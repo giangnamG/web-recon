@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:pghero_project:pghero:*:*:*:*:ruby:*:*:*
+  description: Detection of pghero_project pghero
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"PgHero"
+  fofa:
+  - http.title="PgHero"
+  shodan:
+  - title:"PgHero"
+  zoomeye:
+  - title:"PgHero"

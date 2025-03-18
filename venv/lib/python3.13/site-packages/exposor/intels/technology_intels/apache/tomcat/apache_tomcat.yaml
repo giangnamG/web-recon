@@ -1,0 +1,24 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:tomcat:*:*:*:*:*:*:*:*
+  description: Detection of apache tomcat
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"apache tomcat"
+  - services.http.response.html_title:"Apache Tomcat"
+  - services.http.response.html_title:"apache tomcat"
+  - services.http.response.body:"apache tomcat"
+  fofa:
+  - http.title="Apache Tomcat"
+  - http.title="apache tomcat"
+  - banner="apache tomcat"
+  - body="apache tomcat"
+  shodan:
+  - title:"Apache Tomcat"
+  - http.title:"apache tomcat"
+  - http.html:"apache tomcat"
+  zoomeye:
+  - banner:"apache tomcat"
+  - title:"Apache Tomcat"
+  - title:"apache tomcat"

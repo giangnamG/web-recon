@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:skysa:skysa_app_bar_integration_plugin:*:*:*:*:*:*:*:*
+  description: Detection of skysa skysa_app_bar_integration_plugin
+  version: '1.0'
+queries: {}

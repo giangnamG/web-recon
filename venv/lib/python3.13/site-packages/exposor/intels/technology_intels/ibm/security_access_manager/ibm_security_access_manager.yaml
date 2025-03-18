@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ibm:security_access_manager:*:*:*:*:*:*:*:*
+  description: Detection of ibm security_access_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"IBM Security Access Manager"
+  fofa:
+  - http.title="IBM Security Access Manager"
+  shodan:
+  - http.title:"IBM Security Access Manager"
+  zoomeye:
+  - title:"IBM Security Access Manager"

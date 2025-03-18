@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:phoronix-media:phoronix_test_suite:*:*:*:*:*:*:*:*
+  description: Detection of phoronix-media phoronix_test_suite
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"phoronix-test-suite"
+  fofa:
+  - http.title="phoronix-test-suite"
+  shodan:
+  - http.title:"phoronix-test-suite"
+  zoomeye:
+  - title:"phoronix-test-suite"

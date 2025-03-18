@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:magento:magento:*:*:*:*:open_source:*:*:*
+  description: Detection of magento magento
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Magento"
+  - services.banner:"magento"
+  fofa:
+  - banner="magento"
+  - banner="Magento"
+  shodan:
+  - http.component:"Magento"
+  - http.component:"magento"
+  zoomeye:
+  - banner:"magento"
+  - banner:"Magento"

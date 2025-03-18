@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:pagination:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft pagination
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/pagination/
+  - services.http.response.body:/wp-content/plugins/pagination/
+  fofa:
+  - body=/wp-content/plugins/pagination/
+  - banner=/wp-content/plugins/pagination/
+  shodan:
+  - http.html:/wp-content/plugins/pagination/
+  zoomeye:
+  - banner:/wp-content/plugins/pagination/

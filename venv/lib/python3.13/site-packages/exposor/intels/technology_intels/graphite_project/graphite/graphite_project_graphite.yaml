@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:graphite_project:graphite:*:*:*:*:*:*:*:*
+  description: Detection of graphite_project graphite
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Graphite Browser"
+  fofa:
+  - http.title="Graphite Browser"
+  shodan:
+  - http.title:"Graphite Browser"
+  zoomeye:
+  - title:"Graphite Browser"

@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wpexperts:post_smtp_mailer:*:*:*:*:*:wordpress:*:*
+  description: Detection of wpexperts post_smtp_mailer
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/post-smtp
+  - services.http.response.body:/wp-content/plugins/post-smtp
+  fofa:
+  - banner=/wp-content/plugins/post-smtp
+  - body=/wp-content/plugins/post-smtp
+  shodan:
+  - http.html:/wp-content/plugins/post-smtp
+  zoomeye:
+  - banner:/wp-content/plugins/post-smtp

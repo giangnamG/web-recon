@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bplugins:html5_video_player:*:*:*:*:*:wordpress:*:*
+  description: Detection of bplugins html5_video_player
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"html5-video-player"
+  fofa:
+  - '"wordpress" && body="html5-video-player"'
+  shodan:
+  - http.html:"html5-video-player"
+  zoomeye:
+  - banner:"html5-video-player"

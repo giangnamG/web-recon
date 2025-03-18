@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:vaxilu:x-ui:*:*:*:*:*:*:*:*
+  description: Detection of vaxilu x-ui
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"X-UI Login"
+  fofa:
+  - http.title="X-UI Login"
+  shodan:
+  - title:"X-UI Login"
+  zoomeye:
+  - title:"X-UI Login"

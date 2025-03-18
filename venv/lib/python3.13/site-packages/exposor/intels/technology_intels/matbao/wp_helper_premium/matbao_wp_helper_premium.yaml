@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:matbao:wp_helper_premium:*:*:*:*:*:wordpress:*:*
+  description: Detection of matbao wp_helper_premium
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/wp-helper-lite
+  - services.banner:/wp-content/plugins/wp-helper-lite
+  fofa:
+  - banner=/wp-content/plugins/wp-helper-lite
+  - body=/wp-content/plugins/wp-helper-lite
+  shodan:
+  - http.html:/wp-content/plugins/wp-helper-lite
+  zoomeye:
+  - banner:/wp-content/plugins/wp-helper-lite

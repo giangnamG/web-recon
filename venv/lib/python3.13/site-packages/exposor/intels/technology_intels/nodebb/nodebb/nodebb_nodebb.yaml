@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:nodebb:nodebb:*:*:*:*:*:*:*:*
+  description: Detection of nodebb nodebb
+  version: '1.0'
+queries: {}

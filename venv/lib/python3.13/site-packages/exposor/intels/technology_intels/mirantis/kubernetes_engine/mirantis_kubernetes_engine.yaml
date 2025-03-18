@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mirantis:kubernetes_engine:*:*:*:*:*:*:*:*
+  description: Detection of mirantis kubernetes_engine
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Mirantis Kubernetes Engine"
+  - services.software.product:"Mirantis-Kubernetes-Engine"
+  fofa:
+  - app="Mirantis-Kubernetes-Engine"
+  - banner="Mirantis Kubernetes Engine"
+  shodan:
+  - product:"Mirantis-Kubernetes-Engine"
+  - http.html:"Mirantis Kubernetes Engine"
+  zoomeye:
+  - banner:"Mirantis Kubernetes Engine"
+  - app:"Mirantis-Kubernetes-Engine"

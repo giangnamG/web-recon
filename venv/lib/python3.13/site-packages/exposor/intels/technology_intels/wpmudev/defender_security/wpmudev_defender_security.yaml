@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wpmudev:defender_security:*:*:*:*:*:wordpress:*:*
+  description: Detection of wpmudev defender_security
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/defender-security/
+  - services.banner:/wp-content/plugins/defender-security/
+  fofa:
+  - banner=/wp-content/plugins/defender-security/
+  - body=/wp-content/plugins/defender-security/
+  shodan:
+  - http.html:/wp-content/plugins/defender-security/
+  zoomeye:
+  - banner:/wp-content/plugins/defender-security/

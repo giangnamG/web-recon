@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:oxid-esales:eshop:*:*:*:*:*:*:*:*
+  description: Detection of oxid-esales eshop
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"eShop Installer"
+  fofa:
+  - banner="eShop Installer"
+  shodan:
+  - html:"eShop Installer"
+  zoomeye:
+  - banner:"eShop Installer"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:jaegertracing:jaeger_ui:*:*:*:*:*:*:*:*
+  description: Detection of jaegertracing jaeger_ui
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Jaeger UI"
+  fofa:
+  - http.title="Jaeger UI"
+  shodan:
+  - http.title:"Jaeger UI"
+  zoomeye:
+  - title:"Jaeger UI"

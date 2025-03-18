@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:phpjabbers:taxi_booking_script:*:*:*:*:*:*:*:*
+  description: Detection of phpjabbers taxi_booking_script
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"php jabbers.com"
+  - services.banner:"PHP Jabbers.com"
+  - services.http.response.body:"php jabbers.com"
+  fofa:
+  - banner="php jabbers.com"
+  - body="php jabbers.com"
+  - banner="PHP Jabbers.com"
+  shodan:
+  - http.html:"php jabbers.com"
+  - html:"PHP Jabbers.com"
+  zoomeye:
+  - banner:"PHP Jabbers.com"
+  - banner:"php jabbers.com"

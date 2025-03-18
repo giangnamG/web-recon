@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:openstack:swift:*:*:*:*:*:*:*:*
+  description: Detection of openstack swift
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:786533217
+  fofa:
+  - icon_hash=786533217
+  shodan:
+  - http.favicon.hash:786533217
+  zoomeye:
+  - iconhash:786533217

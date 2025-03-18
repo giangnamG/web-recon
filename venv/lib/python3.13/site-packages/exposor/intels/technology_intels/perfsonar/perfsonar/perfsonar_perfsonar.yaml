@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:perfsonar:perfsonar:*:*:*:*:*:*:*:*
+  description: Detection of perfsonar perfsonar
+  version: '1.0'
+queries: {}

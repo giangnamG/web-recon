@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sangoma:freepbx:*:*:*:*:*:*:*:*
+  description: Detection of sangoma freepbx
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"FreePBX Administration"
+  - services.http.response.html_title:"freepbx administration"
+  fofa:
+  - http.title="FreePBX Administration"
+  - http.title="freepbx administration"
+  shodan:
+  - http.title:"FreePBX Administration"
+  - http.title:"freepbx administration"
+  zoomeye:
+  - title:"FreePBX Administration"
+  - title:"freepbx administration"

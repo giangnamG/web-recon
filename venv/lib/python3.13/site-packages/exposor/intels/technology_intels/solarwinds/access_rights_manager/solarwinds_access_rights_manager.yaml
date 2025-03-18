@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:solarwinds:access_rights_manager:*:*:*:*:*:*:*:*
+  description: Detection of solarwinds access_rights_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title="solarwinds access rights manager"
+  - services.http.response.favicons.shodan_hash:-1416464161
+  - services.http.response.html_title="Solarwinds Access Rights Manager"
+  fofa:
+  - icon_hash=-1416464161
+  - http.title="solarwinds access rights manager"
+  - http.title="Solarwinds Access Rights Manager"
+  shodan:
+  - http.title:"Solarwinds Access Rights Manager"
+  - http.favicon.hash:-1416464161
+  - http.title:"solarwinds access rights manager"
+  zoomeye:
+  - title:"solarwinds access rights manager"
+  - title:"Solarwinds Access Rights Manager"
+  - iconhash:-1416464161

@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:appjetty:show_all_comments:*:*:*:*:*:wordpress:*:*
+  description: Detection of appjetty show_all_comments
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/show-all-comments-in-one-page
+  - services.banner:/wp-content/plugins/show-all-comments-in-one-page
+  fofa:
+  - body=/wp-content/plugins/show-all-comments-in-one-page
+  - banner=/wp-content/plugins/show-all-comments-in-one-page
+  shodan:
+  - http.html:/wp-content/plugins/show-all-comments-in-one-page
+  zoomeye:
+  - banner:/wp-content/plugins/show-all-comments-in-one-page

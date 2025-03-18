@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:jorani:jorani:*:*:*:*:*:*:*:*
+  description: Detection of jorani jorani
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-2032163853
+  fofa:
+  - icon_hash=-2032163853
+  shodan:
+  - http.favicon.hash:-2032163853
+  zoomeye:
+  - iconhash:-2032163853

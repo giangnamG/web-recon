@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:joomlaserviceprovider:wsecure:*:*:*:*:lite:wordpress:*:*
+  description: Detection of joomlaserviceprovider wsecure
+  version: '1.0'
+queries: {}

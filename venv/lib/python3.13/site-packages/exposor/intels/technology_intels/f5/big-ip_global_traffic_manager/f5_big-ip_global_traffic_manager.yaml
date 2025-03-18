@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:f5:big-ip_global_traffic_manager:*:*:*:*:*:*:*:*
+  description: Detection of f5 big-ip_global_traffic_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Global Traffic Statistics"
+  fofa:
+  - http.title="Global Traffic Statistics"
+  shodan:
+  - title:"Global Traffic Statistics"
+  zoomeye:
+  - title:"Global Traffic Statistics"

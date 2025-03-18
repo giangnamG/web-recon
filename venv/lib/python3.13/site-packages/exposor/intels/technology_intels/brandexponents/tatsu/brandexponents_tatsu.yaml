@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:brandexponents:tatsu:*:*:*:*:*:wordpress:*:*
+  description: Detection of brandexponents tatsu
+  version: '1.0'
+queries: {}

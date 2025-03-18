@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:jenkins:git:*:*:*:*:*:jenkins:*:*
+  description: Detection of jenkins git
+  version: '1.0'
+queries: {}

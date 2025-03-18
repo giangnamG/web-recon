@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:softwareag:webmethods:*:*:*:*:*:*:*:*
+  description: Detection of softwareag webmethods
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-234335289
+  fofa:
+  - icon_hash=-234335289
+  shodan:
+  - http.favicon.hash:-234335289
+  zoomeye:
+  - iconhash:-234335289

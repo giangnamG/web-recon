@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:pentasecurity:wapples:*:*:*:*:*:*:*:*
+  description: Detection of pentasecurity wapples
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"intelligent wapples"
+  - services.http.response.html_title:"Intelligent WAPPLES"
+  - services.software.product:"intelligent wapples"
+  fofa:
+  - http.title="Intelligent WAPPLES"
+  - http.title="intelligent wapples"
+  - title="intelligent wapples"
+  shodan:
+  - product:"intelligent wapples"
+  - http.title:"intelligent wapples"
+  - http.title:"Intelligent WAPPLES"
+  zoomeye:
+  - title:"Intelligent WAPPLES"
+  - app:"intelligent wapples"
+  - title:"intelligent wapples"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:triconsole:datepicker_calendar:*:*:*:*:*:*:*:*
+  description: Detection of triconsole datepicker_calendar
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:triconsole.com - php calendar date picker
+  fofa:
+  - http.title=triconsole.com - php calendar date picker
+  shodan:
+  - http.title:triconsole.com - php calendar date picker
+  zoomeye:
+  - title:triconsole.com - php calendar date picker

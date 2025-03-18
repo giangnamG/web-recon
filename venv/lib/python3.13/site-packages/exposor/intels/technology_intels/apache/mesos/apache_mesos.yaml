@@ -1,0 +1,26 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:mesos:*:*:*:*:jenkins:*:*:*
+  description: Detection of apache mesos
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"apache-mesos"
+  - services.software.product:"APACHE-MESOS"
+  - services.http.response.html_title:"Mesos"
+  - services.http.response.html_title:"mesos"
+  fofa:
+  - app="apache-mesos"
+  - http.title="Mesos"
+  - http.title="mesos"
+  - app="APACHE-MESOS"
+  shodan:
+  - http.title:"mesos"
+  - product:"apache-mesos"
+  - http.title:"Mesos"
+  - product:"APACHE-MESOS"
+  zoomeye:
+  - title:"mesos"
+  - app:"apache-mesos"
+  - app:"APACHE-MESOS"
+  - title:"Mesos"

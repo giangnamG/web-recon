@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:video_list_manager_project:video_list_manager:*:*:*:*:*:wordpress:*:*
+  description: Detection of video_list_manager_project video_list_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/video-list-manager/
+  - services.http.response.body:/wp-content/plugins/video-list-manager/
+  fofa:
+  - body=/wp-content/plugins/video-list-manager/
+  - banner=/wp-content/plugins/video-list-manager/
+  shodan:
+  - http.html:/wp-content/plugins/video-list-manager/
+  zoomeye:
+  - banner:/wp-content/plugins/video-list-manager/

@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:creativeitem:academy_lms:*:*:*:*:*:*:*:*
+  description: Detection of creativeitem academy_lms
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"Academy LMS"
+  - services.http.response.body:"academy lms"
+  - services.banner:"academy lms"
+  fofa:
+  - banner="academy lms"
+  - body="Academy LMS"
+  - body="academy lms"
+  shodan:
+  - http.html:"Academy LMS"
+  - http.html:"academy lms"
+  zoomeye:
+  - banner:"academy lms"
+  - banner:"Academy LMS"

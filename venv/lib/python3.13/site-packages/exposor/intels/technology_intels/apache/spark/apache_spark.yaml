@@ -1,0 +1,26 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:spark:*:*:*:*:*:*:*:*
+  description: Detection of apache spark
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"/apps/imt/html/"
+  - services.http.response.html_title:"spark master at"
+  - services.http.response.html_title:"Spark Master at"
+  - services.banner:"/apps/imt/html/"
+  fofa:
+  - http.title="spark master at"
+  - banner="/apps/imt/html/"
+  - http.title="Spark Master at"
+  - body="/apps/imt/html/"
+  shodan:
+  - http.html:"/apps/imt/html/"
+  - http.title:"spark master at"
+  - product:"/apps/imt/html/"
+  - title:"Spark Master at"
+  zoomeye:
+  - banner:"/apps/imt/html/"
+  - title:"Spark Master at"
+  - title:"spark master at"
+  - app:"/apps/imt/html/"

@@ -1,0 +1,26 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:atmail:atmail:*:*:*:*:*:*:*:*
+  description: Detection of atmail atmail
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Powered by Atmail"
+  - services.banner:"atmail"
+  - services.http.response.body:"powered by atmail"
+  - services.banner:"powered by atmail"
+  - services.http.response.body:"atmail"
+  fofa:
+  - banner="Powered by Atmail"
+  - body="atmail"
+  - banner="atmail"
+  - banner="powered by atmail"
+  - body="powered by atmail"
+  shodan:
+  - http.html:"powered by atmail"
+  - http.html:"Powered by Atmail"
+  - http.html:"atmail"
+  zoomeye:
+  - banner:"powered by atmail"
+  - banner:"Powered by Atmail"
+  - banner:"atmail"

@@ -1,0 +1,24 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ibm:financial_transaction_manager:*:*:*:*:digital_payments:*:*:*
+  description: Detection of ibm financial_transaction_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"ftm manager"
+  - services.http.response.body:"ftm manager"
+  - services.banner:"FTM manager"
+  - services.http.response.html_title:"ftm manager"
+  fofa:
+  - http.title="ftm manager"
+  - banner="ftm manager"
+  - body="ftm manager"
+  - banner="FTM manager"
+  shodan:
+  - http.html:"ftm manager"
+  - http.title:"ftm manager"
+  - http.html:"FTM manager"
+  zoomeye:
+  - banner:"ftm manager"
+  - banner:"FTM manager"
+  - title:"ftm manager"

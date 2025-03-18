@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:dotnetnuke:dotnetnuke:*:*:*:*:*:*:*:*
+  description: Detection of dotnetnuke dotnetnuke
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"DotNetNuke"
+  - services.software.product:"dotnetnuke"
+  fofa:
+  - app="DotNetNuke"
+  - app="dotnetnuke"
+  shodan:
+  - product:"DotNetNuke"
+  - product:"dotnetnuke"
+  zoomeye:
+  - app:"dotnetnuke"
+  - app:"DotNetNuke"

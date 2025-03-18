@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:constantcontact:constant_contact_forms:*:*:*:*:wordpress:*:*:*
+  description: Detection of constantcontact constant_contact_forms
+  version: '1.0'
+queries: {}

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:repetier-server:repetier-server:*:*:*:*:*:*:*:*
+  description: Detection of repetier-server repetier-server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"repetier-server"
+  - services.http.response.html_title:"Repetier-Server"
+  fofa:
+  - http.title="repetier-server"
+  - http.title="Repetier-Server"
+  shodan:
+  - http.title:"repetier-server"
+  - title:"Repetier-Server"
+  zoomeye:
+  - title:"repetier-server"
+  - title:"Repetier-Server"

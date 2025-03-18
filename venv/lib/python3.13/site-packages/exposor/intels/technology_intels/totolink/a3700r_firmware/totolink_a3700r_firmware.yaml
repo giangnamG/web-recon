@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:totolink:a3700r_firmware:*:*:*:*:*:*:*:*
+  description: Detection of totolink a3700r_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"totolink"
+  - services.http.response.html_title:"Totolink"
+  fofa:
+  - http.title="totolink"
+  - http.title="Totolink"
+  shodan:
+  - http.title:"totolink"
+  - title:"Totolink"
+  zoomeye:
+  - title:"Totolink"
+  - title:"totolink"

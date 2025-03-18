@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:esafenet:cdg:*:*:*:*:*:*:*:*
+  description: Detection of esafenet cdg
+  version: '1.0'
+queries: {}

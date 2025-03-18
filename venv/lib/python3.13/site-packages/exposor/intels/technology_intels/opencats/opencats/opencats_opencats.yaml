@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:opencats:opencats:*:*:*:*:*:*:*:*
+  description: Detection of opencats opencats
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"OpenCATS"
+  - services.http.response.html_title:"opencats"
+  fofa:
+  - http.title="opencats"
+  - http.title="OpenCATS"
+  shodan:
+  - http.title:"opencats"
+  - title:"OpenCATS"
+  zoomeye:
+  - title:"opencats"
+  - title:"OpenCATS"

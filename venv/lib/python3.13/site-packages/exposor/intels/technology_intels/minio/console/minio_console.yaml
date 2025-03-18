@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:minio:console:*:*:*:*:*:*:*:*
+  description: Detection of minio console
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"MinIO Console"
+  - services.software.product:"MinIO-Console"
+  fofa:
+  - app="MinIO-Console"
+  - http.title="MinIO Console"
+  shodan:
+  - title:"MinIO Console"
+  - product:"MinIO-Console"
+  zoomeye:
+  - app:"MinIO-Console"
+  - title:"MinIO Console"

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:pandorafms:pandora_fms:*:*:*:*:*:*:*:*
+  description: Detection of pandorafms pandora_fms
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Pandora FMS"
+  - services.http.response.html_title:"pandora fms"
+  fofa:
+  - http.title="Pandora FMS"
+  - http.title="pandora fms"
+  shodan:
+  - http.title:"pandora fms"
+  - title:"Pandora FMS"
+  zoomeye:
+  - title:"pandora fms"
+  - title:"Pandora FMS"

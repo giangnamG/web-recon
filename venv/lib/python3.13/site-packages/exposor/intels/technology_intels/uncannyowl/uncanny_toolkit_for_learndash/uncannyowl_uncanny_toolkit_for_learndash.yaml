@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:uncannyowl:uncanny_toolkit_for_learndash:*:*:*:*:*:*:*:*
+  description: Detection of uncannyowl uncanny_toolkit_for_learndash
+  version: '1.0'
+queries: {}

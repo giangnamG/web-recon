@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:php-fusion:php-fusion:*:*:*:*:*:*:*:*
+  description: Detection of php-fusion php-fusion
+  version: '1.0'
+queries: {}

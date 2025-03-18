@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:subversion:*:*:*:*:*:*:*:*
+  description: Detection of apache subversion
+  version: '1.0'
+queries: {}

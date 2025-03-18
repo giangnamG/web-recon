@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ispyconnect:ispy:*:*:*:*:*:*:*:*
+  description: Detection of ispyconnect ispy
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"ispy is running"
+  - services.banner:"iSpy is running"
+  - services.http.response.body:"ispy is running"
+  fofa:
+  - banner="ispy is running"
+  - banner="iSpy is running"
+  - body="ispy is running"
+  shodan:
+  - http.html:"ispy is running"
+  - http.html:"iSpy is running"
+  zoomeye:
+  - banner:"iSpy is running"
+  - banner:"ispy is running"

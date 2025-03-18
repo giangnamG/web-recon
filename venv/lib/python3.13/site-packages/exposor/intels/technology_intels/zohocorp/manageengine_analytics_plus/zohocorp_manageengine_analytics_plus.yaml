@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zohocorp:manageengine_analytics_plus:*:*:*:*:*:*:*:*
+  description: Detection of zohocorp manageengine_analytics_plus
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"apex it help desk"
+  - "services.software.product:\"ZOHO-\u6D41\u91CF\u7BA1\u7406\""
+  - "services.software.product:\"zoho-\u6D41\u91CF\u7BA1\u7406\""
+  fofa:
+  - "app=\"ZOHO-\u6D41\u91CF\u7BA1\u7406\""
+  - http.title="apex it help desk"
+  - "app=\"zoho-\u6D41\u91CF\u7BA1\u7406\""
+  shodan:
+  - "product:\"zoho-\u6D41\u91CF\u7BA1\u7406\""
+  - "product:\"ZOHO-\u6D41\u91CF\u7BA1\u7406\""
+  - http.title:"apex it help desk"
+  zoomeye:
+  - "app:\"zoho-\u6D41\u91CF\u7BA1\u7406\""
+  - title:"apex it help desk"
+  - "app:\"ZOHO-\u6D41\u91CF\u7BA1\u7406\""

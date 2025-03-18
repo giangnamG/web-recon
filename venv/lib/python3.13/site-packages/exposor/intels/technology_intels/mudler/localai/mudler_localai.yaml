@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mudler:localai:*:*:*:*:*:*:*:*
+  description: Detection of mudler localai
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-976853304
+  fofa:
+  - icon_hash=-976853304
+  shodan:
+  - http.favicon.hash:-976853304
+  zoomeye:
+  - iconhash:-976853304

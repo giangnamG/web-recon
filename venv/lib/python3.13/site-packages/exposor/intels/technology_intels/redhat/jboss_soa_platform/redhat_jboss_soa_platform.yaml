@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:redhat:jboss_soa_platform:*:*:*:*:*:*:*:*
+  description: Detection of redhat jboss_soa_platform
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"welcome to the jboss soa platform"
+  - services.http.response.html_title:"Welcome to the JBoss SOA Platform"
+  fofa:
+  - http.title="welcome to the jboss soa platform"
+  - http.title="Welcome to the JBoss SOA Platform"
+  shodan:
+  - http.title:"welcome to the jboss soa platform"
+  - http.title:"Welcome to the JBoss SOA Platform"
+  zoomeye:
+  - title:"welcome to the jboss soa platform"
+  - title:"Welcome to the JBoss SOA Platform"

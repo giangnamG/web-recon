@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*
+  description: Detection of golang go
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"go.mod"
+  fofa:
+  - banner="go.mod"
+  shodan:
+  - html:"go.mod"
+  zoomeye:
+  - banner:"go.mod"

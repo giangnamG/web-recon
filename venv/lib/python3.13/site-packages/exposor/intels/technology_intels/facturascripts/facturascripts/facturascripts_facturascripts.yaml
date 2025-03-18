@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:facturascripts:facturascripts:*:*:*:*:*:*:*:*
+  description: Detection of facturascripts facturascripts
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"FacturaScripts installer"
+  fofa:
+  - banner="FacturaScripts installer"
+  shodan:
+  - html:"FacturaScripts installer"
+  zoomeye:
+  - banner:"FacturaScripts installer"

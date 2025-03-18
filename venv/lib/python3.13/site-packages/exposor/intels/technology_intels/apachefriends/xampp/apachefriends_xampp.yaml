@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apachefriends:xampp:*:*:*:*:*:*:*:*
+  description: Detection of apachefriends xampp
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"XAMPP"
+  fofa:
+  - http.title="XAMPP"
+  shodan:
+  - http.title:"XAMPP"
+  zoomeye:
+  - title:"XAMPP"

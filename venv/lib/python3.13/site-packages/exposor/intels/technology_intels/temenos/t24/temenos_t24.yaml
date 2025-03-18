@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:temenos:t24:*:*:*:*:*:*:*:*
+  description: Detection of temenos t24
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"T24 Sign in"
+  fofa:
+  - http.title="T24 Sign in"
+  shodan:
+  - title:"T24 Sign in"
+  zoomeye:
+  - title:"T24 Sign in"

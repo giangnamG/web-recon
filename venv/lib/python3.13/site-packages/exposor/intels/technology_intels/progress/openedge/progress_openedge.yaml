@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:progress:openedge:*:*:*:*:*:*:*:*
+  description: Detection of progress openedge
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Welcome to Progress Application Server for OpenEdge"
+  fofa:
+  - banner="Welcome to Progress Application Server for OpenEdge"
+  shodan:
+  - html:"Welcome to Progress Application Server for OpenEdge"
+  zoomeye:
+  - banner:"Welcome to Progress Application Server for OpenEdge"

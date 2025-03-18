@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:sharp:mx-3050v_firmware:*:*:*:*:*:*:*:*
+  description: Detection of sharp mx-3050v_firmware
+  version: '1.0'
+queries: {}

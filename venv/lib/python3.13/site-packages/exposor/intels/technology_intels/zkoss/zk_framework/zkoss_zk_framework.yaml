@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zkoss:zk_framework:*:*:*:*:*:*:*:*
+  description: Detection of zkoss zk_framework
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"server backup manager"
+  - services.http.response.html_title:"Server backup manager"
+  fofa:
+  - http.title="server backup manager"
+  - http.title="Server backup manager"
+  shodan:
+  - http.title:"Server backup manager"
+  - http.title:"server backup manager"
+  zoomeye:
+  - title:"Server backup manager"
+  - title:"server backup manager"

@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:qantumthemes:kentharadio:*:*:*:*:*:wordpress:*:*
+  description: Detection of qantumthemes kentharadio
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/qt-kentharadio
+  - services.banner:/wp-content/plugins/qt-kentharadio
+  fofa:
+  - banner=/wp-content/plugins/qt-kentharadio
+  - body=/wp-content/plugins/qt-kentharadio
+  shodan:
+  - http.html:/wp-content/plugins/qt-kentharadio
+  zoomeye:
+  - banner:/wp-content/plugins/qt-kentharadio

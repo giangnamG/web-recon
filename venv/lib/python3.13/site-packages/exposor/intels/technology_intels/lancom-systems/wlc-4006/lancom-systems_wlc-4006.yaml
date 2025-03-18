@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:lancom-systems:wlc-4006:*:*:*:*:*:*:*:*
+  description: Detection of lancom-systems wlc-4006
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"LANCOM Systems GmbH"
+  fofa:
+  - banner="LANCOM Systems GmbH"
+  shodan:
+  - html:"LANCOM Systems GmbH"
+  zoomeye:
+  - banner:"LANCOM Systems GmbH"

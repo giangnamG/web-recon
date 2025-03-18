@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:uptime.kuma:uptime_kuma:*:*:*:*:*:*:*:*
+  description: Detection of uptime.kuma uptime_kuma
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Uptime Kuma"
+  fofa:
+  - http.title="Uptime Kuma"
+  shodan:
+  - title:"Uptime Kuma"
+  zoomeye:
+  - title:"Uptime Kuma"

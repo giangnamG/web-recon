@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cybelsoft:thinvnc:*:*:*:*:*:*:*:*
+  description: Detection of cybelsoft thinvnc
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-1414548363
+  fofa:
+  - icon_hash=-1414548363
+  shodan:
+  - http.favicon.hash:-1414548363
+  zoomeye:
+  - iconhash:-1414548363

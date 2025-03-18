@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:realty:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft realty
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/realty/
+  - services.banner:/wp-content/plugins/realty/
+  fofa:
+  - banner=/wp-content/plugins/realty/
+  - body=/wp-content/plugins/realty/
+  shodan:
+  - http.html:/wp-content/plugins/realty/
+  zoomeye:
+  - banner:/wp-content/plugins/realty/

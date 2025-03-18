@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:oracle:webcenter_sites:*:*:*:*:*:*:*:*
+  description: Detection of oracle webcenter_sites
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"WebCenter"
+  fofa:
+  - banner="WebCenter"
+  shodan:
+  - http.html:"WebCenter"
+  zoomeye:
+  - banner:"WebCenter"

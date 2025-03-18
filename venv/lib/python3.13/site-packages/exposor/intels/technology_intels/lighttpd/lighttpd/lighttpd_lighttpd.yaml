@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:lighttpd:lighttpd:*:*:*:*:*:*:*:*
+  description: Detection of lighttpd lighttpd
+  version: '1.0'
+queries: {}

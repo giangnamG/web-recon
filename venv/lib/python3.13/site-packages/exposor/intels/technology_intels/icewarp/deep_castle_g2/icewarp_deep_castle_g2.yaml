@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:icewarp:deep_castle_g2:*:*:*:*:*:*:*:*
+  description: Detection of icewarp deep_castle_g2
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"IceWarp"
+  - services.http.response.html_title:"icewarp"
+  fofa:
+  - http.title="IceWarp"
+  - http.title="icewarp"
+  shodan:
+  - http.title:"icewarp"
+  - title:"IceWarp"
+  zoomeye:
+  - title:"IceWarp"
+  - title:"icewarp"

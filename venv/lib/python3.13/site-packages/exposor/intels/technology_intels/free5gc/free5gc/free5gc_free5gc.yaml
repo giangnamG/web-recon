@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:free5gc:free5gc:*:*:*:*:*:*:*:*
+  description: Detection of free5gc free5gc
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"free5GC Web Console"
+  - services.http.response.html_title:"free5gc web console"
+  fofa:
+  - http.title="free5gc web console"
+  - http.title="free5GC Web Console"
+  shodan:
+  - http.title:"free5GC Web Console"
+  - http.title:"free5gc web console"
+  zoomeye:
+  - title:"free5GC Web Console"
+  - title:"free5gc web console"

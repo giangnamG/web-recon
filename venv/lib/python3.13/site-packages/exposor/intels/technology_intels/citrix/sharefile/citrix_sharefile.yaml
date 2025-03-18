@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:citrix:sharefile:*:*:*:*:*:*:*:*
+  description: Detection of citrix sharefile
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"ShareFile Login"
+  - services.http.response.html_title:"sharefile login"
+  fofa:
+  - http.title="sharefile login"
+  - http.title="ShareFile Login"
+  shodan:
+  - http.title:"sharefile login"
+  - title:"ShareFile Login"
+  zoomeye:
+  - title:"sharefile login"
+  - title:"ShareFile Login"

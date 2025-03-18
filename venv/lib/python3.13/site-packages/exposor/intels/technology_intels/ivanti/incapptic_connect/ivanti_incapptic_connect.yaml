@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ivanti:incapptic_connect:*:*:*:*:*:*:*:*
+  description: Detection of ivanti incapptic_connect
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"incapptic"
+  - services.http.response.html_title:"incapptic"
+  - services.http.response.favicons.shodan_hash:-1067582922
+  fofa:
+  - icon_hash=-1067582922
+  - http.title="incapptic"
+  - title="incapptic"
+  shodan:
+  - product:"incapptic"
+  - http.favicon.hash:-1067582922
+  - http.title:"incapptic"
+  zoomeye:
+  - app:"incapptic"
+  - title:"incapptic"
+  - iconhash:-1067582922

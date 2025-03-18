@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:designsandcode:forget_about_shortcode_buttons:*:*:*:*:*:wordpress:*:*
+  description: Detection of designsandcode forget_about_shortcode_buttons
+  version: '1.0'
+queries: {}

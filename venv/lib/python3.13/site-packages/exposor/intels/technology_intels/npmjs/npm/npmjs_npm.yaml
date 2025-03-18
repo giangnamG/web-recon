@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:npmjs:npm:*:*:*:*:*:*:*:*
+  description: Detection of npmjs npm
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"anonymous-cli-metrics.json"
+  fofa:
+  - banner="anonymous-cli-metrics.json"
+  shodan:
+  - html:"anonymous-cli-metrics.json"
+  zoomeye:
+  - banner:"anonymous-cli-metrics.json"

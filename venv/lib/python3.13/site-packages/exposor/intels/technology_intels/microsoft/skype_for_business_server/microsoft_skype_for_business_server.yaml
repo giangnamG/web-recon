@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:microsoft:skype_for_business_server:*:*:*:*:*:*:*:*
+  description: Detection of microsoft skype_for_business_server
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"skype for business"
+  - services.http.response.body:"skype for business"
+  - services.banner:"Skype for Business"
+  fofa:
+  - banner="skype for business"
+  - body="skype for business"
+  - banner="Skype for Business"
+  shodan:
+  - html:"Skype for Business"
+  - http.html:"skype for business"
+  zoomeye:
+  - banner:"Skype for Business"
+  - banner:"skype for business"

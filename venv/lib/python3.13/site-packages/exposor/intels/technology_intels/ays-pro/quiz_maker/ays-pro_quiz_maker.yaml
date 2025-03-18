@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ays-pro:quiz_maker:*:*:*:*:wordpress:*:*:*
+  description: Detection of ays-pro quiz_maker
+  version: '1.0'
+queries: {}

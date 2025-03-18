@@ -1,0 +1,24 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:oracle:access_manager:*:*:*:*:*:*:*:*
+  description: Detection of oracle access_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"/oam/pages/css/login_page.css"
+  - services.http.response.body:"/oam/pages/css/login_page.css"
+  - services.http.response.html_title:"oracle access management"
+  - services.http.response.html_title:"Oracle Access Management"
+  fofa:
+  - http.title="Oracle Access Management"
+  - body="/oam/pages/css/login_page.css"
+  - banner="/oam/pages/css/login_page.css"
+  - http.title="oracle access management"
+  shodan:
+  - http.html:"/oam/pages/css/login_page.css"
+  - http.title:"oracle access management"
+  - http.title:"Oracle Access Management"
+  zoomeye:
+  - title:"oracle access management"
+  - banner:"/oam/pages/css/login_page.css"
+  - title:"Oracle Access Management"

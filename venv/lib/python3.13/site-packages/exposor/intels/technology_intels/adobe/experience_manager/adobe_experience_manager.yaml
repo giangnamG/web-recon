@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:adobe:experience_manager:*:*:*:*:*:*:*:*
+  description: Detection of adobe experience_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"adobe experience manager"
+  - services.http.response.html_title:"aem sign in"
+  - services.http.response.html_title:"AEM Sign In"
+  fofa:
+  - http.title="aem sign in"
+  - http.title="AEM Sign In"
+  - banner="adobe experience manager"
+  shodan:
+  - http.title:"aem sign in"
+  - http.title:"AEM Sign In"
+  - http.component:"adobe experience manager"
+  zoomeye:
+  - banner:"adobe experience manager"
+  - title:"AEM Sign In"
+  - title:"aem sign in"

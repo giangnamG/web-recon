@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:kingsoft:kingsoft_antivirus:*:*:*:*:*:*:*:*
+  description: Detection of kingsoft kingsoft_antivirus
+  version: '1.0'
+queries: {}

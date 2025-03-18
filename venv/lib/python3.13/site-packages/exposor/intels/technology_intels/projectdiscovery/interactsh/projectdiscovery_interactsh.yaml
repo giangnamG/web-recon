@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:projectdiscovery:interactsh:*:*:*:*:*:*:*:*
+  description: Detection of projectdiscovery interactsh
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Interactsh Server"
+  fofa:
+  - banner="Interactsh Server"
+  shodan:
+  - http.html:"Interactsh Server"
+  zoomeye:
+  - banner:"Interactsh Server"

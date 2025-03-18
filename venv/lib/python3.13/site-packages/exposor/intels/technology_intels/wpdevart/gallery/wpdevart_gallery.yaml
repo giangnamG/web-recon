@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wpdevart:gallery:*:*:*:*:*:wordpress:*:*
+  description: Detection of wpdevart gallery
+  version: '1.0'
+queries: {}

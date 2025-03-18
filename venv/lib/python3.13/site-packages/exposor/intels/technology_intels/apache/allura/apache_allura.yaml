@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:allura:*:*:*:*:*:*:*:*
+  description: Detection of apache allura
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"Apache Allura"
+  fofa:
+  - body="Apache Allura"
+  shodan:
+  - http.html:"Apache Allura"
+  zoomeye:
+  - banner:"Apache Allura"

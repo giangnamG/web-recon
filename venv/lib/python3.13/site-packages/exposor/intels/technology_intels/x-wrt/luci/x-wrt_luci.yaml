@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:x-wrt:luci:*:*:*:*:*:*:*:*
+  description: Detection of x-wrt luci
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"openwrt - luci"
+  - services.http.response.html_title:"OpenWrt - LuCI"
+  fofa:
+  - http.title="openwrt - luci"
+  - http.title="OpenWrt - LuCI"
+  shodan:
+  - http.title:"OpenWrt - LuCI"
+  - http.title:"openwrt - luci"
+  zoomeye:
+  - title:"OpenWrt - LuCI"
+  - title:"openwrt - luci"

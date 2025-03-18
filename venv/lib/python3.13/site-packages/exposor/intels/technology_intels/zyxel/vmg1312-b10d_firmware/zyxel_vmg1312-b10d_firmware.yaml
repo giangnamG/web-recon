@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:zyxel:vmg1312-b10d_firmware:*:*:*:*:*:*:*:*
+  description: Detection of zyxel vmg1312-b10d_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"vmg1312-b10d"
+  - services.banner:"vmg1312-b10d"
+  - services.banner:"VMG1312-B10D"
+  fofa:
+  - banner="VMG1312-B10D"
+  - banner="vmg1312-b10d"
+  - body="vmg1312-b10d"
+  shodan:
+  - http.html:"VMG1312-B10D"
+  - http.html:"vmg1312-b10d"
+  zoomeye:
+  - banner:"vmg1312-b10d"
+  - banner:"VMG1312-B10D"

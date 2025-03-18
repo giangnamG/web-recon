@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sap:hybris:*:*:*:*:*:*:*:*
+  description: Detection of sap hybris
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"hybris"
+  fofa:
+  - http.title="hybris"
+  shodan:
+  - http.title:"hybris"
+  zoomeye:
+  - title:"hybris"

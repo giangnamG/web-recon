@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:gibbonedu:gibbon:*:*:*:*:*:*:*:*
+  description: Detection of gibbonedu gibbon
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-165631681
+  - services.http.response.favicons.shodan_hash:"-165631681"
+  fofa:
+  - icon_hash="-165631681"
+  - icon_hash=-165631681
+  shodan:
+  - http.favicon.hash:"-165631681"
+  - http.favicon.hash:-165631681
+  zoomeye:
+  - iconhash:"-165631681"
+  - iconhash:-165631681

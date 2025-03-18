@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sitecore:cms:*:*:*:*:*:*:*:*
+  description: Detection of sitecore cms
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"sitecore"
+  fofa:
+  - http.title="sitecore"
+  shodan:
+  - title:"sitecore"
+  zoomeye:
+  - title:"sitecore"

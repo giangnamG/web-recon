@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:nootheme:jobmonster:*:*:*:*:*:wordpress:*:*
+  description: Detection of nootheme jobmonster
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/themes/noo-jobmonster
+  - services.banner:/wp-content/themes/noo-jobmonster
+  fofa:
+  - banner=/wp-content/themes/noo-jobmonster
+  - body=/wp-content/themes/noo-jobmonster
+  shodan:
+  - http.html:/wp-content/themes/noo-jobmonster
+  zoomeye:
+  - banner:/wp-content/themes/noo-jobmonster

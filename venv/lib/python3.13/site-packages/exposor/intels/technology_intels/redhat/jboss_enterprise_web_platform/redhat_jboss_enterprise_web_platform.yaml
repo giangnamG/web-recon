@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:redhat:jboss_enterprise_web_platform:*:*:*:*:*:*:*:*
+  description: Detection of redhat jboss_enterprise_web_platform
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"JBoss WS"
+  - services.http.response.body:"jboss ws"
+  - services.banner:"jboss ws"
+  fofa:
+  - banner="JBoss WS"
+  - banner="jboss ws"
+  - body="jboss ws"
+  shodan:
+  - http.html:"jboss ws"
+  - html:"JBoss WS"
+  zoomeye:
+  - banner:"jboss ws"
+  - banner:"JBoss WS"

@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:subscriber:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft subscriber
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/subscriber/
+  - services.banner:/wp-content/plugins/subscriber/
+  fofa:
+  - body=/wp-content/plugins/subscriber/
+  - banner=/wp-content/plugins/subscriber/
+  shodan:
+  - http.html:/wp-content/plugins/subscriber/
+  zoomeye:
+  - banner:/wp-content/plugins/subscriber/

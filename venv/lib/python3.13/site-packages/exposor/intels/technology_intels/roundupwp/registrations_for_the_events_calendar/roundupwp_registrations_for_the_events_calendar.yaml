@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:roundupwp:registrations_for_the_events_calendar:*:*:*:*:*:wordpress:*:*
+  description: Detection of roundupwp registrations_for_the_events_calendar
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/registrations-for-the-events-calendar/
+  - services.banner:/wp-content/plugins/registrations-for-the-events-calendar/
+  fofa:
+  - body=/wp-content/plugins/registrations-for-the-events-calendar/
+  - banner=/wp-content/plugins/registrations-for-the-events-calendar/
+  shodan:
+  - http.html:/wp-content/plugins/registrations-for-the-events-calendar/
+  zoomeye:
+  - banner:/wp-content/plugins/registrations-for-the-events-calendar/

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:vvvebjs:vvvebjs:*:*:*:*:*:*:*:*
+  description: Detection of vvvebjs vvvebjs
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:"524332373"
+  fofa:
+  - icon_hash="524332373"
+  shodan:
+  - http.favicon.hash:"524332373"
+  zoomeye:
+  - iconhash:"524332373"

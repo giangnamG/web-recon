@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:fortinet:forticlient_endpoint_management_server:*:*:*:*:*:*:*:*
+  description: Detection of fortinet forticlient_endpoint_management_server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-800551065
+  fofa:
+  - icon_hash=-800551065
+  shodan:
+  - http.favicon.hash:-800551065
+  zoomeye:
+  - iconhash:-800551065

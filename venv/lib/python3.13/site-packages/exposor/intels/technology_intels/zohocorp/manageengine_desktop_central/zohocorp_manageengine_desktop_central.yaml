@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zohocorp:manageengine_desktop_central:*:*:*:*:*:*:*:*
+  description: Detection of zohocorp manageengine_desktop_central
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"zoho-manageengine-desktop"
+  - services.http.response.body:"manageengine desktop central 10"
+  - services.http.response.html_title:"manageengine desktop central 10"
+  fofa:
+  - app="zoho-manageengine-desktop"
+  - http.title="manageengine desktop central 10"
+  - body="manageengine desktop central 10"
+  shodan:
+  - http.title:"manageengine desktop central 10"
+  - http.html:"manageengine desktop central 10"
+  - product:"zoho-manageengine-desktop"
+  zoomeye:
+  - title:"manageengine desktop central 10"
+  - banner:"manageengine desktop central 10"
+  - app:"zoho-manageengine-desktop"

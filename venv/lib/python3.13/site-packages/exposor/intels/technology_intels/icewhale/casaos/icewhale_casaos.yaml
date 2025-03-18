@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:icewhale:casaos:*:*:*:*:*:*:*:*
+  description: Detection of icewhale casaos
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"/CasaOS-UI/public/index.html"
+  - services.banner:"/CasaOS-UI/public/index.html"
+  fofa:
+  - banner="/CasaOS-UI/public/index.html"
+  - body="/CasaOS-UI/public/index.html"
+  shodan:
+  - http.html:"/CasaOS-UI/public/index.html"
+  zoomeye:
+  - banner:"/CasaOS-UI/public/index.html"

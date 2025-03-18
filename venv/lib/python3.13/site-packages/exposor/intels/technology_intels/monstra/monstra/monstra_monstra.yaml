@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:monstra:monstra:*:*:*:*:*:*:*:*
+  description: Detection of monstra monstra
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:419828698
+  fofa:
+  - icon_hash=419828698
+  shodan:
+  - http.favicon.hash:419828698
+  zoomeye:
+  - iconhash:419828698

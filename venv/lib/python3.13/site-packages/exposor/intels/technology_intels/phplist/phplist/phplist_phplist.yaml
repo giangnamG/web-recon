@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:phplist:phplist:*:*:*:*:*:*:*:*
+  description: Detection of phplist phplist
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"phplist"
+  fofa:
+  - banner="phplist"
+  shodan:
+  - html:"phplist"
+  zoomeye:
+  - banner:"phplist"

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apollotheme:ap_pagebuilder:*:*:*:*:*:prestashop:*:*
+  description: Detection of apollotheme ap_pagebuilder
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Prestashop"
+  - services.banner:"prestashop"
+  fofa:
+  - banner="Prestashop"
+  - banner="prestashop"
+  shodan:
+  - http.component:"Prestashop"
+  - http.component:"prestashop"
+  zoomeye:
+  - banner:"Prestashop"
+  - banner:"prestashop"

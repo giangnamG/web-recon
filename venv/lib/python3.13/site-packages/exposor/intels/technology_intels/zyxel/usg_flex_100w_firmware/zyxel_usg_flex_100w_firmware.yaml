@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:zyxel:usg_flex_100w_firmware:*:*:*:*:*:*:*:*
+  description: Detection of zyxel usg_flex_100w_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"USG FLEX 100"
+  - services.http.response.html_title:"usg flex 100"
+  fofa:
+  - http.title="usg flex 100"
+  - http.title="USG FLEX 100"
+  shodan:
+  - title:"USG FLEX 100","USG FLEX 100w","USG FLEX 200","USG FLEX 500","USG FLEX 700","USG
+    FLEX 50","USG FLEX 50w","ATP100","ATP200","ATP500","ATP700"
+  - http.title:"usg flex 100","usg flex 100w","usg flex 200","usg flex 500","usg flex
+    700","usg flex 50","usg flex 50w","atp100","atp200","atp500","atp700"
+  zoomeye:
+  - title:"USG FLEX 100"
+  - title:"usg flex 100"

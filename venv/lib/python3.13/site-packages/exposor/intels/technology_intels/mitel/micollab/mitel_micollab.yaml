@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mitel:micollab:*:*:*:*:*:*:*:*
+  description: Detection of mitel micollab
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"MiCollab End User Portal"
+  fofa:
+  - banner="MiCollab End User Portal"
+  shodan:
+  - http.html:"MiCollab End User Portal"
+  zoomeye:
+  - banner:"MiCollab End User Portal"

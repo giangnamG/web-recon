@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:passbolt:passbolt_api:*:*:*:*:*:*:*:*
+  description: Detection of passbolt passbolt_api
+  version: '1.0'
+queries:
+  censys:
+  - 'services.http.response.html_title:"Passbolt '
+  fofa:
+  - 'http.title="Passbolt '
+  shodan:
+  - http.title:"Passbolt | Open source password manager for teams"
+  zoomeye:
+  - 'title:"Passbolt '

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ruifang-tech:rebuild:*:*:*:*:*:*:*:*
+  description: Detection of ruifang-tech rebuild
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:"871154672"
+  fofa:
+  - icon_hash="871154672"
+  shodan:
+  - http.favicon.hash:"871154672"
+  zoomeye:
+  - iconhash:"871154672"

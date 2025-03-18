@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:apisix:*:*:*:*:*:*:*:*
+  description: Detection of apache apisix
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"apache apisix dashboard"
+  fofa:
+  - http.title="apache apisix dashboard"
+  shodan:
+  - http.title:"apache apisix dashboard"
+  zoomeye:
+  - title:"apache apisix dashboard"

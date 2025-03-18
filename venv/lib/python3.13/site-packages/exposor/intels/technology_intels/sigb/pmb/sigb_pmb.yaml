@@ -1,0 +1,24 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sigb:pmb:*:*:*:*:*:*:*:*
+  description: Detection of sigb pmb
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"PMB Group"
+  - services.banner:"pmb group"
+  - services.http.response.favicons.shodan_hash:1469328760
+  - services.http.response.body:"pmb group"
+  fofa:
+  - body="pmb group"
+  - icon_hash=1469328760
+  - banner="PMB Group"
+  - banner="pmb group"
+  shodan:
+  - http.html:"pmb group"
+  - http.favicon.hash:1469328760
+  - http.html:"PMB Group"
+  zoomeye:
+  - iconhash:1469328760
+  - banner:"pmb group"
+  - banner:"PMB Group"

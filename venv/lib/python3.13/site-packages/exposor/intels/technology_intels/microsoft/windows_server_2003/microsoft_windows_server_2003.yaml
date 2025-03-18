@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:microsoft:windows_server_2003:*:*:*:*:*:*:*:*
+  description: Detection of microsoft windows_server_2003
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"IIS Windows Server"
+  fofa:
+  - http.title="IIS Windows Server"
+  shodan:
+  - http.title:"IIS Windows Server"
+  zoomeye:
+  - title:"IIS Windows Server"

@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:teltonika:rut900:*:*:*:*:*:*:*:*
+  description: Detection of teltonika rut900
+  version: '1.0'
+queries: {}

@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wp_content_source_control_project:wp_content_source_control:*:*:*:*:*:wordpress:*:*
+  description: Detection of wp_content_source_control_project wp_content_source_control
+  version: '1.0'
+queries: {}

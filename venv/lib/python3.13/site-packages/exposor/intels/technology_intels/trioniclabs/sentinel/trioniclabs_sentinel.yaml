@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:trioniclabs:sentinel:*:*:*:*:*:*:*:*
+  description: Detection of trioniclabs sentinel
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Sentinel License Monitor"
+  fofa:
+  - banner="Sentinel License Monitor"
+  shodan:
+  - html:"Sentinel License Monitor"
+  zoomeye:
+  - banner:"Sentinel License Monitor"

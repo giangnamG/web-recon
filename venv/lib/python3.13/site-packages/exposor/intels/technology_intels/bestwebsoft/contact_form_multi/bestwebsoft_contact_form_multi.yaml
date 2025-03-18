@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:contact_form_multi:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft contact_form_multi
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/contact-form-multi/
+  - services.banner:/wp-content/plugins/contact-form-multi/
+  fofa:
+  - body=/wp-content/plugins/contact-form-multi/
+  - banner=/wp-content/plugins/contact-form-multi/
+  shodan:
+  - http.html:/wp-content/plugins/contact-form-multi/
+  zoomeye:
+  - banner:/wp-content/plugins/contact-form-multi/

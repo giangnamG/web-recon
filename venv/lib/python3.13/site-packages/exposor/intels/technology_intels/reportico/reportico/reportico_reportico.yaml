@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:reportico:reportico:*:*:*:*:*:*:*:*
+  description: Detection of reportico reportico
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"reportico administration page"
+  - services.http.response.html_title:"Reportico Administration Page"
+  fofa:
+  - http.title="reportico administration page"
+  - http.title="Reportico Administration Page"
+  shodan:
+  - http.title:"reportico administration page"
+  - title:"Reportico Administration Page"
+  zoomeye:
+  - title:"reportico administration page"
+  - title:"Reportico Administration Page"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mylittletools:mylittleadmin:*:*:*:*:*:*:*:*
+  description: Detection of mylittletools mylittleadmin
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"myLittleAdmin"
+  fofa:
+  - banner="myLittleAdmin"
+  shodan:
+  - http.html:"myLittleAdmin"
+  zoomeye:
+  - banner:"myLittleAdmin"

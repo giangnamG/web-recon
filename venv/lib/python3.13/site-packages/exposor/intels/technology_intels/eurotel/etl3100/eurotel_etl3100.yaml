@@ -1,0 +1,17 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:eurotel:etl3100:*:*:*:*:*:*:*:*
+  description: Detection of eurotel etl3100
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"ETL3100"
+  - services.banner:"ETL3100"
+  fofa:
+  - banner="ETL3100"
+  - body="ETL3100"
+  shodan:
+  - html:"ETL3100"
+  - http.html:"ETL3100"
+  zoomeye:
+  - banner:"ETL3100"

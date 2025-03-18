@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:timesheet_next_gen_project:timesheet_next_gen:*:*:*:*:*:*:*:*
+  description: Detection of timesheet_next_gen_project timesheet_next_gen
+  version: '1.0'
+queries: {}

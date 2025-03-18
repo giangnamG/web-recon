@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:opnsense:opnsense:*:*:*:*:*:*:*:*
+  description: Detection of opnsense opnsense
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"opnsense"
+  fofa:
+  - http.title="opnsense"
+  shodan:
+  - http.title:"opnsense"
+  zoomeye:
+  - title:"opnsense"

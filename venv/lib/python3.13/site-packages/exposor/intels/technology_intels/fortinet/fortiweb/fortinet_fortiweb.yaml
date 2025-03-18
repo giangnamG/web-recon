@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*
+  description: Detection of fortinet fortiweb
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"fortiweb - "
+  fofa:
+  - http.title="fortiweb - "
+  shodan:
+  - http.title:"fortiweb - "
+  zoomeye:
+  - title:"fortiweb - "

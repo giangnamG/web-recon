@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:unisharp:laravel_filemanager:*:*:*:*:*:*:*:*
+  description: Detection of unisharp laravel_filemanager
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Laravel Filemanager"
+  - services.banner:"laravel filemanager"
+  - services.http.response.body:"laravel filemanager"
+  fofa:
+  - banner="Laravel Filemanager"
+  - body="laravel filemanager"
+  - banner="laravel filemanager"
+  shodan:
+  - http.html:"laravel filemanager"
+  - http.html:"Laravel Filemanager"
+  zoomeye:
+  - banner:"laravel filemanager"
+  - banner:"Laravel Filemanager"

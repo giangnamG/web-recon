@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:fractalia:flexible_custom_post_type:*:*:*:*:*:*:*:*
+  description: Detection of fractalia flexible_custom_post_type
+  version: '1.0'
+queries: {}

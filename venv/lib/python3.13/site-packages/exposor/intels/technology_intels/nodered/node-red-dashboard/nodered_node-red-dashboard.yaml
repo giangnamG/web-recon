@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:nodered:node-red-dashboard:*:*:*:*:*:node.js:*:*
+  description: Detection of nodered node-red-dashboard
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Node-RED"
+  - services.http.response.html_title:"node-red"
+  fofa:
+  - http.title="node-red"
+  - http.title="Node-RED"
+  shodan:
+  - http.title:"node-red"
+  - title:"Node-RED"
+  zoomeye:
+  - title:"node-red"
+  - title:"Node-RED"

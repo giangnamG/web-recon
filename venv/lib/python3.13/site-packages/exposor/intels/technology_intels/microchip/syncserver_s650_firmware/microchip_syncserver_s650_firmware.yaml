@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:microchip:syncserver_s650_firmware:*:*:*:*:*:*:*:*
+  description: Detection of microchip syncserver_s650_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Symmetricom SyncServer"
+  - services.banner:"symmetricom syncserver"
+  - services.http.response.body:"symmetricom syncserver"
+  fofa:
+  - banner="symmetricom syncserver"
+  - body="symmetricom syncserver"
+  - banner="Symmetricom SyncServer"
+  shodan:
+  - http.html:"symmetricom syncserver"
+  - html:"Symmetricom SyncServer"
+  zoomeye:
+  - banner:"Symmetricom SyncServer"
+  - banner:"symmetricom syncserver"

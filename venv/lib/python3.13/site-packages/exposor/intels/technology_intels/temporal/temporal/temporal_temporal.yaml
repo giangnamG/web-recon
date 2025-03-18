@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:temporal:temporal:*:*:*:*:*:*:*:*
+  description: Detection of temporal temporal
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:557327884
+  fofa:
+  - icon_hash=557327884
+  shodan:
+  - http.favicon.hash:557327884
+  zoomeye:
+  - iconhash:557327884

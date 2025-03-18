@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:pi-hole:pi-hole:*:*:*:*:*:*:*:*
+  description: Detection of pi-hole pi-hole
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Pi-hole"
+  fofa:
+  - http.title="Pi-hole"
+  shodan:
+  - title:"Pi-hole"
+  zoomeye:
+  - title:"Pi-hole"

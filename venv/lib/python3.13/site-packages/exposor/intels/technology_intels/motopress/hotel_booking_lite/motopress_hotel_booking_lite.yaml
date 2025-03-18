@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:motopress:hotel_booking_lite:*:*:*:*:*:wordpress:*:*
+  description: Detection of motopress hotel_booking_lite
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/motopress-hotel-booking
+  - services.http.response.body:/wp-content/plugins/motopress-hotel-booking
+  fofa:
+  - banner=/wp-content/plugins/motopress-hotel-booking
+  - body=/wp-content/plugins/motopress-hotel-booking
+  shodan:
+  - http.html:/wp-content/plugins/motopress-hotel-booking
+  zoomeye:
+  - banner:/wp-content/plugins/motopress-hotel-booking

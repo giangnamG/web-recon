@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:redis:redis_enterprise:*:*:*:*:*:*:*:*
+  description: Detection of redis redis_enterprise
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Enterprise-Class Redis for Developers"
+  fofa:
+  - http.title="Enterprise-Class Redis for Developers"
+  shodan:
+  - title:"Enterprise-Class Redis for Developers"
+  zoomeye:
+  - title:"Enterprise-Class Redis for Developers"

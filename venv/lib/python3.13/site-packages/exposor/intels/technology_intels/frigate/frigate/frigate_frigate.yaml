@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:frigate:frigate:*:*:*:*:*:*:*:*
+  description: Detection of frigate frigate
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"frigate"
+  - services.http.response.html_title:"Frigate"
+  fofa:
+  - http.title="Frigate"
+  - http.title="frigate"
+  shodan:
+  - http.title:"frigate"
+  - title:"Frigate"
+  zoomeye:
+  - title:"frigate"
+  - title:"Frigate"

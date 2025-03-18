@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:nuuo:nvrsolo_firmware:*:*:*:*:*:*:*:*
+  description: Detection of nuuo nvrsolo_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"nvrsolo"
+  - services.banner:"nvrsolo"
+  - services.banner:"NVRsolo"
+  fofa:
+  - banner="nvrsolo"
+  - banner="NVRsolo"
+  - body="nvrsolo"
+  shodan:
+  - http.html:"NVRsolo"
+  - http.html:"nvrsolo"
+  zoomeye:
+  - banner:"nvrsolo"
+  - banner:"NVRsolo"

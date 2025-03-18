@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:log4j:*:*:*:*:*:*:*:*
+  description: Detection of apache log4j
+  version: '1.0'
+queries:
+  censys:
+  - "services.software.product:\"\u81F4\u8FDC\u4E92\u8054-OA\""
+  fofa:
+  - "app=\"\u81F4\u8FDC\u4E92\u8054-OA\""
+  shodan:
+  - "product:\"\u81F4\u8FDC\u4E92\u8054-OA\""
+  zoomeye:
+  - "app:\"\u81F4\u8FDC\u4E92\u8054-OA\""

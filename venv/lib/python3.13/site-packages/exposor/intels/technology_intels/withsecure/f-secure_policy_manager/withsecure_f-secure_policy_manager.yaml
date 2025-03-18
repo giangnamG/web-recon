@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:withsecure:f-secure_policy_manager:*:*:*:*:windows:*:*:*
+  description: Detection of withsecure f-secure_policy_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"F-Secure Policy Manager Server"
+  - services.http.response.html_title:"f-secure policy manager server"
+  fofa:
+  - http.title="f-secure policy manager server"
+  - http.title="F-Secure Policy Manager Server"
+  shodan:
+  - http.title:"F-Secure Policy Manager Server"
+  - http.title:"f-secure policy manager server"
+  zoomeye:
+  - title:"F-Secure Policy Manager Server"
+  - title:"f-secure policy manager server"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:devexpress:devexpress_components:*:*:*:*:*:*:*:*
+  description: Detection of devexpress devexpress_components
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"DXR.axd"
+  fofa:
+  - banner="DXR.axd"
+  shodan:
+  - html:"DXR.axd"
+  zoomeye:
+  - banner:"DXR.axd"

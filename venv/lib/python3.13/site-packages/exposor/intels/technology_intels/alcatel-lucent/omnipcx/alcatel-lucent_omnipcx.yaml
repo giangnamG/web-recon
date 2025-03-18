@@ -1,0 +1,26 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:alcatel-lucent:omnipcx:*:*:enterprise:*:*:*:*:*
+  description: Detection of alcatel-lucent omnipcx
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"OmniPCX for Enterprise"
+  - services.software.product:"Alcatel_Lucent-OmniPCX-Enterprise"
+  - services.software.product:"alcatel_lucent-omnipcx-enterprise"
+  - services.http.response.html_title:"omnipcx for enterprise"
+  fofa:
+  - http.title="omnipcx for enterprise"
+  - app="Alcatel_Lucent-OmniPCX-Enterprise"
+  - app="alcatel_lucent-omnipcx-enterprise"
+  - http.title="OmniPCX for Enterprise"
+  shodan:
+  - product:"alcatel_lucent-omnipcx-enterprise"
+  - http.title:"omnipcx for enterprise"
+  - title:"OmniPCX for Enterprise"
+  - product:"Alcatel_Lucent-OmniPCX-Enterprise"
+  zoomeye:
+  - app:"alcatel_lucent-omnipcx-enterprise"
+  - title:"omnipcx for enterprise"
+  - title:"OmniPCX for Enterprise"
+  - app:"Alcatel_Lucent-OmniPCX-Enterprise"

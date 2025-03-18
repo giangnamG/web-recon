@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zenml:zenml:*:*:*:*:*:*:*:*
+  description: Detection of zenml zenml
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-2028554187
+  - services.http.response.body:"ZenML"
+  fofa:
+  - icon_hash=-2028554187
+  - body="ZenML"
+  shodan:
+  - http.favicon.hash:-2028554187
+  - http.html:"ZenML"
+  zoomeye:
+  - banner:"ZenML"
+  - iconhash:-2028554187

@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:urosevic:stock_ticker:*:*:*:*:*:wordpress:*:*
+  description: Detection of urosevic stock_ticker
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/stock-ticker/
+  - services.http.response.body:/wp-content/plugins/stock-ticker/
+  fofa:
+  - body=/wp-content/plugins/stock-ticker/
+  - banner=/wp-content/plugins/stock-ticker/
+  shodan:
+  - http.html:/wp-content/plugins/stock-ticker/
+  zoomeye:
+  - banner:/wp-content/plugins/stock-ticker/

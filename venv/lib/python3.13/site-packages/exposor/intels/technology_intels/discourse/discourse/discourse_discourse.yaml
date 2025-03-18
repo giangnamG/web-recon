@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:discourse:discourse:*:*:*:*:*:*:*:*
+  description: Detection of discourse discourse
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Discourse Setup"
+  fofa:
+  - http.title="Discourse Setup"
+  shodan:
+  - title:"Discourse Setup"
+  zoomeye:
+  - title:"Discourse Setup"

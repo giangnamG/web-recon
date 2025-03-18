@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:smashballoon:smash_balloon_social_post_feed:*:*:*:*:*:wordpress:*:*
+  description: Detection of smashballoon smash_balloon_social_post_feed
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/custom-facebook-feed/
+  - services.http.response.body:/wp-content/plugins/custom-facebook-feed/
+  fofa:
+  - body=/wp-content/plugins/custom-facebook-feed/
+  - banner=/wp-content/plugins/custom-facebook-feed/
+  shodan:
+  - http.html:/wp-content/plugins/custom-facebook-feed/
+  zoomeye:
+  - banner:/wp-content/plugins/custom-facebook-feed/

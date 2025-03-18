@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:twitter_button:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft twitter_button
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/twitter-plugin/
+  - services.banner:/wp-content/plugins/twitter-plugin/
+  fofa:
+  - body=/wp-content/plugins/twitter-plugin/
+  - banner=/wp-content/plugins/twitter-plugin/
+  shodan:
+  - http.html:/wp-content/plugins/twitter-plugin/
+  zoomeye:
+  - banner:/wp-content/plugins/twitter-plugin/

@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:edx:open_edx:*:*:*:*:*:*:*:*
+  description: Detection of edx open_edx
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Open edX"
+  - services.http.response.body:"open edx"
+  - services.banner:"open edx"
+  fofa:
+  - body="open edx"
+  - banner="open edx"
+  - banner="Open edX"
+  shodan:
+  - http.html:"open edx"
+  - http.html:"Open edX"
+  zoomeye:
+  - banner:"Open edX"
+  - banner:"open edx"

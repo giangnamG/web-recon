@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:palletsprojects:werkzeug:*:*:*:*:*:*:*:*
+  description: Detection of palletsprojects werkzeug
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Werkzeug powered traceback interpreter"
+  fofa:
+  - banner="Werkzeug powered traceback interpreter"
+  shodan:
+  - html:"Werkzeug powered traceback interpreter"
+  zoomeye:
+  - banner:"Werkzeug powered traceback interpreter"

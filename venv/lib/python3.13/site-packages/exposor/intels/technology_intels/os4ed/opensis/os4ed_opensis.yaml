@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:os4ed:opensis:*:*:*:*:community:*:*:*
+  description: Detection of os4ed opensis
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"opensis"
+  - services.http.response.html_title:"openSIS"
+  fofa:
+  - http.title="openSIS"
+  - http.title="opensis"
+  shodan:
+  - http.title:"openSIS"
+  - http.title:"opensis"
+  zoomeye:
+  - title:"opensis"
+  - title:"openSIS"

@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:redmine:redmine:*:*:*:*:*:*:*:*
+  description: Detection of redmine redmine
+  version: '1.0'
+queries: {}

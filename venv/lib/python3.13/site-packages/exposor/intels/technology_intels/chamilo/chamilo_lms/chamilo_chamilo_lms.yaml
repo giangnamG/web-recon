@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:chamilo:chamilo_lms:*:*:*:*:*:*:*:*
+  description: Detection of chamilo chamilo_lms
+  version: '1.0'
+queries: {}

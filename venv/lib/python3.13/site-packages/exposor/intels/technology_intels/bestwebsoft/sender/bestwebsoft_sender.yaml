@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:sender:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft sender
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/sender/
+  - services.http.response.body:/wp-content/plugins/sender/
+  fofa:
+  - body=/wp-content/plugins/sender/
+  - banner=/wp-content/plugins/sender/
+  shodan:
+  - http.html:/wp-content/plugins/sender/
+  zoomeye:
+  - banner:/wp-content/plugins/sender/

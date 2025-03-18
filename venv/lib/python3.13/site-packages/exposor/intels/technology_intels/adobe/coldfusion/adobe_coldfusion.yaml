@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:adobe:coldfusion:*:*:*:*:*:*:*:*
+  description: Detection of adobe coldfusion
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Adobe ColdFusion"
+  fofa:
+  - banner="Adobe ColdFusion"
+  shodan:
+  - http.component:"Adobe ColdFusion"
+  zoomeye:
+  - banner:"Adobe ColdFusion"

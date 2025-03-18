@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:oracle:mysql:*:*:*:*:*:*:*:*
+  description: Detection of oracle mysql
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"MySQL"
+  - services.software.product:"mysql"
+  fofa:
+  - app="mysql"
+  - app="MySQL"
+  shodan:
+  - product:"MySQL"
+  - product:"mysql"
+  zoomeye:
+  - app:"mysql"
+  - app:"MySQL"

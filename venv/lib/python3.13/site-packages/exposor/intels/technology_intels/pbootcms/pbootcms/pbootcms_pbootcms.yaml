@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:pbootcms:pbootcms:*:*:*:*:*:*:*:*
+  description: Detection of pbootcms pbootcms
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"PbootCMS"
+  fofa:
+  - banner="PbootCMS"
+  shodan:
+  - http.html:"PbootCMS"
+  zoomeye:
+  - banner:"PbootCMS"

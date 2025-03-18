@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mingsoft:mcms:*:*:*:*:*:*:*:*
+  description: Detection of mingsoft mcms
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:1464851260
+  - services.http.response.favicons.shodan_hash:"1464851260"
+  fofa:
+  - icon_hash=1464851260
+  - icon_hash="1464851260"
+  shodan:
+  - http.favicon.hash:"1464851260"
+  - http.favicon.hash:1464851260
+  zoomeye:
+  - iconhash:"1464851260"
+  - iconhash:1464851260

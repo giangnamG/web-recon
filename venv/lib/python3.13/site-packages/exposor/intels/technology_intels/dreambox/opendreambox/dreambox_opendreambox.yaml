@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:dreambox:opendreambox:*:*:*:*:*:*:*:*
+  description: Detection of dreambox opendreambox
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Dreambox WebControl"
+  - services.http.response.html_title:"dreambox webcontrol"
+  fofa:
+  - http.title="dreambox webcontrol"
+  - http.title="Dreambox WebControl"
+  shodan:
+  - title:"Dreambox WebControl"
+  - http.title:"dreambox webcontrol"
+  zoomeye:
+  - title:"Dreambox WebControl"
+  - title:"dreambox webcontrol"

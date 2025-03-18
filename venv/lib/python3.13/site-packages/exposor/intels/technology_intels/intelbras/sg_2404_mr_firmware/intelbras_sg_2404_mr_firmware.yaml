@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:intelbras:sg_2404_mr_firmware:*:*:*:*:*:*:*:*
+  description: Detection of intelbras sg_2404_mr_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Intelbras"
+  - services.http.response.html_title:"intelbras"
+  fofa:
+  - http.title="intelbras"
+  - http.title="Intelbras"
+  shodan:
+  - http.title:"intelbras"
+  - title:"Intelbras"
+  zoomeye:
+  - title:"Intelbras"
+  - title:"intelbras"

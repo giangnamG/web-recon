@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:getshieldsecurity:shield_security:*:*:*:*:*:wordpress:*:*
+  description: Detection of getshieldsecurity shield_security
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/wp-simple-firewall
+  - services.banner:/wp-content/plugins/wp-simple-firewall
+  fofa:
+  - body=/wp-content/plugins/wp-simple-firewall
+  - banner=/wp-content/plugins/wp-simple-firewall
+  shodan:
+  - http.html:/wp-content/plugins/wp-simple-firewall
+  zoomeye:
+  - banner:/wp-content/plugins/wp-simple-firewall

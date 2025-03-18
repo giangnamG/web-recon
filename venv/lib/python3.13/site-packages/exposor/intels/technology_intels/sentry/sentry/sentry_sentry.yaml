@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sentry:sentry:*:*:*:*:*:*:*:*
+  description: Detection of sentry sentry
+  version: '1.0'
+queries:
+  censys:
+  - 'services.http.response.html_title:"Login '
+  - 'services.http.response.html_title:"login '
+  fofa:
+  - 'http.title="Login '
+  - 'http.title="login '
+  shodan:
+  - http.title:"Login | Sentry"
+  - http.title:"login | sentry"
+  zoomeye:
+  - 'title:"Login '
+  - 'title:"login '

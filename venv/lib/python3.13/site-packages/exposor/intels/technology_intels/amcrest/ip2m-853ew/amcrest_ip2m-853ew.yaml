@@ -1,0 +1,23 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:amcrest:ip2m-853ew:*:*:*:*:*:*:*:*
+  description: Detection of amcrest ip2m-853ew
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"amcrest" "ldap user"
+  - services.http.response.body:"amcrest"
+  - services.banner:"amcrest" "ldap user"
+  - services.banner:"amcrest"
+  fofa:
+  - body="amcrest"
+  - body="amcrest" "ldap user"
+  - banner="amcrest"
+  - banner="amcrest" "ldap user"
+  shodan:
+  - http.html:"amcrest" "ldap user"
+  - html:"amcrest"
+  - http.html:"amcrest"
+  zoomeye:
+  - banner:"amcrest" "ldap user"
+  - banner:"amcrest"

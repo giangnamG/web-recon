@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:masacms:masacms:*:*:*:*:*:*:*:*
+  description: Detection of masacms masacms
+  version: '1.0'
+queries: {}

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sitecore:experience_commerce:*:*:*:*:*:*:*:*
+  description: Detection of sitecore experience_commerce
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Sitecore"
+  - services.http.response.html_title:"sitecore"
+  fofa:
+  - http.title="Sitecore"
+  - http.title="sitecore"
+  shodan:
+  - http.title:"sitecore"
+  - title:"Sitecore"
+  zoomeye:
+  - title:"sitecore"
+  - title:"Sitecore"

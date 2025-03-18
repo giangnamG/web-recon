@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:kentico:kentico:*:*:*:*:*:*:*:*
+  description: Detection of kentico kentico
+  version: '1.0'
+queries: {}

@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:vmware:esxi:*:*:*:*:*:*:*:*
+  description: Detection of vmware esxi
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"esxuiapp"
+  - services.software.product:"esxuiapp"
+  - services.banner:"esxUiApp"
+  fofa:
+  - banner="esxuiapp"
+  - body="esxuiapp"
+  - banner="esxUiApp"
+  shodan:
+  - http.html:"esxuiapp"
+  - product:"esxuiapp"
+  - html:"esxUiApp"
+  zoomeye:
+  - app:"esxuiapp"
+  - banner:"esxuiapp"
+  - banner:"esxUiApp"

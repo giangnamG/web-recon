@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:dotsquares:contact_form_7_math_captcha:*:*:*:*:*:wordpress:*:*
+  description: Detection of dotsquares contact_form_7_math_captcha
+  version: '1.0'
+queries: {}

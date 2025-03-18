@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:roxyfileman:roxy_fileman:*:*:*:*:*:*:*:*
+  description: Detection of roxyfileman roxy_fileman
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"roxy file manager"
+  fofa:
+  - http.title="roxy file manager"
+  shodan:
+  - http.title:"roxy file manager"
+  zoomeye:
+  - title:"roxy file manager"

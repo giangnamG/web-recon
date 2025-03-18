@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:arubanetworks:clearpass_policy_manager:*:*:*:*:*:*:*:*
+  description: Detection of arubanetworks clearpass_policy_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"ClearPass Policy Manager"
+  - services.http.response.html_title:"clearpass policy manager"
+  fofa:
+  - http.title="clearpass policy manager"
+  - http.title="ClearPass Policy Manager"
+  shodan:
+  - http.title:"clearpass policy manager"
+  - http.title:"ClearPass Policy Manager"
+  zoomeye:
+  - title:"clearpass policy manager"
+  - title:"ClearPass Policy Manager"

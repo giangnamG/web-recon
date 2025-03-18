@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ndkdesign:ndk_steppingpack:*:*:*:*:*:prestashop:*:*
+  description: Detection of ndkdesign ndk_steppingpack
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"prestashop"
+  fofa:
+  - banner="prestashop"
+  shodan:
+  - http.component:"prestashop"
+  zoomeye:
+  - banner:"prestashop"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:oaooa:pichome:*:*:*:*:*:*:*:*
+  description: Detection of oaooa pichome
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:933976300
+  fofa:
+  - icon_hash=933976300
+  shodan:
+  - http.favicon.hash:933976300
+  zoomeye:
+  - iconhash:933976300

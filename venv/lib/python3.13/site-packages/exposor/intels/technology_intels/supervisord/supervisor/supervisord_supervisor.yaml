@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:supervisord:supervisor:*:*:*:*:*:*:*:*
+  description: Detection of supervisord supervisor
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Supervisor Status"
+  - services.http.response.html_title:"supervisor status"
+  fofa:
+  - http.title="supervisor status"
+  - http.title="Supervisor Status"
+  shodan:
+  - http.title:"supervisor status"
+  - http.title:"Supervisor Status"
+  zoomeye:
+  - title:"supervisor status"
+  - title:"Supervisor Status"

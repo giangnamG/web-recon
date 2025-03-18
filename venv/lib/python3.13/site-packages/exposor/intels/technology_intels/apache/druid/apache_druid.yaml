@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:druid:*:*:*:*:*:*:*:*
+  description: Detection of apache druid
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Apache Druid"
+  fofa:
+  - http.title="Apache Druid"
+  shodan:
+  - title:"Apache Druid"
+  zoomeye:
+  - title:"Apache Druid"

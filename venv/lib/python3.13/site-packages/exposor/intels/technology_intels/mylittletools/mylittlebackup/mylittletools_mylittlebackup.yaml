@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mylittletools:mylittlebackup:*:*:*:*:*:*:*:*
+  description: Detection of mylittletools mylittlebackup
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"myLittleBackup"
+  fofa:
+  - banner="myLittleBackup"
+  shodan:
+  - http.html:"myLittleBackup"
+  zoomeye:
+  - banner:"myLittleBackup"

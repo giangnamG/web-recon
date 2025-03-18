@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:tongda2000:office_anywhere:*:*:*:*:*:*:*:*
+  description: Detection of tongda2000 office_anywhere
+  version: '1.0'
+queries:
+  censys:
+  - "services.software.product:\"\u901A\u8FBEOA\""
+  - "services.http.response.html_title:\"\u901A\u8FBEOA\""
+  fofa:
+  - "app=\"\u901A\u8FBEOA\""
+  - "http.title=\"\u901A\u8FBEOA\""
+  shodan:
+  - "product:\"\u901A\u8FBEOA\""
+  - "title:\"\u901A\u8FBEOA\""
+  zoomeye:
+  - "app:\"\u901A\u8FBEOA\""
+  - "title:\"\u901A\u8FBEOA\""

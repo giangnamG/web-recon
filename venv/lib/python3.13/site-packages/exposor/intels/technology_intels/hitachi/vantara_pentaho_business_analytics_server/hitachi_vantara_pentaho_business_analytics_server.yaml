@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:hitachi:vantara_pentaho_business_analytics_server:*:*:*:*:*:*:*:*
+  description: Detection of hitachi vantara_pentaho_business_analytics_server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:1749354953
+  fofa:
+  - icon_hash=1749354953
+  shodan:
+  - http.favicon.hash:1749354953
+  zoomeye:
+  - iconhash:1749354953

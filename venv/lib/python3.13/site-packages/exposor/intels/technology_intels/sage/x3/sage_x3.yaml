@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sage:x3:*:*:*:*:*:*:*:*
+  description: Detection of sage x3
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Sage X3"
+  - services.http.response.html_title:"sage x3"
+  fofa:
+  - http.title="sage x3"
+  - http.title="Sage X3"
+  shodan:
+  - http.title:"sage x3"
+  - http.title:"Sage X3"
+  zoomeye:
+  - title:"Sage X3"
+  - title:"sage x3"

@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:visualshortcodes:ninja:*:*:*:*:*:wordpress:*:*
+  description: Detection of visualshortcodes ninja
+  version: '1.0'
+queries: {}

@@ -1,0 +1,6 @@
+title:
+  description: "Search for the title of the host or service"
+  shodan: "title:{value}"
+  censys: "metadata.description:\"{value}\""
+  zoomeye: "title:{value}"
+  fofa: "title=\"{value}\""

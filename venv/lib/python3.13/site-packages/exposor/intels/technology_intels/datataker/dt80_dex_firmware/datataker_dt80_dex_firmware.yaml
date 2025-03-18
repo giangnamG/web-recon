@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:datataker:dt80_dex_firmware:*:*:*:*:*:*:*:*
+  description: Detection of datataker dt80_dex_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"datataker"
+  fofa:
+  - http.title="datataker"
+  shodan:
+  - http.title:"datataker"
+  zoomeye:
+  - title:"datataker"

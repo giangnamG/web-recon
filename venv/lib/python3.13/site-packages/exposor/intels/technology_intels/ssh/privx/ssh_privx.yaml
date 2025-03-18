@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ssh:privx:*:*:*:*:*:*:*:*
+  description: Detection of ssh privx
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"PrivX"
+  fofa:
+  - http.title="PrivX"
+  shodan:
+  - title:"PrivX"
+  zoomeye:
+  - title:"PrivX"

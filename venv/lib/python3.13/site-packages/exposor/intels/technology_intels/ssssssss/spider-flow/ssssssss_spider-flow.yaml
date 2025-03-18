@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ssssssss:spider-flow:*:*:*:*:*:*:*:*
+  description: Detection of ssssssss spider-flow
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"SpiderFlow"
+  - services.software.product:"spiderflow"
+  fofa:
+  - app="spiderflow"
+  - app="SpiderFlow"
+  shodan:
+  - product:"spiderflow"
+  - product:"SpiderFlow"
+  zoomeye:
+  - app:"spiderflow"
+  - app:"SpiderFlow"

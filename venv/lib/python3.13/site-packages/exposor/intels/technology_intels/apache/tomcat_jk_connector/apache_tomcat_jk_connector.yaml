@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:tomcat_jk_connector:*:*:*:*:*:*:*:*
+  description: Detection of apache tomcat_jk_connector
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Apache Tomcat"
+  - services.http.response.html_title:"apache tomcat"
+  fofa:
+  - http.title="Apache Tomcat"
+  - http.title="apache tomcat"
+  shodan:
+  - title:"Apache Tomcat"
+  - http.title:"apache tomcat"
+  zoomeye:
+  - title:"apache tomcat"
+  - title:"Apache Tomcat"

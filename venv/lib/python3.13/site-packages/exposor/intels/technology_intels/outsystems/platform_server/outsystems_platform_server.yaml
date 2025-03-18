@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:outsystems:platform_server:*:*:*:*:*:*:*:*
+  description: Detection of outsystems platform_server
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"outsystems"
+  fofa:
+  - banner="outsystems"
+  shodan:
+  - http.html:"outsystems"
+  zoomeye:
+  - banner:"outsystems"

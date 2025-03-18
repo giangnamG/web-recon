@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:dompdf_project:dompdf:*:*:*:*:*:*:*:*
+  description: Detection of dompdf_project dompdf
+  version: '1.0'
+queries: {}

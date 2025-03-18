@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:thenewsletterplugin:newsletter:*:*:*:*:*:wordpress:*:*
+  description: Detection of thenewsletterplugin newsletter
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/newsletter/
+  - services.http.response.body:/wp-content/plugins/newsletter/
+  fofa:
+  - body=/wp-content/plugins/newsletter/
+  - banner=/wp-content/plugins/newsletter/
+  shodan:
+  - http.html:/wp-content/plugins/newsletter/
+  zoomeye:
+  - banner:/wp-content/plugins/newsletter/

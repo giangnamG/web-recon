@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ckeditor:ckeditor:*:*:*:*:drupal:*:*:*
+  description: Detection of ckeditor ckeditor
+  version: '1.0'
+queries: {}

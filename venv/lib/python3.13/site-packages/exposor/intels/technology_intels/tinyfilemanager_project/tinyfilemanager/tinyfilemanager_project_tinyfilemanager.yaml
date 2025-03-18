@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:tinyfilemanager_project:tinyfilemanager:*:*:*:*:*:*:*:*
+  description: Detection of tinyfilemanager_project tinyfilemanager
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Tiny File Manager"
+  fofa:
+  - banner="Tiny File Manager"
+  shodan:
+  - html:"Tiny File Manager"
+  zoomeye:
+  - banner:"Tiny File Manager"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:dell:openmanage:*:*:*:*:*:*:*:*
+  description: Detection of dell openmanage
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Dell OpenManage Switch Administrator"
+  fofa:
+  - banner="Dell OpenManage Switch Administrator"
+  shodan:
+  - html:"Dell OpenManage Switch Administrator"
+  zoomeye:
+  - banner:"Dell OpenManage Switch Administrator"

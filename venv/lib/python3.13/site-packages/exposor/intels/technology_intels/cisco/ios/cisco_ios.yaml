@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:cisco:ios:*:*:*:*:*:*:*:*
+  description: Detection of cisco ios
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"cisco ios http config"
+  - 'services.software.product:"Cisco IOS http config" '
+  fofa:
+  - app="cisco ios http config"
+  - 'app="Cisco IOS http config" '
+  shodan:
+  - product:"Cisco IOS http config" && 200
+  - product:"cisco ios http config"
+  zoomeye:
+  - 'app:"Cisco IOS http config" '
+  - app:"cisco ios http config"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:atlassian:bitbucket:*:*:*:*:*:*:*:*
+  description: Detection of atlassian bitbucket
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"bitbucket-pipelines.yml"
+  fofa:
+  - banner="bitbucket-pipelines.yml"
+  shodan:
+  - html:"bitbucket-pipelines.yml"
+  zoomeye:
+  - banner:"bitbucket-pipelines.yml"

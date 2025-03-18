@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:abhinavsingh:wordpress_toolbar:*:*:*:*:*:*:wordpress:*
+  description: Detection of abhinavsingh wordpress_toolbar
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/wordpress-toolbar/
+  - services.http.response.body:/wp-content/plugins/wordpress-toolbar/
+  fofa:
+  - body=/wp-content/plugins/wordpress-toolbar/
+  - banner=/wp-content/plugins/wordpress-toolbar/
+  shodan:
+  - http.html:/wp-content/plugins/wordpress-toolbar/
+  zoomeye:
+  - banner:/wp-content/plugins/wordpress-toolbar/

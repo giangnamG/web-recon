@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:dash:dash_core:*:*:*:*:*:*:*:*
+  description: Detection of dash dash_core
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"DashRenderer"
+  fofa:
+  - banner="DashRenderer"
+  shodan:
+  - html:"DashRenderer"
+  zoomeye:
+  - banner:"DashRenderer"

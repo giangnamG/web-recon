@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:google:chromecast:*:*:*:*:*:*:*:*
+  description: Detection of google chromecast
+  version: '1.0'
+queries: {}

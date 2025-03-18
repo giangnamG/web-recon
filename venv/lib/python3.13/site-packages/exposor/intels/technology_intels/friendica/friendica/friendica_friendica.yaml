@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:friendica:friendica:*:*:*:*:*:*:*:*
+  description: Detection of friendica friendica
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Friendica"
+  - services.http.response.html_title:"friendica"
+  fofa:
+  - http.title="Friendica"
+  - http.title="friendica"
+  shodan:
+  - http.title:"Friendica"
+  - http.title:"friendica"
+  zoomeye:
+  - title:"friendica"
+  - title:"Friendica"

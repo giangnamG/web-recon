@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:audiocodes:420hd_ip_phone_firmware:*:*:*:*:*:*:*:*
+  description: Detection of audiocodes 420hd_ip_phone_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Audiocodes"
+  fofa:
+  - banner="Audiocodes"
+  shodan:
+  - http.html:"Audiocodes"
+  zoomeye:
+  - banner:"Audiocodes"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:unbit:uwsgi:*:*:*:*:*:*:*:*
+  description: Detection of unbit uwsgi
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"uwsgi.ini"
+  fofa:
+  - banner="uwsgi.ini"
+  shodan:
+  - html:"uwsgi.ini"
+  zoomeye:
+  - banner:"uwsgi.ini"

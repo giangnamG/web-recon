@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:dgraph:dgraph:*:*:*:*:go:*:*:*
+  description: Detection of dgraph dgraph
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Dgraph Ratel Dashboard"
+  fofa:
+  - http.title="Dgraph Ratel Dashboard"
+  shodan:
+  - http.title:"Dgraph Ratel Dashboard"
+  zoomeye:
+  - title:"Dgraph Ratel Dashboard"

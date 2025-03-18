@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:vmware:vmware_hcx:*:*:*:*:*:*:*:*
+  description: Detection of vmware vmware_hcx
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"VMware HCX"
+  fofa:
+  - http.title="VMware HCX"
+  shodan:
+  - title:"VMware HCX"
+  zoomeye:
+  - title:"VMware HCX"

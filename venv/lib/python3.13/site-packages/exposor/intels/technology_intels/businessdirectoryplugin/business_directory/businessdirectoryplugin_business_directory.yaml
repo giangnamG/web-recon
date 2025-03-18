@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:businessdirectoryplugin:business_directory:*:*:*:*:wordpress:*:*:*
+  description: Detection of businessdirectoryplugin business_directory
+  version: '1.0'
+queries: {}

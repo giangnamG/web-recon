@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:qnap:photo_station:*:*:*:*:*:*:*:*
+  description: Detection of qnap photo_station
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"qnap"
+  - services.http.response.html_title:"photo station"
+  fofa:
+  - http.title="photo station"
+  - http.title="qnap"
+  shodan:
+  - http.title:"qnap"
+  - http.title:"photo station"
+  zoomeye:
+  - title:"qnap"
+  - title:"photo station"

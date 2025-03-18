@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:kolide:fleet:*:*:*:*:*:*:*:*
+  description: Detection of kolide fleet
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-1529860313
+  fofa:
+  - icon_hash=-1529860313
+  shodan:
+  - http.favicon.hash:-1529860313
+  zoomeye:
+  - iconhash:-1529860313

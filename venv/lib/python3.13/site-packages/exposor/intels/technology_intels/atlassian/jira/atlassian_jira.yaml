@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:atlassian:jira:*:*:*:*:*:*:*:*
+  description: Detection of atlassian jira
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"atlassian confluence"
+  - services.banner:"atlassian jira"
+  - services.banner:"Atlassian Jira"
+  fofa:
+  - banner="atlassian confluence"
+  - banner="Atlassian Jira"
+  - banner="atlassian jira"
+  shodan:
+  - http.component:"atlassian jira"
+  - http.component:"Atlassian Jira"
+  - http.component:"atlassian confluence"
+  zoomeye:
+  - banner:"atlassian jira"
+  - banner:"Atlassian Jira"
+  - banner:"atlassian confluence"

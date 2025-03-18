@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:atlassian:questions_for_confluence:*:*:*:*:*:*:*:*
+  description: Detection of atlassian questions_for_confluence
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Atlassian Confluence"
+  - services.banner:"atlassian confluence"
+  fofa:
+  - banner="Atlassian Confluence"
+  - banner="atlassian confluence"
+  shodan:
+  - http.component:"Atlassian Confluence"
+  - http.component:"atlassian confluence"
+  zoomeye:
+  - banner:"atlassian confluence"
+  - banner:"Atlassian Confluence"

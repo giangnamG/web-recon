@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:shellinabox_project:shellinabox:*:*:*:*:*:*:*:*
+  description: Detection of shellinabox_project shellinabox
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-629968763
+  fofa:
+  - icon_hash=-629968763
+  shodan:
+  - http.favicon.hash:-629968763
+  zoomeye:
+  - iconhash:-629968763

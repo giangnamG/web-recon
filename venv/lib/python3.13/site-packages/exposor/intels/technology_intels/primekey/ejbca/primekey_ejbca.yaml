@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:primekey:ejbca:*:*:*:*:*:*:*:*
+  description: Detection of primekey ejbca
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"EJBCA Enterprise Cloud Configuration Wizard"
+  fofa:
+  - banner="EJBCA Enterprise Cloud Configuration Wizard"
+  shodan:
+  - html:"EJBCA Enterprise Cloud Configuration Wizard"
+  zoomeye:
+  - banner:"EJBCA Enterprise Cloud Configuration Wizard"

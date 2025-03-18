@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:geoserver:geoserver:*:*:*:*:*:*:*:*
+  description: Detection of geoserver geoserver
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"GeoServer"
+  fofa:
+  - app="GeoServer"
+  shodan:
+  - product:"GeoServer"
+  zoomeye:
+  - app:"GeoServer"

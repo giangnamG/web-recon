@@ -1,0 +1,26 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:metabase:metabase:*:*:*:*:*:*:*:*
+  description: Detection of metabase metabase
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"Metabase"
+  - services.software.product:"metabase"
+  - services.http.response.html_title:"metabase"
+  - services.http.response.html_title:"Metabase"
+  fofa:
+  - http.title="Metabase"
+  - http.title="metabase"
+  - app="metabase"
+  - app="Metabase"
+  shodan:
+  - http.title:"Metabase"
+  - product:"metabase"
+  - product:"Metabase"
+  - http.title:"metabase"
+  zoomeye:
+  - title:"Metabase"
+  - app:"Metabase"
+  - app:"metabase"
+  - title:"metabase"

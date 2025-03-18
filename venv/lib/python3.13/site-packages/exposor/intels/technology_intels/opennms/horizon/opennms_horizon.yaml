@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:opennms:horizon:*:*:*:*:*:*:*:*
+  description: Detection of opennms horizon
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"OpenNMS Web Console"
+  fofa:
+  - http.title="OpenNMS Web Console"
+  shodan:
+  - title:"OpenNMS Web Console"
+  zoomeye:
+  - title:"OpenNMS Web Console"

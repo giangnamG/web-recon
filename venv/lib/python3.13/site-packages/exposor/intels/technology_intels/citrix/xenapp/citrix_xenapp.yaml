@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:citrix:xenapp:*:*:*:*:*:*:*:*
+  description: Detection of citrix xenapp
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"/citrix/xenapp"
+  fofa:
+  - banner="/citrix/xenapp"
+  shodan:
+  - html:"/citrix/xenapp"
+  zoomeye:
+  - banner:"/citrix/xenapp"

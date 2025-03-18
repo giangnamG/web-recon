@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:batflat:batflat:*:*:*:*:*:*:*:*
+  description: Detection of batflat batflat
+  version: '1.0'
+queries: {}

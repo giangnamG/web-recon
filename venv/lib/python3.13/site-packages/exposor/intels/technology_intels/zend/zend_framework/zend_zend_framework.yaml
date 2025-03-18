@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zend:zend_framework:*:*:*:*:*:*:*:*
+  description: Detection of zend zend_framework
+  version: '1.0'
+queries: {}

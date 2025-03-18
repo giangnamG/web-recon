@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bitwarden:bitwarden:*:*:*:*:*:*:*:*
+  description: Detection of bitwarden bitwarden
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Bitwarden Web Vault"
+  - services.http.response.html_title:"bitwarden web vault"
+  fofa:
+  - http.title="Bitwarden Web Vault"
+  - http.title="bitwarden web vault"
+  shodan:
+  - title:"Bitwarden Web Vault"
+  - http.title:"bitwarden web vault"
+  zoomeye:
+  - title:"Bitwarden Web Vault"
+  - title:"bitwarden web vault"

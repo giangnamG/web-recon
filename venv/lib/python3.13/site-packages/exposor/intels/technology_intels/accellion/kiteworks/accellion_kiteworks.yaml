@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:accellion:kiteworks:*:*:*:*:*:*:*:*
+  description: Detection of accellion kiteworks
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-1215318992
+  fofa:
+  - icon_hash=-1215318992
+  shodan:
+  - http.favicon.hash:-1215318992
+  zoomeye:
+  - iconhash:"-1215318992"

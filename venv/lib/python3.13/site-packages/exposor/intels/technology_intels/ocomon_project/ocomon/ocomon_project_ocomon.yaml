@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ocomon_project:ocomon:*:*:*:*:*:*:*:*
+  description: Detection of ocomon_project ocomon
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"ocomon"
+  - services.banner:"ocomon"
+  - services.banner:"OcoMon"
+  fofa:
+  - banner="OcoMon"
+  - body="ocomon"
+  - banner="ocomon"
+  shodan:
+  - http.html:"ocomon"
+  - http.html:"OcoMon"
+  zoomeye:
+  - banner:"OcoMon"
+  - banner:"ocomon"

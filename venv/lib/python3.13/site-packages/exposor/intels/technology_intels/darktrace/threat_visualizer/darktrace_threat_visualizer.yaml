@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:darktrace:threat_visualizer:*:*:*:*:android:*:*:*
+  description: Detection of darktrace threat_visualizer
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"darktrace threat visualizer"
+  - services.banner:"Darktrace Threat Visualizer"
+  - services.banner:"darktrace threat visualizer"
+  fofa:
+  - banner="Darktrace Threat Visualizer"
+  - body="darktrace threat visualizer"
+  - banner="darktrace threat visualizer"
+  shodan:
+  - html:"Darktrace Threat Visualizer"
+  - http.html:"darktrace threat visualizer"
+  zoomeye:
+  - banner:"Darktrace Threat Visualizer"
+  - banner:"darktrace threat visualizer"

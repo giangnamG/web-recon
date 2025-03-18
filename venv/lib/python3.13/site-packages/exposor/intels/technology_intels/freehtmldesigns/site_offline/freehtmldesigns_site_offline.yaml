@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:freehtmldesigns:site_offline:*:*:*:*:*:wordpress:*:*
+  description: Detection of freehtmldesigns site_offline
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/site-offline/
+  - services.http.response.body:/wp-content/plugins/site-offline/
+  fofa:
+  - body=/wp-content/plugins/site-offline/
+  - banner=/wp-content/plugins/site-offline/
+  shodan:
+  - http.html:/wp-content/plugins/site-offline/
+  zoomeye:
+  - banner:/wp-content/plugins/site-offline/

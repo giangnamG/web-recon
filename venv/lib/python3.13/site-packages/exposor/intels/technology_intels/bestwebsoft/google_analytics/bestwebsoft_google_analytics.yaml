@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:google_analytics:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft google_analytics
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/bws-google-analytics/
+  - services.banner:/wp-content/plugins/bws-google-analytics/
+  fofa:
+  - body=/wp-content/plugins/bws-google-analytics/
+  - banner=/wp-content/plugins/bws-google-analytics/
+  shodan:
+  - http.html:/wp-content/plugins/bws-google-analytics/
+  zoomeye:
+  - banner:/wp-content/plugins/bws-google-analytics/

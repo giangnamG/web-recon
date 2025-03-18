@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:milesight:ur51:*:*:*:*:*:*:*:*
+  description: Detection of milesight ur51
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:rt_title
+  fofa:
+  - banner=rt_title
+  shodan:
+  - http.html:rt_title
+  zoomeye:
+  - banner:rt_title

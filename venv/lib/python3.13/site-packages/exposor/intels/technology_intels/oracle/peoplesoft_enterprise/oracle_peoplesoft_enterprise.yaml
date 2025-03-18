@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:oracle:peoplesoft_enterprise:*:*:*:*:*:*:*:*
+  description: Detection of oracle peoplesoft_enterprise
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Oracle Peoplesoft Enterprise"
+  - services.http.response.html_title:"oracle peoplesoft enterprise"
+  fofa:
+  - http.title="oracle peoplesoft enterprise"
+  - http.title="Oracle Peoplesoft Enterprise"
+  shodan:
+  - http.title:"oracle peoplesoft enterprise"
+  - http.title:"Oracle Peoplesoft Enterprise"
+  zoomeye:
+  - title:"oracle peoplesoft enterprise"
+  - title:"Oracle Peoplesoft Enterprise"

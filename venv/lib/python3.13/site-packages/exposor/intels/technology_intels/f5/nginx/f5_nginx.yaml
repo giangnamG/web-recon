@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:f5:nginx:*:*:*:*:*:*:*:*
+  description: Detection of f5 nginx
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"nginx ui"
+  fofa:
+  - http.title="nginx ui"
+  shodan:
+  - http.title:"nginx ui"
+  zoomeye:
+  - title:"nginx ui"

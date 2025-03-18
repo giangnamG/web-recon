@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:grafana:grafana:*:*:*:*:*:*:*:*
+  description: Detection of grafana grafana
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"grafana"
+  - services.software.product:"grafana"
+  - services.http.response.html_title:"Grafana"
+  fofa:
+  - app="grafana"
+  - http.title="grafana"
+  - http.title="Grafana"
+  shodan:
+  - product:"grafana"
+  - title:"Grafana"
+  - http.title:"grafana"
+  zoomeye:
+  - app:"grafana"
+  - title:"Grafana"
+  - title:"grafana"

@@ -1,0 +1,26 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:tenda:11n_firmware:*:*:*:*:*:*:*:*
+  description: Detection of tenda 11n_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"Tenda-11N-Wireless-AP"
+  - services.http.response.html_title:"tenda 11n"
+  - services.software.product:"tenda-11n-wireless-ap"
+  - services.http.response.html_title:"Tenda 11N"
+  fofa:
+  - product=="tenda-11n-wireless-ap"
+  - http.title="Tenda 11N"
+  - product=="Tenda-11N-Wireless-AP"
+  - http.title="tenda 11n"
+  shodan:
+  - http.title:"Tenda 11N"
+  - http.title:"tenda 11n"
+  - product:"tenda-11n-wireless-ap"
+  - product:"Tenda-11N-Wireless-AP"
+  zoomeye:
+  - title:"Tenda 11N"
+  - app:"Tenda-11N-Wireless-AP"
+  - title:"tenda 11n"
+  - app:"tenda-11n-wireless-ap"

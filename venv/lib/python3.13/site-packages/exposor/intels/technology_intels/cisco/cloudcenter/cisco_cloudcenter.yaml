@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cisco:cloudcenter:*:*:*:*:*:*:*:*
+  description: Detection of cisco cloudcenter
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"CloudCenter Installer"
+  fofa:
+  - http.title="CloudCenter Installer"
+  shodan:
+  - title:"CloudCenter Installer"
+  zoomeye:
+  - title:"CloudCenter Installer"

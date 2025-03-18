@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:moosocial:moostore:*:*:*:*:*:*:*:*
+  description: Detection of moosocial moostore
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:"702863115"
+  fofa:
+  - icon_hash="702863115"
+  shodan:
+  - http.favicon.hash:"702863115"
+  zoomeye:
+  - iconhash:"702863115"

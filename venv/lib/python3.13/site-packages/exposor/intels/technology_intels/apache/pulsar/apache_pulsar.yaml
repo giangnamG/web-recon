@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:pulsar:*:*:*:*:*:*:*:*
+  description: Detection of apache pulsar
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Pulsar Admin Console"
+  - services.http.response.html_title:"pulsar admin console"
+  - services.http.response.html_title:"pulsar admin ui"
+  fofa:
+  - http.title="pulsar admin ui"
+  - http.title="pulsar admin console"
+  - http.title="Pulsar Admin Console"
+  shodan:
+  - http.title:"pulsar admin ui"
+  - title:"Pulsar Admin Console"
+  - http.title:"pulsar admin console"
+  zoomeye:
+  - title:"pulsar admin console"
+  - title:"Pulsar Admin Console"
+  - title:"pulsar admin ui"

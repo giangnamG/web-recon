@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:konghq:docker-kong:*:*:*:*:*:kong:*:*
+  description: Detection of konghq docker-kong
+  version: '1.0'
+queries: {}

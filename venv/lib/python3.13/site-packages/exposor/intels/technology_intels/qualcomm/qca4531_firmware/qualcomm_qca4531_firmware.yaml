@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:qualcomm:qca4531_firmware:*:*:*:*:*:*:*:*
+  description: Detection of qualcomm qca4531_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"Qualcomm-4G-LTE-WiFi-VoIP-Router"
+  fofa:
+  - app="Qualcomm-4G-LTE-WiFi-VoIP-Router"
+  shodan:
+  - product:"Qualcomm-4G-LTE-WiFi-VoIP-Router"
+  zoomeye:
+  - app:"Qualcomm-4G-LTE-WiFi-VoIP-Router"

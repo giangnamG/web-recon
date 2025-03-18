@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:vmware:vcenter_server:*:*:*:*:*:*:*:*
+  description: Detection of vmware vcenter_server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"VMware VCenter"
+  fofa:
+  - http.title="VMware VCenter"
+  shodan:
+  - title:"VMware VCenter"
+  zoomeye:
+  - title:"VMware VCenter"

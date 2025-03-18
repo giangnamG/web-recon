@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:opentsdb:opentsdb:*:*:*:*:*:*:*:*
+  description: Detection of opentsdb opentsdb
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"OpenTSDB"
+  - services.banner:"opentsdb"
+  - services.http.response.body:"opentsdb"
+  fofa:
+  - body="opentsdb"
+  - banner="OpenTSDB"
+  - banner="opentsdb"
+  shodan:
+  - html:"OpenTSDB"
+  - http.html:"opentsdb"
+  zoomeye:
+  - banner:"OpenTSDB"
+  - banner:"opentsdb"

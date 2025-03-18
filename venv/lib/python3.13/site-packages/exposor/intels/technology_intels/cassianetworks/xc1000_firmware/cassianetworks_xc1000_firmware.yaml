@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:cassianetworks:xc1000_firmware:*:*:*:*:*:*:*:*
+  description: Detection of cassianetworks xc1000_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"cassia bluetooth gateway management platform"
+  - services.banner:"cassia bluetooth gateway management platform"
+  - services.banner:"Cassia Bluetooth Gateway Management Platform"
+  fofa:
+  - banner="cassia bluetooth gateway management platform"
+  - banner="Cassia Bluetooth Gateway Management Platform"
+  - body="cassia bluetooth gateway management platform"
+  shodan:
+  - http.html:"cassia bluetooth gateway management platform"
+  - html:"Cassia Bluetooth Gateway Management Platform"
+  zoomeye:
+  - banner:"Cassia Bluetooth Gateway Management Platform"
+  - banner:"cassia bluetooth gateway management platform"

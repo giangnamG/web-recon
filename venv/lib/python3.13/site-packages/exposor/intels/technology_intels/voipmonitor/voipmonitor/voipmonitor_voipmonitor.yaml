@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:voipmonitor:voipmonitor:*:*:*:*:*:*:*:*
+  description: Detection of voipmonitor voipmonitor
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"voipmonitor"
+  - services.http.response.html_title:"VoIPmonitor"
+  fofa:
+  - http.title="VoIPmonitor"
+  - http.title="voipmonitor"
+  shodan:
+  - http.title:"voipmonitor"
+  - http.title:"VoIPmonitor"
+  zoomeye:
+  - title:"voipmonitor"
+  - title:"VoIPmonitor"

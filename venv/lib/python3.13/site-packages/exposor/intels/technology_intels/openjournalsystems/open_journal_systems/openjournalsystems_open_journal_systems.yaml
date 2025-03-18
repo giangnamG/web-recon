@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:openjournalsystems:open_journal_systems:*:*:*:*:*:*:*:*
+  description: Detection of openjournalsystems open_journal_systems
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:2099342476
+  fofa:
+  - icon_hash=2099342476
+  shodan:
+  - http.favicon.hash:2099342476
+  zoomeye:
+  - iconhash:2099342476

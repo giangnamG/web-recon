@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sitecore:sitecore.net:*:*:*:*:*:*:*:*
+  description: Detection of sitecore sitecore.net
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Sitecore"
+  fofa:
+  - banner="Sitecore"
+  shodan:
+  - html:"Sitecore"
+  zoomeye:
+  - banner:"Sitecore"

@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:shortpixel:shortpixel_adaptive_images:*:*:*:*:*:wordpress:*:*
+  description: Detection of shortpixel shortpixel_adaptive_images
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/shortpixel-adaptive-images/
+  - services.http.response.body:/wp-content/plugins/shortpixel-adaptive-images/
+  fofa:
+  - body=/wp-content/plugins/shortpixel-adaptive-images/
+  - banner=/wp-content/plugins/shortpixel-adaptive-images/
+  shodan:
+  - http.html:/wp-content/plugins/shortpixel-adaptive-images/
+  zoomeye:
+  - banner:/wp-content/plugins/shortpixel-adaptive-images/

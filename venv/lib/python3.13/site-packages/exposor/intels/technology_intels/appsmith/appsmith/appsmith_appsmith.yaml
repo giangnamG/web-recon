@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:appsmith:appsmith:*:*:*:*:*:*:*:*
+  description: Detection of appsmith appsmith
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"appsmith"
+  - services.software.product:"appsmith"
+  fofa:
+  - http.title="appsmith"
+  - title="appsmith"
+  shodan:
+  - http.title:"appsmith"
+  - product:"appsmith"
+  zoomeye:
+  - title:"appsmith"
+  - app:"appsmith"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:oracle:database_server:*:*:*:*:*:*:*:*
+  description: Detection of oracle database_server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Oracle Database as a Service"
+  fofa:
+  - http.title="Oracle Database as a Service"
+  shodan:
+  - http.title:"Oracle Database as a Service"
+  zoomeye:
+  - title:"Oracle Database as a Service"

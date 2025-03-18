@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:draytek:vigorconnect:*:*:*:*:*:*:*:*
+  description: Detection of draytek vigorconnect
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"vigorconnect"
+  - services.banner:"vigorconnect"
+  - services.banner:"VigorConnect"
+  fofa:
+  - body="vigorconnect"
+  - banner="vigorconnect"
+  - banner="VigorConnect"
+  shodan:
+  - http.html:"vigorconnect"
+  - http.html:"VigorConnect"
+  zoomeye:
+  - banner:"vigorconnect"
+  - banner:"VigorConnect"

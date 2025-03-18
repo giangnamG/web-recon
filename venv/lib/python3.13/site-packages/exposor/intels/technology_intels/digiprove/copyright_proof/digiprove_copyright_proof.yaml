@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:digiprove:copyright_proof:*:*:*:*:*:wordpress:*:*
+  description: Detection of digiprove copyright_proof
+  version: '1.0'
+queries: {}

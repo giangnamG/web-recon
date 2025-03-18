@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:extremenetworks:extreme_management_center:*:*:*:*:*:*:*:*
+  description: Detection of extremenetworks extreme_management_center
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Extreme Management Center"
+  - services.http.response.html_title:"extreme management center"
+  fofa:
+  - http.title="Extreme Management Center"
+  - http.title="extreme management center"
+  shodan:
+  - title:"Extreme Management Center"
+  - http.title:"extreme management center"
+  zoomeye:
+  - title:"Extreme Management Center"
+  - title:"extreme management center"

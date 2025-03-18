@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:webkul:qloapps:*:*:*:*:*:*:*:*
+  description: Detection of webkul qloapps
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"qloapps"
+  fofa:
+  - title="qloapps"
+  shodan:
+  - product:"qloapps"
+  zoomeye:
+  - app:"qloapps"

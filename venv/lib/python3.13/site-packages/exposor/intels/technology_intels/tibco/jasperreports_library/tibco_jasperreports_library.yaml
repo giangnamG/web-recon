@@ -1,0 +1,17 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:tibco:jasperreports_library:*:*:*:*:activematrix_bpm:*:*:*
+  description: Detection of tibco jasperreports_library
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"jasperserver-pro"
+  - services.banner:"jasperserver-pro"
+  fofa:
+  - body="jasperserver-pro"
+  - banner="jasperserver-pro"
+  shodan:
+  - html:"jasperserver-pro"
+  - http.html:"jasperserver-pro"
+  zoomeye:
+  - banner:"jasperserver-pro"

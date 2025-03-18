@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:virtuasoftware:cobranca:*:*:*:*:*:*:*:*
+  description: Detection of virtuasoftware cobranca
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:876876147
+  fofa:
+  - icon_hash=876876147
+  shodan:
+  - http.favicon.hash:876876147
+  zoomeye:
+  - iconhash:876876147

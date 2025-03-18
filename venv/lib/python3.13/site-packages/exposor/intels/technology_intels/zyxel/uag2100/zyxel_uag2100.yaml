@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:zyxel:uag2100:*:*:*:*:*:*:*:*
+  description: Detection of zyxel uag2100
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"ZyWall"
+  fofa:
+  - http.title="ZyWall"
+  shodan:
+  - http.title:"ZyWall"
+  zoomeye:
+  - title:"ZyWall"

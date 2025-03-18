@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:zendesk_help_center:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft zendesk_help_center
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/zendesk-help-center/
+  - services.banner:/wp-content/plugins/zendesk-help-center/
+  fofa:
+  - banner=/wp-content/plugins/zendesk-help-center/
+  - body=/wp-content/plugins/zendesk-help-center/
+  shodan:
+  - http.html:/wp-content/plugins/zendesk-help-center/
+  zoomeye:
+  - banner:/wp-content/plugins/zendesk-help-center/

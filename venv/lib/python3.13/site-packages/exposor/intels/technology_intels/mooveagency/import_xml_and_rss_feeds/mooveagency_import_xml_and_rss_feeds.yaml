@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mooveagency:import_xml_and_rss_feeds:*:*:*:*:*:wordpress:*:*
+  description: Detection of mooveagency import_xml_and_rss_feeds
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"import-xml-feed"
+  - services.http.response.body:"import-xml-feed"
+  fofa:
+  - body="import-xml-feed"
+  - banner="import-xml-feed"
+  shodan:
+  - http.html:"import-xml-feed"
+  zoomeye:
+  - banner:"import-xml-feed"

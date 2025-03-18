@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:frangoteam:fuxa:*:*:*:*:*:*:*:*
+  description: Detection of frangoteam fuxa
+  version: '1.0'
+queries: {}

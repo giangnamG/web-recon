@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:parallels:h-sphere:*:*:*:*:*:*:*:*
+  description: Detection of parallels h-sphere
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"parallels h-sphere"
+  - services.http.response.html_title:"Parallels H-Sphere
+  - services.http.response.html_title:"h-sphere"
+  fofa:
+  - http.title="Parallels H-Sphere
+  - http.title="parallels h-sphere"
+  - http.title="h-sphere"
+  shodan:
+  - http.title:"h-sphere"
+  - title:"Parallels H-Sphere
+  - http.title:"parallels h-sphere"
+  zoomeye:
+  - title:"Parallels H-Sphere
+  - title:"h-sphere"
+  - title:"parallels h-sphere"

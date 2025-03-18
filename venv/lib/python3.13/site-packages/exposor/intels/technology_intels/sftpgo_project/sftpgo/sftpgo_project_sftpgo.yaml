@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sftpgo_project:sftpgo:*:*:*:*:*:*:*:*
+  description: Detection of sftpgo_project sftpgo
+  version: '1.0'
+queries: {}

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bibliosoft:bibliopac:*:*:*:*:*:*:*:*
+  description: Detection of bibliosoft bibliopac
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"bibliopac"
+  - services.http.response.html_title:"Bibliopac"
+  fofa:
+  - http.title="Bibliopac"
+  - http.title="bibliopac"
+  shodan:
+  - http.title:"bibliopac"
+  - title:"Bibliopac"
+  zoomeye:
+  - title:"bibliopac"
+  - title:"Bibliopac"

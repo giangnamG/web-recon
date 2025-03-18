@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:tinyproxy_project:tinyproxy:*:*:*:*:*:*:*:*
+  description: Detection of tinyproxy_project tinyproxy
+  version: '1.0'
+queries: {}

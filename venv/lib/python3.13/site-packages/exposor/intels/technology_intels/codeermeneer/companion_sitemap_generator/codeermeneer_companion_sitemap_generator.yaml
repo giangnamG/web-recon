@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:codeermeneer:companion_sitemap_generator:*:*:*:*:*:wordpress:*:*
+  description: Detection of codeermeneer companion_sitemap_generator
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/companion-sitemap-generator/
+  - services.http.response.body:/wp-content/plugins/companion-sitemap-generator/
+  fofa:
+  - banner=/wp-content/plugins/companion-sitemap-generator/
+  - body=/wp-content/plugins/companion-sitemap-generator/
+  shodan:
+  - http.html:/wp-content/plugins/companion-sitemap-generator/
+  zoomeye:
+  - banner:/wp-content/plugins/companion-sitemap-generator/

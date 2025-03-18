@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:nzbget:nzbget:*:*:*:*:*:*:*:*
+  description: Detection of nzbget nzbget
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"NZBGet"
+  - services.http.response.body:"nzbget"
+  - services.banner:"nzbget"
+  fofa:
+  - banner="nzbget"
+  - banner="NZBGet"
+  - body="nzbget"
+  shodan:
+  - html:"NZBGet"
+  - http.html:"nzbget"
+  zoomeye:
+  - banner:"NZBGet"
+  - banner:"nzbget"

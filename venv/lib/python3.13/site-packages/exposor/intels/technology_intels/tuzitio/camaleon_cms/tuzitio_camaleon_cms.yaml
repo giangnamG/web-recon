@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:tuzitio:camaleon_cms:*:*:*:*:*:*:*:*
+  description: Detection of tuzitio camaleon_cms
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Camaleon CMS"
+  fofa:
+  - http.title="Camaleon CMS"
+  shodan:
+  - title:"Camaleon CMS"
+  zoomeye:
+  - title:"Camaleon CMS"

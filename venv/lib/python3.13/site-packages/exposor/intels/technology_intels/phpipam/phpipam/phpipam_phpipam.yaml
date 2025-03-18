@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:phpipam:phpipam:*:*:*:*:*:*:*:*
+  description: Detection of phpipam phpipam
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"phpIPAM IP address management"
+  fofa:
+  - banner="phpIPAM IP address management"
+  shodan:
+  - html:"phpIPAM IP address management"
+  zoomeye:
+  - banner:"phpIPAM IP address management"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:baidu:ueditor:*:*:*:*:*:*:*:*
+  description: Detection of baidu ueditor
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"UEditor"
+  fofa:
+  - banner="UEditor"
+  shodan:
+  - html:"UEditor"
+  zoomeye:
+  - banner:"UEditor"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:phpsysinfo:phpsysinfo:*:*:*:*:*:*:*:*
+  description: Detection of phpsysinfo phpsysinfo
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"phpSysInfo"
+  fofa:
+  - banner="phpSysInfo"
+  shodan:
+  - html:"phpSysInfo"
+  zoomeye:
+  - banner:"phpSysInfo"

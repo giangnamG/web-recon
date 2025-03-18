@@ -1,0 +1,15 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:redhat:enterprise_linux_server:*:*:*:*:*:*:*:*
+  description: Detection of redhat enterprise_linux_server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Test Page for the Apache HTTP Server on Red
+    Hat Enterprise Linux"
+  fofa:
+  - http.title="Test Page for the Apache HTTP Server on Red Hat Enterprise Linux"
+  shodan:
+  - http.title:"Test Page for the Apache HTTP Server on Red Hat Enterprise Linux"
+  zoomeye:
+  - title:"Test Page for the Apache HTTP Server on Red Hat Enterprise Linux"

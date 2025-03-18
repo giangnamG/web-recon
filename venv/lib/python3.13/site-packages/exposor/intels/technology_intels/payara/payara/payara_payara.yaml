@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:payara:payara:*:*:*:*:*:*:*:*
+  description: Detection of payara payara
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Payara Server - Server Running"
+  fofa:
+  - http.title="Payara Server - Server Running"
+  shodan:
+  - http.title:"Payara Server - Server Running"
+  zoomeye:
+  - title:"Payara Server - Server Running"

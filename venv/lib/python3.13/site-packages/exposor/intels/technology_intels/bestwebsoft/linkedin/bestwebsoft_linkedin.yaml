@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:linkedin:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft linkedin
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/bws-linkedin/
+  - services.banner:/wp-content/plugins/bws-linkedin/
+  fofa:
+  - banner=/wp-content/plugins/bws-linkedin/
+  - body=/wp-content/plugins/bws-linkedin/
+  shodan:
+  - http.html:/wp-content/plugins/bws-linkedin/
+  zoomeye:
+  - banner:/wp-content/plugins/bws-linkedin/

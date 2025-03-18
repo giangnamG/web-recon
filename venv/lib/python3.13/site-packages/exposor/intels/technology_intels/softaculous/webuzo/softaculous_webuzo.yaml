@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:softaculous:webuzo:*:*:*:*:*:*:*:*
+  description: Detection of softaculous webuzo
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Webuzo - Admin Panel"
+  - services.http.response.html_title:"webuzo - admin panel"
+  fofa:
+  - http.title="webuzo - admin panel"
+  - http.title="Webuzo - Admin Panel"
+  shodan:
+  - http.title:"webuzo - admin panel"
+  - http.title:"Webuzo - Admin Panel"
+  zoomeye:
+  - title:"webuzo - admin panel"
+  - title:"Webuzo - Admin Panel"

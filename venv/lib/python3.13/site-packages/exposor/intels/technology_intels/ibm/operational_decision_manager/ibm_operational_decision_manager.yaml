@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ibm:operational_decision_manager:*:*:*:*:*:*:*:*
+  description: Detection of ibm operational_decision_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"IBM ODM"
+  - services.banner:"ibm odm"
+  - services.http.response.body:"ibm odm"
+  fofa:
+  - banner="ibm odm"
+  - body="ibm odm"
+  - banner="IBM ODM"
+  shodan:
+  - html:"IBM ODM"
+  - http.html:"ibm odm"
+  zoomeye:
+  - banner:"ibm odm"
+  - banner:"IBM ODM"

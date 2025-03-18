@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:esphome:esphome:*:*:*:*:*:*:*:*
+  description: Detection of esphome esphome
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Dashboard - ESPHome"
+  fofa:
+  - http.title="Dashboard - ESPHome"
+  shodan:
+  - title:"Dashboard - ESPHome"
+  zoomeye:
+  - title:"Dashboard - ESPHome"

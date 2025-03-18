@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:terra-master:tos:*:*:*:*:*:*:*:*
+  description: Detection of terra-master tos
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"tos"
+  fofa:
+  - '"terramaster" && header="tos"'
+  shodan:
+  - http.html:"tos"
+  zoomeye:
+  - headers:"tos"

@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:eyecix:jobsearch_wp_job_board:*:*:*:*:*:wordpress:*:*
+  description: Detection of eyecix jobsearch_wp_job_board
+  version: '1.0'
+queries: {}

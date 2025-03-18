@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:orangescrum:orangescrum:*:*:*:*:*:*:*:*
+  description: Detection of orangescrum orangescrum
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Orangescrum Setup Wizard"
+  fofa:
+  - http.title="Orangescrum Setup Wizard"
+  shodan:
+  - title:"Orangescrum Setup Wizard"
+  zoomeye:
+  - title:"Orangescrum Setup Wizard"

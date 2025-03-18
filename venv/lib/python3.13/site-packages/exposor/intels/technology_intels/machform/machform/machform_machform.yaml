@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:machform:machform:*:*:*:*:*:*:*:*
+  description: Detection of machform machform
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"MachForm Admin Panel"
+  fofa:
+  - http.title="MachForm Admin Panel"
+  shodan:
+  - title:"MachForm Admin Panel"
+  zoomeye:
+  - title:"MachForm Admin Panel"

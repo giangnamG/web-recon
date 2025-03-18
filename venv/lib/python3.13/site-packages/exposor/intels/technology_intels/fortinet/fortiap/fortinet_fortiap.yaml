@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:fortinet:fortiap:*:*:*:*:*:*:*:*
+  description: Detection of fortinet fortiap
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"FortiAP"
+  - services.http.response.html_title:"fortiap"
+  fofa:
+  - http.title="fortiap"
+  - http.title="FortiAP"
+  shodan:
+  - http.title:"fortiap"
+  - title:"FortiAP"
+  zoomeye:
+  - title:"fortiap"
+  - title:"FortiAP"

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:axxonsoft:axxon_next:*:*:*:*:*:*:*:*
+  description: Detection of axxonsoft axxon_next
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Axxon Next client"
+  - services.http.response.html_title:"axxon next client"
+  fofa:
+  - http.title="axxon next client"
+  - http.title="Axxon Next client"
+  shodan:
+  - http.title:"axxon next client"
+  - title:"Axxon Next client"
+  zoomeye:
+  - title:"Axxon Next client"
+  - title:"axxon next client"

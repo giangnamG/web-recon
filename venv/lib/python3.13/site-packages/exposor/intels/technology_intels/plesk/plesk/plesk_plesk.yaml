@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:plesk:plesk:*:*:*:*:*:*:*:*
+  description: Detection of plesk plesk
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Web Server's Default Page"
+  fofa:
+  - http.title="Web Server's Default Page"
+  shodan:
+  - http.title:"Web Server's Default Page"
+  zoomeye:
+  - title:"Web Server's Default Page"

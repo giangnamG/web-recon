@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:clip-bucket:clipbucket:*:*:*:*:*:*:*:*
+  description: Detection of clip-bucket clipbucket
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:"538583492"
+  - services.http.response.favicons.shodan_hash:538583492
+  fofa:
+  - icon_hash=538583492
+  - icon_hash="538583492"
+  shodan:
+  - http.favicon.hash:"538583492"
+  - http.favicon.hash:538583492
+  zoomeye:
+  - iconhash:538583492
+  - iconhash:"538583492"

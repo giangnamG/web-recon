@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:splunk:splunk:*:*:*:*:*:*:*:*
+  description: Detection of splunk splunk
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"login - splunk"
+  fofa:
+  - http.title="login - splunk"
+  shodan:
+  - http.title:"login - splunk"
+  zoomeye:
+  - title:"login - splunk"

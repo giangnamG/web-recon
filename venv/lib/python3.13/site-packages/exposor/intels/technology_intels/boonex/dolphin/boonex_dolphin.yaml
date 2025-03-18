@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:boonex:dolphin:*:*:*:*:*:*:*:*
+  description: Detection of boonex dolphin
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:"-945121295"
+  fofa:
+  - icon_hash="-945121295"
+  shodan:
+  - http.favicon.hash:"-945121295"
+  zoomeye:
+  - iconhash:"-945121295"

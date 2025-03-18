@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ellucian:ethos_identity:*:*:*:*:*:*:*:*
+  description: Detection of ellucian ethos_identity
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"ellucian company"
+  - services.banner:"ellucian company"
+  - services.banner:"Ellucian Company"
+  fofa:
+  - body="ellucian company"
+  - banner="ellucian company"
+  - banner="Ellucian Company"
+  shodan:
+  - http.html:"ellucian company"
+  - html:"Ellucian Company"
+  zoomeye:
+  - banner:"Ellucian Company"
+  - banner:"ellucian company"

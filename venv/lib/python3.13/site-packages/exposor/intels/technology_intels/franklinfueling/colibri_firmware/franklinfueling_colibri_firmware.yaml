@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:franklinfueling:colibri_firmware:*:*:*:*:*:*:*:*
+  description: Detection of franklinfueling colibri_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Franklin Fueling Systems"
+  - services.http.response.body:"franklin fueling systems"
+  - services.banner:"franklin fueling systems"
+  fofa:
+  - banner="Franklin Fueling Systems"
+  - banner="franklin fueling systems"
+  - body="franklin fueling systems"
+  shodan:
+  - http.html:"Franklin Fueling Systems"
+  - http.html:"franklin fueling systems"
+  zoomeye:
+  - banner:"Franklin Fueling Systems"
+  - banner:"franklin fueling systems"

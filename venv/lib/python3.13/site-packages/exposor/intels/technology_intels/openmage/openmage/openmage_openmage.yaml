@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:openmage:openmage:*:*:*:*:*:*:*:*
+  description: Detection of openmage openmage
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"OpenMage Installation Wizard"
+  fofa:
+  - http.title="OpenMage Installation Wizard"
+  shodan:
+  - title:"OpenMage Installation Wizard"
+  zoomeye:
+  - title:"OpenMage Installation Wizard"

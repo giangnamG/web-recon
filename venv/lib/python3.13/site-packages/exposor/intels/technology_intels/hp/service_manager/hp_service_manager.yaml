@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:hp:service_manager:*:*:*:*:*:*:*:*
+  description: Detection of hp service_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"HP Service Manager"
+  - services.http.response.html_title:"hp service manager"
+  fofa:
+  - http.title="HP Service Manager"
+  - http.title="hp service manager"
+  shodan:
+  - http.title:"hp service manager"
+  - http.title:"HP Service Manager"
+  zoomeye:
+  - title:"HP Service Manager"
+  - title:"hp service manager"

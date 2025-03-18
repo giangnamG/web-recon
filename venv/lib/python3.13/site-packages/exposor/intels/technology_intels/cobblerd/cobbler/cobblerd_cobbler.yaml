@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cobblerd:cobbler:*:*:*:*:*:*:*:*
+  description: Detection of cobblerd cobbler
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Cobbler Web Interface"
+  - services.http.response.html_title:"cobbler web interface"
+  fofa:
+  - http.title="Cobbler Web Interface"
+  - http.title="cobbler web interface"
+  shodan:
+  - http.title:"Cobbler Web Interface"
+  - http.title:"cobbler web interface"
+  zoomeye:
+  - title:"cobbler web interface"
+  - title:"Cobbler Web Interface"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:shoutcast:dnas:*:*:*:*:*:*:*:*
+  description: Detection of shoutcast dnas
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"SHOUTcast Server"
+  fofa:
+  - http.title="SHOUTcast Server"
+  shodan:
+  - http.title:"SHOUTcast Server"
+  zoomeye:
+  - title:"SHOUTcast Server"

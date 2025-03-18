@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:vinchin:vinchin_backup_and_recovery:*:*:*:*:*:*:*:*
+  description: Detection of vinchin vinchin_backup_and_recovery
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"VinChin"
+  fofa:
+  - banner="VinChin"
+  shodan:
+  - html:"VinChin"
+  zoomeye:
+  - banner:"VinChin"

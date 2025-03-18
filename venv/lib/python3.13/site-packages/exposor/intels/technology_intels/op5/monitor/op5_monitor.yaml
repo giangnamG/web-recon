@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:op5:monitor:*:*:*:*:*:*:*:*
+  description: Detection of op5 monitor
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"ITRS"
+  fofa:
+  - http.title="ITRS"
+  shodan:
+  - title:"ITRS"
+  zoomeye:
+  - title:"ITRS"

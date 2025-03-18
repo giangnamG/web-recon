@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wampserver:wampserver:*:*:*:*:*:*:*:*
+  description: Detection of wampserver wampserver
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Accueil WAMPSERVER"
+  fofa:
+  - http.title="Accueil WAMPSERVER"
+  shodan:
+  - http.title:"Accueil WAMPSERVER"
+  zoomeye:
+  - title:"Accueil WAMPSERVER"

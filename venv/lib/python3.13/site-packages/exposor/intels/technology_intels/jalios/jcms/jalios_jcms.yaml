@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:jalios:jcms:*:*:*:*:*:*:*:*
+  description: Detection of jalios jcms
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"jalios jcms"
+  - services.http.response.body:"jalios jcms"
+  - services.banner:"Jalios JCMS"
+  fofa:
+  - banner="jalios jcms"
+  - banner="Jalios JCMS"
+  - body="jalios jcms"
+  shodan:
+  - html:"Jalios JCMS"
+  - http.html:"jalios jcms"
+  zoomeye:
+  - banner:"jalios jcms"
+  - banner:"Jalios JCMS"

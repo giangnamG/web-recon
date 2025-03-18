@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:gnu:mailman:*:*:*:*:*:*:*:*
+  description: Detection of gnu mailman
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"mailing lists"
+  - services.http.response.html_title:"Mailing Lists"
+  fofa:
+  - http.title="Mailing Lists"
+  - http.title="mailing lists"
+  shodan:
+  - http.title:"mailing lists"
+  - title:"Mailing Lists"
+  zoomeye:
+  - title:"mailing lists"
+  - title:"Mailing Lists"

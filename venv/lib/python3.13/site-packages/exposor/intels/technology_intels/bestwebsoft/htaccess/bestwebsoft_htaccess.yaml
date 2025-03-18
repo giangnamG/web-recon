@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:htaccess:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft htaccess
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/htaccess/
+  - services.http.response.body:/wp-content/plugins/htaccess/
+  fofa:
+  - body=/wp-content/plugins/htaccess/
+  - banner=/wp-content/plugins/htaccess/
+  shodan:
+  - http.html:/wp-content/plugins/htaccess/
+  zoomeye:
+  - banner:/wp-content/plugins/htaccess/

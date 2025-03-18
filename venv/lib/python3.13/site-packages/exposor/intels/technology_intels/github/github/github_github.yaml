@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:github:github:*:*:*:*:*:*:*:*
+  description: Detection of github github
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"GitHub Debug"
+  fofa:
+  - http.title="GitHub Debug"
+  shodan:
+  - http.title:"GitHub Debug"
+  zoomeye:
+  - title:"GitHub Debug"

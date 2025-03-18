@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:open-xchange:open-xchange_appsuite:*:*:*:*:*:*:*:*
+  description: Detection of open-xchange open-xchange_appsuite
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Appsuite"
+  - services.software.product:"appsuite"
+  - services.banner:"appsuite"
+  fofa:
+  - banner="Appsuite"
+  - banner="appsuite"
+  - body="appsuite"
+  shodan:
+  - html:"Appsuite"
+  - http.html:"appsuite"
+  - product:"appsuite"
+  zoomeye:
+  - app:"appsuite"
+  - banner:"Appsuite"
+  - banner:"appsuite"

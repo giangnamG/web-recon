@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*
+  description: Detection of fortinet fortiauthenticator
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-1653412201
+  fofa:
+  - icon_hash=-1653412201
+  shodan:
+  - http.favicon.hash:-1653412201
+  zoomeye:
+  - iconhash:-1653412201

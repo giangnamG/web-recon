@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apereo:central_authentication_service:*:*:*:*:*:*:*:*
+  description: Detection of apereo central_authentication_service
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:'cas - central authentication service'
+  - services.http.response.html_title:'CAS - Central Authentication Service'
+  fofa:
+  - http.title='CAS - Central Authentication Service'
+  - http.title='cas - central authentication service'
+  shodan:
+  - http.title:'CAS - Central Authentication Service'
+  - http.title:'cas - central authentication service'
+  zoomeye:
+  - title:'CAS - Central Authentication Service'
+  - title:'cas - central authentication service'

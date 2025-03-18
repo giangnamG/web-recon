@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:relevanssi:relevanssi:*:*:*:*:wordpress:*:*:*
+  description: Detection of relevanssi relevanssi
+  version: '1.0'
+queries: {}

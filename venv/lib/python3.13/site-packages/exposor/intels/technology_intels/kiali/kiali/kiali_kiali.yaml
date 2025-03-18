@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:kiali:kiali:*:*:*:*:*:*:*:*
+  description: Detection of kiali kiali
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Kiali"
+  fofa:
+  - http.title="Kiali"
+  shodan:
+  - title:"Kiali"
+  zoomeye:
+  - title:"Kiali"

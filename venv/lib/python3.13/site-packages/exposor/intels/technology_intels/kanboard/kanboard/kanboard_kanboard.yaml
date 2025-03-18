@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:kanboard:kanboard:*:*:*:*:*:*:*:*
+  description: Detection of kanboard kanboard
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"Kanboard"
+  fofa:
+  - app="Kanboard"
+  shodan:
+  - product:"Kanboard"
+  zoomeye:
+  - app:"Kanboard"

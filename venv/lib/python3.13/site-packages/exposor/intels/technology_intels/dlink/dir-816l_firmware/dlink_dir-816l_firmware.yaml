@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:dlink:dir-816l_firmware:*:*:*:*:*:*:*:*
+  description: Detection of dlink dir-816l_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"dir-816l"
+  - services.http.response.body:"dir-816l"
+  - services.banner:"DIR-816L"
+  fofa:
+  - banner="DIR-816L"
+  - body="dir-816l"
+  - banner="dir-816l"
+  shodan:
+  - http.html:"dir-816l"
+  - html:"DIR-816L"
+  zoomeye:
+  - banner:"DIR-816L"
+  - banner:"dir-816l"

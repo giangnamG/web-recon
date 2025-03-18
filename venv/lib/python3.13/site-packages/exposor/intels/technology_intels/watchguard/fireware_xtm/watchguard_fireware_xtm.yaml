@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:watchguard:fireware_xtm:*:*:*:*:*:*:*:*
+  description: Detection of watchguard fireware_xtm
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Fireware XTM User Authentication"
+  - services.http.response.html_title:"fireware xtm user authentication"
+  fofa:
+  - http.title="fireware xtm user authentication"
+  - http.title="Fireware XTM User Authentication"
+  shodan:
+  - http.title:"fireware xtm user authentication"
+  - http.title:"Fireware XTM User Authentication"
+  zoomeye:
+  - title:"fireware xtm user authentication"
+  - title:"Fireware XTM User Authentication"

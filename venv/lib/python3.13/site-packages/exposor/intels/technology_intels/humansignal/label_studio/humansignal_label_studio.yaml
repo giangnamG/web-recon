@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:humansignal:label_studio:*:*:*:*:*:*:*:*
+  description: Detection of humansignal label_studio
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-1649949475
+  fofa:
+  - icon_hash=-1649949475
+  shodan:
+  - http.favicon.hash:-1649949475
+  zoomeye:
+  - iconhash:-1649949475

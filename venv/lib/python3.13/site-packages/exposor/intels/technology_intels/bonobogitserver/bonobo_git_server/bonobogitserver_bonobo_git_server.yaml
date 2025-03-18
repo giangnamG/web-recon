@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bonobogitserver:bonobo_git_server:*:*:*:*:*:*:*:*
+  description: Detection of bonobogitserver bonobo_git_server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-219625874
+  fofa:
+  - icon_hash=-219625874
+  shodan:
+  - http.favicon.hash:-219625874
+  zoomeye:
+  - iconhash:-219625874

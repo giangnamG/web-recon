@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wpmet:metform_elementor_contact_form_builder:*:*:*:*:*:wordpress:*:*
+  description: Detection of wpmet metform_elementor_contact_form_builder
+  version: '1.0'
+queries: {}

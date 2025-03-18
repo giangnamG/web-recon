@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:pulsesecure:pulse_connect_secure:*:*:*:*:*:*:*:*
+  description: Detection of pulsesecure pulse_connect_secure
+  version: '1.0'
+queries: {}

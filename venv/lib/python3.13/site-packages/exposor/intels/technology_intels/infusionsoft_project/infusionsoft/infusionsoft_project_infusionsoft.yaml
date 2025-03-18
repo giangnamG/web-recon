@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:infusionsoft_project:infusionsoft:*:*:*:*:*:wordpress:*:*
+  description: Detection of infusionsoft_project infusionsoft
+  version: '1.0'
+queries: {}

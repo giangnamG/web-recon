@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:auerswald:compact_5500r_firmware:*:*:*:*:*:*:*:*
+  description: Detection of auerswald compact_5500r_firmware
+  version: '1.0'
+queries: {}

@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:amazon:aws_javascript_s3_explorer:*:*:*:*:*:*:*:*
+  description: Detection of amazon aws_javascript_s3_explorer
+  version: '1.0'
+queries: {}

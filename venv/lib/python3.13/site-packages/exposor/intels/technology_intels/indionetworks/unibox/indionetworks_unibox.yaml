@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:indionetworks:unibox:*:*:*:*:*:*:*:*
+  description: Detection of indionetworks unibox
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:176427349
+  fofa:
+  - icon_hash=176427349
+  shodan:
+  - http.favicon.hash:176427349
+  zoomeye:
+  - iconhash:176427349

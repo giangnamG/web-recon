@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:gradle:build_cache_node:*:*:*:*:*:*:*:*
+  description: Detection of gradle build_cache_node
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Develocity Build Cache Node"
+  fofa:
+  - banner="Develocity Build Cache Node"
+  shodan:
+  - http.html:"Develocity Build Cache Node"
+  zoomeye:
+  - banner:"Develocity Build Cache Node"

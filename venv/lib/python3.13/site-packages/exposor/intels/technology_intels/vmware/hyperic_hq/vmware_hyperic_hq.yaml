@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:vmware:hyperic_hq:*:*:*:*:*:*:*:*
+  description: Detection of vmware hyperic_hq
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Sign In - Hyperic"
+  fofa:
+  - http.title="Sign In - Hyperic"
+  shodan:
+  - http.title:"Sign In - Hyperic"
+  zoomeye:
+  - title:"Sign In - Hyperic"

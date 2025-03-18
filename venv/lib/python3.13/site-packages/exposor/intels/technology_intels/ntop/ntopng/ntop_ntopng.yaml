@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ntop:ntopng:*:*:*:*:*:*:*:*
+  description: Detection of ntop ntopng
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"welcome to ntop"
+  fofa:
+  - http.title="welcome to ntop"
+  shodan:
+  - http.title:"welcome to ntop"
+  zoomeye:
+  - title:"welcome to ntop"

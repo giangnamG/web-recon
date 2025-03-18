@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:twinkletoessoftware:booked:*:*:*:*:*:*:*:*
+  description: Detection of twinkletoessoftware booked
+  version: '1.0'
+queries: {}

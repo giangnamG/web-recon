@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:librenms:librenms:*:*:*:*:*:*:*:*
+  description: Detection of librenms librenms
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"LibreNMS Install"
+  fofa:
+  - banner="LibreNMS Install"
+  shodan:
+  - html:"LibreNMS Install"
+  zoomeye:
+  - banner:"LibreNMS Install"

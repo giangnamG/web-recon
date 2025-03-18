@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:evilmartians:imgproxy:*:*:*:*:*:*:*:*
+  description: Detection of evilmartians imgproxy
+  version: '1.0'
+queries: {}

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:cloudstack:*:*:*:*:*:*:*:*
+  description: Detection of apache cloudstack
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Apache CloudStack"
+  fofa:
+  - http.title="Apache CloudStack"
+  shodan:
+  - http.title:"Apache CloudStack"
+  zoomeye:
+  - title:"Apache CloudStack"

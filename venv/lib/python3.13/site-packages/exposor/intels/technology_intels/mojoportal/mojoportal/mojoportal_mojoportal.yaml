@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mojoportal:mojoportal:*:*:*:*:*:*:*:*
+  description: Detection of mojoportal mojoportal
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"mojoportal"
+  - services.banner:"mojoPortal"
+  - services.banner:"mojoportal"
+  fofa:
+  - banner="mojoPortal"
+  - body="mojoportal"
+  - banner="mojoportal"
+  shodan:
+  - http.html:"mojoportal"
+  - html:"mojoPortal"
+  zoomeye:
+  - banner:"mojoPortal"
+  - banner:"mojoportal"

@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cratedb:cratedb:*:*:*:*:*:*:*:*
+  description: Detection of cratedb cratedb
+  version: '1.0'
+queries: {}

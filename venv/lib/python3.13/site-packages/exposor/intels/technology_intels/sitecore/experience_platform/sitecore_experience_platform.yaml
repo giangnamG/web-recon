@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sitecore:experience_platform:*:*:*:*:*:*:*:*
+  description: Detection of sitecore experience_platform
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"sitecore"
+  - services.http.response.html_title:"SiteCore"
+  fofa:
+  - http.title="SiteCore"
+  - http.title="sitecore"
+  shodan:
+  - http.title:"SiteCore"
+  - http.title:"sitecore"
+  zoomeye:
+  - title:"sitecore"
+  - title:"SiteCore"

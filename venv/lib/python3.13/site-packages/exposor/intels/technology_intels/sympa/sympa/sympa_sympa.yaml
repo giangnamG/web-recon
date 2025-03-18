@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sympa:sympa:*:*:*:*:*:*:*:*
+  description: Detection of sympa sympa
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"sympa"
+  - services.http.response.body:"sympa"
+  fofa:
+  - banner="sympa"
+  - body="sympa"
+  shodan:
+  - http.html:"sympa"
+  zoomeye:
+  - banner:"sympa"

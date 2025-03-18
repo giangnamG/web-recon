@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:zte:nr8120a:*:*:*:*:*:*:*:*
+  description: Detection of zte nr8120a
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"ZTE Corporation"
+  fofa:
+  - banner="ZTE Corporation"
+  shodan:
+  - http.html:"ZTE Corporation"
+  zoomeye:
+  - banner:"ZTE Corporation"

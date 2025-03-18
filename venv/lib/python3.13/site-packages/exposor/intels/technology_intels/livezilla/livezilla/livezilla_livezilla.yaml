@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:livezilla:livezilla:*:*:*:*:*:*:*:*
+  description: Detection of livezilla livezilla
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:livezilla
+  - services.banner:livezilla
+  - services.banner:LiveZilla
+  fofa:
+  - banner=LiveZilla
+  - body=livezilla
+  - banner=livezilla
+  shodan:
+  - http.html:livezilla
+  - http.html:LiveZilla
+  zoomeye:
+  - banner:livezilla
+  - banner:LiveZilla

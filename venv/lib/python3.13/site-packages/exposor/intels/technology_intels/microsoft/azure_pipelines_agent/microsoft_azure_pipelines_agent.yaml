@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:microsoft:azure_pipelines_agent:*:*:*:*:*:*:*:*
+  description: Detection of microsoft azure_pipelines_agent
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"azure-pipelines.yml"
+  fofa:
+  - banner="azure-pipelines.yml"
+  shodan:
+  - html:"azure-pipelines.yml"
+  zoomeye:
+  - banner:"azure-pipelines.yml"

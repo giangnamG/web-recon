@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cgit_project:cgit:*:*:*:*:*:*:*:*
+  description: Detection of cgit_project cgit
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Git repository browser"
+  - services.http.response.html_title:"git repository browser"
+  fofa:
+  - http.title="Git repository browser"
+  - http.title="git repository browser"
+  shodan:
+  - http.title:"Git repository browser"
+  - http.title:"git repository browser"
+  zoomeye:
+  - title:"git repository browser"
+  - title:"Git repository browser"

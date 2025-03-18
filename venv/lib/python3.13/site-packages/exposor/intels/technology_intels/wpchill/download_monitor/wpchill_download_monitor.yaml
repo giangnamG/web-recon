@@ -1,0 +1,17 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wpchill:download_monitor:*:*:*:*:*:wordpress:*:*
+  description: Detection of wpchill download_monitor
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"/wp-content/plugins/download-monitor/"
+  - services.http.response.body:"/wp-content/plugins/download-monitor/"
+  fofa:
+  - body="/wp-content/plugins/download-monitor/"
+  - banner="/wp-content/plugins/download-monitor/"
+  shodan:
+  - html:"/wp-content/plugins/download-monitor/"
+  - http.html:"/wp-content/plugins/download-monitor/"
+  zoomeye:
+  - banner:"/wp-content/plugins/download-monitor/"

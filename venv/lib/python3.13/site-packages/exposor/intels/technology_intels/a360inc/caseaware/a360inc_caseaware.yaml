@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:a360inc:caseaware:*:*:*:*:*:*:*:*
+  description: Detection of a360inc caseaware
+  version: '1.0'
+queries: {}

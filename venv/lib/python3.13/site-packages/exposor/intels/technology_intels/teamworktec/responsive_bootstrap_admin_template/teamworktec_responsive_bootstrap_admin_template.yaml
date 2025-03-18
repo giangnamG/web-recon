@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:teamworktec:responsive_bootstrap_admin_template:*:*:*:*:*:*:*:*
+  description: Detection of teamworktec responsive_bootstrap_admin_template
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Dashboard - Bootstrap Admin Template"
+  fofa:
+  - http.title="Dashboard - Bootstrap Admin Template"
+  shodan:
+  - title:"Dashboard - Bootstrap Admin Template"
+  zoomeye:
+  - title:"Dashboard - Bootstrap Admin Template"

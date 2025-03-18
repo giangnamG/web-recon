@@ -1,0 +1,24 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:flatpress:flatpress:*:*:*:*:*:*:*:*
+  description: Detection of flatpress flatpress
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Flatpress"
+  - services.http.response.body:"flatpress"
+  - services.http.response.favicons.shodan_hash:-1189292869
+  - services.banner:"flatpress"
+  fofa:
+  - banner="Flatpress"
+  - icon_hash=-1189292869
+  - body="flatpress"
+  - banner="flatpress"
+  shodan:
+  - http.html:"Flatpress"
+  - http.html:"flatpress"
+  - http.favicon.hash:-1189292869
+  zoomeye:
+  - banner:"Flatpress"
+  - iconhash:-1189292869
+  - banner:"flatpress"

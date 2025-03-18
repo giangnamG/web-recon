@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mikoviny:wp_custom_pages:*:*:*:*:*:*:*:*
+  description: Detection of mikoviny wp_custom_pages
+  version: '1.0'
+queries: {}

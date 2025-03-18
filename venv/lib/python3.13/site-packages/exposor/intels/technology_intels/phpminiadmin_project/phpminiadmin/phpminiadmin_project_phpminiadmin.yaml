@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:phpminiadmin_project:phpminiadmin:*:*:*:*:*:*:*:*
+  description: Detection of phpminiadmin_project phpminiadmin
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"phpMiniAdmin"
+  fofa:
+  - banner="phpMiniAdmin"
+  shodan:
+  - http.html:"phpMiniAdmin"
+  zoomeye:
+  - banner:"phpMiniAdmin"

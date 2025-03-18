@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ibm:websphere_application_server:*:*:*:*:z\/os:*:*:*
+  description: Detection of ibm websphere_application_server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:1337147129
+  fofa:
+  - icon_hash=1337147129
+  shodan:
+  - http.favicon.hash:1337147129
+  zoomeye:
+  - iconhash:1337147129

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cososys:endpoint_protector:*:*:*:*:*:*:*:*
+  description: Detection of cososys endpoint_protector
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Endpoint Protector"
+  fofa:
+  - http.title="Endpoint Protector"
+  shodan:
+  - http.title:"Endpoint Protector"
+  zoomeye:
+  - title:"Endpoint Protector"

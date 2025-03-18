@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:pocoo:babel:*:*:*:*:*:*:*:*
+  description: Detection of pocoo babel
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"babel.config.js"
+  fofa:
+  - banner="babel.config.js"
+  shodan:
+  - html:"babel.config.js"
+  zoomeye:
+  - banner:"babel.config.js"

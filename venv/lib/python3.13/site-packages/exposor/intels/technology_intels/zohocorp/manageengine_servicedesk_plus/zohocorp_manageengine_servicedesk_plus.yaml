@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zohocorp:manageengine_servicedesk_plus:*:*:*:*:*:*:*:*
+  description: Detection of zohocorp manageengine_servicedesk_plus
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"manageengine servicedesk plus"
+  fofa:
+  - http.title="manageengine servicedesk plus"
+  shodan:
+  - http.title:"manageengine servicedesk plus"
+  zoomeye:
+  - title:"manageengine servicedesk plus"

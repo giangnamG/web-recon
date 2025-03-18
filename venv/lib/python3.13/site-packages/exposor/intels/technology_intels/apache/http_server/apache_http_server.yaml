@@ -1,0 +1,15 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*
+  description: Detection of apache http_server
+  version: '1.0'
+queries:
+  censys:
+  - "services.banner:\"Server: Apache\""
+  fofa:
+  - "header=\"Server: Apache\"" 
+  - "banner=\"Server: Apache\"" 
+  shodan:
+  - "Server: Apache"
+  zoomeye:
+  - "banner:\"Server: Apache\""

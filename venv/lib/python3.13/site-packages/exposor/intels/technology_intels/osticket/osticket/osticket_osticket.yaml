@@ -1,0 +1,28 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:osticket:osticket:*:*:*:*:*:*:*:*
+  description: Detection of osticket osticket
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"powered by osticket"
+  - services.http.response.html_title:"osTicket"
+  - services.http.response.html_title:"osticket installer"
+  - services.banner:"powered by osticket"
+  - services.http.response.html_title:"osticket"
+  fofa:
+  - banner="powered by osticket"
+  - http.title="osTicket"
+  - http.title="osticket installer"
+  - body="powered by osticket"
+  - http.title="osticket"
+  shodan:
+  - http.title:"osticket"
+  - title:"osTicket"
+  - http.html:"powered by osticket"
+  - http.title:"osticket installer"
+  zoomeye:
+  - banner:"powered by osticket"
+  - title:"osTicket"
+  - title:"osticket"
+  - title:"osticket installer"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cloudera:hue:*:*:*:*:*:*:*:*
+  description: Detection of cloudera hue
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Hue - Welcome to Hue"
+  fofa:
+  - http.title="Hue - Welcome to Hue"
+  shodan:
+  - title:"Hue - Welcome to Hue"
+  zoomeye:
+  - title:"Hue - Welcome to Hue"

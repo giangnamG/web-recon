@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:wavlink:wn575a4:*:*:*:*:*:*:*:*
+  description: Detection of wavlink wn575a4
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Wi-Fi APP Login"
+  fofa:
+  - http.title="Wi-Fi APP Login"
+  shodan:
+  - http.title:"Wi-Fi APP Login"
+  zoomeye:
+  - title:"Wi-Fi APP Login"

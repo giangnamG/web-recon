@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:dlink:dir-845l:*:*:*:*:*:*:*:*
+  description: Detection of dlink dir-845l
+  version: '1.0'
+queries: {}

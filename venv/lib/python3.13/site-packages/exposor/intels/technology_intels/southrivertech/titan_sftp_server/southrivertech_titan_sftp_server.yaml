@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:southrivertech:titan_sftp_server:*:*:*:*:windows:*:*:*
+  description: Detection of southrivertech titan_sftp_server
+  version: '1.0'
+queries: {}

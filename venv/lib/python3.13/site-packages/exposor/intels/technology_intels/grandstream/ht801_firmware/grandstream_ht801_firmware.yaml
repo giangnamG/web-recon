@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:grandstream:ht801_firmware:*:*:*:*:*:*:*:*
+  description: Detection of grandstream ht801_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Grandstream Device Configuration"
+  fofa:
+  - http.title="Grandstream Device Configuration"
+  shodan:
+  - http.title:"Grandstream Device Configuration"
+  zoomeye:
+  - title:"Grandstream Device Configuration"

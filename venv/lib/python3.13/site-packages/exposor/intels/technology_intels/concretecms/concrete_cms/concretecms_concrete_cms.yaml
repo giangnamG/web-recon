@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:concretecms:concrete_cms:*:*:*:*:*:*:*:*
+  description: Detection of concretecms concrete_cms
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Install concrete"
+  fofa:
+  - http.title="Install concrete"
+  shodan:
+  - title:"Install concrete"
+  zoomeye:
+  - title:"Install concrete"

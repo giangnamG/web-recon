@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:tt-rss:tiny_tiny_rss:*:*:*:*:*:*:*:*
+  description: Detection of tt-rss tiny_tiny_rss
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Tiny Tiny RSS - Installer"
+  fofa:
+  - http.title="Tiny Tiny RSS - Installer"
+  shodan:
+  - title:"Tiny Tiny RSS - Installer"
+  zoomeye:
+  - title:"Tiny Tiny RSS - Installer"

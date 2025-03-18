@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:my_calendar_project:my_calendar:*:*:*:*:*:wordpress:*:*
+  description: Detection of my_calendar_project my_calendar
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"wp-content/plugins/my-calendar"
+  fofa:
+  - '"wordpress" && body="wp-content/plugins/my-calendar"'
+  shodan:
+  - http.html:"wp-content/plugins/my-calendar"
+  zoomeye:
+  - banner:"wp-content/plugins/my-calendar"

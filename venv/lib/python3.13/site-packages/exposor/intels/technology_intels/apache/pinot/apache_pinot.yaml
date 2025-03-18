@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:pinot:*:*:*:*:*:*:*:*
+  description: Detection of apache pinot
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Apache Pinot"
+  fofa:
+  - http.title="Apache Pinot"
+  shodan:
+  - title:"Apache Pinot"
+  zoomeye:
+  - title:"Apache Pinot"

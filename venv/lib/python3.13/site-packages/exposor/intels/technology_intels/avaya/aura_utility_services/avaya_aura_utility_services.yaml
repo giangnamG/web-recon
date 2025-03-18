@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:avaya:aura_utility_services:*:*:*:*:*:*:*:*
+  description: Detection of avaya aura_utility_services
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Avaya Aura"
+  fofa:
+  - banner="Avaya Aura"
+  shodan:
+  - html:"Avaya Aura"
+  zoomeye:
+  - banner:"Avaya Aura"

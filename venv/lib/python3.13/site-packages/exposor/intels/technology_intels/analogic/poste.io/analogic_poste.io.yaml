@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:analogic:poste.io:*:*:*:*:*:*:*:*
+  description: Detection of analogic poste.io
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"Initial server configuration"
+  fofa:
+  - body="Initial server configuration"
+  shodan:
+  - http.html:"Initial server configuration"
+  zoomeye:
+  - banner:"Initial server configuration"

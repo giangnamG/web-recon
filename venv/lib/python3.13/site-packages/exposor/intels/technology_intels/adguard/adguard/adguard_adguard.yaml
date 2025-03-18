@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:adguard:adguard:*:*:*:*:*:*:*:*
+  description: Detection of adguard adguard
+  version: '1.0'
+queries: {}

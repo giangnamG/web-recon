@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:citrix:xenmobile_server:*:*:*:*:*:*:*:*
+  description: Detection of citrix xenmobile_server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"XenMobile - Console"
+  fofa:
+  - http.title="XenMobile - Console"
+  shodan:
+  - title:"XenMobile - Console"
+  zoomeye:
+  - title:"XenMobile - Console"

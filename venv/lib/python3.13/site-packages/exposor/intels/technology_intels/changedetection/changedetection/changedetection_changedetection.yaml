@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:changedetection:changedetection:*:*:*:*:*:*:*:*
+  description: Detection of changedetection changedetection
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Change Detection"
+  fofa:
+  - http.title="Change Detection"
+  shodan:
+  - title:"Change Detection"
+  zoomeye:
+  - title:"Change Detection"

@@ -1,0 +1,17 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:yui_project:yui:*:*:*:*:*:*:*:*
+  description: Detection of yui_project yui
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"bower_components/yui2/"
+  - services.http.response.body:"bower_components/yui2/"
+  fofa:
+  - banner="bower_components/yui2/"
+  - body="bower_components/yui2/"
+  shodan:
+  - html:"bower_components/yui2/"
+  - http.html:"bower_components/yui2/"
+  zoomeye:
+  - banner:"bower_components/yui2/"

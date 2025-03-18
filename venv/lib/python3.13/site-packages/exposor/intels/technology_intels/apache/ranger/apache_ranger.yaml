@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:ranger:*:*:*:*:*:*:*:*
+  description: Detection of apache ranger
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Ranger - Sign In"
+  fofa:
+  - http.title="Ranger - Sign In"
+  shodan:
+  - http.title:"Ranger - Sign In"
+  zoomeye:
+  - title:"Ranger - Sign In"

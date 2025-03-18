@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:citrix:hypervisor:*:*:*:*:*:*:*:*
+  description: Detection of citrix hypervisor
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Welcome to Citrix Hypervisor"
+  fofa:
+  - http.title="Welcome to Citrix Hypervisor"
+  shodan:
+  - http.title:"Welcome to Citrix Hypervisor"
+  zoomeye:
+  - title:"Welcome to Citrix Hypervisor"

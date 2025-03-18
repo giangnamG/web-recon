@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:documentlocator:document_locator:*:*:*:*:*:*:*:*
+  description: Detection of documentlocator document_locator
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Document Locator - WebTools"
+  - services.http.response.html_title:"document locator - webtools"
+  fofa:
+  - http.title="Document Locator - WebTools"
+  - http.title="document locator - webtools"
+  shodan:
+  - http.title:"document locator - webtools"
+  - title:"Document Locator - WebTools"
+  zoomeye:
+  - title:"Document Locator - WebTools"
+  - title:"document locator - webtools"

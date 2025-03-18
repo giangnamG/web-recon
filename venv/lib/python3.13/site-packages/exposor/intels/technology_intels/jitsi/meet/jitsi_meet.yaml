@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:jitsi:meet:*:*:*:*:docker:*:*:*
+  description: Detection of jitsi meet
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Jitsi Meet"
+  fofa:
+  - http.title="Jitsi Meet"
+  shodan:
+  - http.title:"Jitsi Meet"
+  zoomeye:
+  - title:"Jitsi Meet"

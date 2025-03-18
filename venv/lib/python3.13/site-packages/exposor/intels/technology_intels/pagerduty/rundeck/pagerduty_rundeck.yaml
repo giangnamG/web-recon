@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:pagerduty:rundeck:*:*:*:*:*:*:*:*
+  description: Detection of pagerduty rundeck
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"Rundeck-Login"
+  fofa:
+  - app="Rundeck-Login"
+  shodan:
+  - product:"Rundeck-Login"
+  zoomeye:
+  - app:"Rundeck-Login"

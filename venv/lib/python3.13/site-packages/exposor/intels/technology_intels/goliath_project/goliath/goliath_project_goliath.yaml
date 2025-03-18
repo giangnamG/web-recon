@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:goliath_project:goliath:*:*:*:*:ruby:*:*:*
+  description: Detection of goliath_project goliath
+  version: '1.0'
+queries: {}

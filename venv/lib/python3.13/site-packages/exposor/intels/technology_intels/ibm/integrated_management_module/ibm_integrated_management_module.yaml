@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:ibm:integrated_management_module:*:*:*:*:*:*:*:*
+  description: Detection of ibm integrated_management_module
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"ibmdojo"
+  fofa:
+  - banner="ibmdojo"
+  shodan:
+  - html:"ibmdojo"
+  zoomeye:
+  - banner:"ibmdojo"

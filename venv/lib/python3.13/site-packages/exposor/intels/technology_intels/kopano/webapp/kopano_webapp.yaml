@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:kopano:webapp:*:*:*:*:*:*:*:*
+  description: Detection of kopano webapp
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Kopano WebApp"
+  fofa:
+  - http.title="Kopano WebApp"
+  shodan:
+  - http.title:"Kopano WebApp"
+  zoomeye:
+  - title:"Kopano WebApp"

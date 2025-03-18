@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:solr:*:*:*:*:*:*:*:*
+  description: Detection of apache solr
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Apache Solr"
+  fofa:
+  - banner="Apache Solr"
+  shodan:
+  - http.html:"Apache Solr"
+  zoomeye:
+  - banner:"Apache Solr"

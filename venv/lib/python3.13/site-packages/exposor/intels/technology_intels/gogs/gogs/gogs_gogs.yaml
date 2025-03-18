@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:gogs:gogs:*:*:*:*:*:*:*:*
+  description: Detection of gogs gogs
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"sign in - gogs"
+  fofa:
+  - http.title="sign in - gogs"
+  shodan:
+  - http.title:"sign in - gogs"
+  zoomeye:
+  - title:"sign in - gogs"

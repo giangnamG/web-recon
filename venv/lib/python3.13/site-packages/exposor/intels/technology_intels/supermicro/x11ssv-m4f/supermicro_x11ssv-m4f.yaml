@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:supermicro:x11ssv-m4f:*:*:*:*:*:*:*:*
+  description: Detection of supermicro x11ssv-m4f
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Supermicro BMC Login"
+  fofa:
+  - http.title="Supermicro BMC Login"
+  shodan:
+  - http.title:"Supermicro BMC Login"
+  zoomeye:
+  - title:"Supermicro BMC Login"

@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:thruk:thruk:*:*:*:*:*:*:*:*
+  description: Detection of thruk thruk
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"thruk"
+  - services.http.response.body:"thruk"
+  - services.banner:"Thruk"
+  fofa:
+  - body="thruk"
+  - banner="Thruk"
+  - banner="thruk"
+  shodan:
+  - http.html:"thruk"
+  - http.html:"Thruk"
+  zoomeye:
+  - banner:"Thruk"
+  - banner:"thruk"

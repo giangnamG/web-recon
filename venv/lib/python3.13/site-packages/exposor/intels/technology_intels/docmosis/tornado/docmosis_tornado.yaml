@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:docmosis:tornado:*:*:*:*:*:*:*:*
+  description: Detection of docmosis tornado
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Docmosis Tornado"
+  fofa:
+  - http.title="Docmosis Tornado"
+  shodan:
+  - title:"Docmosis Tornado"
+  zoomeye:
+  - title:"Docmosis Tornado"

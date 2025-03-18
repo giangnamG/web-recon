@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:rubocop_project:rubocop:*:*:*:*:*:*:*:*
+  description: Detection of rubocop_project rubocop
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"rubocop.yml"
+  fofa:
+  - banner="rubocop.yml"
+  shodan:
+  - html:"rubocop.yml"
+  zoomeye:
+  - banner:"rubocop.yml"

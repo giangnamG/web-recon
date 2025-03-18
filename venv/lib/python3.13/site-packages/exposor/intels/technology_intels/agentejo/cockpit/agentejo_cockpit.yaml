@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:agentejo:cockpit:*:*:*:*:*:*:*:*
+  description: Detection of agentejo cockpit
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:688609340
+  - services.http.response.body:"cockpit"
+  - services.banner:"cockpit"
+  fofa:
+  - icon_hash=688609340
+  - body="cockpit"
+  - banner="cockpit"
+  shodan:
+  - http.html:"cockpit"
+  - http.favicon.hash:688609340
+  zoomeye:
+  - iconhash:688609340
+  - banner:"cockpit"

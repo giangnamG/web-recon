@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:feiyuxing:vec40g_firmware:*:*:*:*:*:*:*:*
+  description: Detection of feiyuxing vec40g_firmware
+  version: '1.0'
+queries: {}

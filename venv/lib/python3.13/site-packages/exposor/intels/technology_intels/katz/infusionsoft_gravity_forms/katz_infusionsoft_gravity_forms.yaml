@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:katz:infusionsoft_gravity_forms:*:*:*:*:*:wordpress:*:*
+  description: Detection of katz infusionsoft_gravity_forms
+  version: '1.0'
+queries: {}

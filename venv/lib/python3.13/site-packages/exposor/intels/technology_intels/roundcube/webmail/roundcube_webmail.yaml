@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:roundcube:webmail:*:*:*:*:*:*:*:*
+  description: Detection of roundcube webmail
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"RoundCube"
+  fofa:
+  - banner="RoundCube"
+  shodan:
+  - http.component:"RoundCube"
+  zoomeye:
+  - banner:"RoundCube"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:rhubcom:turbomeeting:*:*:*:*:*:*:*:*
+  description: Detection of rhubcom turbomeeting
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"TurboMeeting"
+  fofa:
+  - banner="TurboMeeting"
+  shodan:
+  - html:"TurboMeeting"
+  zoomeye:
+  - banner:"TurboMeeting"

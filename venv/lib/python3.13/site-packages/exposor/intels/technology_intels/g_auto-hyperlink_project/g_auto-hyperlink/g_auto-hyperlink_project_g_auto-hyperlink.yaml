@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:g_auto-hyperlink_project:g_auto-hyperlink:*:*:*:*:*:wordpress:*:*
+  description: Detection of g_auto-hyperlink_project g_auto-hyperlink
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/g-auto-hyperlink/
+  - services.http.response.body:/wp-content/plugins/g-auto-hyperlink/
+  fofa:
+  - banner=/wp-content/plugins/g-auto-hyperlink/
+  - body=/wp-content/plugins/g-auto-hyperlink/
+  shodan:
+  - http.html:/wp-content/plugins/g-auto-hyperlink/
+  zoomeye:
+  - banner:/wp-content/plugins/g-auto-hyperlink/

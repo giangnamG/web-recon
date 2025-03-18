@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:contribsys:sidekiq:*:*:*:*:*:*:*:*
+  description: Detection of contribsys sidekiq
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"sidekiq"
+  - services.http.response.html_title:"Sidekiq"
+  fofa:
+  - http.title="sidekiq"
+  - http.title="Sidekiq"
+  shodan:
+  - http.title:"sidekiq"
+  - title:"Sidekiq"
+  zoomeye:
+  - title:"sidekiq"
+  - title:"Sidekiq"

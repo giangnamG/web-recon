@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sierrawireless:airlink_mobility_manager:*:*:*:*:*:*:*:*
+  description: Detection of sierrawireless airlink_mobility_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"ACEmanager"
+  - services.software.product:"acemanager"
+  fofa:
+  - app="ACEmanager"
+  - app="acemanager"
+  shodan:
+  - product:"ACEmanager"
+  - product:"acemanager"
+  zoomeye:
+  - app:"ACEmanager"
+  - app:"acemanager"

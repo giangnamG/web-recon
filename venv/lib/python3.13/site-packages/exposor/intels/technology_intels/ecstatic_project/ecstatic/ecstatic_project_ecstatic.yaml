@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ecstatic_project:ecstatic:*:*:*:*:node.js:*:*:*
+  description: Detection of ecstatic_project ecstatic
+  version: '1.0'
+queries: {}

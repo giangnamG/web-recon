@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:plugin-planet:prismatic:*:*:*:*:*:wordpress:*:*
+  description: Detection of plugin-planet prismatic
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/prismatic
+  - services.banner:/wp-content/plugins/prismatic
+  fofa:
+  - body=/wp-content/plugins/prismatic
+  - banner=/wp-content/plugins/prismatic
+  shodan:
+  - http.html:/wp-content/plugins/prismatic
+  zoomeye:
+  - banner:/wp-content/plugins/prismatic

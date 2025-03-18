@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:smartbear:swagger_ui:*:*:*:*:*:*:*:*
+  description: Detection of smartbear swagger_ui
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"swagger"
+  - services.http.response.favicons.shodan_hash:"-1180440057"
+  - services.banner:"Swagger"
+  fofa:
+  - icon_hash="-1180440057"
+  - banner="Swagger"
+  - banner="swagger"
+  shodan:
+  - http.component:"Swagger"
+  - http.component:"swagger"
+  - http.favicon.hash:"-1180440057"
+  zoomeye:
+  - iconhash:"-1180440057"
+  - banner:"Swagger"
+  - banner:"swagger"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:webmin:webmin:*:*:*:*:*:*:*:*
+  description: Detection of webmin webmin
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"webmin"
+  fofa:
+  - http.title="webmin"
+  shodan:
+  - http.title:"webmin"
+  zoomeye:
+  - title:"webmin"

@@ -1,0 +1,24 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:plesk:obsidian:*:*:*:*:*:*:*:*
+  description: Detection of plesk obsidian
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"plesk obsidian"
+  - services.http.response.html_title:"plesk obsidian"
+  - services.banner:"plesk obsidian"
+  - services.http.response.html_title:"Plesk Obsidian"
+  fofa:
+  - http.title="Plesk Obsidian"
+  - banner="plesk obsidian"
+  - body="plesk obsidian"
+  - http.title="plesk obsidian"
+  shodan:
+  - title:"Plesk Obsidian"
+  - http.title:"plesk obsidian"
+  - http.html:"plesk obsidian"
+  zoomeye:
+  - title:"Plesk Obsidian"
+  - title:"plesk obsidian"
+  - banner:"plesk obsidian"

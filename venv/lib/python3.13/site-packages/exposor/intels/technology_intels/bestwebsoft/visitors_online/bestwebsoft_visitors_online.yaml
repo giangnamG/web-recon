@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:visitors_online:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft visitors_online
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/visitors-online/
+  - services.banner:/wp-content/plugins/visitors-online/
+  fofa:
+  - banner=/wp-content/plugins/visitors-online/
+  - body=/wp-content/plugins/visitors-online/
+  shodan:
+  - http.html:/wp-content/plugins/visitors-online/
+  zoomeye:
+  - banner:/wp-content/plugins/visitors-online/

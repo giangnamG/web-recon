@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:weaver:weaver_office_automation:*:*:*:*:*:*:*:*
+  description: Detection of weaver weaver_office_automation
+  version: '1.0'
+queries:
+  censys:
+  - "services.software.product:\"\u6CDB\u5FAE-eoffice\""
+  - "services.software.product:\"\u6CDB\u5FAE-EOffice\""
+  fofa:
+  - "app=\"\u6CDB\u5FAE-EOffice\""
+  - "app=\"\u6CDB\u5FAE-eoffice\""
+  shodan:
+  - "product:\"\u6CDB\u5FAE-EOffice\""
+  - "product:\"\u6CDB\u5FAE-eoffice\""
+  zoomeye:
+  - "app:\"\u6CDB\u5FAE-EOffice\""
+  - "app:\"\u6CDB\u5FAE-eoffice\""

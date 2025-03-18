@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:raspap:raspap:*:*:*:*:*:*:*:*
+  description: Detection of raspap raspap
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-1465760059
+  fofa:
+  - icon_hash=-1465760059
+  shodan:
+  - http.favicon.hash:-1465760059
+  zoomeye:
+  - iconhash:-1465760059

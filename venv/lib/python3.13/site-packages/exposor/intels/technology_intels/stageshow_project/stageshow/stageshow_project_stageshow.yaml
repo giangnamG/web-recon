@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:stageshow_project:stageshow:*:*:*:*:*:wordpress:*:*
+  description: Detection of stageshow_project stageshow
+  version: '1.0'
+queries: {}

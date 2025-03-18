@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:xenforo:xenforo:*:*:*:*:*:*:*:*
+  description: Detection of xenforo xenforo
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"XenForo"
+  fofa:
+  - http.title="XenForo"
+  shodan:
+  - http.title:"XenForo"
+  zoomeye:
+  - title:"XenForo"

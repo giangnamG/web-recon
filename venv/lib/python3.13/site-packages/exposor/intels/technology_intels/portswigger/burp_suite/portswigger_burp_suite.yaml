@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:portswigger:burp_suite:*:*:*:*:*:*:*:*
+  description: Detection of portswigger burp_suite
+  version: '1.0'
+queries: {}

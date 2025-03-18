@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:dlink:dns-345:*:*:*:*:*:*:*:*
+  description: Detection of dlink dns-345
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"D_Link-DNS"
+  fofa:
+  - app="D_Link-DNS"
+  shodan:
+  - product:"D_Link-DNS"
+  zoomeye:
+  - app:"D_Link-DNS"

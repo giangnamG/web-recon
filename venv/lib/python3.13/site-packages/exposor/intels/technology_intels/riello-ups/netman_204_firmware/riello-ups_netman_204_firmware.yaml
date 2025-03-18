@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:riello-ups:netman_204_firmware:*:*:*:*:*:*:*:*
+  description: Detection of riello-ups netman_204_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"netman204"
+  - services.http.response.html_title:"netman 204"
+  fofa:
+  - http.title="netman 204"
+  - body="netman204"
+  shodan:
+  - http.html:"netman204"
+  - title:"netman 204"
+  zoomeye:
+  - title:"netman 204"
+  - banner:"netman204"

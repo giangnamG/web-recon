@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:dahuasecurity:smart_parking_management:*:*:*:*:*:*:*:*
+  description: Detection of dahuasecurity smart_parking_management
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"/wpms/asset"
+  - services.banner:"/wpms/asset"
+  - services.banner:"/WPMS/asset"
+  fofa:
+  - banner="/wpms/asset"
+  - banner="/WPMS/asset"
+  - body="/wpms/asset"
+  shodan:
+  - http.html:"/wpms/asset"
+  - html:"/WPMS/asset"
+  zoomeye:
+  - banner:"/wpms/asset"
+  - banner:"/WPMS/asset"

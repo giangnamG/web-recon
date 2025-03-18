@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:opsview:opsview:*:*:*:*:pro:*:*:*
+  description: Detection of opsview opsview
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"opsview"
+  - services.http.response.html_title:"Opsview"
+  fofa:
+  - http.title="opsview"
+  - http.title="Opsview"
+  shodan:
+  - title:"Opsview"
+  - http.title:"opsview"
+  zoomeye:
+  - title:"Opsview"
+  - title:"opsview"

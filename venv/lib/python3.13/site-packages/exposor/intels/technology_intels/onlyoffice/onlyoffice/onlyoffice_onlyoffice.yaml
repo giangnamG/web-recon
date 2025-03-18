@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:onlyoffice:onlyoffice:*:*:*:*:*:*:*:*
+  description: Detection of onlyoffice onlyoffice
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Portal Setup"
+  fofa:
+  - banner="Portal Setup"
+  shodan:
+  - html:"Portal Setup"
+  zoomeye:
+  - banner:"Portal Setup"

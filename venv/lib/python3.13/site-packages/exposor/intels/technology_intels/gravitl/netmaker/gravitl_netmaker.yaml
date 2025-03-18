@@ -1,0 +1,17 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:gravitl:netmaker:*:*:*:*:*:*:*:*
+  description: Detection of gravitl netmaker
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"netmaker"
+  - services.http.response.body:"netmaker"
+  fofa:
+  - body="netmaker"
+  - banner="netmaker"
+  shodan:
+  - html:"netmaker"
+  - http.html:"netmaker"
+  zoomeye:
+  - banner:"netmaker"

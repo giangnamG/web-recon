@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:archibus:web_central:*:*:*:*:*:*:*:*
+  description: Detection of archibus web_central
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:889652940
+  fofa:
+  - icon_hash=889652940
+  shodan:
+  - http.favicon.hash:889652940
+  zoomeye:
+  - iconhash:889652940

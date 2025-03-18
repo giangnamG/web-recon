@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:nortekcontrol:linear_emerge_essential_firmware:*:*:*:*:*:*:*:*
+  description: Detection of nortekcontrol linear_emerge_essential_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"emerge"
+  fofa:
+  - http.title="emerge"
+  shodan:
+  - http.title:"emerge"
+  zoomeye:
+  - title:"emerge"

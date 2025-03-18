@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:fedoraproject:fedora:*:*:*:*:*:*:*:*
+  description: Detection of fedoraproject fedora
+  version: '1.0'
+queries: {}

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:casbin:casdoor:*:*:*:*:*:*:*:*
+  description: Detection of casbin casdoor
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"casdoor"
+  - services.http.response.html_title:"Casdoor"
+  fofa:
+  - http.title="Casdoor"
+  - http.title="casdoor"
+  shodan:
+  - http.title:"Casdoor"
+  - http.title:"casdoor"
+  zoomeye:
+  - title:"Casdoor"
+  - title:"casdoor"

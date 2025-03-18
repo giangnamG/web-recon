@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:synopsys:black_duck_hub:*:*:*:*:*:*:*:*
+  description: Detection of synopsys black_duck_hub
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Black Duck"
+  fofa:
+  - http.title="Black Duck"
+  shodan:
+  - http.title:"Black Duck"
+  zoomeye:
+  - title:"Black Duck"

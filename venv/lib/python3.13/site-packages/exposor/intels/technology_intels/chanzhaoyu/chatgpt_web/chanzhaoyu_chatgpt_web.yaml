@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:chanzhaoyu:chatgpt_web:*:*:*:*:*:*:*:*
+  description: Detection of chanzhaoyu chatgpt_web
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"Chatgpt-web"
+  fofa:
+  - app="Chatgpt-web"
+  shodan:
+  - product:"Chatgpt-web"
+  zoomeye:
+  - app:"Chatgpt-web"

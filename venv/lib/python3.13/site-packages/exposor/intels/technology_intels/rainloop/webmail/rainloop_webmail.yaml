@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:rainloop:webmail:*:*:*:*:*:*:*:*
+  description: Detection of rainloop webmail
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"RAINLOOP-WebMail"
+  fofa:
+  - app="RAINLOOP-WebMail"
+  shodan:
+  - product:"RAINLOOP-WebMail"
+  zoomeye:
+  - app:"RAINLOOP-WebMail"

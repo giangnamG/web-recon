@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:springsignage:xibo:*:*:*:*:*:*:*:*
+  description: Detection of springsignage xibo
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"/xibosignage/xibo-cms"
+  fofa:
+  - banner="/xibosignage/xibo-cms"
+  shodan:
+  - http.html:"/xibosignage/xibo-cms"
+  zoomeye:
+  - banner:"/xibosignage/xibo-cms"

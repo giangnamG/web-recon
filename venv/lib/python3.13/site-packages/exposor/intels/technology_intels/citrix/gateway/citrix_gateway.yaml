@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:citrix:gateway:*:*:*:*:*:*:*:*
+  description: Detection of citrix gateway
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"citrix gateway"
+  fofa:
+  - http.title="citrix gateway"
+  shodan:
+  - http.title:"citrix gateway"
+  zoomeye:
+  - title:"citrix gateway"

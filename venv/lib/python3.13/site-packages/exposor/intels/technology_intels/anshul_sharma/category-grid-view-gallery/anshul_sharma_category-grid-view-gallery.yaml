@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:anshul_sharma:category-grid-view-gallery:*:*:*:*:*:*:*:*
+  description: Detection of anshul_sharma category-grid-view-gallery
+  version: '1.0'
+queries: {}

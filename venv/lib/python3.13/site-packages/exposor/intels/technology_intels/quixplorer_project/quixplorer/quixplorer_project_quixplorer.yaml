@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:quixplorer_project:quixplorer:*:*:*:*:*:*:*:*
+  description: Detection of quixplorer_project quixplorer
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"my download server"
+  - services.http.response.html_title:"My Download Server"
+  fofa:
+  - http.title="My Download Server"
+  - http.title="my download server"
+  shodan:
+  - http.title:"my download server"
+  - http.title:"My Download Server"
+  zoomeye:
+  - title:"my download server"
+  - title:"My Download Server"

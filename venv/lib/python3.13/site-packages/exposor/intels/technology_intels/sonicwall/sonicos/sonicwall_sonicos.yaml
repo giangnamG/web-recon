@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:sonicwall:sonicos:*:*:*:*:*:*:*:*
+  description: Detection of sonicwall sonicos
+  version: '1.0'
+queries: {}

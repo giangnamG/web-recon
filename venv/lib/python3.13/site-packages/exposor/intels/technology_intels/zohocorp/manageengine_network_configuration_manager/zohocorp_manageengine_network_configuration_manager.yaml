@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zohocorp:manageengine_network_configuration_manager:*:*:*:*:*:*:*:*
+  description: Detection of zohocorp manageengine_network_configuration_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"network configuration manager"
+  - services.http.response.html_title:"Network Configuration Manager"
+  fofa:
+  - http.title="Network Configuration Manager"
+  - http.title="network configuration manager"
+  shodan:
+  - http.title:"Network Configuration Manager"
+  - http.title:"network configuration manager"
+  zoomeye:
+  - title:"Network Configuration Manager"
+  - title:"network configuration manager"

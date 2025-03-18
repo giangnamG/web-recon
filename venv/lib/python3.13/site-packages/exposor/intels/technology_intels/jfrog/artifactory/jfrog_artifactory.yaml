@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:jfrog:artifactory:*:*:*:*:*:*:*:*
+  description: Detection of jfrog artifactory
+  version: '1.0'
+queries: {}

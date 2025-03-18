@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wpdeveloper:essential_addons_for_elementor:*:*:*:*:*:wordpress:*:*
+  description: Detection of wpdeveloper essential_addons_for_elementor
+  version: '1.0'
+queries: {}

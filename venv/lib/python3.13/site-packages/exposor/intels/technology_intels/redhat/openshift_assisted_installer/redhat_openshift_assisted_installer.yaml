@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:redhat:openshift_assisted_installer:*:*:*:*:*:*:*:*
+  description: Detection of redhat openshift_assisted_installer
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"OpenShift Assisted Installer"
+  fofa:
+  - http.title="OpenShift Assisted Installer"
+  shodan:
+  - title:"OpenShift Assisted Installer"
+  zoomeye:
+  - title:"OpenShift Assisted Installer"

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bookstackapp:bookstack:*:*:*:*:*:*:*:*
+  description: Detection of bookstackapp bookstack
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"bookstack"
+  - services.http.response.html_title:"BookStack"
+  fofa:
+  - http.title="bookstack"
+  - http.title="BookStack"
+  shodan:
+  - http.title:"bookstack"
+  - http.title:"BookStack"
+  zoomeye:
+  - title:"BookStack"
+  - title:"bookstack"

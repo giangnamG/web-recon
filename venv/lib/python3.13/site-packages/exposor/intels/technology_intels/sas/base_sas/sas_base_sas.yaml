@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sas:base_sas:*:*:*:*:*:*:*:*
+  description: Detection of sas base_sas
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:957255151
+  fofa:
+  - icon_hash=957255151
+  shodan:
+  - http.favicon.hash:957255151
+  zoomeye:
+  - iconhash:957255151

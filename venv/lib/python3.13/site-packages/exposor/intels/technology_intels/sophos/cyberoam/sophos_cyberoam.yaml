@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:sophos:cyberoam:*:*:*:*:*:*:*:*
+  description: Detection of sophos cyberoam
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"cyberoam ssl vpn portal"
+  - services.http.response.html_title:"Cyberoam SSL VPN Portal"
+  fofa:
+  - http.title="cyberoam ssl vpn portal"
+  - http.title="Cyberoam SSL VPN Portal"
+  shodan:
+  - http.title:"cyberoam ssl vpn portal"
+  - title:"Cyberoam SSL VPN Portal"
+  zoomeye:
+  - title:"cyberoam ssl vpn portal"
+  - title:"Cyberoam SSL VPN Portal"

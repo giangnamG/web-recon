@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:matrix:synapse:*:*:*:*:*:*:*:*
+  description: Detection of matrix synapse
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Synapse is running"
+  fofa:
+  - http.title="Synapse is running"
+  shodan:
+  - title:"Synapse is running"
+  zoomeye:
+  - title:"Synapse is running"

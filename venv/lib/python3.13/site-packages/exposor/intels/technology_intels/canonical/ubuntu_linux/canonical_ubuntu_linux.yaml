@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:canonical:ubuntu_linux:*:*:*:*:*:*:*:*
+  description: Detection of canonical ubuntu_linux
+  version: '1.0'
+queries: {}

@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:dataease:dataease:*:*:*:*:*:*:*:*
+  description: Detection of dataease dataease
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Dataease"
+  - services.banner:"dataease"
+  - services.http.response.body:"dataease"
+  fofa:
+  - banner="Dataease"
+  - body="dataease"
+  - banner="dataease"
+  shodan:
+  - http.html:"dataease"
+  - html:"Dataease"
+  zoomeye:
+  - banner:"Dataease"
+  - banner:"dataease"

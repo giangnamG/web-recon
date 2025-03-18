@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:templateinvaders:ti_woocommerce_wishlist:*:*:*:*:free:wordpress:*:*
+  description: Detection of templateinvaders ti_woocommerce_wishlist
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"/wp-content/plugins/ti-woocommerce-wishlist/"
+  fofa:
+  - body="/wp-content/plugins/ti-woocommerce-wishlist/"
+  shodan:
+  - http.html:"/wp-content/plugins/ti-woocommerce-wishlist/"
+  zoomeye:
+  - banner:"/wp-content/plugins/ti-woocommerce-wishlist/"

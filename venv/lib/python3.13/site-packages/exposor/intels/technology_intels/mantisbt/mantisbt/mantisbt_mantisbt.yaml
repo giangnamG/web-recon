@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mantisbt:mantisbt:*:*:*:*:*:*:*:*
+  description: Detection of mantisbt mantisbt
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:662709064
+  fofa:
+  - icon_hash=662709064
+  shodan:
+  - http.favicon.hash:662709064
+  zoomeye:
+  - iconhash:662709064

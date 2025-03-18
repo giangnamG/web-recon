@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:planetestream:planet_estream:*:*:*:*:*:*:*:*
+  description: Detection of planetestream planet_estream
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"login - planet estream"
+  - services.http.response.html_title:"Login - Planet eStream"
+  fofa:
+  - http.title="login - planet estream"
+  - http.title="Login - Planet eStream"
+  shodan:
+  - http.title:"login - planet estream"
+  - title:"Login - Planet eStream"
+  zoomeye:
+  - title:"Login - Planet eStream"
+  - title:"login - planet estream"

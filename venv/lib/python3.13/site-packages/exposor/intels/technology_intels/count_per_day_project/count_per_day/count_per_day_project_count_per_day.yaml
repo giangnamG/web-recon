@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:count_per_day_project:count_per_day:*:*:*:*:*:*:*:*
+  description: Detection of count_per_day_project count_per_day
+  version: '1.0'
+queries: {}

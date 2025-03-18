@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:gargoyle-router:gargoyle:*:*:*:*:*:*:*:*
+  description: Detection of gargoyle-router gargoyle
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Gargoyle Router Management Utility"
+  fofa:
+  - http.title="Gargoyle Router Management Utility"
+  shodan:
+  - title:"Gargoyle Router Management Utility"
+  zoomeye:
+  - title:"Gargoyle Router Management Utility"

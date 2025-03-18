@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:oracle:commerce:*:*:*:*:*:*:*:*
+  description: Detection of oracle commerce
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"oracle commerce"
+  - services.http.response.html_title:"Oracle Commerce"
+  fofa:
+  - http.title="Oracle Commerce"
+  - http.title="oracle commerce"
+  shodan:
+  - http.title:"oracle commerce"
+  - http.title:"Oracle Commerce"
+  zoomeye:
+  - title:"oracle commerce"
+  - title:"Oracle Commerce"

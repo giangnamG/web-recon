@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:heateor:sassy_social_share:*:*:*:*:*:wordpress:*:*
+  description: Detection of heateor sassy_social_share
+  version: '1.0'
+queries: {}

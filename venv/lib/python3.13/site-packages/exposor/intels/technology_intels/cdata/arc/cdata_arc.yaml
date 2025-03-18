@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cdata:arc:*:*:*:*:*:*:*:*
+  description: Detection of cdata arc
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:163538942
+  - services.http.response.favicons.shodan_hash:"163538942"
+  fofa:
+  - icon_hash=163538942
+  - icon_hash="163538942"
+  shodan:
+  - http.favicon.hash:163538942
+  - http.favicon.hash:"163538942"
+  zoomeye:
+  - iconhash:163538942
+  - iconhash:"163538942"

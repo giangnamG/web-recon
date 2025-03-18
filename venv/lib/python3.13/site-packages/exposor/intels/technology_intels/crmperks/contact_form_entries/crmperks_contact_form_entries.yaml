@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:crmperks:contact_form_entries:*:*:*:*:*:wordpress:*:*
+  description: Detection of crmperks contact_form_entries
+  version: '1.0'
+queries: {}

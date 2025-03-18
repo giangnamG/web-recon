@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zohocorp:manageengine_supportcenter_plus:*:*:*:*:*:*:*:*
+  description: Detection of zohocorp manageengine_supportcenter_plus
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"manageengine supportcenter plus"
+  - services.http.response.html_title:"ManageEngine SupportCenter Plus"
+  fofa:
+  - http.title="ManageEngine SupportCenter Plus"
+  - http.title="manageengine supportcenter plus"
+  shodan:
+  - http.title:"manageengine supportcenter plus"
+  - http.title:"ManageEngine SupportCenter Plus"
+  zoomeye:
+  - title:"manageengine supportcenter plus"
+  - title:"ManageEngine SupportCenter Plus"

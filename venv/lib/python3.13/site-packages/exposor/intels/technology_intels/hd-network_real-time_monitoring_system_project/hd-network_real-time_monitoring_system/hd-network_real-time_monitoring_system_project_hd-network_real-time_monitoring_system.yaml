@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:hd-network_real-time_monitoring_system_project:hd-network_real-time_monitoring_system:*:*:*:*:*:*:*:*
+  description: Detection of hd-network_real-time_monitoring_system_project hd-network_real-time_monitoring_system
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"hd-network real-time monitoring system v2.0"
+  fofa:
+  - http.title="hd-network real-time monitoring system v2.0"
+  shodan:
+  - http.title:"hd-network real-time monitoring system v2.0"
+  zoomeye:
+  - title:"hd-network real-time monitoring system v2.0"

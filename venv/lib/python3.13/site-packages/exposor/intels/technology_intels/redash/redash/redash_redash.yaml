@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:redash:redash:*:*:*:*:*:*:*:*
+  description: Detection of redash redash
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:698624197
+  fofa:
+  - icon_hash=698624197
+  shodan:
+  - http.favicon.hash:698624197
+  zoomeye:
+  - iconhash:698624197

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:vivotek:ip7361:*:*:*:*:*:*:*:*
+  description: Detection of vivotek ip7361
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"VIVOTEK-Web-Console"
+  - services.http.response.html_title:"VIVOTEK Web Console"
+  fofa:
+  - http.title="VIVOTEK Web Console"
+  - app="VIVOTEK-Web-Console"
+  shodan:
+  - product:"VIVOTEK-Web-Console"
+  - title:"VIVOTEK Web Console"
+  zoomeye:
+  - title:"VIVOTEK Web Console"
+  - app:"VIVOTEK-Web-Console"

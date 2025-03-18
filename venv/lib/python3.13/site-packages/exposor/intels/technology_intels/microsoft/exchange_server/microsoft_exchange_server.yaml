@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:microsoft:exchange_server:*:*:*:*:*:*:*:*
+  description: Detection of microsoft exchange_server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:1768726119
+  - services.http.response.html_title:"outlook"
+  - services.http.response.html_title:"Outlook"
+  fofa:
+  - http.title="outlook"
+  - icon_hash=1768726119
+  - http.title="Outlook"
+  shodan:
+  - http.title:"outlook"
+  - http.favicon.hash:1768726119
+  - http.title:"Outlook"
+  zoomeye:
+  - title:"Outlook"
+  - iconhash:1768726119
+  - title:"outlook"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:gestsup:gestsup:*:*:*:*:*:*:*:*
+  description: Detection of gestsup gestsup
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-283003760
+  fofa:
+  - icon_hash=-283003760
+  shodan:
+  - http.favicon.hash:-283003760
+  zoomeye:
+  - iconhash:-283003760

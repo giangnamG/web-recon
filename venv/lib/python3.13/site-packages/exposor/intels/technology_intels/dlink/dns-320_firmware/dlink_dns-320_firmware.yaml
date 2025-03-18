@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:dlink:dns-320_firmware:*:*:*:*:*:*:*:*
+  description: Detection of dlink dns-320_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"ShareCenter"
+  - services.banner:"sharecenter"
+  - services.http.response.body:"sharecenter"
+  fofa:
+  - body="sharecenter"
+  - banner="ShareCenter"
+  - banner="sharecenter"
+  shodan:
+  - html:"ShareCenter"
+  - http.html:"sharecenter"
+  zoomeye:
+  - banner:"sharecenter"
+  - banner:"ShareCenter"

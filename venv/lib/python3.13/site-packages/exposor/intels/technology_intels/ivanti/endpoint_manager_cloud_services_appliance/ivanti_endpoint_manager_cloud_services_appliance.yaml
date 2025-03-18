@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ivanti:endpoint_manager_cloud_services_appliance:*:*:*:*:*:*:*:*
+  description: Detection of ivanti endpoint_manager_cloud_services_appliance
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"landesk
+  - services.software.product:"landesk
+  - services.http.response.html_title:"LANDesk
+  fofa:
+  - http.title="LANDesk
+  - http.title="landesk
+  - title="landesk(r) cloud services appliance"
+  shodan:
+  - http.title:"landesk(r) cloud services appliance"
+  - product:"landesk
+  - title:"LANDesk(R) Cloud Services Appliance"
+  zoomeye:
+  - title:"landesk
+  - title:"LANDesk
+  - app:"landesk

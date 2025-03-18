@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:chachethq:cachet:*:*:*:*:*:*:*:*
+  description: Detection of chachethq cachet
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-1606065523
+  fofa:
+  - icon_hash=-1606065523
+  shodan:
+  - http.favicon.hash:-1606065523
+  zoomeye:
+  - iconhash:-1606065523

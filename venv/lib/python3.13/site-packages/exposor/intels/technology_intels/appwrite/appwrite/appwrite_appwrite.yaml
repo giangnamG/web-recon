@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:appwrite:appwrite:*:*:*:*:*:*:*:*
+  description: Detection of appwrite appwrite
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"sign in - appwrite"
+  - services.software.product:"sign in - appwrite"
+  - services.http.response.favicons.shodan_hash:-633108100
+  fofa:
+  - title="sign in - appwrite"
+  - http.title="sign in - appwrite"
+  - icon_hash=-633108100
+  shodan:
+  - http.title:"sign in - appwrite"
+  - http.favicon.hash:-633108100
+  - product:"sign in - appwrite"
+  zoomeye:
+  - title:"sign in - appwrite"
+  - app:"sign in - appwrite"
+  - iconhash:-633108100

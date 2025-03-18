@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:advantech:r-seenet:*:*:*:*:*:*:*:*
+  description: Detection of advantech r-seenet
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"r-seenet"
+  - services.http.response.body:"r-seenet"
+  - services.banner:"R-SeeNet"
+  fofa:
+  - banner="r-seenet"
+  - banner="R-SeeNet"
+  - body="r-seenet"
+  shodan:
+  - http.html:"r-seenet"
+  - http.html:"R-SeeNet"
+  zoomeye:
+  - banner:"R-SeeNet"
+  - banner:"r-seenet"

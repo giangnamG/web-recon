@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:4d:4d:*:*:*:*:*:*:*:*
+  description: Detection of 4d 4d
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"4DACTION/"
+  fofa:
+  - banner="4DACTION/"
+  shodan:
+  - http.html:"4DACTION/"
+  zoomeye:
+  - banner:"4DACTION/"

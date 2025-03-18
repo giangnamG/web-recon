@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:zyxel:nas326_firmware:*:*:*:*:*:*:*:*
+  description: Detection of zyxel nas326_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"ZYXEL-NAS326"
+  fofa:
+  - app="ZYXEL-NAS326"
+  shodan:
+  - product:"ZYXEL-NAS326"
+  zoomeye:
+  - app:"ZYXEL-NAS326"

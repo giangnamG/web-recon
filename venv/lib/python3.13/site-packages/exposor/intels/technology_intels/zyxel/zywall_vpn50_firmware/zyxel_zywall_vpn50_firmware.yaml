@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:zyxel:zywall_vpn50_firmware:*:*:*:*:*:*:*:*
+  description: Detection of zyxel zywall_vpn50_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-440644339
+  fofa:
+  - icon_hash=-440644339
+  shodan:
+  - http.favicon.hash:-440644339
+  zoomeye:
+  - iconhash:-440644339

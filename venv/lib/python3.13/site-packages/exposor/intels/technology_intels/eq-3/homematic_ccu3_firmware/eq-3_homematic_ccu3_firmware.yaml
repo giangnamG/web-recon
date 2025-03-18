@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:eq-3:homematic_ccu3_firmware:*:*:*:*:*:*:*:*
+  description: Detection of eq-3 homematic_ccu3_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"homematic"
+  - services.banner:"homematic"
+  - services.banner:"Homematic"
+  fofa:
+  - banner="homematic"
+  - body="homematic"
+  - banner="Homematic"
+  shodan:
+  - http.html:"Homematic"
+  - http.html:"homematic"
+  zoomeye:
+  - banner:"Homematic"
+  - banner:"homematic"

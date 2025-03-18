@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:siemens:sinema_remote_connect_server:*:*:*:*:*:*:*:*
+  description: Detection of siemens sinema_remote_connect_server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Logon - SINEMA Remote Connect"
+  - services.http.response.html_title:"logon - sinema remote connect"
+  fofa:
+  - http.title="Logon - SINEMA Remote Connect"
+  - http.title="logon - sinema remote connect"
+  shodan:
+  - http.title:"logon - sinema remote connect"
+  - title:"Logon - SINEMA Remote Connect"
+  zoomeye:
+  - title:"logon - sinema remote connect"
+  - title:"Logon - SINEMA Remote Connect"

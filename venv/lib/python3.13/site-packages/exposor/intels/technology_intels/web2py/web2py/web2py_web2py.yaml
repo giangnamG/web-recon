@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:web2py:web2py:*:*:*:*:*:*:*:*
+  description: Detection of web2py web2py
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-1680052984
+  fofa:
+  - icon_hash=-1680052984
+  shodan:
+  - http.favicon.hash:-1680052984
+  zoomeye:
+  - iconhash:-1680052984

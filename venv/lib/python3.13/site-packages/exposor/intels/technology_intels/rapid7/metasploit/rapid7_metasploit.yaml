@@ -1,0 +1,26 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:rapid7:metasploit:*:*:*:*:*:*:*:*
+  description: Detection of rapid7 metasploit
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:'Metasploit'
+  - services.http.response.html_title:"metasploit - setup and configuration"
+  - services.http.response.html_title:'metasploit'
+  - services.http.response.html_title:"metasploit"
+  fofa:
+  - http.title="metasploit - setup and configuration"
+  - http.title="metasploit"
+  - http.title='metasploit'
+  - http.title='Metasploit'
+  shodan:
+  - http.title:"metasploit - setup and configuration"
+  - http.title:'Metasploit'
+  - http.title:'metasploit'
+  - http.title:"metasploit"
+  zoomeye:
+  - title:"metasploit"
+  - title:"metasploit - setup and configuration"
+  - title:'metasploit'
+  - title:'Metasploit'

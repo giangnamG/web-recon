@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:checkpoint:ssl_network_extender:*:*:*:*:*:*:*:*
+  description: Detection of checkpoint ssl_network_extender
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Check Point SSL Network Extender"
+  - services.http.response.html_title:"ssl network extender login"
+  - services.http.response.html_title:"check point ssl network extender"
+  fofa:
+  - http.title="check point ssl network extender"
+  - http.title="ssl network extender login"
+  - http.title="Check Point SSL Network Extender"
+  shodan:
+  - http.title:"ssl network extender login"
+  - http.title:"Check Point SSL Network Extender"
+  - http.title:"check point ssl network extender"
+  zoomeye:
+  - title:"ssl network extender login"
+  - title:"check point ssl network extender"
+  - title:"Check Point SSL Network Extender"

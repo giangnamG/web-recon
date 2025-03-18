@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:phpok:phpok:*:*:*:*:*:*:*:*
+  description: Detection of phpok phpok
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"phpok"
+  fofa:
+  - app="phpok"
+  shodan:
+  - product:"phpok"
+  zoomeye:
+  - app:"phpok"

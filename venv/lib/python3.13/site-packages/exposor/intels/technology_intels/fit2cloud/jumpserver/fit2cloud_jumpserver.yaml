@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:fit2cloud:jumpserver:*:*:*:*:*:*:*:*
+  description: Detection of fit2cloud jumpserver
+  version: '1.0'
+queries: {}

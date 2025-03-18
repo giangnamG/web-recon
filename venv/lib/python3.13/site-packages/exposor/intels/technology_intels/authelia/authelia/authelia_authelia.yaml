@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:authelia:authelia:*:*:*:*:*:*:*:*
+  description: Detection of authelia authelia
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Login - Authelia"
+  fofa:
+  - http.title="Login - Authelia"
+  shodan:
+  - title:"Login - Authelia"
+  zoomeye:
+  - title:"Login - Authelia"

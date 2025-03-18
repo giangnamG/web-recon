@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:ofbiz:*:*:*:*:*:*:*:*
+  description: Detection of apache ofbiz
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"Apache_OFBiz"
+  fofa:
+  - app="Apache_OFBiz"
+  shodan:
+  - product:"Apache_OFBiz"
+  zoomeye:
+  - app:"Apache_OFBiz"

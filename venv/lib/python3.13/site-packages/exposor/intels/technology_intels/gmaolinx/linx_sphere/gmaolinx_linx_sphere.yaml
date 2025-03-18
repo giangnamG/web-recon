@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:gmaolinx:linx_sphere:*:*:*:*:*:*:*:*
+  description: Detection of gmaolinx linx_sphere
+  version: '1.0'
+queries: {}

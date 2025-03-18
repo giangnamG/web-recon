@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zeit:next.js:*:*:*:*:*:*:*:*
+  description: Detection of zeit next.js
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"/_next/static"
+  - services.banner:"/_next/static"
+  fofa:
+  - body="/_next/static"
+  - banner="/_next/static"
+  shodan:
+  - http.html:"/_next/static"
+  zoomeye:
+  - banner:"/_next/static"

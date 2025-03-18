@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:dell:emc_idrac_service_module:*:*:*:*:*:*:*:*
+  description: Detection of dell emc_idrac_service_module
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"thisIDRACText"
+  fofa:
+  - banner="thisIDRACText"
+  shodan:
+  - html:"thisIDRACText"
+  zoomeye:
+  - banner:"thisIDRACText"

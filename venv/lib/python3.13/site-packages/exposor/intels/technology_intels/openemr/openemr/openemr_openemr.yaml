@@ -1,0 +1,28 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:openemr:openemr:*:*:*:*:*:*:*:*
+  description: Detection of openemr openemr
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"openemr"
+  - services.http.response.favicons.shodan_hash:1971268439
+  - services.banner:"openemr"
+  - services.http.response.body:"openemr"
+  - services.http.response.html_title:"openemr"
+  fofa:
+  - banner="openemr"
+  - icon_hash=1971268439
+  - app="openemr"
+  - body="openemr"
+  - http.title="openemr"
+  shodan:
+  - http.title:"openemr"
+  - http.favicon.hash:1971268439
+  - http.html:"openemr"
+  - product:"openemr"
+  zoomeye:
+  - app:"openemr"
+  - title:"openemr"
+  - iconhash:1971268439
+  - banner:"openemr"

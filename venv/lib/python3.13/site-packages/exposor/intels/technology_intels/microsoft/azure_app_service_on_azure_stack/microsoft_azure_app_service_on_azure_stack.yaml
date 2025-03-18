@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:microsoft:azure_app_service_on_azure_stack:*:*:*:*:*:*:*:*
+  description: Detection of microsoft azure_app_service_on_azure_stack
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Microsoft Azure Web App - Error 404"
+  fofa:
+  - http.title="Microsoft Azure Web App - Error 404"
+  shodan:
+  - title:"Microsoft Azure Web App - Error 404"
+  zoomeye:
+  - title:"Microsoft Azure Web App - Error 404"

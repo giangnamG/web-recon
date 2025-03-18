@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:atlassian:jira_service_management:*:*:*:*:*:*:*:*
+  description: Detection of atlassian jira_service_management
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Atlassian Jira"
+  fofa:
+  - banner="Atlassian Jira"
+  shodan:
+  - http.component:"Atlassian Jira"
+  zoomeye:
+  - banner:"Atlassian Jira"

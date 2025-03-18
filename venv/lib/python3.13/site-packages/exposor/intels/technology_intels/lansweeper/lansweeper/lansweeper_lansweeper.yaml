@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:lansweeper:lansweeper:*:*:*:*:*:*:*:*
+  description: Detection of lansweeper lansweeper
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"lansweeper - login"
+  fofa:
+  - http.title="lansweeper - login"
+  shodan:
+  - http.title:"lansweeper - login"
+  zoomeye:
+  - title:"lansweeper - login"

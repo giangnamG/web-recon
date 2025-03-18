@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:influxdata:influxdb:*:*:*:*:*:*:*:*
+  description: Detection of influxdata influxdb
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"influxdb - admin interface"
+  fofa:
+  - http.title="influxdb - admin interface"
+  shodan:
+  - http.title:"influxdb - admin interface"
+  zoomeye:
+  - title:"influxdb - admin interface"

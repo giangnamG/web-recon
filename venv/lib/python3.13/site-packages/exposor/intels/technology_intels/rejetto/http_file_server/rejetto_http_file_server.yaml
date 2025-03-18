@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:rejetto:http_file_server:*:*:*:*:*:*:*:*
+  description: Detection of rejetto http_file_server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:2124459909
+  fofa:
+  - icon_hash=2124459909
+  shodan:
+  - http.favicon.hash:2124459909
+  zoomeye:
+  - iconhash:2124459909

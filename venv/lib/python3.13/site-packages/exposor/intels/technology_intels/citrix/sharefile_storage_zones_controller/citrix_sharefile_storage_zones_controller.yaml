@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:citrix:sharefile_storage_zones_controller:*:*:*:*:*:*:*:*
+  description: Detection of citrix sharefile_storage_zones_controller
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"sharefile storage server"
+  - services.http.response.html_title:"ShareFile Storage Server"
+  fofa:
+  - http.title="sharefile storage server"
+  - http.title="ShareFile Storage Server"
+  shodan:
+  - title:"ShareFile Storage Server"
+  - http.title:"sharefile storage server"
+  zoomeye:
+  - title:"ShareFile Storage Server"
+  - title:"sharefile storage server"

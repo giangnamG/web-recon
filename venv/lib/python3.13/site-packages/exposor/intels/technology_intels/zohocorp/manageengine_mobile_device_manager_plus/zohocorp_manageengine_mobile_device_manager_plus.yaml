@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zohocorp:manageengine_mobile_device_manager_plus:*:*:*:*:*:*:*:*
+  description: Detection of zohocorp manageengine_mobile_device_manager_plus
+  version: '1.0'
+queries: {}

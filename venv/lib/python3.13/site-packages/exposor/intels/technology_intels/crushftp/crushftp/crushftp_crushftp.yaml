@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:crushftp:crushftp:*:*:*:*:*:*:*:*
+  description: Detection of crushftp crushftp
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"crushftp"
+  - services.banner:"crushftp"
+  fofa:
+  - banner="crushftp"
+  - body="crushftp"
+  shodan:
+  - http.html:"crushftp"
+  zoomeye:
+  - banner:"crushftp"

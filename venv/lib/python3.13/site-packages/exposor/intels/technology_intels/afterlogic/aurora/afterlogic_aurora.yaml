@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:afterlogic:aurora:*:*:*:*:*:*:*:*
+  description: Detection of afterlogic aurora
+  version: '1.0'
+queries: {}

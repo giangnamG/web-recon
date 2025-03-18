@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:directum:directum:*:*:*:*:*:*:*:*
+  description: Detection of directum directum
+  version: '1.0'
+queries: {}

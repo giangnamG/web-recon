@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zerof:web_server:*:*:*:*:*:*:*:*
+  description: Detection of zerof web_server
+  version: '1.0'
+queries: {}

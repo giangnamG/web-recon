@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:intelliants:subrion:*:*:*:*:*:*:*:*
+  description: Detection of intelliants subrion
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Subrion"
+  fofa:
+  - banner="Subrion"
+  shodan:
+  - http.component:"Subrion"
+  zoomeye:
+  - banner:"Subrion"

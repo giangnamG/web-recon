@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:suse:rancher:*:*:*:*:*:*:*:*
+  description: Detection of suse rancher
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:464587962
+  fofa:
+  - icon_hash=464587962
+  shodan:
+  - http.favicon.hash:464587962
+  zoomeye:
+  - iconhash:464587962

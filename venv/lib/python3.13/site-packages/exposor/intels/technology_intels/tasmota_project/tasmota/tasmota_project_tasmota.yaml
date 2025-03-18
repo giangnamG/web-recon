@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:tasmota_project:tasmota:*:*:*:*:*:*:*:*
+  description: Detection of tasmota_project tasmota
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Tasmota"
+  fofa:
+  - http.title="Tasmota"
+  shodan:
+  - title:"Tasmota"
+  zoomeye:
+  - title:"Tasmota"

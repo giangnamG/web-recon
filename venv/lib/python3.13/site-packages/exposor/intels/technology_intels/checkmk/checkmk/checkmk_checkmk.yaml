@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:checkmk:checkmk:*:*:*:*:*:*:*:*
+  description: Detection of checkmk checkmk
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Check_MK"
+  fofa:
+  - http.title="Check_MK"
+  shodan:
+  - http.title:"Check_MK"
+  zoomeye:
+  - title:"Check_MK"

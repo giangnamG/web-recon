@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:oracle:http_server:*:*:*:*:*:*:*:*
+  description: Detection of oracle http_server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Oracle Application Server"
+  fofa:
+  - http.title="Oracle Application Server"
+  shodan:
+  - title:"Oracle Application Server"
+  zoomeye:
+  - title:"Oracle Application Server"

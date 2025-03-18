@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:magnolia-cms:magnolia_cms:*:*:*:*:*:*:*:*
+  description: Detection of magnolia-cms magnolia_cms
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Magnolia is a registered trademark"
+  fofa:
+  - banner="Magnolia is a registered trademark"
+  shodan:
+  - html:"Magnolia is a registered trademark"
+  zoomeye:
+  - banner:"Magnolia is a registered trademark"

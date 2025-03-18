@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:loytec:lgate-902_firmware:*:*:*:*:*:*:*:*
+  description: Detection of loytec lgate-902_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"lgate-902"
+  - services.banner:"LGATE-902"
+  - services.banner:"lgate-902"
+  fofa:
+  - banner="LGATE-902"
+  - banner="lgate-902"
+  - body="lgate-902"
+  shodan:
+  - http.html:"lgate-902"
+  - http.html:"LGATE-902"
+  zoomeye:
+  - banner:"lgate-902"
+  - banner:"LGATE-902"

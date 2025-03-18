@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:adobe:dispatcher:*:*:*:*:*:*:*:*
+  description: Detection of adobe dispatcher
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"adobe experience manager"
+  - services.banner:"Adobe Experience Manager"
+  fofa:
+  - banner="Adobe Experience Manager"
+  - banner="adobe experience manager"
+  shodan:
+  - http.component:"adobe experience manager"
+  - http.component:"Adobe Experience Manager"
+  zoomeye:
+  - banner:"Adobe Experience Manager"
+  - banner:"adobe experience manager"

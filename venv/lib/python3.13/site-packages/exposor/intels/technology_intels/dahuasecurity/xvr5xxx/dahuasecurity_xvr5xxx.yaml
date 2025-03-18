@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:dahuasecurity:xvr5xxx:*:*:*:*:*:*:*:*
+  description: Detection of dahuasecurity xvr5xxx
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"XVR LOGIN"
+  - services.http.response.html_title:"xvr login"
+  fofa:
+  - http.title="XVR LOGIN"
+  - http.title="xvr login"
+  shodan:
+  - http.title:"XVR LOGIN"
+  - http.title:"xvr login"
+  zoomeye:
+  - title:"xvr login"
+  - title:"XVR LOGIN"

@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:auieo:candidats:*:*:*:*:*:*:*:*
+  description: Detection of auieo candidats
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"CandidATS"
+  - services.banner:"candidats"
+  - services.http.response.body:"candidats"
+  fofa:
+  - banner="CandidATS"
+  - banner="candidats"
+  - body="candidats"
+  shodan:
+  - http.html:"candidats"
+  - http.html:"CandidATS"
+  zoomeye:
+  - banner:"candidats"
+  - banner:"CandidATS"

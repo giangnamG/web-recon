@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:vmware:horizon_view:*:*:*:*:*:*:*:*
+  description: Detection of vmware horizon_view
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Vmware Horizon"
+  fofa:
+  - http.title="Vmware Horizon"
+  shodan:
+  - title:"Vmware Horizon"
+  zoomeye:
+  - title:"Vmware Horizon"

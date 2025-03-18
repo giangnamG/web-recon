@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:intelliantech:aptus_web:*:*:*:*:*:*:*:*
+  description: Detection of intelliantech aptus_web
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"intellian aptus web"
+  - services.http.response.html_title:"Intellian Aptus Web"
+  fofa:
+  - http.title="intellian aptus web"
+  - http.title="Intellian Aptus Web"
+  shodan:
+  - http.title:"intellian aptus web"
+  - http.title:"Intellian Aptus Web"
+  zoomeye:
+  - title:"intellian aptus web"
+  - title:"Intellian Aptus Web"

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:directadmin:directadmin:*:*:*:*:*:*:*:*
+  description: Detection of directadmin directadmin
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"directadmin login"
+  - services.http.response.html_title:"DirectAdmin Login"
+  fofa:
+  - http.title="directadmin login"
+  - http.title="DirectAdmin Login"
+  shodan:
+  - http.title:"directadmin login"
+  - title:"DirectAdmin Login"
+  zoomeye:
+  - title:"DirectAdmin Login"
+  - title:"directadmin login"

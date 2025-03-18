@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ciprianmp:phpmychat-plus:*:*:*:*:*:*:*:*
+  description: Detection of ciprianmp phpmychat-plus
+  version: '1.0'
+queries: {}

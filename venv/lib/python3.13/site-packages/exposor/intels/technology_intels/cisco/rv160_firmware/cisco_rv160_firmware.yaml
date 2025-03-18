@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:cisco:rv160_firmware:*:*:*:*:*:*:*:*
+  description: Detection of cisco rv160_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"cisco rv340"
+  - services.http.response.body:"cisco rv340"
+  - services.banner:"Cisco rv340"
+  fofa:
+  - banner="cisco rv340"
+  - banner="Cisco rv340"
+  - body="cisco rv340"
+  shodan:
+  - http.html:"cisco rv340"
+  - http.html:"Cisco rv340"
+  zoomeye:
+  - banner:"Cisco rv340"
+  - banner:"cisco rv340"

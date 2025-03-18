@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:structurizr:on-premises_installation:*:*:*:*:*:*:*:*
+  description: Detection of structurizr on-premises_installation
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:1199592666
+  fofa:
+  - icon_hash=1199592666
+  shodan:
+  - http.favicon.hash:1199592666
+  zoomeye:
+  - iconhash:1199592666

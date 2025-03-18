@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:kylin:*:*:*:*:*:*:*:*
+  description: Detection of apache kylin
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-186961397
+  fofa:
+  - icon_hash=-186961397
+  shodan:
+  - http.favicon.hash:-186961397
+  zoomeye:
+  - iconhash:-186961397

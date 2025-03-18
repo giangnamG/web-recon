@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:ict:protege_wx_firmware:*:*:*:*:*:*:*:*
+  description: Detection of ict protege_wx_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"ict protege wx
+  - services.http.response.html_title:"ICT Protege WX
+  fofa:
+  - http.title="ICT Protege WX
+  - http.title="ict protege wx
+  shodan:
+  - http.title:"ict protege wx&reg;"
+  - title:"ICT Protege WX&reg;"
+  zoomeye:
+  - title:"ict protege wx
+  - title:"ICT Protege WX

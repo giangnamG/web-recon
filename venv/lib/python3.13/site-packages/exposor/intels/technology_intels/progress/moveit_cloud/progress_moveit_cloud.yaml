@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:progress:moveit_cloud:*:*:*:*:*:*:*:*
+  description: Detection of progress moveit_cloud
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:989289239
+  fofa:
+  - icon_hash=989289239
+  shodan:
+  - http.favicon.hash:989289239
+  zoomeye:
+  - iconhash:989289239

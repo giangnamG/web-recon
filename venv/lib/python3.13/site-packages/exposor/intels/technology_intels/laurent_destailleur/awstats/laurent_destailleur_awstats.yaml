@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:laurent_destailleur:awstats:*:*:*:*:*:*:*:*
+  description: Detection of laurent_destailleur awstats
+  version: '1.0'
+queries: {}

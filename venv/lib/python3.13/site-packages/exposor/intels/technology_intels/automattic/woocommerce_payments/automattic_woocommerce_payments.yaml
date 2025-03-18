@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:automattic:woocommerce_payments:*:*:*:*:*:wordpress:*:*
+  description: Detection of automattic woocommerce_payments
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/woocommerce-payments
+  - services.http.response.body:/wp-content/plugins/woocommerce-payments
+  fofa:
+  - body=/wp-content/plugins/woocommerce-payments
+  - banner=/wp-content/plugins/woocommerce-payments
+  shodan:
+  - http.html:/wp-content/plugins/woocommerce-payments
+  zoomeye:
+  - banner:/wp-content/plugins/woocommerce-payments

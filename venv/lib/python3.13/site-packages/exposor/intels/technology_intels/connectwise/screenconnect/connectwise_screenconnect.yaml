@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:connectwise:screenconnect:*:*:*:*:*:*:*:*
+  description: Detection of connectwise screenconnect
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"screenconnect remote management software"
+  - services.http.response.favicons.shodan_hash:-82958153
+  - services.software.product:"screenconnect-remote-support-software"
+  fofa:
+  - app="screenconnect remote management software"
+  - icon_hash=-82958153
+  - app="screenconnect-remote-support-software"
+  shodan:
+  - http.favicon.hash:-82958153
+  - product:"screenconnect remote management software"
+  - product:"screenconnect-remote-support-software"
+  zoomeye:
+  - app:"screenconnect-remote-support-software"
+  - app:"screenconnect remote management software"
+  - iconhash:-82958153

@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:zte:f460:*:*:*:*:*:*:*:*
+  description: Detection of zte f460
+  version: '1.0'
+queries: {}

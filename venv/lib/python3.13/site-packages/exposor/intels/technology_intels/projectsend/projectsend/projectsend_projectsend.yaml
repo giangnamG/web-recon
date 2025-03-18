@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:projectsend:projectsend:*:*:*:*:*:*:*:*
+  description: Detection of projectsend projectsend
+  version: '1.0'
+queries: {}

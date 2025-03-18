@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bottlepy:bottle:*:*:*:*:*:*:*:*
+  description: Detection of bottlepy bottle
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Sorry
+  fofa:
+  - banner="Sorry
+  shodan:
+  - html:"Sorry, the requested URL"
+  zoomeye:
+  - banner:"Sorry

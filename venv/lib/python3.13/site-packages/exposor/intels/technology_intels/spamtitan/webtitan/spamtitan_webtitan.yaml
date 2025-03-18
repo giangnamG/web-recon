@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:spamtitan:webtitan:*:*:*:*:*:*:*:*
+  description: Detection of spamtitan webtitan
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:1090061843
+  - services.http.response.html_title:"WebTitan"
+  fofa:
+  - http.title="WebTitan"
+  - icon_hash=1090061843
+  shodan:
+  - title:"WebTitan"
+  - http.favicon.hash:1090061843
+  zoomeye:
+  - title:"WebTitan"
+  - iconhash:1090061843

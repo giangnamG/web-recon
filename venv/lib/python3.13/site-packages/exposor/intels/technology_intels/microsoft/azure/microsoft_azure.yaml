@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:microsoft:azure:*:*:*:*:*:*:*:*
+  description: Detection of microsoft azure
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Your Azure Function App is up and running"
+  fofa:
+  - banner="Your Azure Function App is up and running"
+  shodan:
+  - html:"Your Azure Function App is up and running"
+  zoomeye:
+  - banner:"Your Azure Function App is up and running"

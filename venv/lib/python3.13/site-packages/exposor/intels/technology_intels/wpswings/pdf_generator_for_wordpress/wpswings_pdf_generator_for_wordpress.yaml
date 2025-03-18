@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wpswings:pdf_generator_for_wordpress:*:*:*:*:*:wordpress:*:*
+  description: Detection of wpswings pdf_generator_for_wordpress
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/pdf-generator-for-wp
+  - services.banner:/wp-content/plugins/pdf-generator-for-wp
+  fofa:
+  - body=/wp-content/plugins/pdf-generator-for-wp
+  - banner=/wp-content/plugins/pdf-generator-for-wp
+  shodan:
+  - http.html:/wp-content/plugins/pdf-generator-for-wp
+  zoomeye:
+  - banner:/wp-content/plugins/pdf-generator-for-wp

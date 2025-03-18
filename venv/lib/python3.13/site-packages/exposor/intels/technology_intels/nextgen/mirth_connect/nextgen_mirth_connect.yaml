@@ -1,0 +1,15 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:nextgen:mirth_connect:*:*:*:*:*:*:*:*
+  description: Detection of nextgen mirth_connect
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"mirth connect administrator"
+  fofa:
+  - http.title="mirth connect administrator"
+  shodan:
+  - title:"mirth connect administrator"
+  - http.title:"mirth connect administrator"
+  zoomeye:
+  - title:"mirth connect administrator"

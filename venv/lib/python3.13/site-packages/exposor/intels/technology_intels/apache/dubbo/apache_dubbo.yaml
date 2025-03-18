@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:dubbo:*:*:*:*:*:*:*:*
+  description: Detection of apache dubbo
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"APACHE-dubbo"
+  fofa:
+  - app="APACHE-dubbo"
+  shodan:
+  - product:"APACHE-dubbo"
+  zoomeye:
+  - app:"APACHE-dubbo"

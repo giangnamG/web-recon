@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:itechscripts:b2b_script:*:*:*:*:*:*:*:*
+  description: Detection of itechscripts b2b_script
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"B2BBuilder"
+  fofa:
+  - app="B2BBuilder"
+  shodan:
+  - product:"B2BBuilder"
+  zoomeye:
+  - app:"B2BBuilder"

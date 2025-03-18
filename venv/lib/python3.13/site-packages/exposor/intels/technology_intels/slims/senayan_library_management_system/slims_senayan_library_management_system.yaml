@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:slims:senayan_library_management_system:*:*:*:*:*:*:*:*
+  description: Detection of slims senayan_library_management_system
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"SLIMS"
+  fofa:
+  - banner="SLIMS"
+  shodan:
+  - http.html:"SLIMS"
+  zoomeye:
+  - banner:"SLIMS"

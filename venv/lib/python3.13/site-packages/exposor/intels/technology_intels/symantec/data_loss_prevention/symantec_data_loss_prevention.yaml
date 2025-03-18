@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:symantec:data_loss_prevention:*:*:*:*:*:*:*:*
+  description: Detection of symantec data_loss_prevention
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"symantec data loss prevention"
+  - services.http.response.html_title:"Symantec Data Loss Prevention"
+  fofa:
+  - http.title="symantec data loss prevention"
+  - http.title="Symantec Data Loss Prevention"
+  shodan:
+  - http.title:"Symantec Data Loss Prevention"
+  - http.title:"symantec data loss prevention"
+  zoomeye:
+  - title:"Symantec Data Loss Prevention"
+  - title:"symantec data loss prevention"

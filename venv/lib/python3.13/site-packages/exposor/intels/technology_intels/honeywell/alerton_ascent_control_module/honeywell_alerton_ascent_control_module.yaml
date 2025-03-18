@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:honeywell:alerton_ascent_control_module:*:*:*:*:*:*:*:*
+  description: Detection of honeywell alerton_ascent_control_module
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Honeywell Building Control"
+  fofa:
+  - banner="Honeywell Building Control"
+  shodan:
+  - html:"Honeywell Building Control"
+  zoomeye:
+  - banner:"Honeywell Building Control"

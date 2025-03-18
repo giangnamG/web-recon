@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:chamilo:chamilo:*:*:*:*:*:*:*:*
+  description: Detection of chamilo chamilo
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Chamilo has not been installed"
+  fofa:
+  - http.title="Chamilo has not been installed"
+  shodan:
+  - title:"Chamilo has not been installed"
+  zoomeye:
+  - title:"Chamilo has not been installed"

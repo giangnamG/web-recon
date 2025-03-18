@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:orangehrm:orangehrm:*:*:*:*:*:*:*:*
+  description: Detection of orangehrm orangehrm
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"OrangeHRM Web Installation Wizard"
+  fofa:
+  - http.title="OrangeHRM Web Installation Wizard"
+  shodan:
+  - http.title:"OrangeHRM Web Installation Wizard"
+  zoomeye:
+  - title:"OrangeHRM Web Installation Wizard"

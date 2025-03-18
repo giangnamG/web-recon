@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:dataease_project:dataease:*:*:*:*:*:*:*:*
+  description: Detection of dataease_project dataease
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Dataease"
+  fofa:
+  - banner="Dataease"
+  shodan:
+  - html:"Dataease"
+  zoomeye:
+  - banner:"Dataease"

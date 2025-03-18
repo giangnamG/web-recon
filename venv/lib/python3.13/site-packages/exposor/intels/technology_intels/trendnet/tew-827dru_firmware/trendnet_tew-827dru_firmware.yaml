@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:trendnet:tew-827dru_firmware:*:*:*:*:*:*:*:*
+  description: Detection of trendnet tew-827dru_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"tew-827dru"
+  - services.banner:"TEW-827DRU"
+  - services.http.response.body:"tew-827dru"
+  fofa:
+  - banner="tew-827dru"
+  - banner="TEW-827DRU"
+  - body="tew-827dru"
+  shodan:
+  - http.html:"TEW-827DRU"
+  - http.html:"tew-827dru"
+  zoomeye:
+  - banner:"tew-827dru"
+  - banner:"TEW-827DRU"

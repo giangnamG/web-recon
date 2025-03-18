@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sixapart:movable_type:*:*:*:*:premium:*:*:*
+  description: Detection of sixapart movable_type
+  version: '1.0'
+queries:
+  censys:
+  - "services.http.response.html_title:\"\u30B5\u30A4\u30F3\u30A4\u30F3 "
+  fofa:
+  - "http.title=\"\u30B5\u30A4\u30F3\u30A4\u30F3 "
+  shodan:
+  - "http.title:\"\u30B5\u30A4\u30F3\u30A4\u30F3 | movable type pro\""
+  zoomeye:
+  - "title:\"\u30B5\u30A4\u30F3\u30A4\u30F3 "

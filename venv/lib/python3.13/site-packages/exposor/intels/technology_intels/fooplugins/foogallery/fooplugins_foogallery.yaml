@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:fooplugins:foogallery:*:*:*:*:*:wordpress:*:*
+  description: Detection of fooplugins foogallery
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/foogallery/
+  - services.http.response.body:/wp-content/plugins/foogallery/
+  fofa:
+  - body=/wp-content/plugins/foogallery/
+  - banner=/wp-content/plugins/foogallery/
+  shodan:
+  - http.html:/wp-content/plugins/foogallery/
+  zoomeye:
+  - banner:/wp-content/plugins/foogallery/

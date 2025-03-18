@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:atlassian:jira_data_center:*:*:*:*:*:*:*:*
+  description: Detection of atlassian jira_data_center
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"atlassian jira"
+  - services.banner:"Atlassian Jira"
+  fofa:
+  - banner="Atlassian Jira"
+  - banner="atlassian jira"
+  shodan:
+  - http.component:"atlassian jira"
+  - http.component:"Atlassian Jira"
+  zoomeye:
+  - banner:"atlassian jira"
+  - banner:"Atlassian Jira"

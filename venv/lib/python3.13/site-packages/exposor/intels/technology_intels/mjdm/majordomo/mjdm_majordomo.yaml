@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mjdm:majordomo:*:*:*:*:*:*:*:*
+  description: Detection of mjdm majordomo
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"MajordomoSL"
+  - services.software.product:"majordomosl"
+  - services.http.response.favicons.shodan_hash:1903390397
+  fofa:
+  - app="MajordomoSL"
+  - app="majordomosl"
+  - icon_hash=1903390397
+  shodan:
+  - product:"majordomosl"
+  - product:"MajordomoSL"
+  - http.favicon.hash:1903390397
+  zoomeye:
+  - app:"majordomosl"
+  - iconhash:1903390397
+  - app:"MajordomoSL"

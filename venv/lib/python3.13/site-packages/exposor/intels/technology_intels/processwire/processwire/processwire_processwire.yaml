@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:processwire:processwire:*:*:*:*:*:*:*:*
+  description: Detection of processwire processwire
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"processwire"
+  - services.banner:"processwire"
+  fofa:
+  - body="processwire"
+  - banner="processwire"
+  shodan:
+  - http.html:"processwire"
+  zoomeye:
+  - banner:"processwire"

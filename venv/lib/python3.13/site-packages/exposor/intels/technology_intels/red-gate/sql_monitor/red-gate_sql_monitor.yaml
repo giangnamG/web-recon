@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:red-gate:sql_monitor:*:*:*:*:*:*:*:*
+  description: Detection of red-gate sql_monitor
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"sql monitor"
+  - services.banner:"sql monitor"
+  - services.banner:"SQL Monitor"
+  fofa:
+  - body="sql monitor"
+  - banner="sql monitor"
+  - banner="SQL Monitor"
+  shodan:
+  - http.html:"sql monitor"
+  - html:"SQL Monitor"
+  zoomeye:
+  - banner:"SQL Monitor"
+  - banner:"sql monitor"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:qlik:qlikview:*:*:*:*:*:*:*:*
+  description: Detection of qlik qlikview
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"QlikView - AccessPoint"
+  fofa:
+  - http.title="QlikView - AccessPoint"
+  shodan:
+  - title:"QlikView - AccessPoint"
+  zoomeye:
+  - title:"QlikView - AccessPoint"

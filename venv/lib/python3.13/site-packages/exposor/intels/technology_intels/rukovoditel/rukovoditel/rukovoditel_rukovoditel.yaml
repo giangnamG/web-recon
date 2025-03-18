@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:rukovoditel:rukovoditel:*:*:*:*:*:*:*:*
+  description: Detection of rukovoditel rukovoditel
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-1499940355
+  fofa:
+  - icon_hash=-1499940355
+  shodan:
+  - http.favicon.hash:-1499940355
+  zoomeye:
+  - iconhash:-1499940355

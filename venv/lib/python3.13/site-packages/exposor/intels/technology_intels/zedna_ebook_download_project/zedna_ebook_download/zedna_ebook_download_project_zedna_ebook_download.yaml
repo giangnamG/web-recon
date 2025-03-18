@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zedna_ebook_download_project:zedna_ebook_download:*:*:*:*:*:wordpress:*:*
+  description: Detection of zedna_ebook_download_project zedna_ebook_download
+  version: '1.0'
+queries: {}

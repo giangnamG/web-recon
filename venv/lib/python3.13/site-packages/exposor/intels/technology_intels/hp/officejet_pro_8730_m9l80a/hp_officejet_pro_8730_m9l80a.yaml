@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:hp:officejet_pro_8730_m9l80a:*:*:*:*:*:*:*:*
+  description: Detection of hp officejet_pro_8730_m9l80a
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Hp Officejet pro"
+  fofa:
+  - http.title="Hp Officejet pro"
+  shodan:
+  - http.title:"Hp Officejet pro"
+  zoomeye:
+  - title:"Hp Officejet pro"

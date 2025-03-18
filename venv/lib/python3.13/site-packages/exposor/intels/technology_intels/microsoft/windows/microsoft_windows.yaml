@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:microsoft:windows:*:*:*:*:*:*:*:*
+  description: Detection of microsoft windows
+  version: '1.0'
+queries: {}

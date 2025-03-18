@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:mikrotik:rb3011uias-rm:*:*:*:*:*:*:*:*
+  description: Detection of mikrotik rb3011uias-rm
+  version: '1.0'
+queries: {}

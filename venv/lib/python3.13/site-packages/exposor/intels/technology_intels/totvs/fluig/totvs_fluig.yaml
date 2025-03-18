@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:totvs:fluig:*:*:*:*:*:*:*:*
+  description: Detection of totvs fluig
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"TOTVS-Fluig"
+  fofa:
+  - app="TOTVS-Fluig"
+  shodan:
+  - product:"TOTVS-Fluig"
+  zoomeye:
+  - app:"TOTVS-Fluig"

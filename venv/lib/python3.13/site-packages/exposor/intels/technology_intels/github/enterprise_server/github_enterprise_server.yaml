@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:github:enterprise_server:*:*:*:*:*:*:*:*
+  description: Detection of github enterprise_server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"GitHub Enterprise"
+  - services.software.product:"Github-Enterprise"
+  fofa:
+  - http.title="GitHub Enterprise"
+  - app="Github-Enterprise"
+  shodan:
+  - title:"GitHub Enterprise"
+  - product:"Github-Enterprise"
+  zoomeye:
+  - app:"Github-Enterprise"
+  - title:"GitHub Enterprise"

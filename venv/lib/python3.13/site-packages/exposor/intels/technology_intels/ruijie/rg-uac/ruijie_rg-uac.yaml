@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:ruijie:rg-uac:*:*:*:*:*:*:*:*
+  description: Detection of ruijie rg-uac
+  version: '1.0'
+queries: {}

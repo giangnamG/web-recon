@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:aveva:intouch_access_anywhere:*:*:*:*:*:*:*:*
+  description: Detection of aveva intouch_access_anywhere
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"intouch access anywhere"
+  - services.banner:"InTouch Access Anywhere"
+  - services.banner:"intouch access anywhere"
+  fofa:
+  - body="intouch access anywhere"
+  - banner="intouch access anywhere"
+  - banner="InTouch Access Anywhere"
+  shodan:
+  - http.html:"intouch access anywhere"
+  - http.html:"InTouch Access Anywhere"
+  zoomeye:
+  - banner:"InTouch Access Anywhere"
+  - banner:"intouch access anywhere"

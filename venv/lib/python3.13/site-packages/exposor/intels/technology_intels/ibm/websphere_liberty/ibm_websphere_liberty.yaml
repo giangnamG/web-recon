@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ibm:websphere_liberty:*:*:*:*:*:*:*:*
+  description: Detection of ibm websphere_liberty
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"WebSphere Liberty"
+  fofa:
+  - http.title="WebSphere Liberty"
+  shodan:
+  - http.title:"WebSphere Liberty"
+  zoomeye:
+  - title:"WebSphere Liberty"

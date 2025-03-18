@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:defa-online-image-protector_project:defa-online-image-protector:*:*:*:*:*:wordpress:*:*
+  description: Detection of defa-online-image-protector_project defa-online-image-protector
+  version: '1.0'
+queries: {}

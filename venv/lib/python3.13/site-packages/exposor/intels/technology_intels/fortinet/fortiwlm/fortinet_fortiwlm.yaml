@@ -1,0 +1,24 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:fortinet:fortiwlm:*:*:*:*:*:*:*:*
+  description: Detection of fortinet fortiwlm
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"FortiWLM"
+  - services.banner:"fortiwlm"
+  - services.http.response.body:"fortiwlm"
+  - services.http.response.html_title:"fortiwlm"
+  fofa:
+  - http.title="fortiwlm"
+  - http.title="FortiWLM"
+  - banner="fortiwlm"
+  - body="fortiwlm"
+  shodan:
+  - http.html:"fortiwlm"
+  - http.title:"FortiWLM"
+  - http.title:"fortiwlm"
+  zoomeye:
+  - banner:"fortiwlm"
+  - title:"fortiwlm"
+  - title:"FortiWLM"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wso2:api_manager:*:*:*:*:*:*:*:*
+  description: Detection of wso2 api_manager
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:1398055326
+  fofa:
+  - icon_hash=1398055326
+  shodan:
+  - http.favicon.hash:1398055326
+  zoomeye:
+  - iconhash:1398055326

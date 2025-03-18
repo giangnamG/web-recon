@@ -1,0 +1,24 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:gitea:gitea:*:*:*:*:*:*:*:*
+  description: Detection of gitea gitea
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Powered by Gitea Version"
+  - services.http.response.body:"powered by gitea version"
+  - services.http.response.html_title:"gitea"
+  - services.banner:"powered by gitea version"
+  fofa:
+  - http.title="gitea"
+  - body="powered by gitea version"
+  - banner="Powered by Gitea Version"
+  - banner="powered by gitea version"
+  shodan:
+  - html:"Powered by Gitea Version"
+  - http.html:"powered by gitea version"
+  - http.title:"gitea"
+  zoomeye:
+  - banner:"Powered by Gitea Version"
+  - title:"gitea"
+  - banner:"powered by gitea version"

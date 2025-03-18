@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:nocodb:nocodb:*:*:*:*:*:*:*:*
+  description: Detection of nocodb nocodb
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-2017596142
+  fofa:
+  - icon_hash=-2017596142
+  shodan:
+  - http.favicon.hash:-2017596142
+  zoomeye:
+  - iconhash:-2017596142

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cybelesoft:thinfinity_virtualui:*:*:*:*:*:*:*:*
+  description: Detection of cybelesoft thinfinity_virtualui
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"thinfinity virtualui"
+  fofa:
+  - http.title="thinfinity virtualui"
+  shodan:
+  - http.title:"thinfinity virtualui"
+  zoomeye:
+  - title:"thinfinity virtualui"

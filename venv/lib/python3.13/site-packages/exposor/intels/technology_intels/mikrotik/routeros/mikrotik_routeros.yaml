@@ -1,0 +1,15 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:mikrotik:routeros:*:*:*:*:*:*:*:*
+  description: Detection of mikrotik routeros
+  version: '1.0'
+queries:
+  censys:
+  - 'services.http.response.html_title:"mikrotik routeros '
+  fofa:
+  - 'http.title="mikrotik routeros '
+  shodan:
+  - title:"mikrotik routeros > administration"
+  - http.title:"mikrotik routeros > administration"
+  zoomeye:
+  - 'title:"mikrotik routeros '

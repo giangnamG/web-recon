@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:softlabbd:integrate_google_drive:*:*:*:*:wordpress:*:*:*
+  description: Detection of softlabbd integrate_google_drive
+  version: '1.0'
+queries: {}

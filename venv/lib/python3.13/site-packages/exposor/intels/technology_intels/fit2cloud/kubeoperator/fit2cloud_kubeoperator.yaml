@@ -1,0 +1,28 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:fit2cloud:kubeoperator:*:*:*:*:*:*:*:*
+  description: Detection of fit2cloud kubeoperator
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"KubeOperator"
+  - services.software.product:"KubeOperator"
+  - services.http.response.body:"kubeoperator"
+  - services.software.product:"kubeoperator"
+  - services.banner:"kubeoperator"
+  fofa:
+  - app="KubeOperator"
+  - banner="KubeOperator"
+  - banner="kubeoperator"
+  - body="kubeoperator"
+  - app="kubeoperator"
+  shodan:
+  - html:"KubeOperator"
+  - product:"KubeOperator"
+  - http.html:"kubeoperator"
+  - product:"kubeoperator"
+  zoomeye:
+  - banner:"kubeoperator"
+  - app:"KubeOperator"
+  - banner:"KubeOperator"
+  - app:"kubeoperator"

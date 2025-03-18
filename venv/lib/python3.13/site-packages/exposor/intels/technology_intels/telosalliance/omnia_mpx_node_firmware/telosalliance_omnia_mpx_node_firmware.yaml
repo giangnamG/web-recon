@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:telosalliance:omnia_mpx_node_firmware:*:*:*:*:*:*:*:*
+  description: Detection of telosalliance omnia_mpx_node_firmware
+  version: '1.0'
+queries:
+  censys:
+  - 'services.http.response.html_title:"omnia mpx node '
+  - 'services.http.response.html_title:"Omnia MPX Node '
+  fofa:
+  - 'http.title="omnia mpx node '
+  - 'http.title="Omnia MPX Node '
+  shodan:
+  - http.title:"omnia mpx node | login"
+  - http.title:"Omnia MPX Node | Login"
+  zoomeye:
+  - 'title:"omnia mpx node '
+  - 'title:"Omnia MPX Node '

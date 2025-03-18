@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:backdropcms:backdrop:*:*:*:*:*:*:*:*
+  description: Detection of backdropcms backdrop
+  version: '1.0'
+queries: {}

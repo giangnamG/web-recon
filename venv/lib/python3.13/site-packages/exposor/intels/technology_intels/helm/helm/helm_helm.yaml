@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:helm:helm:*:*:*:*:*:*:*:*
+  description: Detection of helm helm
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-594722214
+  fofa:
+  - icon_hash=-594722214
+  shodan:
+  - http.favicon.hash:-594722214
+  zoomeye:
+  - iconhash:-594722214

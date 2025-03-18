@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:parallels:parallels_plesk_panel:*:*:*:*:*:*:*:*
+  description: Detection of parallels parallels_plesk_panel
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Default Parallels Plesk Panel Page"
+  fofa:
+  - http.title="Default Parallels Plesk Panel Page"
+  shodan:
+  - title:"Default Parallels Plesk Panel Page"
+  zoomeye:
+  - title:"Default Parallels Plesk Panel Page"

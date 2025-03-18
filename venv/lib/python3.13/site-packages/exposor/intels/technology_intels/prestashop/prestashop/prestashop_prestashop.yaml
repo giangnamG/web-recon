@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:prestashop:prestashop:*:*:*:*:*:*:*:*
+  description: Detection of prestashop prestashop
+  version: '1.0'
+queries: {}

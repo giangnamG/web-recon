@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:espocrm:espocrm:*:*:*:*:*:*:*:*
+  description: Detection of espocrm espocrm
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Welcome to Espocrm"
+  fofa:
+  - banner="Welcome to Espocrm"
+  shodan:
+  - html:"Welcome to Espocrm"
+  zoomeye:
+  - banner:"Welcome to Espocrm"

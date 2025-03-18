@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:acquia:mautic:*:*:*:*:*:*:*:*
+  description: Detection of acquia mautic
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"mautic"
+  - services.http.response.html_title:"Mautic"
+  fofa:
+  - http.title="Mautic"
+  - http.title="mautic"
+  shodan:
+  - http.title:"mautic"
+  - title:"Mautic"
+  zoomeye:
+  - title:"mautic"
+  - title:"Mautic"

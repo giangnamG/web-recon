@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cutesoft:cute_editor:*:*:*:*:*:asp.net:*:*
+  description: Detection of cutesoft cute_editor
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"ASP.NET"
+  - services.banner:"asp.net"
+  fofa:
+  - banner="ASP.NET"
+  - banner="asp.net"
+  shodan:
+  - http.component:"asp.net"
+  - http.component:"ASP.NET"
+  zoomeye:
+  - banner:"asp.net"
+  - banner:"ASP.NET"

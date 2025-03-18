@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:dokuwiki:dokuwiki:*:*:*:*:*:*:*:*
+  description: Detection of dokuwiki dokuwiki
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"DokuWiki"
+  - services.http.response.html_title:"dokuwiki"
+  fofa:
+  - http.title="DokuWiki"
+  - http.title="dokuwiki"
+  shodan:
+  - http.title:"DokuWiki"
+  - http.title:"dokuwiki"
+  zoomeye:
+  - title:"DokuWiki"
+  - title:"dokuwiki"

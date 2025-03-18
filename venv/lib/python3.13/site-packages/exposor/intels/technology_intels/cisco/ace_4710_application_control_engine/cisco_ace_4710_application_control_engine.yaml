@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:cisco:ace_4710_application_control_engine:*:*:*:*:*:*:*:*
+  description: Detection of cisco ace_4710_application_control_engine
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"ACE 4710 Device Manager"
+  fofa:
+  - banner="ACE 4710 Device Manager"
+  shodan:
+  - html:"ACE 4710 Device Manager"
+  zoomeye:
+  - banner:"ACE 4710 Device Manager"

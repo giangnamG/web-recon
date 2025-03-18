@@ -1,0 +1,26 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:osgeo:geoserver:*:*:*:*:*:*:*:*
+  description: Detection of osgeo geoserver
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"geoserver"
+  - services.software.product:"GeoServer"
+  - services.software.product:"geoserver"
+  - services.http.response.html_title:"GeoServer"
+  fofa:
+  - app="GeoServer"
+  - http.title="geoserver"
+  - http.title="GeoServer"
+  - app="geoserver"
+  shodan:
+  - product:"geoserver"
+  - product:"GeoServer"
+  - title:"GeoServer"
+  - http.title:"geoserver"
+  zoomeye:
+  - title:"GeoServer"
+  - app:"GeoServer"
+  - title:"geoserver"
+  - app:"geoserver"

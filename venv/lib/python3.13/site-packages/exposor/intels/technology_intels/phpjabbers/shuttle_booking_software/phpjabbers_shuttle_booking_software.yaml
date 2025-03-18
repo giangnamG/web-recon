@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:phpjabbers:shuttle_booking_software:*:*:*:*:*:*:*:*
+  description: Detection of phpjabbers shuttle_booking_software
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"php jabbers.com"
+  - services.banner:"PHP Jabbers.com"
+  - services.http.response.body:"php jabbers.com"
+  fofa:
+  - banner="php jabbers.com"
+  - body="php jabbers.com"
+  - banner="PHP Jabbers.com"
+  shodan:
+  - http.html:"php jabbers.com"
+  - html:"PHP Jabbers.com"
+  zoomeye:
+  - banner:"PHP Jabbers.com"
+  - banner:"php jabbers.com"

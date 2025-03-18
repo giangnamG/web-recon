@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:strangerstudios:paid_memberships_pro:*:*:*:*:*:wordpress:*:*
+  description: Detection of strangerstudios paid_memberships_pro
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/paid-memberships-pro/
+  - services.banner:/wp-content/plugins/paid-memberships-pro/
+  fofa:
+  - body=/wp-content/plugins/paid-memberships-pro/
+  - banner=/wp-content/plugins/paid-memberships-pro/
+  shodan:
+  - http.html:/wp-content/plugins/paid-memberships-pro/
+  zoomeye:
+  - banner:/wp-content/plugins/paid-memberships-pro/

@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:totolink:ex1200t_firmware:*:*:*:*:*:*:*:*
+  description: Detection of totolink ex1200t_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"TOTOLINK"
+  - services.http.response.html_title:"totolink"
+  fofa:
+  - http.title="totolink"
+  - http.title="TOTOLINK"
+  shodan:
+  - title:"TOTOLINK"
+  - http.title:"totolink"
+  zoomeye:
+  - title:"TOTOLINK"
+  - title:"totolink"

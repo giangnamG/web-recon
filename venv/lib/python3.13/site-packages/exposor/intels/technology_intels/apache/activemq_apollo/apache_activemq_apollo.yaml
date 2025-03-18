@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:activemq_apollo:*:*:*:*:*:*:*:*
+  description: Detection of apache activemq_apollo
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Apache Apollo"
+  fofa:
+  - http.title="Apache Apollo"
+  shodan:
+  - title:"Apache Apollo"
+  zoomeye:
+  - title:"Apache Apollo"

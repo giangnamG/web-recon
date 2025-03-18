@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:hashicorp:consul:*:*:*:*:*:*:*:*
+  description: Detection of hashicorp consul
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"consul by hashicorp"
+  fofa:
+  - http.title="consul by hashicorp"
+  shodan:
+  - http.title:"consul by hashicorp"
+  zoomeye:
+  - title:"consul by hashicorp"

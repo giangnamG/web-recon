@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ganglia:ganglia-web:*:*:*:*:*:*:*:*
+  description: Detection of ganglia ganglia-web
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"ganglia_form.submit
+  fofa:
+  - banner="ganglia_form.submit
+  shodan:
+  - html:"ganglia_form.submit()"
+  zoomeye:
+  - banner:"ganglia_form.submit

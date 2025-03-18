@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mypixs_project:mypixs:*:*:*:*:*:wordpress:*:*
+  description: Detection of mypixs_project mypixs
+  version: '1.0'
+queries: {}

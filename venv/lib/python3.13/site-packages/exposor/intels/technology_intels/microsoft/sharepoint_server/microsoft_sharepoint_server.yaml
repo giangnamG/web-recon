@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:microsoft:sharepoint_server:*:*:*:*:*:*:*:*
+  description: Detection of microsoft sharepoint_server
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"microsoft-sharepoint"
+  - services.software.product:"Microsoft-SharePoint"
+  fofa:
+  - app="Microsoft-SharePoint"
+  - app="microsoft-sharepoint"
+  shodan:
+  - product:"microsoft-sharepoint"
+  - product:"Microsoft-SharePoint"
+  zoomeye:
+  - app:"Microsoft-SharePoint"
+  - app:"microsoft-sharepoint"

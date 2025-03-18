@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:genieacs:genieacs:*:*:*:*:*:*:*:*
+  description: Detection of genieacs genieacs
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-2098066288
+  - services.http.response.body:"genieacs"
+  - services.banner:"genieacs"
+  fofa:
+  - body="genieacs"
+  - icon_hash=-2098066288
+  - banner="genieacs"
+  shodan:
+  - http.html:"genieacs"
+  - http.favicon.hash:-2098066288
+  zoomeye:
+  - banner:"genieacs"
+  - iconhash:-2098066288

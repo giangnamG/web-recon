@@ -1,0 +1,17 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:python:pypiserver:*:*:*:*:*:*:*:*
+  description: Detection of python pypiserver
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"pypiserver"
+  - services.banner:"pypiserver"
+  fofa:
+  - body="pypiserver"
+  - banner="pypiserver"
+  shodan:
+  - http.html:"pypiserver"
+  - html:"pypiserver"
+  zoomeye:
+  - banner:"pypiserver"

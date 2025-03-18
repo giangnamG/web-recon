@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:10web:photo_gallery:*:*:*:*:*:wordpress:*:*
+  description: Detection of 10web photo_gallery
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/photo-gallery
+  - services.banner:/wp-content/plugins/photo-gallery
+  fofa:
+  - banner=/wp-content/plugins/photo-gallery
+  - body=/wp-content/plugins/photo-gallery
+  shodan:
+  - http.html:/wp-content/plugins/photo-gallery
+  zoomeye:
+  - banner:/wp-content/plugins/photo-gallery

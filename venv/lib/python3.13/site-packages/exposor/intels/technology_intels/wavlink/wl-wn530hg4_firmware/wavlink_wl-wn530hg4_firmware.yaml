@@ -1,0 +1,28 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:wavlink:wl-wn530hg4_firmware:*:*:*:*:*:*:*:*
+  description: Detection of wavlink wl-wn530hg4_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"wn530hg4"
+  - services.software.product:"wi-fi app login"
+  - services.banner:"WN530HG4"
+  - services.http.response.html_title:"wi-fi app login"
+  - services.banner:"wn530hg4"
+  fofa:
+  - http.title="wi-fi app login"
+  - banner="WN530HG4"
+  - title="wi-fi app login"
+  - body="wn530hg4"
+  - banner="wn530hg4"
+  shodan:
+  - product:"wi-fi app login"
+  - http.title:"wi-fi app login"
+  - http.html:"wn530hg4"
+  - http.html:"WN530HG4"
+  zoomeye:
+  - title:"wi-fi app login"
+  - app:"wi-fi app login"
+  - banner:"WN530HG4"
+  - banner:"wn530hg4"

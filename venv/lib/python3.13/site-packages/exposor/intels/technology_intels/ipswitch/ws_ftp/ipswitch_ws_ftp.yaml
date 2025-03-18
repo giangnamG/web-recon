@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:ipswitch:ws_ftp:*:*:*:*:*:*:*:*
+  description: Detection of ipswitch ws_ftp
+  version: '1.0'
+queries: {}

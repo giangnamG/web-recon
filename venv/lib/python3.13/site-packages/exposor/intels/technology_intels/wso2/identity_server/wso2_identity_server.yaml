@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wso2:identity_server:*:*:*:*:*:*:*:*
+  description: Detection of wso2 identity_server
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"IdentityServer v3"
+  fofa:
+  - http.title="IdentityServer v3"
+  shodan:
+  - http.title:"IdentityServer v3"
+  zoomeye:
+  - title:"IdentityServer v3"

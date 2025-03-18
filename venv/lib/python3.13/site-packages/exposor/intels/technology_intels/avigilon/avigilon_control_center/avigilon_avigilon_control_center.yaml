@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:avigilon:avigilon_control_center:*:*:*:*:*:*:*:*
+  description: Detection of avigilon avigilon_control_center
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Login - Avigilon Control Center"
+  - services.http.response.html_title:"login - avigilon control center"
+  fofa:
+  - http.title="login - avigilon control center"
+  - http.title="Login - Avigilon Control Center"
+  shodan:
+  - http.title:"Login - Avigilon Control Center"
+  - http.title:"login - avigilon control center"
+  zoomeye:
+  - title:"login - avigilon control center"
+  - title:"Login - Avigilon Control Center"

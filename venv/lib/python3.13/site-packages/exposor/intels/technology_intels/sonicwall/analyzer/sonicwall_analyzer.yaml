@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sonicwall:analyzer:*:*:*:*:*:*:*:*
+  description: Detection of sonicwall analyzer
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"SonicWall Analyzer Login"
+  - services.http.response.html_title:"sonicwall analyzer login"
+  fofa:
+  - http.title="SonicWall Analyzer Login"
+  - http.title="sonicwall analyzer login"
+  shodan:
+  - http.title:"sonicwall analyzer login"
+  - title:"SonicWall Analyzer Login"
+  zoomeye:
+  - title:"SonicWall Analyzer Login"
+  - title:"sonicwall analyzer login"

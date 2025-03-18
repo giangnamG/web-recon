@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:dataiku:data_science_studio:*:*:*:*:*:*:*:*
+  description: Detection of dataiku data_science_studio
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"dataiku"
+  fofa:
+  - http.title="dataiku"
+  shodan:
+  - title:"dataiku"
+  zoomeye:
+  - title:"dataiku"

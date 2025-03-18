@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:oracle:fusion_middleware:*:*:*:*:*:*:*:*
+  description: Detection of oracle fusion_middleware
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"weblogic application server"
+  - services.http.response.html_title:"weblogic"
+  - services.banner:"weblogic application server"
+  fofa:
+  - http.title="weblogic"
+  - banner="weblogic application server"
+  - body="weblogic application server"
+  shodan:
+  - http.title:"weblogic"
+  - product:"weblogic application server"
+  - http.html:"weblogic application server"
+  zoomeye:
+  - title:"weblogic"
+  - banner:"weblogic application server"
+  - app:"weblogic application server"

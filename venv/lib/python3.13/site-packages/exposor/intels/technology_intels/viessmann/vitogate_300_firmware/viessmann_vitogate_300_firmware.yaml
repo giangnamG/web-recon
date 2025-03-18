@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:viessmann:vitogate_300_firmware:*:*:*:*:*:*:*:*
+  description: Detection of viessmann vitogate_300_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"vitogate 300"
+  - services.http.response.html_title:"Vitogate 300"
+  fofa:
+  - http.title="vitogate 300"
+  - http.title="Vitogate 300"
+  shodan:
+  - http.title:"vitogate 300"
+  - title:"Vitogate 300"
+  zoomeye:
+  - title:"Vitogate 300"
+  - title:"vitogate 300"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:beyondtrust:privileged_remote_access:*:*:*:*:*:*:*:*
+  description: Detection of beyondtrust privileged_remote_access
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"BeyondTrust Privileged Remote Access Login"
+  fofa:
+  - banner="BeyondTrust Privileged Remote Access Login"
+  shodan:
+  - http.html:"BeyondTrust Privileged Remote Access Login"
+  zoomeye:
+  - banner:"BeyondTrust Privileged Remote Access Login"

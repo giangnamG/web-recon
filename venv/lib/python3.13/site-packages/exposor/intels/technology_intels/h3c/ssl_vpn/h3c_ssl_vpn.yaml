@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:h3c:ssl_vpn:*:*:*:*:*:*:*:*
+  description: Detection of h3c ssl_vpn
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:510586239
+  fofa:
+  - banner=510586239
+  shodan:
+  - http.html_hash:510586239
+  zoomeye:
+  - banner:510586239

@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:kmc_information_systems:caseaware:*:*:*:*:*:*:*:*
+  description: Detection of kmc_information_systems caseaware
+  version: '1.0'
+queries: {}

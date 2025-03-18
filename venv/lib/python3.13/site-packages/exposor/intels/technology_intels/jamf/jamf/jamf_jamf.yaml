@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:jamf:jamf:*:*:*:*:*:*:*:*
+  description: Detection of jamf jamf
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Jamf Pro"
+  fofa:
+  - http.title="Jamf Pro"
+  shodan:
+  - title:"Jamf Pro"
+  zoomeye:
+  - title:"Jamf Pro"

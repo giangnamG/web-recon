@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:timely:all-in-one_event_calendar:*:*:*:*:*:*:*:*
+  description: Detection of timely all-in-one_event_calendar
+  version: '1.0'
+queries: {}

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:zoneland:o2oa:*:*:*:*:*:*:*:*
+  description: Detection of zoneland o2oa
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"O2OA"
+  fofa:
+  - http.title="O2OA"
+  shodan:
+  - title=="O2OA"
+  zoomeye:
+  - title:"O2OA"

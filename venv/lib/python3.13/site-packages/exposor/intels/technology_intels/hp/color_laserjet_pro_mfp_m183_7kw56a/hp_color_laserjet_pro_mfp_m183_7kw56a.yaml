@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:hp:color_laserjet_pro_mfp_m183_7kw56a:*:*:*:*:*:*:*:*
+  description: Detection of hp color_laserjet_pro_mfp_m183_7kw56a
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"HP Color LaserJet"
+  fofa:
+  - http.title="HP Color LaserJet"
+  shodan:
+  - http.title:"HP Color LaserJet"
+  zoomeye:
+  - title:"HP Color LaserJet"

@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:smtp:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft smtp
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:/wp-content/plugins/bws-smtp/
+  - services.banner:/wp-content/plugins/bws-smtp/
+  fofa:
+  - banner=/wp-content/plugins/bws-smtp/
+  - body=/wp-content/plugins/bws-smtp/
+  shodan:
+  - http.html:/wp-content/plugins/bws-smtp/
+  zoomeye:
+  - banner:/wp-content/plugins/bws-smtp/

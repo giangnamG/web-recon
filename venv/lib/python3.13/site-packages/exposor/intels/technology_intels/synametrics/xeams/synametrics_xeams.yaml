@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:synametrics:xeams:*:*:*:*:*:*:*:*
+  description: Detection of synametrics xeams
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Xeams Admin"
+  - services.http.response.html_title:"xeams admin"
+  fofa:
+  - http.title="xeams admin"
+  - http.title="Xeams Admin"
+  shodan:
+  - http.title:"Xeams Admin"
+  - http.title:"xeams admin"
+  zoomeye:
+  - title:"xeams admin"
+  - title:"Xeams Admin"

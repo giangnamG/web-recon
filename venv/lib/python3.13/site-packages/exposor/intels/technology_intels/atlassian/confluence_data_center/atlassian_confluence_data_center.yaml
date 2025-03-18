@@ -1,0 +1,22 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:atlassian:confluence_data_center:*:*:*:*:*:*:*:*
+  description: Detection of atlassian confluence_data_center
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Atlassian Confluence"
+  - services.banner:"atlassian confluence"
+  - services.software.product:"atlassian-confluence"
+  fofa:
+  - app="atlassian-confluence"
+  - banner="Atlassian Confluence"
+  - banner="atlassian confluence"
+  shodan:
+  - http.component:"Atlassian Confluence"
+  - product:"atlassian-confluence"
+  - http.component:"atlassian confluence"
+  zoomeye:
+  - banner:"atlassian confluence"
+  - app:"atlassian-confluence"
+  - banner:"Atlassian Confluence"

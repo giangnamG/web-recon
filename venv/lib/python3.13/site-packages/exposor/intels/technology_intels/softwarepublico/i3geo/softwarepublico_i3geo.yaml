@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:softwarepublico:i3geo:*:*:*:*:*:*:*:*
+  description: Detection of softwarepublico i3geo
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"i3geo"
+  - services.banner:"i3geo"
+  fofa:
+  - banner="i3geo"
+  - body="i3geo"
+  shodan:
+  - http.html:"i3geo"
+  zoomeye:
+  - banner:"i3geo"

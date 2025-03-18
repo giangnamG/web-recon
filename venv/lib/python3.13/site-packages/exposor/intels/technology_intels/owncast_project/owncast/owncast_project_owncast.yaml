@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:owncast_project:owncast:*:*:*:*:*:*:*:*
+  description: Detection of owncast_project owncast
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"owncast"
+  fofa:
+  - banner="owncast"
+  shodan:
+  - html:"owncast"
+  zoomeye:
+  - banner:"owncast"

@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:contec:sv-cpt-mc310_firmware:*:*:*:*:*:*:*:*
+  description: Detection of contec sv-cpt-mc310_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"SolarView Compact"
+  - services.banner:"solarview compact"
+  - services.http.response.body:"solarview compact"
+  fofa:
+  - banner="solarview compact"
+  - body="solarview compact"
+  - banner="SolarView Compact"
+  shodan:
+  - http.html:"solarview compact"
+  - http.html:"SolarView Compact"
+  zoomeye:
+  - banner:"SolarView Compact"
+  - banner:"solarview compact"

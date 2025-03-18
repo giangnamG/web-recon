@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:vsftpd_project:vsftpd:*:*:*:*:*:*:*:*
+  description: Detection of vsftpd_project vsftpd
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"vsftpd"
+  fofa:
+  - app="vsftpd"
+  shodan:
+  - product:"vsftpd"
+  zoomeye:
+  - app:"vsftpd"

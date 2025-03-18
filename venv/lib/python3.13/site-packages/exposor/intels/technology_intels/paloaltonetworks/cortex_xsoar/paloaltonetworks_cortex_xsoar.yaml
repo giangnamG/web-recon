@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:paloaltonetworks:cortex_xsoar:*:*:*:*:*:*:*:*
+  description: Detection of paloaltonetworks cortex_xsoar
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Cortex XSOAR"
+  - services.http.response.html_title:"cortex xsoar"
+  fofa:
+  - http.title="cortex xsoar"
+  - http.title="Cortex XSOAR"
+  shodan:
+  - http.title:"cortex xsoar"
+  - http.title:"Cortex XSOAR"
+  zoomeye:
+  - title:"Cortex XSOAR"
+  - title:"cortex xsoar"

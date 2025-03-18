@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cisco:webex_meetings_online:*:*:*:*:*:*:*:*
+  description: Detection of cisco webex_meetings_online
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Cisco WebEx"
+  fofa:
+  - http.title="Cisco WebEx"
+  shodan:
+  - title:"Cisco WebEx"
+  zoomeye:
+  - title:"Cisco WebEx"

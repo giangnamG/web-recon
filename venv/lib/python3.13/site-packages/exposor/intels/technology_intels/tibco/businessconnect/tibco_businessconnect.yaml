@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:tibco:businessconnect:*:*:*:*:*:*:*:*
+  description: Detection of tibco businessconnect
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"TIBCO BusinessConnect"
+  fofa:
+  - banner="TIBCO BusinessConnect"
+  shodan:
+  - http.html:"TIBCO BusinessConnect"
+  zoomeye:
+  - banner:"TIBCO BusinessConnect"

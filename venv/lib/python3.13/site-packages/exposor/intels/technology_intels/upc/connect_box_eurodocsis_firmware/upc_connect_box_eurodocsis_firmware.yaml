@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:upc:connect_box_eurodocsis_firmware:*:*:*:*:*:*:*:*
+  description: Detection of upc connect_box_eurodocsis_firmware
+  version: '1.0'
+queries: {}

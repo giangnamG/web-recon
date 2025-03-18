@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:metaphorcreations:ditty:*:*:*:*:*:wordpress:*:*
+  description: Detection of metaphorcreations ditty
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/ditty-news-ticker/
+  - services.http.response.body:/wp-content/plugins/ditty-news-ticker/
+  fofa:
+  - banner=/wp-content/plugins/ditty-news-ticker/
+  - body=/wp-content/plugins/ditty-news-ticker/
+  shodan:
+  - http.html:/wp-content/plugins/ditty-news-ticker/
+  zoomeye:
+  - banner:/wp-content/plugins/ditty-news-ticker/

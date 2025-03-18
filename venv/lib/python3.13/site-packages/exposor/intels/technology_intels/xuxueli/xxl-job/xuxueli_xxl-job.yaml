@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:xuxueli:xxl-job:*:*:*:*:*:*:*:*
+  description: Detection of xuxueli xxl-job
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"XXL-JOB"
+  fofa:
+  - app="XXL-JOB"
+  shodan:
+  - product:"XXL-JOB"
+  zoomeye:
+  - app:"XXL-JOB"

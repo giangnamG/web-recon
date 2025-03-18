@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sensiolabs:symfony:*:*:*:*:*:*:*:*
+  description: Detection of sensiolabs symfony
+  version: '1.0'
+queries: {}

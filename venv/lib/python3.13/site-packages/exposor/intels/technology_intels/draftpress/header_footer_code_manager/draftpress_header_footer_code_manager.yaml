@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:draftpress:header_footer_code_manager:*:*:*:*:*:wordpress:*:*
+  description: Detection of draftpress header_footer_code_manager
+  version: '1.0'
+queries: {}

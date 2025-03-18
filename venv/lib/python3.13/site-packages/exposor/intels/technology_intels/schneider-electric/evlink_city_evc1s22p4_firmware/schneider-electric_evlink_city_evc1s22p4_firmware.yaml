@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:schneider-electric:evlink_city_evc1s22p4_firmware:*:*:*:*:*:*:*:*
+  description: Detection of schneider-electric evlink_city_evc1s22p4_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"evse web interface"
+  - services.http.response.html_title:"EVSE web interface"
+  fofa:
+  - http.title="evse web interface"
+  - http.title="EVSE web interface"
+  shodan:
+  - http.title:"evse web interface"
+  - title:"EVSE web interface"
+  zoomeye:
+  - title:"evse web interface"
+  - title:"EVSE web interface"

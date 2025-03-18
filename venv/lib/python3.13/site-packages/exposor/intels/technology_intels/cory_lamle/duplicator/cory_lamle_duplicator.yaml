@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cory_lamle:duplicator:*:*:*:*:*:*:*:*
+  description: Detection of cory_lamle duplicator
+  version: '1.0'
+queries: {}

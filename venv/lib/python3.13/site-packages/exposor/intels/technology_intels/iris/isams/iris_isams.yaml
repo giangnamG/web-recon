@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:iris:isams:*:*:*:*:*:*:*:*
+  description: Detection of iris isams
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-81573405
+  fofa:
+  - icon_hash=-81573405
+  shodan:
+  - http.favicon.hash:-81573405
+  zoomeye:
+  - iconhash:-81573405

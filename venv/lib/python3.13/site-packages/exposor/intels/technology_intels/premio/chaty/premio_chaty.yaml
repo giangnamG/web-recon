@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:premio:chaty:*:*:*:*:*:wordpress:*:*
+  description: Detection of premio chaty
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/chaty/
+  - services.http.response.body:/wp-content/plugins/chaty/
+  fofa:
+  - body=/wp-content/plugins/chaty/
+  - banner=/wp-content/plugins/chaty/
+  shodan:
+  - http.html:/wp-content/plugins/chaty/
+  zoomeye:
+  - banner:/wp-content/plugins/chaty/

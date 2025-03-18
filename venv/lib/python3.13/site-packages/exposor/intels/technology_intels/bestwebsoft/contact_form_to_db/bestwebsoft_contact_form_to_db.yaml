@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:bestwebsoft:contact_form_to_db:*:*:*:*:*:wordpress:*:*
+  description: Detection of bestwebsoft contact_form_to_db
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:/wp-content/plugins/contact-form-to-db/
+  - services.http.response.body:/wp-content/plugins/contact-form-to-db/
+  fofa:
+  - body=/wp-content/plugins/contact-form-to-db/
+  - banner=/wp-content/plugins/contact-form-to-db/
+  shodan:
+  - http.html:/wp-content/plugins/contact-form-to-db/
+  zoomeye:
+  - banner:/wp-content/plugins/contact-form-to-db/

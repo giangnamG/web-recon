@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:extremenetworks:aerohive_netconfig:*:*:*:*:*:*:*:*
+  description: Detection of extremenetworks aerohive_netconfig
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Aerohive NetConfig UI"
+  fofa:
+  - http.title="Aerohive NetConfig UI"
+  shodan:
+  - http.title:"Aerohive NetConfig UI"
+  zoomeye:
+  - title:"Aerohive NetConfig UI"

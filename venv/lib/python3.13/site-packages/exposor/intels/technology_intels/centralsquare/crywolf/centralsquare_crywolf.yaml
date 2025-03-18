@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:centralsquare:crywolf:*:*:*:*:*:*:*:*
+  description: Detection of centralsquare crywolf
+  version: '1.0'
+queries: {}

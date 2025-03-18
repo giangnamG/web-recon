@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:streampipes:*:*:*:*:*:*:*:*
+  description: Detection of apache streampipes
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"apache streampipes"
+  fofa:
+  - http.title="apache streampipes"
+  shodan:
+  - title:"apache streampipes"
+  zoomeye:
+  - title:"apache streampipes"

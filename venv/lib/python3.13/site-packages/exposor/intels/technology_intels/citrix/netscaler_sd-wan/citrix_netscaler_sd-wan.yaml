@@ -1,0 +1,18 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:citrix:netscaler_sd-wan:*:*:*:*:*:*:*:*
+  description: Detection of citrix netscaler_sd-wan
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"citrix sd-wan"
+  - services.http.response.html_title:"Citrix SD-WAN"
+  fofa:
+  - http.title="Citrix SD-WAN"
+  - http.title="citrix sd-wan"
+  shodan:
+  - http.title:"citrix sd-wan"
+  - http.title:"Citrix SD-WAN"
+  zoomeye:
+  - title:"Citrix SD-WAN"
+  - title:"citrix sd-wan"

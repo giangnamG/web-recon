@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:phpgurukul:hospital_management_system:*:*:*:*:*:*:*:*
+  description: Detection of phpgurukul hospital_management_system
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"hospital management system"
+  - services.banner:"hospital management system"
+  fofa:
+  - banner="hospital management system"
+  - body="hospital management system"
+  shodan:
+  - http.html:"hospital management system"
+  zoomeye:
+  - banner:"hospital management system"

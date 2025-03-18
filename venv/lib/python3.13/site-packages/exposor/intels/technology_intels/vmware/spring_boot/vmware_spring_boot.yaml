@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:vmware:spring_boot:*:*:*:*:*:*:*:*
+  description: Detection of vmware spring_boot
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Eureka"
+  fofa:
+  - http.title="Eureka"
+  shodan:
+  - title:"Eureka"
+  zoomeye:
+  - title:"Eureka"

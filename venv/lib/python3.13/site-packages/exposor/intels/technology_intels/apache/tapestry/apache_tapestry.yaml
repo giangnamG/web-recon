@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:apache:tapestry:*:*:*:*:*:*:*:*
+  description: Detection of apache tapestry
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"APACHE-Tapestry"
+  fofa:
+  - app="APACHE-Tapestry"
+  shodan:
+  - product:"APACHE-Tapestry"
+  zoomeye:
+  - app:"APACHE-Tapestry"

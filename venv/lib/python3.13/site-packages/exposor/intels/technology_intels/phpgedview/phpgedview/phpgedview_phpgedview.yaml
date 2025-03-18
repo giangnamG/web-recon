@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:phpgedview:phpgedview:*:*:*:*:*:*:*:*
+  description: Detection of phpgedview phpgedview
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"/phpgedview.db"
+  fofa:
+  - banner="/phpgedview.db"
+  shodan:
+  - html:"/phpgedview.db"
+  zoomeye:
+  - banner:"/phpgedview.db"

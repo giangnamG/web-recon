@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:sap:netweaver_application_server_java:*:*:*:*:*:*:*:*
+  description: Detection of sap netweaver_application_server_java
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:-266008933
+  fofa:
+  - icon_hash=-266008933
+  shodan:
+  - http.favicon.hash:-266008933
+  zoomeye:
+  - iconhash:-266008933

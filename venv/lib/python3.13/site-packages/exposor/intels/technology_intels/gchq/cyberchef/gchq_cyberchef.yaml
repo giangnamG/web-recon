@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:gchq:cyberchef:*:*:*:*:*:*:*:*
+  description: Detection of gchq cyberchef
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"CyberChef"
+  fofa:
+  - http.title="CyberChef"
+  shodan:
+  - title:"CyberChef"
+  zoomeye:
+  - title:"CyberChef"

@@ -1,0 +1,16 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:codemenschen:gift_vouchers:*:*:*:*:*:wordpress:*:*
+  description: Detection of codemenschen gift_vouchers
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"/wp-content/plugins/gift-voucher/"
+  - services.http.response.body:"/wp-content/plugins/gift-voucher/"
+  fofa:
+  - banner="/wp-content/plugins/gift-voucher/"
+  - body="/wp-content/plugins/gift-voucher/"
+  shodan:
+  - http.html:"/wp-content/plugins/gift-voucher/"
+  zoomeye:
+  - banner:"/wp-content/plugins/gift-voucher/"

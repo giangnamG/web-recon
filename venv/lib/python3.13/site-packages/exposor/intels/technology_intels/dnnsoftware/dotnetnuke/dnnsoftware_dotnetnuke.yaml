@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:dnnsoftware:dotnetnuke:*:*:*:*:*:*:*:*
+  description: Detection of dnnsoftware dotnetnuke
+  version: '1.0'
+queries:
+  censys:
+  - services.software.product:"dotnetnuke"
+  fofa:
+  - app="dotnetnuke"
+  shodan:
+  - product:"dotnetnuke"
+  zoomeye:
+  - app:"dotnetnuke"

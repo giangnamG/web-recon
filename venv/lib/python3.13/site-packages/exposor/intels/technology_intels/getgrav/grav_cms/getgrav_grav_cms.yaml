@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:getgrav:grav_cms:*:*:*:*:*:*:*:*
+  description: Detection of getgrav grav_cms
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"grav cms"
+  - services.banner:"Grav CMS"
+  - services.http.response.body:"grav cms"
+  fofa:
+  - banner="grav cms"
+  - banner="Grav CMS"
+  - body="grav cms"
+  shodan:
+  - html:"Grav CMS"
+  - http.html:"grav cms"
+  zoomeye:
+  - banner:"grav cms"
+  - banner:"Grav CMS"

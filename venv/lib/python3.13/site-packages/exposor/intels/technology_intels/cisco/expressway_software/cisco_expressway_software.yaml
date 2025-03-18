@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cisco:expressway_software:*:*:*:*:*:*:*:*
+  description: Detection of cisco expressway_software
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Cisco Expressway"
+  fofa:
+  - banner="Cisco Expressway"
+  shodan:
+  - html:"Cisco Expressway"
+  zoomeye:
+  - banner:"Cisco Expressway"

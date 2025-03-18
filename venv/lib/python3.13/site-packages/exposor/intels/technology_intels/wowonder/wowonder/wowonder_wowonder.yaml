@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:wowonder:wowonder:*:*:*:*:*:*:*:*
+  description: Detection of wowonder wowonder
+  version: '1.0'
+queries:
+  censys:
+  - 'services.http.response.body:"WoWonder '
+  fofa:
+  - body="WoWonder | Installation"
+  shodan:
+  - 'http.html:"WoWonder '
+  zoomeye:
+  - 'banner:"WoWonder '

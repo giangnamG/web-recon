@@ -1,0 +1,22 @@
+{
+    "last_updated": "2025-03-18 12:25:15.626708",
+    "results": [
+        {
+            "https://nic.gov.vn/": {
+                "cms_id": "",
+                "date": "2025-03-18 12:25:13.036153",
+                "report": "/home/ngn/workspace/dev-tools/web-recon/Result/nic.gov.vn/cms.json"
+            },
+            "http://httpsnic.gov.vn": {
+                "cms_id": "",
+                "date": "2025-03-18 12:21:50.251374",
+                "report": "/home/ngn/workspace/dev-tools/web-recon/Result/httpsnic.gov.vn/cms.json"
+            },
+            "http://snic.gov.vn": {
+                "cms_id": "",
+                "date": "2025-03-18 12:21:56.184502",
+                "report": "/home/ngn/workspace/dev-tools/web-recon/Result/snic.gov.vn/cms.json"
+            }
+        }
+    ]
+}

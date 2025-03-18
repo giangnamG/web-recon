@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:indexisto_project:indexisto:*:*:*:*:*:wordpress:*:*
+  description: Detection of indexisto_project indexisto
+  version: '1.0'
+queries: {}

@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:simplerealtytheme:advanced_text_widget_plugin:*:*:*:*:*:*:*:*
+  description: Detection of simplerealtytheme advanced_text_widget_plugin
+  version: '1.0'
+queries: {}

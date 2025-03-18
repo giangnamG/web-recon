@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:boltcms:bolt:*:*:*:*:*:*:*:*
+  description: Detection of boltcms bolt
+  version: '1.0'
+queries: {}

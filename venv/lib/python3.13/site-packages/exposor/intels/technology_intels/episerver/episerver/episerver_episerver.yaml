@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:episerver:episerver:*:*:*:*:*:*:*:*
+  description: Detection of episerver episerver
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"epihash"
+  fofa:
+  - banner="epihash"
+  shodan:
+  - html:"epihash"
+  zoomeye:
+  - banner:"epihash"

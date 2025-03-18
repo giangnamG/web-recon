@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:gvectors:wpforo_forum:*:*:*:*:*:wordpress:*:*
+  description: Detection of gvectors wpforo_forum
+  version: '1.0'
+queries: {}

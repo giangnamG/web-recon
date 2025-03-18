@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:retool:retool:*:*:*:*:*:*:*:*
+  description: Detection of retool retool
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Retool"
+  fofa:
+  - http.title="Retool"
+  shodan:
+  - title:"Retool"
+  zoomeye:
+  - title:"Retool"

@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:kubernetes:kube-state-metrics:*:*:*:*:*:*:*:*
+  description: Detection of kubernetes kube-state-metrics
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:Kube-state-metrics
+  fofa:
+  - http.title=Kube-state-metrics
+  shodan:
+  - title:Kube-state-metrics
+  zoomeye:
+  - title:Kube-state-metrics

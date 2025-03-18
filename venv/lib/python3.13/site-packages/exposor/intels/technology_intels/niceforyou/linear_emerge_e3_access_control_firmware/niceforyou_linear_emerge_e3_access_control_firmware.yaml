@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:niceforyou:linear_emerge_e3_access_control_firmware:*:*:*:*:*:*:*:*
+  description: Detection of niceforyou linear_emerge_e3_access_control_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.body:"linear emerge"
+  - services.banner:"linear emerge"
+  - services.banner:"Linear eMerge"
+  fofa:
+  - body="linear emerge"
+  - banner="linear emerge"
+  - banner="Linear eMerge"
+  shodan:
+  - http.html:"linear emerge"
+  - http.html:"Linear eMerge"
+  zoomeye:
+  - banner:"Linear eMerge"
+  - banner:"linear emerge"

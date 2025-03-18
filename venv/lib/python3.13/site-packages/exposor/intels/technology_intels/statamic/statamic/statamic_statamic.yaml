@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:statamic:statamic:*:*:*:*:*:*:*:*
+  description: Detection of statamic statamic
+  version: '1.0'
+queries: {}

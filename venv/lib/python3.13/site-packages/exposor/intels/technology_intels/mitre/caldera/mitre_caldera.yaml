@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:mitre:caldera:*:*:*:*:*:*:*:*
+  description: Detection of mitre caldera
+  version: '1.0'
+queries: {}

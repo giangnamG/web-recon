@@ -1,0 +1,20 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:powertekpdus:basic_pdu_firmware:*:*:*:*:*:*:*:*
+  description: Detection of powertekpdus basic_pdu_firmware
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"Powertek"
+  - services.http.response.body:"powertek"
+  - services.banner:"powertek"
+  fofa:
+  - body="powertek"
+  - banner="powertek"
+  - banner="Powertek"
+  shodan:
+  - http.html:"Powertek"
+  - http.html:"powertek"
+  zoomeye:
+  - banner:"Powertek"
+  - banner:"powertek"

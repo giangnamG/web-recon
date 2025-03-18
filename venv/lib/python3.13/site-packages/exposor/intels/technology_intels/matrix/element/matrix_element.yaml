@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:matrix:element:*:*:*:*:*:*:*:*
+  description: Detection of matrix element
+  version: '1.0'
+queries:
+  censys:
+  - services.banner:"manifest.json"
+  fofa:
+  - banner="manifest.json"
+  shodan:
+  - html:"manifest.json"
+  zoomeye:
+  - banner:"manifest.json"

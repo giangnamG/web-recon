@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:hcltech:bigfix_mobile:*:*:*:*:*:*:*:*
+  description: Detection of hcltech bigfix_mobile
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"BigFix"
+  fofa:
+  - http.title="BigFix"
+  shodan:
+  - http.title:"BigFix"
+  zoomeye:
+  - title:"BigFix"

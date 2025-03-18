@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:cisco:telepresence_tc:*:*:*:*:*:*:*:*
+  description: Detection of cisco telepresence_tc
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.html_title:"Cisco Telepresence"
+  fofa:
+  - http.title="Cisco Telepresence"
+  shodan:
+  - http.title:"Cisco Telepresence"
+  zoomeye:
+  - title:"Cisco Telepresence"

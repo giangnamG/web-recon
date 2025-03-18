@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:h:dahuasecurity:sd22204db-gny-w:*:*:*:*:*:*:*:*
+  description: Detection of dahuasecurity sd22204db-gny-w
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:1653394551
+  fofa:
+  - icon_hash=1653394551
+  shodan:
+  - http.favicon.hash:1653394551
+  zoomeye:
+  - iconhash:1653394551

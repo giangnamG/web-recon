@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:busybox:busybox:*:*:*:*:*:*:*:*
+  description: Detection of busybox busybox
+  version: '1.0'
+queries: {}

@@ -1,0 +1,6 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:a:openwebanalytics:open_web_analytics:*:*:*:*:*:*:*:*
+  description: Detection of openwebanalytics open_web_analytics
+  version: '1.0'
+queries: {}
